@@ -6,6 +6,7 @@ import ToExport from './App';
 import { createBrowserRouter, RouterProvider } from 'react-router';
 import React, { StrictMode, useEffect, useState } from 'react';
 import Codex from './pages/codex/codex';
+import Feed from './pages/feed/feed';
 
 const Redirect = ({url}) => {
   useEffect(() => {
@@ -23,6 +24,10 @@ const routes = [
   {
     path:'/codex',
     element: <ToExport><Codex/></ToExport>
+  },
+  {
+    path:'/feed',
+    element:<ToExport><Feed/></ToExport>
   }
 ];
 

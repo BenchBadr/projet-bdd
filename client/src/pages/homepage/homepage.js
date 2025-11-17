@@ -22,7 +22,12 @@ const Homepage = () => {
                         "en" : "Welcome back!"
                     }[lang]}
                 </h1>
-                <p>Choisissez un moyen d'authentification.</p>
+                <div style={{textAlign:'center'}}>
+                    {{
+                        "fr":"Choisissez un moyen d'authentification.",
+                        "en":"Choose an authentication method."
+                    }[lang]}
+                </div>
                 <EiffelAuth/>
                 <GoogleAuth/>
                 <QuickSettings/>
@@ -109,12 +114,13 @@ const QuickSettings = () => {
 }
 
 const LanguageSelect = () => {
-    const { lang, setLang } = useContext(ThemeContext);
+    const { lang, changeLanguage } = useContext(ThemeContext);
+
 
     return (
         <select
             value={lang}
-            onChange={e => setLang(e.target.value)}
+            onChange={e => changeLanguage(e.target.value)}
             className="lang-select"
         >
             <option value="fr">Français</option>

@@ -1,0 +1,106 @@
+html:has(.main-container) {
+    overflow:hidden;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin:-10px;
+    overflow: hidden;
+}
+
+.main-container .sidepanel {
+    height:100vh;
+}
+
+.main-container .mainpanel {
+    background:var(--bg);
+    height:100vh;
+    position:relative;
+}
+
+.main-container .rightpanel {
+    height:100vh;
+}
+
+.main-container .maintopbar{
+    width:100%;
+    height:5em;
+    position:absolute;
+    top:0;
+    backdrop-filter: blur(25px);
+    background:color-mix(in srgb, var(--bg) 50%, transparent 50%);
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+
+    .selection {
+        padding:20px;   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor:pointer;
+        border-radius: 25px;
+        font-size:120%;
+        font-family: Grotesk;
+
+        span {
+            font-family: Material Icons;
+            margin-right:1em;
+        }
+
+        &.active {
+            background:var(--eiffel);
+            color:white;
+            animation: bounce-in 0.2s;
+        }
+    }
+}
+
+@keyframes bounce-in {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    60% {
+        transform: scale(1.05);
+        opacity: 1;
+    }
+    80% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.main-container .mainbotbar {
+    overflow-y: scroll;
+    max-height:100%;
+    padding-top:6em;
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent-op-30) transparent;
+}
+
+/* For Webkit browsers */
+    .main-container .mainbotbar::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .main-container .mainbotbar::-webkit-scrollbar-thumb {
+        background: var(--accent-op-30);
+        border-radius: 2px;
+    }
+
+    .main-container .mainbotbar::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+
+.sortie {
+    background:var(--sidebar);
+    border-radius: 1rem;
+}

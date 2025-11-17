@@ -96,6 +96,7 @@ html:has(.app.light) {
   color:var(--dark-bg);
   --sidebar:var(--light-sidebar);
   --low:var(--light-low);
+  --bg:var(--light-bg);
 }
 
 html:has(.app.dark) {
@@ -103,11 +104,19 @@ html:has(.app.dark) {
   color:var(--light-bg);
   --sidebar:var(--dark-sidebar);
   --low:var(--dark-low);
+  --bg:var(--dark-bg);
 }
 
 @font-face {
   font-family: 'Copernicus';
   src: url('../public/fonts/Copernicus.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Grotesk';
+  src: url('../public/fonts/PowerGrotesk.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -157,4 +166,9 @@ html:has(.app.dark) {
       background:var(--eiffel);
     }
   }
+}
+
+
+html:has(.tenebres) {
+  overflow:hidden;
 }
