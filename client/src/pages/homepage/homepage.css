@@ -1,0 +1,161 @@
+
+
+.homepage .landscape {
+    border-radius: 25px;
+    max-height: 100%;
+    max-width: 100%;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+.app.dark .homepage .landscape{
+    opacity: .9;
+}
+
+@media (min-width : 769px) {
+    .homepage .landscape {
+        height:calc(100vh - 20px);
+        object-fit: cover;
+        margin:10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .homepage .landscape {
+        display: none;
+    }
+
+    .homepage .panel {
+        display: unset !important;
+        position:unset !important;
+        display: unset !important;
+        height:100vh;
+    }
+
+    .homepage .panel .welcome {
+        height:calc(100vh - 20px);
+    }
+
+
+}
+
+.homepage .panel {
+    position:absolute;
+    display: flex;
+    align-items: center;
+    top:0;
+    left:0;
+    grid-template-columns: 3fr 1fr;
+    display: grid;
+    gap:20px;
+}
+
+.homepage .welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+    flex-direction: column;
+    position:relative;
+
+    .cop {
+        text-align: center;
+    }
+}
+
+.auth {
+    width:calc(100% - 100px);
+    border-radius: 10px;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    transition-duration: .2s;
+
+    margin:10px;
+    padding:10px;
+
+    &:hover {
+       opacity: .8;
+    }
+
+    img {
+        height:1em;
+        margin-right:1em;
+        pointer-events: none;
+    }
+}
+
+
+.auth.eiffel {
+    color:white;
+    background:var(--eiffel);
+}
+
+.auth.google {
+    background:white;
+    color:black;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.homepage .quicksets {
+    position:absolute;
+    bottom:1em;
+    right:1em;
+    display: flex;
+    width:calc(100% - 2em);
+
+    .left {
+        margin-right: auto;
+        font-family: Material Icons;
+    }
+
+    .right {
+        margin-left: auto;
+    }
+}
+
+
+.theme-toggle {
+    user-select: none;
+    font-family: Material Icons;
+    cursor:pointer;
+    font-size: 1.2rem;
+    transition-duration: .2s;
+
+    &:active {
+        transform:rotate(45deg) scale(1.05);
+    }
+}
+
+
+.lang-select {
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-size:1.2em;
+    margin-bottom:15px;
+    margin-right:15px;
+
+
+    color:var(--dark-bg);
+    border-bottom: 1px solid;
+    padding-bottom:5px;
+}
+
+
+
+.app.dark .lang-select {
+    color:var(--light-bg)
+}
+
+.logo-home {
+    border-radius:50%;
+    height:10em;
+    width:10em;
+    margin-bottom:3em;
+    user-select: none;
+    pointer-events: none;
+}

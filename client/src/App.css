@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
+:root {
+  --light-text: #222222;
+  --light-sidebar: #a9aca859;
+  --light-scrollbar-thumb: rgba(0, 0, 0, 0.2); 
+  --light-scrollbar-track: rgba(0, 0, 0, 0.1); 
+
+  --dark-sidebar: hsla(0, 0%, 15%, .8);
+  --dark-text: #dadada;
+
+  --background-root:#0E1525; 
+  /* --dark-bg:#2B3245;  */
+  --dark-bg:#1e1e1e; 
+  --dark-low:#111111;
+  --dark-lower:#000;
+  --light-bg:#f0eee7; 
+
+  --current-op-10:color-mix(in srgb, currentColor 10%, transparent 90%);
+  --current-op-20:color-mix(in srgb, currentColor 20%, transparent 80%);
+  --current-op-30:color-mix(in srgb, currentColor 30%, transparent 70%);
+  --current-op-40:color-mix(in srgb, currentColor 40%, transparent 60%);
+  --current-op-50:color-mix(in srgb, currentColor 50%, transparent 50%);
+  --current-op-80:color-mix(in srgb, currentColor 80%, transparent 20%);
+
+  --blue:#0099ff;
+	--dark-blue:#024d7f;
+	--blue-op:color-mix(in srgb, var(--blue) var(--transparency, 20%), transparent);
+  
+	--orange:#ff5500;
+	--orange-op:color-mix(in srgb, var(--orange) var(--transparency, 20%), transparent);
+	--dark-orange:#ff5500;
+  
+	--red:#c9453c;
+	--dark-red:#9f3831;
+	--red-op:color-mix(in srgb, var(--red) var(--transparency, 20%), transparent);
+  
+	--pink:#c62368;
+	--dark-pink:#c62368;
+  
+	--green:#00CBA9;
+	--dark-green:#017f6a;
+	--green-op:color-mix(in srgb, var(--green) var(--transparency, 20%), transparent);
+  
+	--light-purple:#e2c2e6;
+	--purple:#615da0;
+	--dark-purple:#65498f;
+
+  --light-highest:#efede7;
+  --light-low:#ddd7ca;
+  --light-lowest:#8e8574;
+  --light-low-op:#ddd7ca92;
+  --light-lower-op:#8e8574c6;
+  --light-lowest-op:#8e857478;
+
+  --light-pure:#fff;
+  --light-pure-low:#f6f8fa;
+  --light-pure-lowest:#c8c8cf;
+  --light-pure-low-op:#f6f8fa90;
+  --light-pure-lowest-op:rgba(200, 200, 207, 0.8);
+
+  --plex:#5db5c4;
+  --plex-op:rgb(93, 181, 196, .5);
+
+  --accent:#1f4b7a;
+  --accent-light:var(--blue);
+
+  --text-op-min: color-mix(in srgb, var(--text) 80%, transparent 20%);
+  --text-op: color-mix(in srgb, var(--text) 60%, transparent 40%);
+  --text-op-plus: color-mix(in srgb, var(--text) 30%, transparent 70%);
+  --text-op-max: color-mix(in srgb, var(--text) 10%, transparent 90%);
+
+  --accent-op-10: color-mix(in srgb, var(--accent) 10%, transparent 90%);
+  --accent-op-20: color-mix(in srgb, var(--accent) 20%, transparent 80%);
+  --accent-op-30: color-mix(in srgb, var(--accent) 30%, transparent 70%);
+  --accent-op-40: color-mix(in srgb, var(--accent) 40%, transparent 60%);
+  --accent-op-50: color-mix(in srgb, var(--accent) 50%, transparent 50%);
+
+  --low-bg-op-20: color-mix(in srgb, var(--low-bg) 20%, transparent 80%);
+  --low-bg-op-30: color-mix(in srgb, var(--low-bg) 30%, transparent 70%);
+  --low-bg-op-40: color-mix(in srgb, var(--low-bg) 40%, transparent 60%);
+  --low-bg-op-50: color-mix(in srgb, var(--low-bg) 50%, transparent 50%);
+  --low-bg-op-80: color-mix(in srgb, var(--low-bg) 80%, transparent 20%);
+
+  --eiffel: #3e3e98;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+
+html {
+  font-family: Inter;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html:has(.app.light) {
+  background:var(--light-bg);
+  color:var(--dark-bg);
+  --sidebar:var(--light-sidebar);
+  --low:var(--light-low);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+html:has(.app.dark) {
+  background:var(--dark-bg);
+  color:var(--light-bg);
+  --sidebar:var(--dark-sidebar);
+  --low:var(--dark-low);
+}
+
+@font-face {
+  font-family: 'Copernicus';
+  src: url('../public/fonts/Copernicus.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cop {
+  font-family: Copernicus;
+}
+
+.tenebres {
+  position:fixed;
+  top:0;
+  bottom:0;
+  height:100vh;
+  width:100vw;
+  overflow:hidden;
+  background:rgba(0,0,0,.5);
+  z-index:500;
+  backdrop-filter:blur(5px);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.modal {
+  background:var(--low);
+  border-radius: 25px;
+  width:300px;
+  padding:20px;
+  /* text-align: center; */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  b {
+    font-size:1.4em;
   }
-  to {
-    transform: rotate(360deg);
+
+  .btn {
+    display: block;
+    background:var(--eiffel);
+    color:white;
+    padding:10px;
+    border-radius:15px;
+    cursor:pointer;
+    text-align: center;
+    transition-duration: .2s;
+
+    &:hover{
+      background:var(--eiffel);
+    }
   }
 }
