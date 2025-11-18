@@ -1,17 +1,18 @@
 import { useContext, useState } from "react";
 import ThemeContext from "../../util/ThemeContext";
-import Sortie from "./components/sortie";
+import General from "./feeds/general";
+import Outings from "./feeds/outings";
 import './feed.css'
 
 const Feed = () => {
     const { lang } = useContext(ThemeContext);
     return (
         <div className="main-container">
-            <div className="sidepanel">Sidepanel</div>
+            <div className="sidepanel"></div>
             <div className="mainpanel">
                 <MainPanel/>
             </div>
-            <div className="rightpanel">Right panel</div>
+            <div className="rightpanel"></div>
         </div>
     )
 }
@@ -45,7 +46,7 @@ const MainPanel = () => {
                 </div>
             </div>
             <div className="mainbotbar">
-                {`longtext\n`.repeat(1000)}
+                {option === 1 && <Outings/>}
             </div>
         </>
     )

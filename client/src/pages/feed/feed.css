@@ -101,6 +101,30 @@ html:has(.main-container) {
 
 
 .sortie {
-    background:var(--sidebar);
+    background:var(--light-pure-low);
     border-radius: 1rem;
+    padding:10px;
+    margin:10px;
+    box-shadow: 0 2px 8px rgba(60, 60, 120, 0.06), 0 1px 4px rgba(30, 30, 60, 0.08);
+
+    .title {
+        font-weight: 500;
+        font-size:1.3em;
+    }
+
+    .theme {
+        color:var(--text-op-min);
+        font-style: italic;
+    }
+}
+
+.app.dark .sortie {
+    background:var(--dark-low);
+}
+
+@media (min-width: 769px) {
+    .sortie-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
 }

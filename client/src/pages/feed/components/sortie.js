@@ -1,8 +1,8 @@
-const Sortie = ({id}) => {
+const Sortie = ({key, data}) => {
     return (
         <div className="sortie">
-            <h1>Sortie joinville capture</h1>
-            Bonjour à tous je vous propose une 
+            <div className="title">{data.nom}</div>
+            <div className="theme">{data.theme}</div>
         </div>
     )
 }
