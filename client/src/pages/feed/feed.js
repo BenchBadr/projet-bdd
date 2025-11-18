@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import ThemeContext from "../../util/ThemeContext";
 import General from "./feeds/general";
+import RightPanel from "./components/rightpan";
 import Outings from "./feeds/outings";
 import './feed.css'
 
@@ -12,7 +13,9 @@ const Feed = () => {
             <div className="mainpanel">
                 <MainPanel/>
             </div>
-            <div className="rightpanel"></div>
+            <div className="rightpanel">
+                <RightPanel/>
+            </div>
         </div>
     )
 }

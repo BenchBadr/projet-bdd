@@ -95,7 +95,7 @@ const GoogleAuth = () => {
 }
 
 
-const QuickSettings = () => {
+export const QuickSettings = () => {
     const { theme, toggleTheme, setAlert } = useContext(ThemeContext);
 
 
@@ -113,7 +113,7 @@ const QuickSettings = () => {
     )
 }
 
-const LanguageSelect = () => {
+export const LanguageSelect = () => {
     const { lang, changeLanguage } = useContext(ThemeContext);
 
 

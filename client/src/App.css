@@ -63,6 +63,7 @@
   --accent:#1f4b7a;
   --accent-light:var(--blue);
 
+  --text-op-sh: color-mix(in srgb, var(--text) 40%, transparent 90%);
   --text-op-min: color-mix(in srgb, var(--text) 80%, transparent 20%);
   --text-op: color-mix(in srgb, var(--text) 60%, transparent 40%);
   --text-op-plus: color-mix(in srgb, var(--text) 30%, transparent 70%);
@@ -97,6 +98,7 @@ html:has(.app.light) {
   --sidebar:var(--light-sidebar);
   --low:var(--light-low);
   --bg:var(--light-bg);
+  --text:var(--light-text);
 }
 
 html:has(.app.dark) {
@@ -105,6 +107,7 @@ html:has(.app.dark) {
   --sidebar:var(--dark-sidebar);
   --low:var(--dark-low);
   --bg:var(--dark-bg);
+  --text:var(--dark-text);
 }
 
 @font-face {

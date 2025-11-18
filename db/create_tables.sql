@@ -102,7 +102,8 @@ CREATE TABLE Sortie (
     lieu integer REFERENCES Habitat(idHabitat) NOT NULL,
     date_rdv DATE,
     distance_km integer NOT NULL,
-    effectif_max integer NOT NULL
+    effectif_max integer NOT NULL,
+    descriptif text
 );
 
 -- Anime : Table stockant les animateurs d'une sortie (puisque pouvant être plusieurs)
@@ -159,7 +160,7 @@ CREATE TABLE Specialise (
 
 ------------------------------------------------------------------------------------------------------
 -- Pour Jean-Paul
-CREATE USER JeanPaul WITH PASSWORD 'motdepasse_secret';
+-- CREATE USER JeanPaul WITH PASSWORD 'motdepasse_secret';
 
 CREATE VIEW EspecesFrequentes (idHabitat, idEspece, nombre_observations) AS
   SELECT DISTINCT ON (Habitat.idHabitat) Habitat.idHabitat, Etre_vivant.idEspece, COUNT(*) AS nombre_observations
@@ -360,13 +361,48 @@ INSERT INTO Renseigne (idProfil, idAtt, date, commit_msg) VALUES
 
 
 -- Sorties
-INSERT INTO Sortie (nom, theme, lieu, date_rdv, distance_km, effectif_max) VALUES
-    ('Jeu du Snapshot #5', 'Oiseaux des zones humides', 1, '2025-03-15', 5, 20),
-    ('Conférence en plein air', 'Biodiversité locale', 2, '2025-04-12', 8, 25),
-    ('Jeu du Snapshot #3', 'Plantes aquatiques', 4, '2025-05-10', 4, 15),  
-    ('Débat + Picnic', 'Protection des habitats', 5, '2025-10-18', 3, 30),
-    ('Apprentissange plantes', 'Reconnaitre les champignons de notre région', 3, '2025-10-18', 6, 10),
-    ('Observation des oiseaux', 'Ornithologie', 1, '2025-03-15', 5, 20);
+INSERT INTO Sortie (nom, theme, lieu, date_rdv, distance_km, effectif_max, descriptif) VALUES
+  ('Jeu du Snapshot #5', 'Oiseaux des zones humides', 1, '2025-03-15', 5, 20, 
+   $$### Jeu du Snapshot #5
+Observation et identification des oiseaux présents dans les zones humides du Bois de La Grâce.
+- Activité ludique en équipe
+- Prise de photos et partage d'observations
+- Conseils d'experts sur la faune locale$$),
+
+  ('Conférence en plein air', 'Biodiversité locale', 2, '2025-04-12', 8, 25, 
+   $$### Conférence en plein air
+Présentation sur la biodiversité de la Forêt de Rambouillet.  
+- Interventions de spécialistes  
+- Questions/réponses  
+- Découverte de la faune et de la flore locale$$),
+
+  ('Jeu du Snapshot #3', 'Plantes aquatiques', 4, '2025-05-10', 4, 15, 
+   $$### Jeu du Snapshot #3
+Sortie dédiée à l'observation des plantes aquatiques du Lac du Bois de Lagrange.  
+- Identification des espèces  
+- Prises de notes collaboratives  
+- Atelier de dessin botanique$$),
+
+  ('Débat + Picnic', 'Protection des habitats', 5, '2025-10-18', 3, 30, 
+   $$### Débat + Picnic
+Discussion sur les enjeux de la protection des habitats naturels aux Bords de Marne.  
+- Débat ouvert à tous  
+- Partage d'expériences  
+- Picnic convivial en bord de rivière$$),
+
+  ('Apprentissange plantes', 'Reconnaitre les champignons de notre région', 3, '2025-10-18', 6, 10, 
+   $$### Apprentissage plantes
+Atelier pour apprendre à reconnaître les champignons de la région au Parc de Noisiel.  
+- Présentation des espèces locales  
+- Conseils sur la cueillette responsable  
+- Séance de questions/réponses$$),
+
+  ('Observation des oiseaux', 'Ornithologie', 1, '2025-03-15', 5, 20, 
+   $$### Observation des oiseaux
+Sortie ornithologique au Bois de La Grâce.  
+- Observation des espèces migratrices et résidentes  
+- Utilisation de jumelles et guides d'identification  
+- Comptage et enregistrement des observations$$);
 
 -- Observe
 
@@ -436,7 +472,7 @@ JOIN Info_Habitat ih ON h.IdHabitat = ih.habitat
 WHERE ih.type_info = 'statut_nichoir';
 */
 
-SELECT h.IdHabitat FROM habitat H 
-WHERE h.idHabitat =  (
-  SELECT idHabitat FROM habitat WHERE habitat = 19
-);
+-- SELECT h.IdHabitat FROM habitat H 
+-- WHERE h.idHabitat =  (
+--   SELECT idHabitat FROM habitat WHERE habitat = 19
+-- );

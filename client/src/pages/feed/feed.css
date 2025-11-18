@@ -6,7 +6,7 @@ html:has(.main-container) {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin:-10px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .main-container .sidepanel {
@@ -21,6 +21,25 @@ html:has(.main-container) {
 
 .main-container .rightpanel {
     height:100vh;
+    position:relative; 
+
+    .quicksets {
+        position:absolute;
+        bottom:1em;
+        right:1em;
+        display: flex;
+        width:calc(100% - 2em);
+
+        .left {
+            margin-right: auto;
+            font-family: Material Icons;
+        }
+
+        .right {
+            margin-left: auto;
+        }
+        }
+
 }
 
 .main-container .maintopbar{
@@ -30,7 +49,8 @@ html:has(.main-container) {
     top:0;
     backdrop-filter: blur(25px);
     background:color-mix(in srgb, var(--bg) 50%, transparent 50%);
-    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 20px var(--text-op-sh);
+    padding:5px;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     display: grid;
@@ -46,6 +66,8 @@ html:has(.main-container) {
         border-radius: 25px;
         font-size:120%;
         font-family: Grotesk;
+        margin-left:20px;
+        margin-right:20px;
 
         span {
             font-family: Material Icons;
@@ -79,8 +101,9 @@ html:has(.main-container) {
 
 .main-container .mainbotbar {
     overflow-y: scroll;
-    max-height:100%;
+    max-height:calc(100vh - 9em);
     padding-top:6em;
+    padding-bottom:3em;
     scrollbar-width: thin;
     scrollbar-color: var(--accent-op-30) transparent;
 }

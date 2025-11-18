@@ -1,6 +1,8 @@
 const General = () => {
     return (
-        <></>
+        <>
+        
+        </>
     )
 }
 

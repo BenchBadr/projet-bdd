@@ -23,5 +23,8 @@ def serve_static(path):
 def get_sorties():
     return jsonify(db.get_sorties())
 
+
+
+
 if __name__ == '__main__':
     app.run(debug=True)
