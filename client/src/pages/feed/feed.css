@@ -260,19 +260,19 @@ html:has(.main-container) {
 
 .sortie-container {
     max-height:calc(100vh - 13em);
-    padding-top:6em;
+    padding-top:7em;
     gap:1em;
     overflow-y: scroll;
     scrollbar-width: thin;
     scrollbar-color: var(--accent-op-30) transparent;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
+
+
 @media (min-width: 769px) {
-    .sortie-container {
-        display: grid;
-        grid-auto-flow: row;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    }
 
     .sortie-container.habitat {
         display: grid;
@@ -363,6 +363,7 @@ html:has(.main-container) {
 .search-filters > span {
     display: flex;
     align-items: center;
+    margin-bottom:.5em;
 
     & > a {
         margin-right:.5em;

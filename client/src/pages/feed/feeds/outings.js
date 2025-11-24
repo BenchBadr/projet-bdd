@@ -10,6 +10,7 @@ const Outings = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [themes, setThemes] = useState({});
     const [themeFilt, setThemeFilt] = useState(null);
+    const [avOnly, setAvOnly] = useState(false); // Pour restreindre aux sorties disponibles seulement
     const { lang } = useContext(ThemeContext);
 
     useEffect(() => {
@@ -33,7 +34,7 @@ const Outings = () => {
 
 
     return (
-        <SearchContext.Provider value={{searchTerm, addTheme, themeFilt}}>
+        <SearchContext.Provider value={{searchTerm, addTheme, themeFilt, avOnly}}>
             <div className="results-container">
                 <div className="search-options">
                     <div className="search-bar">
@@ -64,6 +65,19 @@ const Outings = () => {
                                     {Object.keys(themes).map((theme) => <option value={theme}>{theme}</option>)}
                                 </select>
                             )}
+
+                        </span>
+
+                        <span>
+                            <a>{{
+                                'fr':'Disponible seulement',
+                                'en':'Available only'
+                            }[lang]}</a>
+
+                            <label className="switch">
+                                <input type="checkbox" checked={avOnly} onChange={e => setAvOnly(e.value)}/>
+                                <span className="slider round"></span>
+                            </label>
 
                         </span>
 

@@ -11,7 +11,7 @@ const formatDateIntl = (dateString) => {
 
 const Sortie = ({key, data}) => {
     const {lang} = useContext(ThemeContext);
-    const {searchTerm, addTheme, themeFilt} = useContext(SearchContext);
+    const {searchTerm, addTheme, themeFilt, avOnly} = useContext(SearchContext);
 
     useEffect(() => {
         if (data.theme) {
@@ -22,7 +22,11 @@ const Sortie = ({key, data}) => {
 
     return (
         <>
-        {data && (!themeFilt || data.theme == themeFilt) && (data.nom && (!searchTerm || (searchTerm && data.nom.toLowerCase().startsWith(searchTerm.toLowerCase())))) && (
+        {data && (!avOnly || ((data.inscrits < data.effectif_max)) && (
+            data.date_rdv && new Date(data.date_rdv) < new Date()
+        ))
+        && (!themeFilt || data.theme == themeFilt) 
+        && (data.nom && (!searchTerm || (searchTerm && data.nom.toLowerCase().startsWith(searchTerm.toLowerCase())))) && (
         <div className="sortie">
             <div className="title">{data.nom}</div>
             <div className="theme">{data.theme}</div>
