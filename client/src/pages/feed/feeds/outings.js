@@ -9,6 +9,7 @@ const Outings = () => {
     const [data, setData] = useState(null);
     const [searchTerm, setSearchTerm] = useState('');
     const [themes, setThemes] = useState({});
+    const [themeFilt, setThemeFilt] = useState(null);
     const { lang } = useContext(ThemeContext);
 
     useEffect(() => {
@@ -25,12 +26,14 @@ const Outings = () => {
         }));
     };
 
+    console.log(themeFilt);
+
 
 
 
 
     return (
-        <SearchContext.Provider value={{searchTerm, addTheme}}>
+        <SearchContext.Provider value={{searchTerm, addTheme, themeFilt}}>
             <div className="results-container">
                 <div className="search-options">
                     <div className="search-bar">
@@ -53,8 +56,12 @@ const Outings = () => {
                             }[lang]} : </a>
 
                             {themes && (
-                                <select>
-                                {Object.keys(themes).map((theme) => <option>{theme}</option>)}
+                                <select 
+                                value={themeFilt}
+                                onChange={e => setThemeFilt(e.target.value)}
+                                >
+                                    <option value={''}>---</option>
+                                    {Object.keys(themes).map((theme) => <option value={theme}>{theme}</option>)}
                                 </select>
                             )}
 
