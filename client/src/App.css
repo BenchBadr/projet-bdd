@@ -10,6 +10,7 @@
   --background-root:#0E1525; 
   /* --dark-bg:#2B3245;  */
   --dark-bg:#1e1e1e; 
+  --dark-high:#333;
   --dark-low:#111111;
   --dark-lower:#000;
   --light-bg:#f0eee7; 
@@ -63,6 +64,7 @@
   --accent:#1f4b7a;
   --accent-light:var(--blue);
 
+  --text-op-fr: color-mix(in srgb, var(--text) 10%, transparent 90%);
   --text-op-sh: color-mix(in srgb, var(--text) 40%, transparent 90%);
   --text-op-min: color-mix(in srgb, var(--text) 80%, transparent 20%);
   --text-op: color-mix(in srgb, var(--text) 60%, transparent 40%);
@@ -99,6 +101,7 @@ html:has(.app.light) {
   --low:var(--light-low);
   --bg:var(--light-bg);
   --text:var(--light-text);
+  --high:var(--light-pure);
 }
 
 html:has(.app.dark) {
@@ -108,6 +111,7 @@ html:has(.app.dark) {
   --low:var(--dark-low);
   --bg:var(--dark-bg);
   --text:var(--dark-text);
+  --high:var(--dark-high);
 }
 
 @font-face {

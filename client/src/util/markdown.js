@@ -1,8 +1,5 @@
 import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
-import remarkFootnotes from 'remark-footnotes';
-import remarkMath from 'remark-math';
-import rehypeMathjax from 'rehype-mathjax';
+import { useRef, useState, useEffect } from 'react';
 
 const Md = ({ children }) => (
     <ReactMarkdown
@@ -10,5 +7,26 @@ const Md = ({ children }) => (
         {children}
     </ReactMarkdown>
 );
+
+export const DeMark = ({ children }) => {
+    const markdownRef = useRef(null); 
+    const [plainText, setPlainText] = useState('');
+
+    useEffect(() => {
+        if (markdownRef.current) {
+            setPlainText(markdownRef.current.textContent || '');
+        }
+    }, [children]); 
+
+    return (
+        <>
+            <div ref={markdownRef} style={{ display: 'none' }}>
+                <ReactMarkdown>{children}</ReactMarkdown>
+            </div>
+
+            <span>{plainText}</span>
+        </>
+    );
+};
 
 export default Md;

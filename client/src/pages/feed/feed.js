@@ -2,11 +2,12 @@ import { useContext, useState } from "react";
 import ThemeContext from "../../util/ThemeContext";
 import General from "./feeds/general";
 import RightPanel from "./components/rightpan";
+import Biocodex from "./feeds/biocodex";
 import Outings from "./feeds/outings";
 import './feed.css'
 
 const Feed = () => {
-    const { lang } = useContext(ThemeContext);
+
     return (
         <div className="main-container">
             <div className="sidepanel"></div>
@@ -24,7 +25,7 @@ export default Feed;
 
 const MainPanel = () => {
     const { lang } = useContext(ThemeContext);
-    const [option, setOption] = useState(0);
+    const [option, setOption] = useState(1);
 
     return (
         <>
@@ -50,6 +51,7 @@ const MainPanel = () => {
             </div>
             <div className="mainbotbar">
                 {option === 1 && <Outings/>}
+                {option === 2 && <Biocodex/>}
             </div>
         </>
     )

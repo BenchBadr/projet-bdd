@@ -100,7 +100,7 @@ CREATE TABLE Sortie (
     nom VARCHAR(50),
     theme VARCHAR(100),
     lieu integer REFERENCES Habitat(idHabitat) NOT NULL,
-    date_rdv DATE,
+    date_rdv TIMESTAMP,
     distance_km integer NOT NULL,
     effectif_max integer NOT NULL,
     descriptif text

@@ -2,7 +2,6 @@ import psycopg2
 
 class Db:
     def __init__(self):
-        # Update these connection parameters with your actual PostgreSQL credentials
         self.conn = psycopg2.connect(
             user='arl',
             dbname='arl',
@@ -23,11 +22,48 @@ class Db:
         return self.cursor.fetchall()
 
     def get_sorties(self):
-        self.cursor.execute("SELECT * FROM Sortie;")
+        self.cursor.execute(
+            """                    
+            SELECT s.*, COUNT(num) AS inscrits, h.nomHabitat AS lieu FROM Sortie s
+            NATURAL JOIN Inscription
+            JOIN Habitat h ON h.idHabitat = s.lieu
+            GROUP BY s.*, s.idSortie, h.nomHabitat;
+        """)
         columns = [desc[0] for desc in self.cursor.description]
         return [dict(zip(columns, row)) for row in self.cursor.fetchall()]
+    
+    def get_nichoirs(self):
+        self.cursor.execute(
+            """
+            SELECT h.IdHabitat, h.nomHabitat, COUNT(observe.idEspece) AS nb_espece, COUNT(observe.num) AS nb_pers, COUNT(observe.img) AS nb_images
+            FROM Habitat h
+            JOIN Info_Habitat ih ON h.IdHabitat = ih.habitat
+            JOIN Observe ON observe.lieu = h.idHabitat
+            WHERE ih.type_info = 'statut_nichoir'
+            GROUP BY h.idHabitat;
+            """)
+        columns = [desc[0] for desc in self.cursor.description]
 
-# Usage
+        return [dict(zip(columns, row)) for row in self.cursor.fetchall()]
+    
+    def get_biomes(self):
+        self.cursor.execute(
+            """
+            SELECT h.IdHabitat, h.nomHabitat, COUNT(observe.idEspece) AS nb_espece, COUNT(observe.num) AS nb_pers, COUNT(observe.img) AS nb_images
+            FROM Habitat h
+            JOIN Info_Habitat ih ON h.IdHabitat = ih.habitat
+            JOIN Observe ON observe.lieu = h.idHabitat
+            WHERE NOT EXISTS (
+                SELECT ih2.type_info FROM Info_Habitat ih2 
+                WHERE ih2.habitat = h.idHabitat AND ih2.type_info = 'statut_nichoir'
+            )
+            GROUP BY h.idHabitat;
+            """)
+        columns = [desc[0] for desc in self.cursor.description]
+
+        return [dict(zip(columns, row)) for row in self.cursor.fetchall()]
+    
+
 if __name__ == "__main__":
     db = Db()
     db.create_tables()
