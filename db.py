@@ -146,21 +146,20 @@ class Db:
             res = cur.fetchall()
         print(res)
 
-    def create_user(self, prenom, nom, password, coords = []):
+    def create_user(self, idProfil, prenom, nom, password, coords = []):
         hashed = bcrypt.hashpw(password.encode(), bcrypt.gensalt())
 
         with self.conn.cursor() as cur:
-            cur.execute(
-                "INSERT INTO Profil (prenom, nom, motdepasse) VALUES (%s, %s, %s)"
-                "RETURNING idProfil;",
-                (prenom, nom, hashed.decode())
+            cur.execute("""
+                        INSERT INTO Profil (idProfil, prenom, nom, pw_hash) VALUES (%s, %s, %s, %s)
+                        """,
+                (idProfil, prenom, nom, hashed.decode())
             )
 
-            idProfil = cur.fetchone[0]
 
             for ctype, coord in coords:
                 cur.execute(
-                    "INSERT INTO Coordonnées (prenom, type_coord, coordonnee) VALUES (%s, %s, %s)",
+                    "INSERT INTO Coordonnees (profil, type_coord, coordonnee) VALUES (%s, %s, %s)",
                     (idProfil, ctype, coord)
                 )
 
@@ -181,6 +180,28 @@ class Db:
             stored_hash = row[0].encode()
 
             return bcrypt.checkpw(password.encode(), stored_hash)
+        
+    def get_users(self):
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT * FROM 
+                Profil;
+                """
+            )
+            users = cur.fetchall()
+        return users
+    
+
+    def make_adherent(self, idProfil, statut):
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO Adherent (idProfil, statut)
+                VALUES (%s, %s)
+                """,
+                (idProfil,statut)
+            )
 
                 
         
@@ -190,13 +211,16 @@ class Db:
 if __name__ == "__main__":
     db = Db()
 
+    # 0 = nothing, 1 = reset, 2 = backup
     reset = 0
 
-    if reset:
+    if reset == 1:
         db.run_action()
+        
+    if reset == 2:
+        db.run_action('dump')
 
-    # print(db.get_nichoirs())
-    db.test()
+    print(db.get_users())
 
 
 

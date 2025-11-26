@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS Statut CASCADE;
 -- Statut : associe un ID à un statut, en prévision d'un éventuel renommage de statut.
 
 CREATE TABLE Statut (
-    IdStatut serial PRIMARY KEY,
+    IdStatut integer PRIMARY KEY,
     libelle_statut VARCHAR(50),
     CONSTRAINT exists_libelle CHECK (libelle_statut IS NOT NULL)
 );
@@ -48,9 +48,10 @@ CREATE TABLE Etre_vivant (
 -- Profil : Comme son nom l'indique, stocke un profil individuel indépendant du statut d'adhérent.
 
 CREATE TABLE Profil (
-    idProfil serial PRIMARY KEY,
+    idProfil VARCHAR(32) PRIMARY KEY,
     prenom VARCHAR(50),
-    nom VARCHAR(50)
+    nom VARCHAR(50),
+    pw_hash VARCHAR(500) -- jamais trop surs avec le hash
 );
 
 -- II. Tables dépendantes
@@ -68,15 +69,15 @@ CREATE TABLE Attribut (
 -- Coordonnees : Coordonnées liées a un utilisateur dont le type est permissif (num, mail, moodle, discord...) sont tous des types. On fait le choix d'ajouter un id, une personne pouvant renseigner plusieurs adresses mail.
 CREATE TABLE Coordonnees (
     idCoord serial PRIMARY KEY,
-    profil integer REFERENCES Profil (idProfil),
+    profil VARCHAR(32) REFERENCES Profil (idProfil),
     type_coord VARCHAR(30),
-    coordonnee varchar(50)
+    coordonnee varchar(150)
 );
 
 -- Adhérent : Stocke les numéros d'adhérents associés (accessoirement permet de vérifier facilement si un profil est adhérent)
 CREATE TABLE Adherent (
-    num integer PRIMARY KEY, -- numero d'adhesion, pas en serial dans la mesure ou cela peut correspondre au numero d'etudiant
-    idProfil integer REFERENCES Profil (IdProfil),
+    num BIGSERIAL PRIMARY KEY,
+    idProfil VARCHAR(32) REFERENCES Profil (idProfil),
     statut integer REFERENCES Statut (idStatut),
     XP integer DEFAULT 0
 );
@@ -108,7 +109,7 @@ CREATE TABLE Sortie (
 
 -- Anime : Table stockant les animateurs d'une sortie (puisque pouvant être plusieurs)
 CREATE TABLE Anime (
-    idProfile integer REFERENCES Profil(idProfil),
+    idProfile VARCHAR(32) REFERENCES Profil (idProfil),
     idSortie integer REFERENCES Sortie(idSortie),
     CONSTRAINT pkey_couple PRIMARY KEY (idProfile, idSortie)
 );
@@ -121,7 +122,7 @@ CREATE TABLE Info_Habitat (
     habitat integer REFERENCES Habitat(idHabitat),
     type_info VARCHAR(100),
     information VARCHAR(200),
-    auteur integer REFERENCES Profil(idProfil)
+    auteur VARCHAR(32) REFERENCES Profil (idProfil)
 );
 
 -- Observe : Permet de renseigner les especes observées dans un lieu donné. Comme pour un petit jeu "repérer toutes les espèces d'un habitat". Le descriptif serait épisodique, indépendant des attributs de l'espèce simplement des informations du type "je l'ai trouvé dans un tronc d'arbre"
@@ -137,7 +138,7 @@ CREATE TABLE Observe (
 
 -- Renseigne : L'écriture des attributs d'espèces est collaborative à la manière de Wikipédia. Cette table permet de garder un historique des modifications afin de récompenser les utilisateurs les plus actifs mais aussi de révoquer les accès aux éditeurs mal intentionnés. On part du principe que les animateurs non-adhérents peuvent contribuer de même d'où l'usage de la table Profil. L'utilisateur pourra renseigner un "commit message" un petit commentaire sur les modifications effectuées rendant l'historique plus accessible par la suite à feuilleter.
 CREATE TABLE Renseigne (
-    idProfil integer REFERENCES Profil (idProfil),
+    idProfil VARCHAR(32) REFERENCES Profil (idProfil),
     idAtt integer REFERENCES Attribut (idAtt),
     date DATE,
     commit_msg VARCHAR(100),
@@ -181,5 +182,10 @@ CREATE VIEW ObservationsMensuelles (idHabitat, mois, nombre_observations) AS (
 );
 
 ------------------------------------------------------------------------------------------------------
--- Donnees d'illustration
+-- Donnees de base
 
+INSERT INTO Statut (idStatut, libelle_statut) VALUES
+  (1,'Étudiant'),
+  (2,'Personnel universitaire'),
+  (3,'Externe'),
+  (4,'Bénévole');
