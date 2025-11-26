@@ -20,6 +20,11 @@ def serve(path):
 
     
 
+
+############################################################################################################
+# 1. Informations statiques
+# Une collection de routes permettant l'accès (lecture) de certaines informations
+
 @app.route('/sorties')
 def get_sorties():
     return jsonify(db.get_sorties())
@@ -39,6 +44,10 @@ def get_nichoirs():
 def get_biomes():
     return jsonify(db.get_biomes())
 
+
+@app.route('/get_themes')
+def get_themes():
+    return jsonify({'themes':db.get_themes()})
 
 
 

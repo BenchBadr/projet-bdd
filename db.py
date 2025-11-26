@@ -3,68 +3,166 @@ import psycopg2
 class Db:
     def __init__(self):
         self.conn = psycopg2.connect(
-            user='arl',
             dbname='arl',
-            password='test',
-            host='localhost',
-            port='5432'
         )
-        self.cursor = self.conn.cursor()
+        self.conn.autocommit = True
 
-    def create_tables(self, sql_file='db/create_tables.sql'):
-        with open(sql_file, 'r') as f:
-            sql_script = f.read()
-        self.cursor.execute(sql_script)
-        self.conn.commit()
+    def run_action(self, action='create_tables'):
+        '''
+        Lance une action massive (reset de la DB ou load du dernier dump)
+        
+        :param self: action : create_tables / dump (charge le dernier dump)
+        '''
+        with self.conn.cursor() as cur:
+            with open('db/'+action+'.sql', 'r') as f:
+                sql_script = f.read()
+            cur.execute(sql_script)
+        print(f"Performed action `{action}`")
 
     def get_habitat(self):
-        self.cursor.execute("SELECT * FROM Habitat;")
-        return self.cursor.fetchall()
+        with self.conn.cursor() as cur:
+            cur.execute("SELECT * FROM Habitat;")
+            return cur.fetchall()
 
     def get_sorties(self):
-        self.cursor.execute(
-            """                    
-            SELECT s.*, COUNT(num) AS inscrits, h.nomHabitat AS lieu FROM Sortie s
-            NATURAL JOIN Inscription
-            JOIN Habitat h ON h.idHabitat = s.lieu
-            GROUP BY s.*, s.idSortie, h.nomHabitat;
-        """)
-        columns = [desc[0] for desc in self.cursor.description]
-        return [dict(zip(columns, row)) for row in self.cursor.fetchall()]
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """                    
+                SELECT s.*, COUNT(num) AS inscrits, h.nomHabitat AS lieu FROM Sortie s
+                NATURAL JOIN Inscription
+                JOIN Habitat h ON h.idHabitat = s.lieu
+                GROUP BY s.*, s.idSortie, h.nomHabitat;
+            """)
+            columns = [desc[0] for desc in cur.description]
+            return [dict(zip(columns, row)) for row in cur.fetchall()]
     
     def get_nichoirs(self):
-        self.cursor.execute(
-            """
-            SELECT h.IdHabitat, h.nomHabitat, COUNT(observe.idEspece) AS nb_espece, COUNT(observe.num) AS nb_pers, COUNT(observe.img) AS nb_images
-            FROM Habitat h
-            JOIN Info_Habitat ih ON h.IdHabitat = ih.habitat
-            JOIN Observe ON observe.lieu = h.idHabitat
-            WHERE ih.type_info = 'statut_nichoir'
-            GROUP BY h.idHabitat;
-            """)
-        columns = [desc[0] for desc in self.cursor.description]
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT h.IdHabitat, h.nomHabitat, COUNT(observe.idEspece) AS nb_espece, COUNT(observe.num) AS nb_pers, COUNT(observe.img) AS nb_images
+                FROM Habitat h
+                JOIN Info_Habitat ih ON h.IdHabitat = ih.habitat
+                LEFT JOIN Observe ON observe.lieu = h.idHabitat
+                WHERE ih.type_info = 'statut_nichoir'
+                GROUP BY h.idHabitat;
+                """)
+            columns = [desc[0] for desc in cur.description]
 
-        return [dict(zip(columns, row)) for row in self.cursor.fetchall()]
+            return [dict(zip(columns, row)) for row in cur.fetchall()]
     
     def get_biomes(self):
-        self.cursor.execute(
-            """
-            SELECT h.IdHabitat, h.nomHabitat, COUNT(observe.idEspece) AS nb_espece, COUNT(observe.num) AS nb_pers, COUNT(observe.img) AS nb_images
-            FROM Habitat h
-            JOIN Info_Habitat ih ON h.IdHabitat = ih.habitat
-            JOIN Observe ON observe.lieu = h.idHabitat
-            WHERE NOT EXISTS (
-                SELECT ih2.type_info FROM Info_Habitat ih2 
-                WHERE ih2.habitat = h.idHabitat AND ih2.type_info = 'statut_nichoir'
-            )
-            GROUP BY h.idHabitat;
-            """)
-        columns = [desc[0] for desc in self.cursor.description]
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT h.IdHabitat, h.nomHabitat, COUNT(observe.idEspece) AS nb_espece, COUNT(observe.num) AS nb_pers, COUNT(observe.img) AS nb_images
+                FROM Habitat h
+                JOIN Info_Habitat ih ON h.IdHabitat = ih.habitat
+                JOIN Observe ON observe.lieu = h.idHabitat
+                WHERE NOT EXISTS (
+                    SELECT ih2.type_info FROM Info_Habitat ih2 
+                    WHERE ih2.habitat = h.idHabitat AND ih2.type_info = 'statut_nichoir'
+                )
+                GROUP BY h.idHabitat;
+                """)
+            columns = [desc[0] for desc in cur.description]
 
-        return [dict(zip(columns, row)) for row in self.cursor.fetchall()]
+            return [dict(zip(columns, row)) for row in cur.fetchall()]
+        
+    def get_themes(self):
+        with self.conn.cursor() as cur: 
+            cur.execute(
+                """
+                SELECT DISTINCT theme FROM 
+                Sortie;
+                """
+            )
+            column = [theme[0] for theme in cur.fetchall()]
+        return column
+
+        
+
+    def get_animals(self):
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT * FROM 
+                Etre_vivant;
+                """
+            )
+            themes = cur.fetchall()
+        return themes
+    
+
+    def insert_animal(self, idEspece, taille, couleur):
+        try:
+            with self.conn.cursor() as cur:
+                cur.execute(
+                    """
+                INSERT INTO Etre_vivant (idEspece, taille, couleur)
+                VALUES (%s, %s, %s)
+                """, (idEspece, taille, couleur)
+                )
+        except: 
+            pass
+
+
+    def insert_nichoir(self, nomHabitat, coords):
+        try:
+            with self.conn.cursor() as cur:
+
+                cur.execute(
+                    """
+                    INSERT INTO Habitat (nomHabitat)
+                    VALUES (%s)
+                    RETURNING idHabitat
+                    """, (nomHabitat,)
+                )
+                idHabitat = cur.fetchone()[0]
+                print(idHabitat)
+
+                cur.execute(
+                    """
+                    INSERT INTO Info_Habitat (habitat, type_info)
+                    VALUES (%s, %s)
+                    """, (idHabitat, 'statut_nichoir')
+                )
+
+                cur.execute(
+                    """
+                    INSERT INTO Info_Habitat (habitat, type_info, information)
+                    VALUES (%s, %s, %s)
+                    """, (idHabitat, 'coord', coords)
+                )
+
+        except Exception as e:
+            print('ERROR', e)
+
+    def test(self):
+        with self.conn.cursor() as cur:
+            cur.execute("SELECT * FROM Info_Habitat WHERe type_info = 'statut_nichoir'" \
+            "LIMIT 5;")
+            res = cur.fetchall()
+        print(res)
+
+                
+        
+
     
 
 if __name__ == "__main__":
     db = Db()
-    db.create_tables()
-    print(db.get_sorties())
+
+    reset = 0
+
+    if reset:
+        db.run_action()
+
+    print(db.get_nichoirs())
+    db.test()
+
+
+
+
+# dump la DB
+# pg_dump -U arl -d arl > db/dump.sql

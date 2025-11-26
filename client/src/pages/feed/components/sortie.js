@@ -5,26 +5,22 @@ import { SearchContext } from "../feeds/outings";
 
 const formatDateIntl = (dateString) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' });
+    return date.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year:'2-digit' });
 };
 
 
 const Sortie = ({key, data}) => {
     const {lang} = useContext(ThemeContext);
-    const {searchTerm, addTheme, themeFilt, avOnly} = useContext(SearchContext);
-
-    useEffect(() => {
-        if (data.theme) {
-            addTheme(data.theme);
-        }
-
-    }, [data])
+    const {searchTerm, themeFilt, avOnly} = useContext(SearchContext);
 
     return (
         <>
-        {data && (!avOnly || ((data.inscrits < data.effectif_max)) && (
-            data.date_rdv && new Date(data.date_rdv) < new Date()
-        ))
+        {data && 
+        (!avOnly || (
+            (data.inscrits < data.effectif_max)) && (
+                data.date_rdv && (new Date() < new Date(data.date_rdv))
+            )
+        )
         && (!themeFilt || data.theme == themeFilt) 
         && (data.nom && (!searchTerm || (searchTerm && data.nom.toLowerCase().startsWith(searchTerm.toLowerCase())))) && (
         <div className="sortie">

@@ -8,7 +8,7 @@ export const SearchContext = createContext();
 const Outings = () => {
     const [data, setData] = useState(null);
     const [searchTerm, setSearchTerm] = useState('');
-    const [themes, setThemes] = useState({});
+    const [themes, setThemes] = useState([]);
     const [themeFilt, setThemeFilt] = useState(null);
     const [avOnly, setAvOnly] = useState(false); // Pour restreindre aux sorties disponibles seulement
     const { lang } = useContext(ThemeContext);
@@ -18,23 +18,20 @@ const Outings = () => {
             .then(response => response.json())
             .then(data => setData(data))
             .catch(error => console.error(error));
+        fetch('/get_themes')
+            .then(response => response.json())
+            .then(data => setThemes(data.themes))
+            .catch(error => console.error(error));
     }, [])
 
-    const addTheme = (theme) => {
-        setThemes((prevThemes) => ({
-            ...prevThemes,
-            [theme]: (prevThemes[theme] || 0) + 1,
-        }));
-    };
 
-    console.log(themeFilt);
-
+    console.log(themes, 'themes')
 
 
 
 
     return (
-        <SearchContext.Provider value={{searchTerm, addTheme, themeFilt, avOnly}}>
+        <SearchContext.Provider value={{searchTerm, themeFilt, avOnly}}>
             <div className="results-container">
                 <div className="search-options">
                     <div className="search-bar">
@@ -62,7 +59,7 @@ const Outings = () => {
                                 onChange={e => setThemeFilt(e.target.value)}
                                 >
                                     <option value={''}>---</option>
-                                    {Object.keys(themes).map((theme) => <option value={theme}>{theme}</option>)}
+                                    {themes.map((theme) => <option value={theme}>{theme}</option>)}
                                 </select>
                             )}
 
@@ -75,7 +72,7 @@ const Outings = () => {
                             }[lang]}</a>
 
                             <label className="switch">
-                                <input type="checkbox" checked={avOnly} onChange={e => setAvOnly(e.value)}/>
+                                <input type="checkbox" checked={avOnly} onChange={e => setAvOnly(e.target.checked)}/>
                                 <span className="slider round"></span>
                             </label>
 
