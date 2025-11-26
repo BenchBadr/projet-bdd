@@ -1,4 +1,5 @@
 import psycopg2
+import bcrypt
 
 class Db:
     def __init__(self):
@@ -145,6 +146,42 @@ class Db:
             res = cur.fetchall()
         print(res)
 
+    def create_user(self, prenom, nom, password, coords = []):
+        hashed = bcrypt.hashpw(password.encode(), bcrypt.gensalt())
+
+        with self.conn.cursor() as cur:
+            cur.execute(
+                "INSERT INTO Profil (prenom, nom, motdepasse) VALUES (%s, %s, %s)"
+                "RETURNING idProfil;",
+                (prenom, nom, hashed.decode())
+            )
+
+            idProfil = cur.fetchone[0]
+
+            for ctype, coord in coords:
+                cur.execute(
+                    "INSERT INTO Coordonnées (prenom, type_coord, coordonnee) VALUES (%s, %s, %s)",
+                    (idProfil, ctype, coord)
+                )
+
+
+            
+
+    def authenticate_user(self, prenom, password):
+        with self.conn.cursor() as cur:
+            cur.execute(
+                "SELECT motdepasse FROM Profil WHERE prenom = %s",
+                (prenom,)
+            )
+            row = cur.fetchone()
+
+            if row is None:
+                return False
+
+            stored_hash = row[0].encode()
+
+            return bcrypt.checkpw(password.encode(), stored_hash)
+
                 
         
 
@@ -158,7 +195,7 @@ if __name__ == "__main__":
     if reset:
         db.run_action()
 
-    print(db.get_nichoirs())
+    # print(db.get_nichoirs())
     db.test()
 
 
