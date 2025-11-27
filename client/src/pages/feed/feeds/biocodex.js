@@ -2,23 +2,72 @@ import { useState, useEffect, useContext } from "react";
 import Habitat from "../components/habitat";
 import ThemeContext from "../../../util/ThemeContext";
 
+
+const PagesFlow = ({currentPage, maxPages, setPage}) => {
+    return (
+        <div className="pages-display">
+            {currentPage != 0 ? <div className="arrow"
+            onClick={() => setPage(currentPage - 1)}
+            >chevron_left</div> : <div style={{background:'transparent'}}/>}
+            {Array.from({ length: maxPages }, (_, i) => (
+                Math.abs(i - currentPage) < 3 || i === 0 || i === maxPages - 1 ? (<div
+                    key={i}
+                    className={currentPage === i ? "active" : ""}
+                    onClick={() => typeof setPage === "function" && setPage(i)}
+                >
+                    {i + 1}
+                </div>) : (
+                    (
+                        (
+                            Math.abs(i - currentPage) < (5 + (currentPage < 5 ? 5 - currentPage : 0) + (Math.abs(maxPages - currentPage) < 5 ? 5 - Math.abs(maxPages - currentPage) : 0)) 
+                        ) 
+                    ) && (
+                        <div className="empty"></div>
+                    )
+                )
+            ))}
+            {currentPage != maxPages-1 ? <div className="arrow"
+            onClick={() => setPage(currentPage + 1)}
+            >chevron_right</div> : <div style={{background:'transparent'}}/>}
+        </div>
+    );
+}
+
 const Biocodex = () => {
     const [nichoirs, setNichoirs] = useState([]);
     const [biomes, setBiomes] = useState([]);
     const [option, setOption] = useState(1);
+    const [searchTerm, setSearchTerm] = useState('');
+    const [pagesCount, setPagesCount] = useState([0,0,0]);
+    const [page, setPage] = useState(0);
     const { lang } = useContext(ThemeContext);
 
     useEffect(() => {
-            fetch('/nichoirs')
+            fetch('/count_bioco')
                 .then(response => response.json())
-                .then(data => setNichoirs(data))
+                .then(data => setPagesCount(data.count))
                 .catch(error => console.error(error));
+            fetch('/nichoirs', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ offset: page * 5 })
+            })
+            .then(response => response.json())
+            .then(data => setNichoirs(data))
+            .catch(error => console.error(error));
 
             fetch('/biomes')
                 .then(response => response.json())
                 .then(data => setBiomes(data))
                 .catch(error => console.error(error));
         }, [])
+
+
+    useEffect(() => {setPage(0)}, [option])
+
+    console.log(pagesCount)
 
 
     return (
@@ -48,7 +97,18 @@ const Biocodex = () => {
                     </div>
                 </div>
 
-                <h1>HELLO</h1>
+                {(option === 1 || option === 2) && (
+                    <div className="search-bar biocodex">
+                        <input type="text" placeholder={{
+                            'fr': "Tapez votre recherche...",
+                            'en':'Type your search term...'
+                        }[lang]}
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        />
+                        <span>search</span>
+                    </div>
+                )}
             </div>
 
 
@@ -57,6 +117,7 @@ const Biocodex = () => {
                 {nichoirs.map((nichoir) => (
                     <Habitat data={nichoir}/>
                 ))}
+                <PagesFlow setPage={setPage} maxPages={pagesCount[option]} currentPage={page}/>
             </div>}
             {option === 2 && <div className="sortie-container habitat">
                 {biomes.map((biome) => (

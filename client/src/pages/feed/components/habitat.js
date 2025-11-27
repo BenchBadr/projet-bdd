@@ -5,8 +5,6 @@ import ThemeContext from "../../../util/ThemeContext";
 const Habitat = ({data}) => {
     const {lang} = useContext(ThemeContext);
 
-    console.log(data)
-
     return (
         <div className="sortie">
             <div className="title" style={{marginBottom:'1em'}}>{data.nomhabitat}</div>

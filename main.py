@@ -1,4 +1,4 @@
-from flask import Flask, send_from_directory, jsonify
+from flask import Flask, send_from_directory, jsonify, request
 import os
 from db import Db
 
@@ -27,17 +27,25 @@ def serve(path):
 
 @app.route('/sorties')
 def get_sorties():
+    # offset = request.get_json()['offset']
     return jsonify(db.get_sorties())
 
 
 @app.route('/vivant')
 def get_vivants():
-    return jsonify(db.get_vivants())
+    offset = request.get_json()['offset']
+    return jsonify(db.get_vivants(offset))
 
 
-@app.route('/nichoirs')
+@app.route('/nichoirs', methods=['POST'])
 def get_nichoirs():
-    return jsonify(db.get_nichoirs())
+    offset = request.get_json()['offset']
+    return jsonify(db.get_nichoirs(offset))
+
+
+@app.route('/count_bioco')
+def count_bioco():
+    return jsonify({'count':db.count_bioco()})
 
 
 @app.route('/biomes')

@@ -37,7 +37,7 @@ class Db:
             columns = [desc[0] for desc in cur.description]
             return [dict(zip(columns, row)) for row in cur.fetchall()]
     
-    def get_nichoirs(self):
+    def get_nichoirs(self, offset = 0):
         with self.conn.cursor() as cur:
             cur.execute(
                 """
@@ -47,13 +47,14 @@ class Db:
                 LEFT JOIN Observe ON observe.lieu = h.idHabitat
                 WHERE ih.type_info = 'statut_nichoir'
                 GROUP BY h.idHabitat
-                LIMIT 6;
-                """)
+                LIMIT 9
+                OFFSET %s;
+                """, (offset,))
             columns = [desc[0] for desc in cur.description]
 
             return [dict(zip(columns, row)) for row in cur.fetchall()]
     
-    def get_biomes(self):
+    def get_biomes(self, offset = 0):
         with self.conn.cursor() as cur:
             cur.execute(
                 """
@@ -66,8 +67,9 @@ class Db:
                     WHERE ih2.habitat = h.idHabitat AND ih2.type_info = 'statut_nichoir'
                 )
                 GROUP BY h.idHabitat
-                LIMIT 6;
-                """)
+                LIMIT 6
+                OFFSET %s;
+                """, (offset,))
             columns = [desc[0] for desc in cur.description]
 
             return [dict(zip(columns, row)) for row in cur.fetchall()]
@@ -216,6 +218,20 @@ class Db:
                 (idProfil,statut)
             )
 
+    def count_bioco(self):
+        with self.conn.cursor() as cur:
+            cur.execute("SELECT COUNT(idHabitat) FROM Habitat;")
+            count_biomes = cur.fetchone()[0]
+
+            cur.execute("SELECT COUNT(idHabitat) FROM Habitat WHERE idHabitat IN (SELECT habitat FROM Info_Habitat WHERE type_info = 'statut_nichoir');")
+            count_nichoirs = cur.fetchone()[0]
+
+            cur.execute("SELECT COUNT(idEspece) FROM Etre_vivant;")
+            count_vivant = cur.fetchone()[0]
+
+            return (count_vivant, count_nichoirs, count_biomes - count_nichoirs)
+
+
 
 
                 
@@ -235,7 +251,7 @@ if __name__ == "__main__":
     if reset == 2:
         db.run_action('dump')
 
-    print(db.get_users())
+    print(db.count_bioco())
 
 
 

@@ -25,8 +25,6 @@ const Outings = () => {
     }, [])
 
 
-    console.log(themes, 'themes')
-
 
 
 

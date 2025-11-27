@@ -161,7 +161,7 @@ html:has(.app.dark) {
 
   .btn {
     display: block;
-    background:var(--high);
+    background:var(--eiffel);
     color:white;
     padding:10px;
     border-radius:15px;
@@ -170,7 +170,7 @@ html:has(.app.dark) {
     transition-duration: .2s;
 
     &:hover{
-      background:var(--eiffel);
+      opacity:.8;
     }
   }
 }
