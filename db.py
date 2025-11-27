@@ -41,12 +41,13 @@ class Db:
         with self.conn.cursor() as cur:
             cur.execute(
                 """
-                SELECT h.IdHabitat, h.nomHabitat, COUNT(observe.idEspece) AS nb_espece, COUNT(observe.num) AS nb_pers, COUNT(observe.img) AS nb_images
+                SELECT h.IdHabitat, h.nomHabitat, h.coords, COUNT(observe.idEspece) AS nb_espece, COUNT(observe.num) AS nb_pers, COUNT(observe.img) AS nb_images
                 FROM Habitat h
                 JOIN Info_Habitat ih ON h.IdHabitat = ih.habitat
                 LEFT JOIN Observe ON observe.lieu = h.idHabitat
                 WHERE ih.type_info = 'statut_nichoir'
-                GROUP BY h.idHabitat;
+                GROUP BY h.idHabitat
+                LIMIT 6;
                 """)
             columns = [desc[0] for desc in cur.description]
 
@@ -56,7 +57,7 @@ class Db:
         with self.conn.cursor() as cur:
             cur.execute(
                 """
-                SELECT h.IdHabitat, h.nomHabitat, COUNT(observe.idEspece) AS nb_espece, COUNT(observe.num) AS nb_pers, COUNT(observe.img) AS nb_images
+                SELECT h.IdHabitat, h.coords, h.nomHabitat, COUNT(observe.idEspece) AS nb_espece, COUNT(observe.num) AS nb_pers, COUNT(observe.img) AS nb_images
                 FROM Habitat h
                 JOIN Info_Habitat ih ON h.IdHabitat = ih.habitat
                 JOIN Observe ON observe.lieu = h.idHabitat
@@ -64,7 +65,8 @@ class Db:
                     SELECT ih2.type_info FROM Info_Habitat ih2 
                     WHERE ih2.habitat = h.idHabitat AND ih2.type_info = 'statut_nichoir'
                 )
-                GROUP BY h.idHabitat;
+                GROUP BY h.idHabitat
+                LIMIT 6;
                 """)
             columns = [desc[0] for desc in cur.description]
 
@@ -109,15 +111,14 @@ class Db:
 
 
     def insert_nichoir(self, nomHabitat, coords):
-        try:
             with self.conn.cursor() as cur:
 
                 cur.execute(
                     """
-                    INSERT INTO Habitat (nomHabitat)
-                    VALUES (%s)
+                    INSERT INTO Habitat (nomHabitat, coords)
+                    VALUES (%s, %s)
                     RETURNING idHabitat
-                    """, (nomHabitat,)
+                    """, (nomHabitat,coords)
                 )
                 idHabitat = cur.fetchone()[0]
                 print(idHabitat)
@@ -129,22 +130,23 @@ class Db:
                     """, (idHabitat, 'statut_nichoir')
                 )
 
+
+
+    def insert_habitat(self, nomHabitat, coords):
+        try:
+            with self.conn.cursor() as cur:
+
                 cur.execute(
                     """
-                    INSERT INTO Info_Habitat (habitat, type_info, information)
-                    VALUES (%s, %s, %s)
-                    """, (idHabitat, 'coord', coords)
+                    INSERT INTO Habitat (nomHabitat, coords)
+                    VALUES (%s, %s)
+                    RETURNING idHabitat
+                    """, (nomHabitat, coords)
                 )
 
         except Exception as e:
             print('ERROR', e)
 
-    def test(self):
-        with self.conn.cursor() as cur:
-            cur.execute("SELECT * FROM Info_Habitat WHERe type_info = 'statut_nichoir'" \
-            "LIMIT 5;")
-            res = cur.fetchall()
-        print(res)
 
     def create_user(self, idProfil, prenom, nom, password, coords = []):
         hashed = bcrypt.hashpw(password.encode(), bcrypt.gensalt())
@@ -192,6 +194,17 @@ class Db:
             users = cur.fetchall()
         return users
     
+    def get_adherents(self):
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT * FROM 
+                Adherent;
+                """
+            )
+            users = cur.fetchall()
+        return users
+    
 
     def make_adherent(self, idProfil, statut):
         with self.conn.cursor() as cur:
@@ -202,6 +215,8 @@ class Db:
                 """,
                 (idProfil,statut)
             )
+
+
 
                 
         

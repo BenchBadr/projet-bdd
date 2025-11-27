@@ -28,7 +28,7 @@ def get_wiki(sci_name):
                 
                 images.append(url)
 
-    return wiki, img_url
+    return wiki, images
 
 
 
@@ -46,8 +46,6 @@ def get_obs(sci_name):
 
     ## description
 
-    clean_data['imgs'] = imgs
-
     for key in data.keys():
         if "description" in key.lower():
             taille = re.findall(r"(\d+(?:[\.,]\d+)?)\s*cm", data[key])
@@ -59,7 +57,10 @@ def get_obs(sci_name):
             clean_data['desc'] = sample(lines, min(len(lines), 10))
             break
 
+    clean_data['imgs'] = imgs
+
     return clean_data
 
 
 
+print(get_obs("Turdus philomelos")['imgs'])

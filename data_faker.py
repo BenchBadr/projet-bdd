@@ -43,6 +43,23 @@ class DataGen:
             if len(noms[i]) <= 50:
                 Db().insert_nichoir(noms[i], geos[i])
 
+    def fill_in_biomes(self, m = 150):
+        """
+        Remple les donnees des biomes (autres que nichoirs)
+        
+        Args
+            m : limite du nombre de biomes
+        """
+
+        print("Filling in biomes...")
+
+        df = pandas.read_csv('data/znieff-type2.csv', delimiter=',')
+        noms = df['NOM']
+        geos = df['Geo Point']
+        for i in range(min(len(df), m)):
+            if len(noms[i]) <= 50:
+                Db().insert_nichoir(noms[i], geos[i])
+
     def gen_users(self, lim = 50):
         print("Filling in profiles...")
 
@@ -92,4 +109,5 @@ class DataGen:
 if __name__ == '__main__':
     pass
     DataGen().fill_in_nichoirs()
+    DataGen().fill_in_biomes()
     DataGen().gen_users()

@@ -1,13 +1,17 @@
 import { useContext } from "react";
+import MapPreview from "./map";
 import ThemeContext from "../../../util/ThemeContext";
 
 const Habitat = ({data}) => {
     const {lang} = useContext(ThemeContext);
 
+    console.log(data)
+
     return (
         <div className="sortie">
             <div className="title" style={{marginBottom:'1em'}}>{data.nomhabitat}</div>
 
+            <MapPreview coords={data.coords}/>
 
             <div className="bottom-info">
                 <div className="icons">

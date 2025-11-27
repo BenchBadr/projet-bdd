@@ -33,6 +33,7 @@ CREATE TABLE Statut (
 CREATE TABLE Habitat (
     IdHabitat serial PRIMARY KEY,
     nomHabitat VARCHAR(50),
+    coords VARCHAR(150),
     CONSTRAINT exists_nom_hab CHECK (nomHabitat IS NOT NULL)
 );
 
