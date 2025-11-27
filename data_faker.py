@@ -4,6 +4,7 @@ import pandas
 from db import Db
 from random import choice, randrange
 from unidecode import unidecode
+from util.wiki import get_obs
 
 class DataGen:
     def __init__(self):
@@ -102,6 +103,47 @@ class DataGen:
             if randrange(10) < 9:
                 statut = choice([1,2])
                 Db().make_adherent(user, statut)
+
+    def gen_oiseaux(self, lim = float('inf')):
+        df = pandas.read_csv('data/oiseaux.csv', delimiter=',')
+        noms = df['nom']
+        nomsci = df['sci']
+        i = 0
+
+        adherents = Db().get_adherents()
+        biomes = Db().get_biomes_id()
+        nichoirs = Db().get_nichoirs_id()
+
+        for nom, sci in zip(noms, nomsci):
+
+            print(f"{i}. {nom} {sci}")
+
+            obs = get_obs(sci)
+
+            taille = obs['taille'] if 'taille' in obs else None
+            images = obs['images'] if 'images' in obs else []
+
+            # On insere l'animal
+            Db().insert_animal(sci, nom, taille)
+
+
+            # On stocke toutes les images comme des "observations"
+            for image in images:
+                if taille and int(taille) < 50:
+                    habitat = choice(nichoirs)
+                else:
+                    habitat = choice(biomes)
+                Db().add_observation(choice(adherents), sci, habitat, image)
+
+            # On genere les attributs
+            for attr, elts in obs.items():
+                if 'attr' in ['images','taille']:
+                    continue
+                else:
+                    for elt in elts:
+                        Db().add_animal_info(attr, sci, choice(adherents), elt)
+
+            i+=1
     
     
 

@@ -42,8 +42,8 @@ CREATE TABLE Habitat (
 
 CREATE TABLE Etre_vivant (
     IdEspece VARCHAR(100) PRIMARY KEY,
-    taille float,
-    couleur VARCHAR(30)
+    nomEspece VARCHAR(100),
+    taille float
 );
 
 -- Profil : Comme son nom l'indique, stocke un profil individuel indépendant du statut d'adhérent.
@@ -57,15 +57,7 @@ CREATE TABLE Profil (
 
 -- II. Tables dépendantes
 
--- Attribut
--- Attribut associé à un être vivant (eg. Forme des ailes, Taille, Couleur, Courbature des griffe...). Attributs propres à chaque espèce mais on utilisera des noms d'attributs similaires dans la mesure du possible pour permettre par la suite de filtrer les espèces stockées.
 
-CREATE TABLE Attribut (
-    idAtt serial PRIMARY KEY,
-    nom VARCHAR(50),
-    idEspece VARCHAR(100) REFERENCES Etre_vivant(IdEspece),
-    txt_descriptif VARCHAR(150)
-);
 
 -- Coordonnees : Coordonnées liées a un utilisateur dont le type est permissif (num, mail, moodle, discord...) sont tous des types. On fait le choix d'ajouter un id, une personne pouvant renseigner plusieurs adresses mail.
 CREATE TABLE Coordonnees (
@@ -81,6 +73,18 @@ CREATE TABLE Adherent (
     idProfil VARCHAR(32) REFERENCES Profil (idProfil),
     statut integer REFERENCES Statut (idStatut),
     XP integer DEFAULT 0
+);
+
+-- Attribut
+-- Attribut associé à un être vivant (eg. Forme des ailes, Taille, Couleur, Courbature des griffe...). Attributs propres à chaque espèce mais on utilisera des noms d'attributs similaires dans la mesure du possible pour permettre par la suite de filtrer les espèces stockées.
+
+CREATE TABLE Attribut (
+    idAtt serial PRIMARY KEY,
+    type_att VARCHAR(50),
+    idEspece VARCHAR(100) REFERENCES Etre_vivant(IdEspece),
+    auteur integer REFERENCES Adherent (num),
+    contenu text
+
 );
 
 -- Cotisation Inscription
@@ -137,14 +141,6 @@ CREATE TABLE Observe (
     CONSTRAINT observe_pkey PRIMARY KEY (num, idEspece, lieu)
 );
 
--- Renseigne : L'écriture des attributs d'espèces est collaborative à la manière de Wikipédia. Cette table permet de garder un historique des modifications afin de récompenser les utilisateurs les plus actifs mais aussi de révoquer les accès aux éditeurs mal intentionnés. On part du principe que les animateurs non-adhérents peuvent contribuer de même d'où l'usage de la table Profil. L'utilisateur pourra renseigner un "commit message" un petit commentaire sur les modifications effectuées rendant l'historique plus accessible par la suite à feuilleter.
-CREATE TABLE Renseigne (
-    idProfil VARCHAR(32) REFERENCES Profil (idProfil),
-    idAtt integer REFERENCES Attribut (idAtt),
-    date DATE,
-    commit_msg VARCHAR(100),
-    CONSTRAINT pkey PRIMARY KEY (idProfil, idAtt)
-);
 
 -- Inscription : renseigne tous les adherents inscripts aux sorties
 CREATE TABLE Inscription (

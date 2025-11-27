@@ -98,18 +98,70 @@ class Db:
             themes = cur.fetchall()
         return themes
     
+    def get_adherents(self):
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT num FROM 
+                Adherent;
+                """
+            )
+            numList = [adherent[0] for adherent in cur.fetchall()]
+        return numList
+    
+    def get_nichoirs_id(self):
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT idHabitat FROM Habitat
+                WHERE idHabitat IN (SELECT habitat FROM Info_Habitat WHERE type_info = 'statut_nichoir')
+                """
+            )
+            nichoir_list = [nichoir[0] for nichoir in cur.fetchall()]
+        return nichoir_list
+    
+    def get_biomes_id(self):
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT idHabitat FROM Habitat
+                WHERE idHabitat NOT IN (SELECT habitat FROM Info_Habitat WHERE type_info = 'statut_nichoir')
+                """
+            )
+            biome_list = [biome[0] for biome in cur.fetchall()]
+        return biome_list
+    
 
-    def insert_animal(self, idEspece, taille, couleur):
+    def insert_animal(self, idEspece, nom, taille):
         try:
             with self.conn.cursor() as cur:
                 cur.execute(
                     """
-                INSERT INTO Etre_vivant (idEspece, taille, couleur)
+                INSERT INTO Etre_vivant (idEspece, nomEspece, taille)
                 VALUES (%s, %s, %s)
-                """, (idEspece, taille, couleur)
+                """, (idEspece, nom, taille)
                 )
         except: 
             pass
+
+    def add_animal_info(self, info_type, idEspece, auteur, contenu):
+        with self.conn.cursor() as cur:
+                cur.execute(
+                    """
+                    INSERT INTO Attribut (type_att, idEspece, auteur, contenu)
+                    VALUES (%s, %s, %s, %s)
+                    """, (info_type, idEspece, auteur, contenu)
+                )
+
+
+    def add_observation(self, num, idEspece, lieu, img):
+        with self.conn.cursor() as cur:
+                cur.execute(
+                    """
+                    INSERT INTO Attribut (num, idEspece, lieu, img)
+                    VALUES (%s, %s, %s, %s)
+                    """, (num, idEspece, lieu, img)
+                )
 
 
     def insert_nichoir(self, nomHabitat, coords):
