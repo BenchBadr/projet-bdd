@@ -46,6 +46,8 @@ def get_obs(sci_name):
 
     ## description
 
+    print(data.keys())
+
     for key in data.keys():
         if "description" in key.lower():
             taille = re.findall(r"(\d+(?:[\.,]\d+)?)\s*cm", data[key])
@@ -55,7 +57,16 @@ def get_obs(sci_name):
 
             lines = [line for line in data[key].split('\n') if line.strip()]
             clean_data['desc'] = sample(lines, min(len(lines), 10))
-            break
+        
+        if "habitat" in key.lower():
+            lines = [line for line in data[key].split('\n') if line.strip()]
+            clean_data['habitat'] = sample(lines, min(len(lines), 10))
+
+        if "reproduction" in key.lower():
+            lines = [line for line in data[key].split('\n') if line.strip()]
+            clean_data['reproduction'] = sample(lines, min(len(lines), 10))
+
+            
 
     clean_data['imgs'] = imgs
 
@@ -63,4 +74,4 @@ def get_obs(sci_name):
 
 
 
-print(get_obs("Turdus philomelos")['imgs'])
+print(get_obs("Poecile montanus"))
