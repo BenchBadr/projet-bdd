@@ -133,16 +133,13 @@ class Db:
     
 
     def insert_animal(self, idEspece, nom, taille):
-        try:
-            with self.conn.cursor() as cur:
-                cur.execute(
-                    """
-                INSERT INTO Etre_vivant (idEspece, nomEspece, taille)
-                VALUES (%s, %s, %s)
-                """, (idEspece, nom, taille)
-                )
-        except: 
-            pass
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """
+            INSERT INTO Etre_vivant (idEspece, nomEspece, taille)
+            VALUES (%s, %s, %s)
+            """, (idEspece, nom, taille)
+            )
 
     def add_animal_info(self, info_type, idEspece, auteur, contenu):
         with self.conn.cursor() as cur:
@@ -247,17 +244,7 @@ class Db:
             )
             users = cur.fetchall()
         return users
-    
-    def get_adherents(self):
-        with self.conn.cursor() as cur:
-            cur.execute(
-                """
-                SELECT * FROM 
-                Adherent;
-                """
-            )
-            users = cur.fetchall()
-        return users
+
     
 
     def make_adherent(self, idProfil, statut):
@@ -282,6 +269,12 @@ class Db:
             count_vivant = cur.fetchone()[0]
 
             return (count_vivant, count_nichoirs, count_biomes - count_nichoirs)
+        
+
+    def clear_animal(self):
+        with self.conn.cursor() as cur:
+            cur.execute("TRUNCATE TABLE Attribut, Observe, Etre_vivant CASCADE;")
+        print("Truncate animal data")
 
 
 
@@ -295,18 +288,21 @@ if __name__ == "__main__":
     db = Db()
 
     # 0 = nothing, 1 = reset, 2 = backup
-    reset = 0
+    reset = 2
 
     if reset == 1:
         db.run_action()
         
     if reset == 2:
-        db.run_action('dump')
+        db.clear_animal()
 
-    print(db.get_biomes('ru', 0))
+    print(db.count_bioco())
 
 
 
 
 # dump la DB
 # pg_dump -U arl -d arl > db/dump.sql
+
+# revert to dump
+# psql -U arl -d arl -f /Users/arl/prog/eiffel/TP\ Infos/projet-bdd/db/dump.sql

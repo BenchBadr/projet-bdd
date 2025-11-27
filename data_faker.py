@@ -5,6 +5,7 @@ from db import Db
 from random import choice, randrange
 from unidecode import unidecode
 from util.wiki import get_obs
+import asyncio
 
 class DataGen:
     def __init__(self):
@@ -20,12 +21,7 @@ class DataGen:
         Genere un profile
         """
         return self.faker.profile()
-    
-    def gen_animal(self) -> dict:
-        """
-        Genere un animal
-        """
-        return self.faker.animal()
+
     
     def fill_in_nichoirs(self, m = 70):
         """
@@ -104,7 +100,7 @@ class DataGen:
                 statut = choice([1,2])
                 Db().make_adherent(user, statut)
 
-    def gen_oiseaux(self, lim = float('inf')):
+    async def gen_oiseaux(self, lim = float('inf')):
         df = pandas.read_csv('data/oiseaux.csv', delimiter=',')
         noms = df['nom']
         nomsci = df['sci']
@@ -114,16 +110,22 @@ class DataGen:
         biomes = Db().get_biomes_id()
         nichoirs = Db().get_nichoirs_id()
 
-        for nom, sci in zip(noms, nomsci):
 
-            print(f"{i}. {nom} {sci}")
+
+        for nom, sci in zip(noms, nomsci):
 
             obs = get_obs(sci)
 
-            taille = obs['taille'] if 'taille' in obs else None
-            images = obs['images'] if 'images' in obs else []
+
+            # cas d'erreur wikipedia
+            if obs == 0:
+                continue
+
+            taille = obs['taille'].replace(",", ".") if 'taille' in obs else None
+            images = obs['imgs'] if 'images' in obs else []
 
             # On insere l'animal
+            print(f"{i}. {nom} {sci} {taille}")
             Db().insert_animal(sci, nom, taille)
 
 
@@ -137,7 +139,7 @@ class DataGen:
 
             # On genere les attributs
             for attr, elts in obs.items():
-                if 'attr' in ['images','taille']:
+                if 'attr' in ['imgs','taille']:
                     continue
                 else:
                     for elt in elts:
@@ -150,6 +152,7 @@ class DataGen:
 
 if __name__ == '__main__':
     pass
-    DataGen().fill_in_nichoirs()
-    DataGen().fill_in_biomes()
-    DataGen().gen_users()
+    # DataGen().fill_in_nichoirs()
+    # DataGen().fill_in_biomes()
+    # DataGen().gen_users()
+    asyncio.run(DataGen().gen_oiseaux())

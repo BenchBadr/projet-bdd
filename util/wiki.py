@@ -35,43 +35,46 @@ def get_wiki(sci_name):
 
 
 def get_obs(sci_name):
-    wiki, imgs = get_wiki(sci_name)
-    map = wiki.split('==')
-    data = {}
-    for i in range(1, min(15, len(map)), 2):
-        data[map[i].replace('=','').strip()] = map[i+1]
+    try:
+        wiki, imgs = get_wiki(sci_name)
+        map = wiki.split('==')
+        data = {}
+        for i in range(1, min(15, len(map)), 2):
+            data[map[i].replace('=','').strip()] = map[i+1]
 
-    # clean data
-    clean_data = {}
+        # clean data
+        clean_data = {}
 
-    ## description
+        ## description
 
-    print(data.keys())
+        print(data.keys())
 
-    for key in data.keys():
-        if "description" in key.lower():
-            taille = re.findall(r"(\d+(?:[\.,]\d+)?)\s*cm", data[key])
-            if taille:
-                taille = re.sub(r"[^\d.,]", "", taille[0])
-                clean_data['taille'] = taille
+        for key in data.keys():
+            if "description" in key.lower():
+                taille = re.findall(r"(\d+(?:[\.,]\d+)?)\s*cm", data[key])
+                if taille:
+                    taille = re.sub(r"[^\d.,]", "", taille[0])
+                    clean_data['taille'] = taille
 
-            lines = [line for line in data[key].split('\n') if line.strip()]
-            clean_data['desc'] = sample(lines, min(len(lines), 10))
-        
-        if "habitat" in key.lower():
-            lines = [line for line in data[key].split('\n') if line.strip()]
-            clean_data['habitat'] = sample(lines, min(len(lines), 10))
-
-        if "reproduction" in key.lower():
-            lines = [line for line in data[key].split('\n') if line.strip()]
-            clean_data['reproduction'] = sample(lines, min(len(lines), 10))
-
+                lines = [line for line in data[key].split('\n') if line.strip()]
+                clean_data['desc'] = sample(lines, min(len(lines), 10))
             
+            if "habitat" in key.lower():
+                lines = [line for line in data[key].split('\n') if line.strip()]
+                clean_data['habitat'] = sample(lines, min(len(lines), 10))
 
-    clean_data['imgs'] = imgs
+            if "reproduction" in key.lower():
+                lines = [line for line in data[key].split('\n') if line.strip()]
+                clean_data['reproduction'] = sample(lines, min(len(lines), 10))
 
-    return clean_data
+                
+
+        clean_data['imgs'] = imgs
+
+        return clean_data
+    except:
+        return 0
 
 
 
-print(get_obs("Poecile montanus"))
+# print(get_obs("Poecile montanus"))
