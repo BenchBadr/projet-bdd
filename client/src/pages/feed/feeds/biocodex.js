@@ -19,7 +19,7 @@ const PagesFlow = ({currentPage, maxPages, setPage}) => {
                 </div>) : (
                     (
                         (
-                            Math.abs(i - currentPage) < (5 + (currentPage < 5 ? 5 - currentPage : 0) + (Math.abs(maxPages - currentPage) < 5 ? 5 - Math.abs(maxPages - currentPage) : 0)) 
+                            Math.abs(i - currentPage) < (5 + Math.max(5 - currentPage, 0) + Math.max(5 - maxPages + currentPage, 0)) 
                         ) 
                     ) && (
                         <div className="empty"></div>
