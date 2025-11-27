@@ -43,31 +43,48 @@ const Biocodex = () => {
     const { lang } = useContext(ThemeContext);
 
     useEffect(() => {
-            fetch('/count_bioco')
+            fetch('/count_bioco', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ query:searchTerm })
+                })
                 .then(response => response.json())
                 .then(data => setPagesCount(data.count))
                 .catch(error => console.error(error));
-            fetch('/nichoirs', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ offset: page * 5 })
-            })
-            .then(response => response.json())
-            .then(data => setNichoirs(data))
-            .catch(error => console.error(error));
 
-            fetch('/biomes')
+            if (option === 1) {
+                fetch('/nichoirs', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ offset: page * 9, query:searchTerm })
+                })
                 .then(response => response.json())
-                .then(data => setBiomes(data))
+                .then(data => setNichoirs(data))
                 .catch(error => console.error(error));
-        }, [])
+            }
 
+            if (option === 2) {
+                fetch('/biomes', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ offset: page * 9, query:searchTerm })
+                    })
+                    .then(response => response.json())
+                    .then(data => setBiomes(data))
+                    .catch(error => console.error(error));
+            }
+        }, [page, option,searchTerm])
 
-    useEffect(() => {setPage(0)}, [option])
+    useEffect(() => {setPage(0);setSearchTerm('')}, [option])
 
     console.log(pagesCount)
+
 
 
     return (
@@ -117,12 +134,14 @@ const Biocodex = () => {
                 {nichoirs.map((nichoir) => (
                     <Habitat data={nichoir}/>
                 ))}
-                <PagesFlow setPage={setPage} maxPages={pagesCount[option]} currentPage={page}/>
+                {pagesCount[option]>9 &&  <PagesFlow setPage={setPage} maxPages={Math.ceil(pagesCount[option]/9)} currentPage={page}/>}
             </div>}
+
             {option === 2 && <div className="sortie-container habitat">
                 {biomes.map((biome) => (
                     <Habitat data={biome}/>
                 ))}
+                {pagesCount[option]>9 && <PagesFlow setPage={setPage} maxPages={Math.ceil(pagesCount[option]/9)} currentPage={page}/>}
             </div>}
 
         </div>

@@ -34,23 +34,31 @@ def get_sorties():
 @app.route('/vivant')
 def get_vivants():
     offset = request.get_json()['offset']
-    return jsonify(db.get_vivants(offset))
+    query = request.get_json()['query']
+    return jsonify(db.get_vivants(query, offset))
 
 
 @app.route('/nichoirs', methods=['POST'])
 def get_nichoirs():
     offset = request.get_json()['offset']
-    return jsonify(db.get_nichoirs(offset))
+    query = request.get_json()['query']
+    return jsonify(db.get_nichoirs(query, offset))
 
 
-@app.route('/count_bioco')
-def count_bioco():
-    return jsonify({'count':db.count_bioco()})
-
-
-@app.route('/biomes')
+@app.route('/biomes', methods=['POST'])
 def get_biomes():
-    return jsonify(db.get_biomes())
+    offset = request.get_json()['offset']
+    query = request.get_json()['query']
+    return jsonify(db.get_biomes(query, offset))
+
+
+@app.route('/count_bioco', methods=['POST'])
+def count_bioco():
+    query = request.get_json()['query']
+    return jsonify({'count':db.count_bioco(query)})
+
+
+
 
 
 @app.route('/get_themes')

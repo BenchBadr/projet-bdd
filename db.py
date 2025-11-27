@@ -37,7 +37,7 @@ class Db:
             columns = [desc[0] for desc in cur.description]
             return [dict(zip(columns, row)) for row in cur.fetchall()]
     
-    def get_nichoirs(self, offset = 0):
+    def get_nichoirs(self, query = '', offset = 0):
         with self.conn.cursor() as cur:
             cur.execute(
                 """
@@ -45,31 +45,31 @@ class Db:
                 FROM Habitat h
                 JOIN Info_Habitat ih ON h.IdHabitat = ih.habitat
                 LEFT JOIN Observe ON observe.lieu = h.idHabitat
-                WHERE ih.type_info = 'statut_nichoir'
+                WHERE ih.type_info = 'statut_nichoir' AND h.nomHabitat ILIKE %s
                 GROUP BY h.idHabitat
                 LIMIT 9
                 OFFSET %s;
-                """, (offset,))
+                """, (f"%{query}%", offset))
             columns = [desc[0] for desc in cur.description]
 
             return [dict(zip(columns, row)) for row in cur.fetchall()]
     
-    def get_biomes(self, offset = 0):
+    def get_biomes(self, query = '', offset = 0):
         with self.conn.cursor() as cur:
             cur.execute(
                 """
                 SELECT h.IdHabitat, h.coords, h.nomHabitat, COUNT(observe.idEspece) AS nb_espece, COUNT(observe.num) AS nb_pers, COUNT(observe.img) AS nb_images
                 FROM Habitat h
-                JOIN Info_Habitat ih ON h.IdHabitat = ih.habitat
-                JOIN Observe ON observe.lieu = h.idHabitat
+                LEFT JOIN Info_Habitat ih ON h.IdHabitat = ih.habitat
+                LEFT JOIN Observe ON observe.lieu = h.idHabitat
                 WHERE NOT EXISTS (
                     SELECT ih2.type_info FROM Info_Habitat ih2 
                     WHERE ih2.habitat = h.idHabitat AND ih2.type_info = 'statut_nichoir'
-                )
+                ) AND h.nomHabitat ILIKE %s
                 GROUP BY h.idHabitat
-                LIMIT 6
+                LIMIT 9
                 OFFSET %s;
-                """, (offset,))
+                """, (f"%{query}%", offset))
             columns = [desc[0] for desc in cur.description]
 
             return [dict(zip(columns, row)) for row in cur.fetchall()]
@@ -218,12 +218,12 @@ class Db:
                 (idProfil,statut)
             )
 
-    def count_bioco(self):
+    def count_bioco(self, query = ''):
         with self.conn.cursor() as cur:
-            cur.execute("SELECT COUNT(idHabitat) FROM Habitat;")
+            cur.execute("SELECT COUNT(idHabitat) FROM Habitat WHERE nomHabitat ILIKE %s;", (f"%{query}%",))
             count_biomes = cur.fetchone()[0]
 
-            cur.execute("SELECT COUNT(idHabitat) FROM Habitat WHERE idHabitat IN (SELECT habitat FROM Info_Habitat WHERE type_info = 'statut_nichoir');")
+            cur.execute("SELECT COUNT(idHabitat) FROM Habitat WHERE idHabitat IN (SELECT habitat FROM Info_Habitat WHERE type_info = 'statut_nichoir') AND nomHabitat ILIKE %s;", (f"%{query}%",))
             count_nichoirs = cur.fetchone()[0]
 
             cur.execute("SELECT COUNT(idEspece) FROM Etre_vivant;")
@@ -251,7 +251,7 @@ if __name__ == "__main__":
     if reset == 2:
         db.run_action('dump')
 
-    print(db.count_bioco())
+    print(db.get_biomes('ru', 0))
 
 
 

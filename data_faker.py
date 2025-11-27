@@ -58,9 +58,9 @@ class DataGen:
         geos = df['Geo Point']
         for i in range(min(len(df), m)):
             if len(noms[i]) <= 50:
-                Db().insert_nichoir(noms[i], geos[i])
+                Db().insert_habitat(noms[i], geos[i])
 
-    def gen_users(self, lim = 50):
+    def gen_users(self, lim = 100):
         print("Filling in profiles...")
 
         unique_usernames = {}
