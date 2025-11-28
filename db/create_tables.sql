@@ -43,6 +43,7 @@ CREATE TABLE Habitat (
 CREATE TABLE Etre_vivant (
     IdEspece VARCHAR(100) PRIMARY KEY,
     nomEspece VARCHAR(100),
+    groupe VARCHAR(100),
     taille float
 );
 

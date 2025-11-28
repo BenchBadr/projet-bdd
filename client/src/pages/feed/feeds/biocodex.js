@@ -1,6 +1,7 @@
 import { useState, useEffect, useContext } from "react";
 import Habitat from "../components/habitat";
 import ThemeContext from "../../../util/ThemeContext";
+import Specie from "../components/animal";
 
 
 const PagesFlow = ({currentPage, maxPages, setPage}) => {
@@ -36,10 +37,14 @@ const PagesFlow = ({currentPage, maxPages, setPage}) => {
 const Biocodex = () => {
     const [nichoirs, setNichoirs] = useState([]);
     const [biomes, setBiomes] = useState([]);
-    const [option, setOption] = useState(1);
+    const [option, setOption] = useState(0);
+    const [animals, setAnimals] = useState([]);
+
     const [searchTerm, setSearchTerm] = useState('');
     const [pagesCount, setPagesCount] = useState([0,0,0]);
     const [page, setPage] = useState(0);
+    const [groups, setGroups] = useState(['Amphibien', 'Oiseaux']);
+    const [groupFilt, setGroupFilt] = useState('');
     const { lang } = useContext(ThemeContext);
 
     useEffect(() => {
@@ -67,6 +72,19 @@ const Biocodex = () => {
                 .catch(error => console.error(error));
             }
 
+            if (option === 0) {
+                fetch('/species', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ offset: page * 9, query:searchTerm })
+                })
+                .then(response => response.json())
+                .then(data => setAnimals(data))
+                .catch(error => console.error(error));
+            }
+
             if (option === 2) {
                 fetch('/biomes', {
                         method: 'POST',
@@ -83,7 +101,7 @@ const Biocodex = () => {
 
     useEffect(() => {setPage(0);setSearchTerm('')}, [option])
 
-    console.log(pagesCount)
+    console.log(animals)
 
 
 
@@ -114,16 +132,39 @@ const Biocodex = () => {
                     </div>
                 </div>
 
-                {(option === 1 || option === 2) && (
-                    <div className="search-bar biocodex">
-                        <input type="text" placeholder={{
-                            'fr': "Tapez votre recherche...",
-                            'en':'Type your search term...'
-                        }[lang]}
-                        value={searchTerm}
-                        onChange={(e) => setSearchTerm(e.target.value)}
-                        />
-                        <span>search</span>
+                <div className="search-bar biocodex">
+                    <input type="text" placeholder={{
+                        'fr': "Tapez votre recherche...",
+                        'en':'Type your search term...'
+                    }[lang]}
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    />
+                    <span>search</span>
+                </div>
+
+                {option === 0 && (
+                    <div className="search-filters">
+                        
+                        <span>
+
+                            <a>{{
+                                'fr':'Thèmes',
+                                'en':'Themes'
+                            }[lang]} : </a>
+
+                            {groups && (
+                                <select 
+                                value={groupFilt}
+                                onChange={e => setGroupFilt(e.target.value)}
+                                >
+                                    <option value={''}>---</option>
+                                    {groups.map((group) => <option value={group}>{group}</option>)}
+                                </select>
+                            )}
+
+                        </span>
+
                     </div>
                 )}
             </div>
@@ -140,6 +181,13 @@ const Biocodex = () => {
             {option === 2 && <div className="sortie-container habitat">
                 {biomes.map((biome) => (
                     <Habitat data={biome}/>
+                ))}
+                {pagesCount[option]>9 && <PagesFlow setPage={setPage} maxPages={Math.ceil(pagesCount[option]/9)} currentPage={page}/>}
+            </div>}
+
+            {option === 0 && <div className="sortie-container habitat">
+                {animals.map((animal) => (
+                    <Specie data={animal}/>
                 ))}
                 {pagesCount[option]>9 && <PagesFlow setPage={setPage} maxPages={Math.ceil(pagesCount[option]/9)} currentPage={page}/>}
             </div>}

@@ -100,7 +100,9 @@ class DataGen:
                 statut = choice([1,2])
                 Db().make_adherent(user, statut)
 
-    async def gen_oiseaux(self, lim = float('inf')):
+    def gen_oiseaux(self, lim = float('inf')):
+        Db().clear_oiseaux()
+
         df = pandas.read_csv('data/oiseaux.csv', delimiter=',')
         noms = df['nom']
         nomsci = df['sci']
@@ -123,10 +125,11 @@ class DataGen:
 
             taille = obs['taille'].replace(",", ".") if 'taille' in obs else None
             images = obs['imgs'] if 'imgs' in obs else []
+            date = self.faker.date_this_year(before_today=True, after_today=False)
 
             # On insere l'animal
-            print(f"{i}. {nom} {sci} {taille}")
-            Db().insert_animal(sci, nom, taille)
+            print(f"{i}. {nom} {sci} {taille} {date}")
+            Db().insert_animal(sci, nom, taille, 'oiseaux')
 
 
             # On stocke toutes les images comme des "observations"
@@ -135,7 +138,55 @@ class DataGen:
                     habitat = choice(nichoirs)
                 else:
                     habitat = choice(biomes)
-                Db().add_observation(choice(adherents), sci, habitat, image)
+                Db().add_observation(choice(adherents), sci, habitat, image, date)
+
+            # On genere les attributs
+            for attr, elts in obs.items():
+                if 'attr' in ['imgs','taille']:
+                    continue
+                else:
+                    for elt in elts:
+                        Db().add_animal_info(attr, sci, choice(adherents), elt)
+
+            i+=1
+
+
+    def gen_flore(self, lim = float('inf')):
+        Db().clear_flore()
+
+        df = pandas.read_csv('data/autres.csv', delimiter=',')
+        noms = df['nom']
+        nomsci = df['sci']
+        grp = df['groupe']
+        i = 0
+
+        adherents = Db().get_adherents()
+        biomes = Db().get_biomes_id()
+
+
+
+        for nom, sci, grp in zip(noms, nomsci, grp):
+
+            obs = get_obs(sci)
+
+
+            # cas d'erreur wikipedia
+            if obs == 0:
+                continue
+
+            taille = obs['taille'].replace(",", ".") if 'taille' in obs else None
+            images = obs['imgs'] if 'imgs' in obs else []
+            date = self.faker.date_this_year(before_today=True, after_today=False)
+
+            # On insere l'animal
+            print(f"{i}. {nom} {sci} {taille} {date}")
+            Db().insert_animal(sci, nom, taille, grp)
+
+
+            # On stocke toutes les images comme des "observations"
+            for image in images:
+                habitat = choice(biomes)
+                Db().add_observation(choice(adherents), sci, habitat, image, date)
 
             # On genere les attributs
             for attr, elts in obs.items():
@@ -155,4 +206,5 @@ if __name__ == '__main__':
     # DataGen().fill_in_nichoirs()
     # DataGen().fill_in_biomes()
     # DataGen().gen_users()
-    asyncio.run(DataGen().gen_oiseaux())
+    # DataGen().gen_oiseaux()
+    # DataGen().gen_flore()

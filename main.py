@@ -57,6 +57,12 @@ def count_bioco():
     query = request.get_json()['query']
     return jsonify({'count':db.count_bioco(query)})
 
+@app.route('/species', methods=['POST'])
+def retrieve_species():
+    query = request.get_json()['query']
+    offset = request.get_json()['offset']
+    return jsonify(db.retrieve_species(query, offset))
+
 
 
 

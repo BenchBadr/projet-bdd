@@ -57,15 +57,20 @@ def get_obs(sci_name):
                     clean_data['taille'] = taille
 
                 lines = [line for line in data[key].split('\n') if line.strip()]
-                clean_data['desc'] = sample(lines, min(len(lines), 10))
+                clean_data['Description'] = sample(lines, min(len(lines), 10))
             
             if "habitat" in key.lower():
                 lines = [line for line in data[key].split('\n') if line.strip()]
-                clean_data['habitat'] = sample(lines, min(len(lines), 10))
+                clean_data['Habitat'] = sample(lines, min(len(lines), 10))
 
             if "reproduction" in key.lower():
                 lines = [line for line in data[key].split('\n') if line.strip()]
-                clean_data['reproduction'] = sample(lines, min(len(lines), 10))
+                clean_data['Reproduction'] = sample(lines, min(len(lines), 10))
+
+            else:
+                lines = [line for line in data[key].split('\n') if line.strip()]
+                clean_data[key] = sample(lines, min(len(lines), 10))
+                
 
                 
 

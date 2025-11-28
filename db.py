@@ -1,6 +1,7 @@
 import psycopg2
 import bcrypt
 
+
 class Db:
     def __init__(self):
         self.conn = psycopg2.connect(
@@ -132,13 +133,13 @@ class Db:
         return biome_list
     
 
-    def insert_animal(self, idEspece, nom, taille):
+    def insert_animal(self, idEspece, nom, taille, groupe):
         with self.conn.cursor() as cur:
             cur.execute(
                 """
-            INSERT INTO Etre_vivant (idEspece, nomEspece, taille)
-            VALUES (%s, %s, %s)
-            """, (idEspece, nom, taille)
+            INSERT INTO Etre_vivant (idEspece, nomEspece, taille, groupe)
+            VALUES (%s, %s, %s, %s)
+            """, (idEspece, nom, taille, groupe)
             )
 
     def add_animal_info(self, info_type, idEspece, auteur, contenu):
@@ -151,13 +152,13 @@ class Db:
                 )
 
 
-    def add_observation(self, num, idEspece, lieu, img):
+    def add_observation(self, num, idEspece, lieu, img, date):
         with self.conn.cursor() as cur:
                 cur.execute(
                     """
-                    INSERT INTO Observe (num, idEspece, lieu, img)
-                    VALUES (%s, %s, %s, %s)
-                    """, (num, idEspece, lieu, img)
+                    INSERT INTO Observe (num, idEspece, lieu, img, date)
+                    VALUES (%s, %s, %s, %s, %s)
+                    """, (num, idEspece, lieu, img, date)
                 )
 
 
@@ -274,17 +275,68 @@ class Db:
     def clear_animal(self):
         with self.conn.cursor() as cur:
             cur.execute("TRUNCATE TABLE Attribut, Observe, Etre_vivant CASCADE;")
-        print("Truncate animal data")
+        print("Suppression de tous les oiseaux")
+
+    def clear_flore(self):
+        with self.conn.cursor() as cur:
+            cur.execute("DELETE FROM Attribut WHERE idEspece IN (SELECT idEspece FROM Etre_vivant WHERE groupe != 'oiseaux');")
+            cur.execute("DELETE FROM Observe WHERE idEspece IN (SELECT idEspece FROM Etre_vivant WHERE groupe != 'oiseaux');")
+            cur.execute("DELETE FROM Etre_vivant WHERE groupe != 'oiseaux';")
+        print("Suppression de la flore")
+
+    def clear_oiseaux(self):
+        with self.conn.cursor() as cur:
+            cur.execute("DELETE FROM Attribut WHERE idEspece IN (SELECT idEspece FROM Etre_vivant WHERE groupe = 'oiseaux');")
+            cur.execute("DELETE FROM Observe WHERE idEspece IN (SELECT idEspece FROM Etre_vivant WHERE groupe = 'oiseaux');")
+            cur.execute("DELETE FROM Etre_vivant WHERE groupe = 'oiseaux';")
+        print("Suppression de la flore")
 
     def get_observations(self):
         with self.conn.cursor() as cur:
             cur.execute(
                 """
-                SELECT * FROM Observe
-                LIMIT 10
+                SELECT img
+                FROM Observe
+                WHERE img IS NOT NULL AND idEspece = 'Cygnus atratus'
+                ORDER BY date
+                LIMIT 2;
                 """
             )
             return cur.fetchall()
+        
+    def retrieve_species(self, query = '', offset = 0):
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT 
+                    DISTINCT ON (ev.idEspece)
+                    ev.idEspece as nom_sci, 
+                    ev.nomEspece as nom,    
+                    ev.groupe as groupe, 
+                    ev.taille as taille, 
+                    COUNT(o.lieu) AS habitatCount, 
+                    Oldest_img.img AS img FROM 
+                Etre_vivant AS ev
+                LEFT JOIN (
+                    SELECT
+                        DISTINCT
+                        o2.idEspece AS nom_sci, 
+                        o2.img,
+                        o2.date
+                    FROM Observe o2 
+                    WHERE o2.img IS NOT NULL
+                    ORDER BY o2.date
+                ) AS Oldest_img ON ev.idEspece = Oldest_img.nom_sci
+                JOIN Observe o ON ev.idEspece = o.idEspece
+                WHERE ev.nomEspece ILIKE %s OR ev.idEspece ILIKE %s
+                GROUP BY ev.idEspece, ev.nomEspece, ev.groupe, Oldest_img.img
+                LIMIT 9
+                OFFSET %s;
+                """, (f"%{query}%", offset,)
+            )
+            columns = [desc[0] for desc in cur.description]
+            print(columns)
+            return [dict(zip(columns, row)) for row in cur.fetchall()]
 
 
 
@@ -292,22 +344,16 @@ class Db:
                 
         
 
-    
+
 
 if __name__ == "__main__":
     db = Db()
 
     # 0 = nothing, 1 = reset, 2 = backup
-    reset = 0
-
-    if reset == 1:
-        db.run_action()
-        
-    if reset == 2:
-        db.clear_animal()
 
     print(db.count_bioco())
-    print(db.get_observations())
+    # print(db.get_observations())
+    print(db.retrieve_species())
 
 
 
