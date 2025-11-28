@@ -31,7 +31,7 @@ const Habitat = ({data}) => {
                 </div>
             </div>
 
-            <div className="see-more">
+            <div className="see-more" onClick={() => window.location.href = `/habitat/${data.idhabitat}`}>
                 <a>visibility</a>
                 {{
                     "fr":"En savoir plus",

@@ -64,10 +64,20 @@ def retrieve_species():
     return jsonify(db.retrieve_species(query, offset))
 
 
+@app.route('/sortie_full', methods=['POST'])
+def sortie_affichage():
+    pass
+
+@app.route('/habitat_full', methods=['POST'])
+def habitat_affichage():
+    id = request.get_json()['id']
+    return jsonify(db.get_habitat_full(id))
 
 
 
-@app.route('/get_themes')
+
+
+@app.route('/get_themes', methods=['POST'])
 def get_themes():
     return jsonify({'themes':db.get_themes()})
 

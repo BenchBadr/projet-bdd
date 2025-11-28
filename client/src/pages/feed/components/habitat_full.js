@@ -1,15 +1,15 @@
 import Md from "../../../util/markdown";
 import { useParams } from "react-router";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
-const SortieFull = () => {
+const HabitatFull = () => {
     const { id } = useParams();
-    const [data, setData] = setData(null);
+    const [data, setData] = useState(null);
 
 
     useEffect(() => {
-        fetch('/sortie_full', {
-            methods:'POST',
+        fetch('/habitat_full', {
+            method:'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
@@ -17,13 +17,16 @@ const SortieFull = () => {
         })
             .then(response => response.json())
             .then(data => setData(data))
+            .catch(error => console.error(error));
     }, [])
 
     console.log(data)
     return (
-        <></>
+        <>
+        <h1>HELLO</h1>
+        </>
     )
 }
 
-export default SortieFull;
+export default HabitatFull;
 

@@ -5,6 +5,8 @@ const Specie = ({data}) => {
 
     const { lang } = useContext(ThemeContext);
 
+    console.log(data)
+
     return (
         <div className="sortie">
             <div className="title">{data.nom}</div>

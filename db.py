@@ -346,7 +346,8 @@ class Db:
             cur.execute("INSERT INTO Statut (idStatut, libelle_statut) VALUES (5, 'Bureau')")
 
 
-
+    def get_habitat_full(self):
+        pass
 
                 
         
