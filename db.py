@@ -155,7 +155,7 @@ class Db:
         with self.conn.cursor() as cur:
                 cur.execute(
                     """
-                    INSERT INTO Attribut (num, idEspece, lieu, img)
+                    INSERT INTO Observe (num, idEspece, lieu, img)
                     VALUES (%s, %s, %s, %s)
                     """, (num, idEspece, lieu, img)
                 )
@@ -276,6 +276,16 @@ class Db:
             cur.execute("TRUNCATE TABLE Attribut, Observe, Etre_vivant CASCADE;")
         print("Truncate animal data")
 
+    def get_observations(self):
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT * FROM Observe
+                LIMIT 10
+                """
+            )
+            return cur.fetchall()
+
 
 
 
@@ -288,7 +298,7 @@ if __name__ == "__main__":
     db = Db()
 
     # 0 = nothing, 1 = reset, 2 = backup
-    reset = 2
+    reset = 0
 
     if reset == 1:
         db.run_action()
@@ -297,6 +307,7 @@ if __name__ == "__main__":
         db.clear_animal()
 
     print(db.count_bioco())
+    print(db.get_observations())
 
 
 

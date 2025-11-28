@@ -122,7 +122,7 @@ class DataGen:
                 continue
 
             taille = obs['taille'].replace(",", ".") if 'taille' in obs else None
-            images = obs['imgs'] if 'images' in obs else []
+            images = obs['imgs'] if 'imgs' in obs else []
 
             # On insere l'animal
             print(f"{i}. {nom} {sci} {taille}")
@@ -131,7 +131,7 @@ class DataGen:
 
             # On stocke toutes les images comme des "observations"
             for image in images:
-                if taille and int(taille) < 50:
+                if taille and float(taille) < 50:
                     habitat = choice(nichoirs)
                 else:
                     habitat = choice(biomes)

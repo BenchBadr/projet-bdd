@@ -1,121 +1,121 @@
-nom,sci
-Accenteur mouchet,Prunella modularis
-Aigrette garzette,Egretta garzetta
-Bergeronnette des ruisseaux,Motacilla cinerea
-Bergeronnette grise,Motacilla alba
-Bernache du Canada,Branta canadensis
-Blongios nain,Botaurus minutus
-Bondrée apivore,Pernis apivorus
-Bouvreuil pivoine,Pyrrhula pyrrhula
-Bruant des roseaux,Emberiza schoeniclus
-Buse variable,Buteo buteo
-Canard chipeau,Mareca strepera
-Canard colvert,Anas platyrhynchos
-Canard mandarin,Aix galericulata
-Canard souchet,Spatula clypeata
-Chardonneret élégant,Carduelis carduelis
-Chevalier guignette,Actitis hypoleucos
-Choucas des tours,Coloeus monedula
-Chouette hulotte,Strix aluco
-Cigogne blanche,Ciconia ciconia
-Corbeau freux,Corvus frugilegus
-Corneille noire,Corvus corone
-Coucou gris,Cuculus canorus
-Cygne noir,Cygnus atratus
-Cygne tuberculé,Cygnus olor
-Épervier d'Europe,Accipiter nisus
-Étourneau sansonnet,Sturnus vulgaris
-Faucon crécerelle,Falco tinnunculus
-Faucon hobereau,Falco subbuteo
-Fauvette à tête noire,Sylvia atricapilla
-Fauvette babillarde,Curruca curruca
-Fauvette des jardins,Sylvia borin
-Fauvette grisette,Curruca communis
-Foulque macroule,Fulica atra
-Fuligule milouin,Aythya ferina
-Fuligule morillon,Aythya fuligula
-Fuligule nyroca,Aythya nyroca
-Gallinule poule-d'eau,Gallinula chloropus
-Geai des chênes,Garrulus glandarius
-Gobemouche gris,Muscicapa striata
-Gobemouche noir,Ficedula hypoleuca
-Goéland argenté,Larus argentatus
-Goéland brun,Larus fuscus
-Goéland indéterminé,Larus sp.
-Grand Cormoran,Phalacrocorax carbo
-Grande Aigrette,Ardea alba
-Grèbe castagneux,Tachybaptus ruficollis
-Grèbe huppé,Podiceps cristatus
-Grimpereau des jardins,Certhia brachydactyla
-Grive draine,Turdus viscivorus
-Grive mauvis,Turdus iliacus
-Grive musicienne,Turdus philomelos
-Grosbec casse-noyaux,Coccothraustes coccothraustes
-Grue cendrée,Grus grus
-Héron cendré,Ardea cinerea
-Hirondelle de fenêtre,Delichon urbicum
-Hirondelle de rivage,Riparia riparia
-Hirondelle rustique,Hirundo rustica
-Hypolaïs polyglotte,Hippolais polyglotta
-Linotte mélodieuse,Linaria cannabina
-Loriot d'Europe,Oriolus oriolus
-Martin-pêcheur d'Europe,Alcedo atthis
-Martinet noir,Apus apus
-Merle / Grive indéterminé,Turdus sp.
-Merle noir,Turdus merula
-Mésange à longue queue,Aegithalos caudatus
-Mésange bleue,Cyanistes caeruleus
-Mésange boréale,Poecile montanus
-Mésange charbonnière,Parus major
-Mésange huppée,Lophophanes cristatus
-Mésange noire,Periparus ater
-Mésange nonnette,Poecile palustris
-Milan noir,Milvus migrans
-Moineau domestique,Passer domesticus
-Mouette mélanocéphale,Ichthyaetus melanocephalus
-Mouette rieuse,Chroicocephalus ridibundus
-Nette rousse,Netta rufina
-Oie à tête barrée,Anser indicus
-Ouette d'Égypte,Alopochen aegyptiaca
-Perruche à collier,Psittacula krameri
-Pic épeiche,Dendrocopos major
-Pic épeichette,Dryobates minor
-Pic mar,Dendrocoptes medius
-Pic noir,Dryocopus martius
-Pic vert,Picus viridis
-Pie bavarde,Pica pica
-Pigeon biset domestique,Columba livia f. domestica
-Pigeon colombin,Columba oenas
-Pigeon indéterminé,Columba sp.
-Pigeon ramier,Columba palumbus
-Pinson des arbres,Fringilla coelebs
-Pinson du Nord,Fringilla montifringilla
-Plongeon imbrin,Gavia immer
-Pouillot fitis,Phylloscopus trochilus
-Pouillot siffleur,Phylloscopus sibilatrix
-Pouillot véloce,Phylloscopus collybita
-Pouillot véloce (ssp. collybita),Phylloscopus collybita collybita
-Râle d'eau,Rallus aquaticus
-Rémiz penduline,Remiz pendulinus
-Roitelet à triple bandeau,Regulus ignicapilla
-Roitelet huppé,Regulus regulus
-Rossignol philomèle,Luscinia megarhynchos
-Rougegorge familier,Erithacus rubecula
-Rougequeue à front blanc,Phoenicurus phoenicurus
-Rougequeue noir,Phoenicurus ochruros
-Rousserolle effarvatte,Acrocephalus scirpaceus
-Rousserolle verderolle,Acrocephalus palustris
-Sarcelle d'été,Spatula querquedula
-Sarcelle d'hiver,Anas crecca
-Serin cini,Serinus serinus
-Sittelle torchepot,Sitta europaea
-Sizerin cabaret,Acanthis flammea cabaret
-Sizerin flammé / cabaret,Acanthis flammea flammea / cabaret
-Sterne indéterminée,Sternidae sp.
-Sterne pierregarin,Sterna hirundo
-Tarier pâtre,Saxicola rubicola
-Tarin des aulnes,Spinus spinus
-Tourterelle des bois,Streptopelia turtur
-Tourterelle turque,Streptopelia decaocto
-Troglodyte mignon,Troglodytes troglodytes
-Verdier d'Europe,Chloris chloris
+nom,sci,groupe
+Accenteur mouchet,Prunella modularis,oiseaux
+Aigrette garzette,Egretta garzetta,oiseaux
+Bergeronnette des ruisseaux,Motacilla cinerea,oiseaux
+Bergeronnette grise,Motacilla alba,oiseaux
+Bernache du Canada,Branta canadensis,oiseaux
+Blongios nain,Botaurus minutus,oiseaux
+Bondrée apivore,Pernis apivorus,oiseaux
+Bouvreuil pivoine,Pyrrhula pyrrhula,oiseaux
+Bruant des roseaux,Emberiza schoeniclus,oiseaux
+Buse variable,Buteo buteo,oiseaux
+Canard chipeau,Mareca strepera,oiseaux
+Canard colvert,Anas platyrhynchos,oiseaux
+Canard mandarin,Aix galericulata,oiseaux
+Canard souchet,Spatula clypeata,oiseaux
+Chardonneret élégant,Carduelis carduelis,oiseaux
+Chevalier guignette,Actitis hypoleucos,oiseaux
+Choucas des tours,Coloeus monedula,oiseaux
+Chouette hulotte,Strix aluco,oiseaux
+Cigogne blanche,Ciconia ciconia,oiseaux
+Corbeau freux,Corvus frugilegus,oiseaux
+Corneille noire,Corvus corone,oiseaux
+Coucou gris,Cuculus canorus,oiseaux
+Cygne noir,Cygnus atratus,oiseaux
+Cygne tuberculé,Cygnus olor,oiseaux
+Épervier d'Europe,Accipiter nisus,oiseaux
+Étourneau sansonnet,Sturnus vulgaris,oiseaux
+Faucon crécerelle,Falco tinnunculus,oiseaux
+Faucon hobereau,Falco subbuteo,oiseaux
+Fauvette à tête noire,Sylvia atricapilla,oiseaux
+Fauvette babillarde,Curruca curruca,oiseaux
+Fauvette des jardins,Sylvia borin,oiseaux
+Fauvette grisette,Curruca communis,oiseaux
+Foulque macroule,Fulica atra,oiseaux
+Fuligule milouin,Aythya ferina,oiseaux
+Fuligule morillon,Aythya fuligula,oiseaux
+Fuligule nyroca,Aythya nyroca,oiseaux
+Gallinule poule-d'eau,Gallinula chloropus,oiseaux
+Geai des chênes,Garrulus glandarius,oiseaux
+Gobemouche gris,Muscicapa striata,oiseaux
+Gobemouche noir,Ficedula hypoleuca,oiseaux
+Goéland argenté,Larus argentatus,oiseaux
+Goéland brun,Larus fuscus,oiseaux
+Goéland indéterminé,Larus sp.,oiseaux
+Grand Cormoran,Phalacrocorax carbo,oiseaux
+Grande Aigrette,Ardea alba,oiseaux
+Grèbe castagneux,Tachybaptus ruficollis,oiseaux
+Grèbe huppé,Podiceps cristatus,oiseaux
+Grimpereau des jardins,Certhia brachydactyla,oiseaux
+Grive draine,Turdus viscivorus,oiseaux
+Grive mauvis,Turdus iliacus,oiseaux
+Grive musicienne,Turdus philomelos,oiseaux
+Grosbec casse-noyaux,Coccothraustes coccothraustes,oiseaux
+Grue cendrée,Grus grus,oiseaux
+Héron cendré,Ardea cinerea,oiseaux
+Hirondelle de fenêtre,Delichon urbicum,oiseaux
+Hirondelle de rivage,Riparia riparia,oiseaux
+Hirondelle rustique,Hirundo rustica,oiseaux
+Hypolaïs polyglotte,Hippolais polyglotta,oiseaux
+Linotte mélodieuse,Linaria cannabina,oiseaux
+Loriot d'Europe,Oriolus oriolus,oiseaux
+Martin-pêcheur d'Europe,Alcedo atthis,oiseaux
+Martinet noir,Apus apus,oiseaux
+Merle / Grive indéterminé,Turdus sp.,oiseaux
+Merle noir,Turdus merula,oiseaux
+Mésange à longue queue,Aegithalos caudatus,oiseaux
+Mésange bleue,Cyanistes caeruleus,oiseaux
+Mésange boréale,Poecile montanus,oiseaux
+Mésange charbonnière,Parus major,oiseaux
+Mésange huppée,Lophophanes cristatus,oiseaux
+Mésange noire,Periparus ater,oiseaux
+Mésange nonnette,Poecile palustris,oiseaux
+Milan noir,Milvus migrans,oiseaux
+Moineau domestique,Passer domesticus,oiseaux
+Mouette mélanocéphale,Ichthyaetus melanocephalus,oiseaux
+Mouette rieuse,Chroicocephalus ridibundus,oiseaux
+Nette rousse,Netta rufina,oiseaux
+Oie à tête barrée,Anser indicus,oiseaux
+Ouette d'Égypte,Alopochen aegyptiaca,oiseaux
+Perruche à collier,Psittacula krameri,oiseaux
+Pic épeiche,Dendrocopos major,oiseaux
+Pic épeichette,Dryobates minor,oiseaux
+Pic mar,Dendrocoptes medius,oiseaux
+Pic noir,Dryocopus martius,oiseaux
+Pic vert,Picus viridis,oiseaux
+Pie bavarde,Pica pica,oiseaux
+Pigeon biset domestique,Columba livia f. domestica,oiseaux
+Pigeon colombin,Columba oenas,oiseaux
+Pigeon indéterminé,Columba sp.,oiseaux
+Pigeon ramier,Columba palumbus,oiseaux
+Pinson des arbres,Fringilla coelebs,oiseaux
+Pinson du Nord,Fringilla montifringilla,oiseaux
+Plongeon imbrin,Gavia immer,oiseaux
+Pouillot fitis,Phylloscopus trochilus,oiseaux
+Pouillot siffleur,Phylloscopus sibilatrix,oiseaux
+Pouillot véloce,Phylloscopus collybita,oiseaux
+Pouillot véloce (ssp. collybita),Phylloscopus collybita collybita,oiseaux
+Râle d'eau,Rallus aquaticus,oiseaux
+Rémiz penduline,Remiz pendulinus,oiseaux
+Roitelet à triple bandeau,Regulus ignicapilla,oiseaux
+Roitelet huppé,Regulus regulus,oiseaux
+Rossignol philomèle,Luscinia megarhynchos,oiseaux
+Rougegorge familier,Erithacus rubecula,oiseaux
+Rougequeue à front blanc,Phoenicurus phoenicurus,oiseaux
+Rougequeue noir,Phoenicurus ochruros,oiseaux
+Rousserolle effarvatte,Acrocephalus scirpaceus,oiseaux
+Rousserolle verderolle,Acrocephalus palustris,oiseaux
+Sarcelle d'été,Spatula querquedula,oiseaux
+Sarcelle d'hiver,Anas crecca,oiseaux
+Serin cini,Serinus serinus,oiseaux
+Sittelle torchepot,Sitta europaea,oiseaux
+Sizerin cabaret,Acanthis flammea cabaret,oiseaux
+Sizerin flammé / cabaret,Acanthis flammea flammea / cabaret,oiseaux
+Sterne indéterminée,Sternidae sp.,oiseaux
+Sterne pierregarin,Sterna hirundo,oiseaux
+Tarier pâtre,Saxicola rubicola,oiseaux
+Tarin des aulnes,Spinus spinus,oiseaux
+Tourterelle des bois,Streptopelia turtur,oiseaux
+Tourterelle turque,Streptopelia decaocto,oiseaux
+Troglodyte mignon,Troglodytes troglodytes,oiseaux
+Verdier d'Europe,Chloris chloris,oiseaux
