@@ -266,7 +266,7 @@ class Db:
             cur.execute("SELECT COUNT(idHabitat) FROM Habitat WHERE idHabitat IN (SELECT habitat FROM Info_Habitat WHERE type_info = 'statut_nichoir') AND nomHabitat ILIKE %s;", (f"%{query}%",))
             count_nichoirs = cur.fetchone()[0]
 
-            cur.execute("SELECT COUNT(idEspece) FROM Etre_vivant;")
+            cur.execute("SELECT COUNT(idEspece) FROM Etre_vivant WHERE nomEspece ILIKE %s;", (f"%{query}%",))
             count_vivant = cur.fetchone()[0]
 
             return (count_vivant, count_nichoirs, count_biomes - count_nichoirs)
