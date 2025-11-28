@@ -144,7 +144,7 @@ const Biocodex = () => {
                 </div>
 
                 {option === 0 && (
-                    <div className="search-filters">
+                    <div className="search-filters animal">
                         
                         <span>
 
@@ -185,7 +185,7 @@ const Biocodex = () => {
                 {pagesCount[option]>9 && <PagesFlow setPage={setPage} maxPages={Math.ceil(pagesCount[option]/9)} currentPage={page}/>}
             </div>}
 
-            {option === 0 && <div className="sortie-container habitat">
+            {option === 0 && <div className="sortie-container habitat animal">
                 {animals.map((animal) => (
                     <Specie data={animal}/>
                 ))}

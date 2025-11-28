@@ -186,4 +186,5 @@ INSERT INTO Statut (idStatut, libelle_statut) VALUES
   (1,'Étudiant'),
   (2,'Personnel universitaire'),
   (3,'Externe'),
-  (4,'Bénévole');
+  (4,'Bénévole'),
+  (5, 'Bureau');

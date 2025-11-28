@@ -328,15 +328,22 @@ class Db:
                     ORDER BY o2.date
                 ) AS Oldest_img ON ev.idEspece = Oldest_img.nom_sci
                 JOIN Observe o ON ev.idEspece = o.idEspece
-                WHERE ev.nomEspece ILIKE %s OR ev.idEspece ILIKE %s
+                WHERE 
+                    ev.nomEspece ILIKE %s OR 
+                    ev.idEspece ILIKE %s
                 GROUP BY ev.idEspece, ev.nomEspece, ev.groupe, Oldest_img.img
                 LIMIT 9
                 OFFSET %s;
-                """, (f"%{query}%", offset,)
+                """, (f"%{query}%", f"%{query}%", offset,)
             )
             columns = [desc[0] for desc in cur.description]
             print(columns)
             return [dict(zip(columns, row)) for row in cur.fetchall()]
+        
+
+    def add_status(self):
+        with self.conn.cursor() as cur:
+            cur.execute("INSERT INTO Statut (idStatut, libelle_statut) VALUES (5, 'Bureau')")
 
 
 
@@ -352,8 +359,6 @@ if __name__ == "__main__":
     # 0 = nothing, 1 = reset, 2 = backup
 
     print(db.count_bioco())
-    # print(db.get_observations())
-    print(db.retrieve_species())
 
 
 
