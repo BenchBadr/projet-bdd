@@ -1,5 +1,5 @@
-import { useContext } from "react";
-import ThemeContext from "../../../util/ThemeContext";
+import { useState, useEffect, useContext } from "react";import ThemeContext from "../../../util/ThemeContext";
+import { useParams } from "react-router";
 
 const Specie = ({data}) => {
 
@@ -26,7 +26,7 @@ const Specie = ({data}) => {
                 </div>
             </div>
 
-            <div className="see-more">
+            <div className="see-more" onClick={() => window.location.href=(`/animal/${data.nom_sci}`)}>
                 <a>visibility</a>
                 {{
                     "fr":"En savoir plus",

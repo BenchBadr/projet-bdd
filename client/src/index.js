@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router';
 import React, { StrictMode, useEffect, useState } from 'react';
 import Codex from './pages/codex/codex';
 import Feed from './pages/feed/feed';
+import Animal_full from './pages/feed/components/animal_full';
 
 const Redirect = ({url}) => {
   useEffect(() => {
@@ -28,6 +29,10 @@ const routes = [
   {
     path:'/feed',
     element:<ToExport><Feed/></ToExport>
+  },
+  {
+    path:'/animal/:id',
+    element:<ToExport><Animal_full/></ToExport>
   }
 ];
 
