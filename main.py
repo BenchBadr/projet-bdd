@@ -64,11 +64,6 @@ def retrieve_species():
     hab = request.get_json()['habitat']
     return jsonify(db.retrieve_species(query, offset, grp, hab))
 
-@app.route('/animal_full', methods=['POST'])
-def animal_full():
-    id = request.get_json()['id']
-    return jsonify({'animal' : db.animal_full(id)})
-
 
 @app.route('/nichoirs', methods=['POST'])
 def get_nichoirs():
@@ -92,6 +87,15 @@ def habitat_affichage():
     id = request.get_json()['id']
     return jsonify(db.get_habitat_full(id))
 
+@app.route('/animal_full', methods=['POST'])
+def animal_full():
+    id = request.get_json()['id']
+    return jsonify({'animal' : db.animal_full(id)})
+
+@app.route('/profil_full', methods=['POST'])
+def profil_full():
+    id = request.get_json()['id']
+    return jsonify({'profil' : db.get_profil_full(id)})
 # ----------------------------------------------
 # Pour les dropdowns (deroulantes)
 

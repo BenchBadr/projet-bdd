@@ -255,6 +255,22 @@ class Db:
             )
             users = cur.fetchall()
         return users
+    
+    def get_profil_full(self, id = ''):
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT idProfil, prenom, nom, count(participe.IdSortie) AS participations, sum(participe.distance_km) AS km_parcourus
+                FROM Profil p NATURAL JOIN (
+                SELECT * FROM Sortie NATURAL JOIN inscription i
+                WHERE i.num = p.num
+                ) AS participe 
+                WHERE idProfil = %s
+                ;
+                """, (id,))
+
+            info_profil = cur.fetchall()
+        return info_profil
 
     
 
@@ -408,7 +424,7 @@ if __name__ == "__main__":
     db = Db()
 
     # 0 = nothing, 1 = reset, 2 = backup
-    
+    print(db.get_profil_full('georges.bertrand33'))
     print(db.count_bioco())
     print(db.get_habitat_full(73))
 

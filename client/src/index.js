@@ -10,6 +10,7 @@ import Feed from './pages/feed/feed';
 import Animal_full from './pages/feed/components/animal_full';
 import SortieFull from './pages/feed/components/sortie_full';
 import HabitatFull from './pages/feed/components/habitat_full';
+import ProfilFull from './pages/feed/components/profil_full';
 
 const Redirect = ({url}) => {
   useEffect(() => {
@@ -31,6 +32,10 @@ const routes = [
   {
     path:'/animal/:id',
     element:<ToExport><Animal_full/></ToExport>
+  },
+  {
+    path:'/profil/:id',
+    element:<ToExport><ProfilFull/></ToExport>
   },
   {
     path:'/habitat/:id',
