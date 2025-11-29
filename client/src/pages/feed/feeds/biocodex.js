@@ -4,7 +4,7 @@ import ThemeContext from "../../../util/ThemeContext";
 import Specie from "../components/animal";
 
 
-const PagesFlow = ({currentPage, maxPages, setPage}) => {
+export const PagesFlow = ({currentPage, maxPages, setPage}) => {
     return (
         <div className="pages-display">
             {currentPage != 0 ? <div className="arrow"
@@ -58,14 +58,13 @@ const Biocodex = () => {
             setAnimals([]);
             setNichoirs([]);
             setBiomes([]);
-            setPage(0);
 
             fetch('/count_bioco', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({ query:searchTerm, grp_anim:groupFilt })
+                    body: JSON.stringify({ query:searchTerm, grp_anim:groupFilt, hab:'0' })
                 })
                 .then(response => response.json())
                 .then(data => setPagesCount(data.count))
@@ -90,7 +89,7 @@ const Biocodex = () => {
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({ offset: page * 9, query:searchTerm, grp:groupFilt })
+                    body: JSON.stringify({ offset: page * 9, query:searchTerm, grp:groupFilt, habitat:'0' })
                 })
                 .then(response => response.json())
                 .then(data => setAnimals(data))

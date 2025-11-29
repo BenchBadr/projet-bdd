@@ -1,3 +1,5 @@
+
+
 const MapPreview = ({ coords, zoom = 14 }) => {
 
 const [coord_x, coord_y] = coords.split(',').map(s => parseFloat(s.trim()));
@@ -25,5 +27,7 @@ const [coord_x, coord_y] = coords.split(',').map(s => parseFloat(s.trim()));
     </div>
     );
 };
+
+
 
 export default MapPreview;

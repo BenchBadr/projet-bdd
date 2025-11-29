@@ -258,7 +258,7 @@ class Db:
                 (idProfil,statut)
             )
 
-    def count_bioco(self, query = '', grp_anim = ''):
+    def count_bioco(self, query = '', grp_anim = '', hab = '0'):
         with self.conn.cursor() as cur:
             cur.execute("SELECT COUNT(idHabitat) FROM Habitat WHERE nomHabitat ILIKE %s;", (f"%{query}%",))
             count_biomes = cur.fetchone()[0]
@@ -266,7 +266,10 @@ class Db:
             cur.execute("SELECT COUNT(idHabitat) FROM Habitat WHERE idHabitat IN (SELECT habitat FROM Info_Habitat WHERE type_info = 'statut_nichoir') AND nomHabitat ILIKE %s;", (f"%{query}%",))
             count_nichoirs = cur.fetchone()[0]
 
-            cur.execute("SELECT COUNT(idEspece) FROM Etre_vivant WHERE nomEspece ILIKE %s AND groupe ILIKE %s;", (f"%{query}%",f"%{grp_anim}%"))
+            if hab == '0':
+                cur.execute("SELECT COUNT(idEspece) FROM Etre_vivant WHERE nomEspece ILIKE %s AND groupe ILIKE %s;", (f"%{query}%",f"%{grp_anim}%"))
+            else:
+                cur.execute("SELECT COUNT(DISTINCT Etre_vivant.idEspece) FROM Etre_vivant NATURAL JOIN Observe WHERE Etre_vivant.nomEspece ILIKE %s AND Etre_vivant.groupe ILIKE %s AND lieu = %s;", (f"%{query}%",f"%{grp_anim}%", hab,))
             count_vivant = cur.fetchone()[0]
 
             return (count_vivant, count_nichoirs, count_biomes - count_nichoirs)
@@ -304,7 +307,7 @@ class Db:
             )
             return cur.fetchall()
         
-    def retrieve_species(self, query = '', offset = 0, groupe = ''):
+    def retrieve_species(self, query = '', offset = 0, groupe = '', habitat = 0):
         with self.conn.cursor() as cur:
             cur.execute(
                 """
@@ -332,10 +335,11 @@ class Db:
                     (ev.nomEspece ILIKE %s OR 
                     ev.idEspece ILIKE %s)
                     AND ev.groupe ILIKE %s
+                    AND (%s = 0 OR o.lieu = %s)
                 GROUP BY ev.idEspece, ev.nomEspece, ev.groupe, Oldest_img.img
                 LIMIT 9
                 OFFSET %s;
-                """, (f"%{query}%", f"%{query}%", f"%{groupe}%",  offset,)
+                """, (f"%{query}%", f"%{query}%", f"%{groupe}%", habitat, habitat, offset)
             )
             columns = [desc[0] for desc in cur.description]
             print(columns)
@@ -344,7 +348,7 @@ class Db:
 
     def get_group_tax(self):
         with self.conn.cursor() as cur:
-            cur.execute("SELECT DISTINCT groupe FROM etre_vivant;")
+            cur.execute("SELECT DISTINCT groupe FROM etre_vivant ORDER BY groupe;")
             grps = [grp[0] for grp in cur.fetchall()]
         return grps
         
@@ -355,12 +359,31 @@ class Db:
             cur.execute("INSERT INTO Statut (idStatut, libelle_statut) VALUES (5, 'Bureau')")
 
 
-    def get_habitat_full(self):
+    def get_habitat_full(self, id):
         with self.conn.cursor() as cur:
             cur.execute("""
-            SELECT (num, statut, xp) 
-            FROM Adherent
-            """)
+            SELECT h.IdHabitat, h.nomHabitat, h.coords, COUNT(observe.idEspece) AS nb_espece, COUNT(observe.num) AS nb_pers, COUNT(observe.img) AS nb_images
+                FROM Habitat h
+                LEFT JOIN Observe ON observe.lieu = h.idHabitat
+                WHERE h.idHabitat = %s
+                GROUP BY h.idHabitat;
+            """, (id,))
+            columns = [desc[0] for desc in cur.description]
+            general_info = [dict(zip(columns, row)) for row in cur.fetchall()][0]
+
+
+            cur.execute("""
+                SELECT DISTINCT P.idProfil, P.nom, P.prenom, A.XP FROM
+                Observe O
+                        NATURAL JOIN Adherent A
+                        NATURAL JOIN Profil P
+                WHERE O.lieu = %s;
+            """, (id,))
+            columns = [desc[0] for desc in cur.description]
+            print(columns)
+            profiles = [dict(zip(columns, row)) for row in cur.fetchall()]
+
+        return general_info, profiles
 
                 
         
@@ -373,6 +396,7 @@ if __name__ == "__main__":
     # 0 = nothing, 1 = reset, 2 = backup
 
     print(db.count_bioco())
+    print(db.get_habitat_full(73))
 
 
 

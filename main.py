@@ -39,10 +39,6 @@ def get_sorties():
 def sortie_affichage():
     pass
 
-@app.route('/habitat_full', methods=['POST'])
-def habitat_affichage():
-    id = request.get_json()['id']
-    return jsonify(db.get_habitat_full(id))
 
 
 
@@ -56,7 +52,8 @@ def count_bioco():
     '''
     query = request.get_json()['query']
     grp_animal = request.get_json()['grp_anim']
-    return jsonify({'count':db.count_bioco(query, grp_animal)})
+    hab = request.get_json()['hab']
+    return jsonify({'count':db.count_bioco(query, grp_animal, hab)})
 
 
 @app.route('/species', methods=['POST'])
@@ -64,7 +61,8 @@ def retrieve_species():
     query = request.get_json()['query']
     offset = request.get_json()['offset']
     grp = request.get_json()['grp']
-    return jsonify(db.retrieve_species(query, offset, grp))
+    hab = request.get_json()['habitat']
+    return jsonify(db.retrieve_species(query, offset, grp, hab))
 
 
 @app.route('/nichoirs', methods=['POST'])
@@ -79,6 +77,15 @@ def get_biomes():
     offset = request.get_json()['offset']
     query = request.get_json()['query']
     return jsonify(db.get_biomes(query, offset))
+
+
+# ----------------------------------------------
+# Sous-pages complètes du biocodex
+
+@app.route('/habitat_full', methods=['POST'])
+def habitat_affichage():
+    id = request.get_json()['id']
+    return jsonify(db.get_habitat_full(id))
 
 # ----------------------------------------------
 # Pour les dropdowns (deroulantes)
