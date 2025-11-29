@@ -258,7 +258,7 @@ class Db:
                 (idProfil,statut)
             )
 
-    def count_bioco(self, query = ''):
+    def count_bioco(self, query = '', grp_anim = ''):
         with self.conn.cursor() as cur:
             cur.execute("SELECT COUNT(idHabitat) FROM Habitat WHERE nomHabitat ILIKE %s;", (f"%{query}%",))
             count_biomes = cur.fetchone()[0]
@@ -266,7 +266,7 @@ class Db:
             cur.execute("SELECT COUNT(idHabitat) FROM Habitat WHERE idHabitat IN (SELECT habitat FROM Info_Habitat WHERE type_info = 'statut_nichoir') AND nomHabitat ILIKE %s;", (f"%{query}%",))
             count_nichoirs = cur.fetchone()[0]
 
-            cur.execute("SELECT COUNT(idEspece) FROM Etre_vivant WHERE nomEspece ILIKE %s;", (f"%{query}%",))
+            cur.execute("SELECT COUNT(idEspece) FROM Etre_vivant WHERE nomEspece ILIKE %s AND groupe ILIKE %s;", (f"%{query}%",f"%{grp_anim}%"))
             count_vivant = cur.fetchone()[0]
 
             return (count_vivant, count_nichoirs, count_biomes - count_nichoirs)
@@ -304,7 +304,7 @@ class Db:
             )
             return cur.fetchall()
         
-    def retrieve_species(self, query = '', offset = 0):
+    def retrieve_species(self, query = '', offset = 0, groupe = ''):
         with self.conn.cursor() as cur:
             cur.execute(
                 """
@@ -329,16 +329,25 @@ class Db:
                 ) AS Oldest_img ON ev.idEspece = Oldest_img.nom_sci
                 JOIN Observe o ON ev.idEspece = o.idEspece
                 WHERE 
-                    ev.nomEspece ILIKE %s OR 
-                    ev.idEspece ILIKE %s
+                    (ev.nomEspece ILIKE %s OR 
+                    ev.idEspece ILIKE %s)
+                    AND ev.groupe ILIKE %s
                 GROUP BY ev.idEspece, ev.nomEspece, ev.groupe, Oldest_img.img
                 LIMIT 9
                 OFFSET %s;
-                """, (f"%{query}%", f"%{query}%", offset,)
+                """, (f"%{query}%", f"%{query}%", f"%{groupe}%",  offset,)
             )
             columns = [desc[0] for desc in cur.description]
             print(columns)
             return [dict(zip(columns, row)) for row in cur.fetchall()]
+        
+
+    def get_group_tax(self):
+        with self.conn.cursor() as cur:
+            cur.execute("SELECT DISTINCT groupe FROM etre_vivant;")
+            grps = [grp[0] for grp in cur.fetchall()]
+        return grps
+        
         
 
     def add_status(self):
@@ -347,7 +356,11 @@ class Db:
 
 
     def get_habitat_full(self):
-        pass
+        with self.conn.cursor() as cur:
+            cur.execute("""
+            SELECT (num, statut, xp) 
+            FROM Adherent
+            """)
 
                 
         

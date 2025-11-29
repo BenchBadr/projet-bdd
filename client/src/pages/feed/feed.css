@@ -170,6 +170,8 @@ html:has(.main-container) {
     padding:10px;
     box-shadow: 0 2px 8px rgba(60, 60, 120, 0.06), 0 1px 4px rgba(30, 30, 60, 0.08);
     position:relative;
+    display: flex;
+    flex-direction: column;
 
     padding-bottom:2em;
 
@@ -196,21 +198,23 @@ html:has(.main-container) {
     }
 
     .bottom-info {
-        /* position:absolute; */
-        bottom:0;
-        width:100%;
-        left:0;
+        align-items: center;
+        justify-content: center;
+        padding:1em;
+        gap: 0.5em;
+        text-align: center;
     }
 
     .icons {
         width:100%;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
         margin-bottom:1em;
         gap:1em;
 
         span {
             display: flex;
+            align-items: center;
 
             a {
                 font-family: Material Icons;
@@ -283,6 +287,7 @@ html:has(.main-container) {
     &.animal {
         padding-top:9em;
         max-height:calc(100vh - 17em);
+
     }
 }
 
@@ -361,6 +366,9 @@ html:has(.main-container) {
         &.animal {
             border-radius: 1rem;
             width:calc(100% - 1em);
+            display: flex;
+            justify-content: center;
+            padding:.3em !important;
         }
     }    
 
@@ -377,7 +385,6 @@ html:has(.main-container) {
 .search-filters > span {
     display: flex;
     align-items: center;
-    margin-bottom:.5em;
 
     & > a {
         margin-right:.5em;
