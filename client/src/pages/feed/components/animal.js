@@ -5,12 +5,13 @@ const Specie = ({data}) => {
 
     const { lang } = useContext(ThemeContext);
 
+
     return (
         <div className="sortie">
             <div className="title">{data.nom}</div>
             <div className="theme">{data.nom_sci}</div>
 
-            <img src={data.img} className="img-specie"/>
+            <img src={data.img+'?width=512'} className="img-specie"/>
 
             <div className="bottom-info">
                 <div className="icons">
@@ -22,6 +23,11 @@ const Specie = ({data}) => {
                             "en":"Habitat"
                         }[lang]} 
                         {data.habitatcount > 1 && 's'}
+                    </span>
+
+                    <span>
+                        <a>class</a>
+                        <span style={{marginRight:'.5em'}}>{data.groupe}</span>
                     </span>
                 </div>
             </div>

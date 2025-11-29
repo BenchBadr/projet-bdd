@@ -8,6 +8,8 @@ import React, { StrictMode, useEffect, useState } from 'react';
 import Codex from './pages/codex/codex';
 import Feed from './pages/feed/feed';
 import Animal_full from './pages/feed/components/animal_full';
+import SortieFull from './pages/feed/components/sortie_full';
+import HabitatFull from './pages/feed/components/habitat_full';
 
 const Redirect = ({url}) => {
   useEffect(() => {
@@ -23,16 +25,16 @@ const routes = [
     element: <ToExport><Homepage/></ToExport>
   },
   {
-    path:'/codex',
-    element: <ToExport><Codex/></ToExport>
-  },
-  {
     path:'/feed',
     element:<ToExport><Feed/></ToExport>
   },
   {
     path:'/animal/:id',
     element:<ToExport><Animal_full/></ToExport>
+  },
+  {
+    path:'/habitat/:id',
+    element:<ToExport><HabitatFull/></ToExport>
   }
 ];
 

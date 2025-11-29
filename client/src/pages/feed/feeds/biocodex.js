@@ -4,7 +4,7 @@ import ThemeContext from "../../../util/ThemeContext";
 import Specie from "../components/animal";
 
 
-const PagesFlow = ({currentPage, maxPages, setPage}) => {
+export const PagesFlow = ({currentPage, maxPages, setPage}) => {
     return (
         <div className="pages-display">
             {currentPage != 0 ? <div className="arrow"
@@ -48,12 +48,23 @@ const Biocodex = () => {
     const { lang } = useContext(ThemeContext);
 
     useEffect(() => {
+        // Recuperer les differents grp pour filtrer
+        fetch('/get_grps')
+        .then(response => response.json())
+        .then(data => setGroups(data.grps))
+    }, [])
+
+    useEffect(() => {
+            setAnimals([]);
+            setNichoirs([]);
+            setBiomes([]);
+
             fetch('/count_bioco', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({ query:searchTerm })
+                    body: JSON.stringify({ query:searchTerm, grp_anim:groupFilt, hab:'0' })
                 })
                 .then(response => response.json())
                 .then(data => setPagesCount(data.count))
@@ -78,7 +89,7 @@ const Biocodex = () => {
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({ offset: page * 9, query:searchTerm })
+                    body: JSON.stringify({ offset: page * 9, query:searchTerm, grp:groupFilt, habitat:'0' })
                 })
                 .then(response => response.json())
                 .then(data => setAnimals(data))
@@ -97,11 +108,11 @@ const Biocodex = () => {
                     .then(data => setBiomes(data))
                     .catch(error => console.error(error));
             }
-        }, [page, option,searchTerm])
+        }, [page, option,searchTerm, groupFilt])
 
     useEffect(() => {setPage(0);setSearchTerm('')}, [option])
 
-    console.log(animals)
+    console.log(groupFilt)
 
 
 
@@ -149,8 +160,8 @@ const Biocodex = () => {
                         <span>
 
                             <a>{{
-                                'fr':'Thèmes',
-                                'en':'Themes'
+                                'fr':'Groupe taxomonique',
+                                'en':'Taxomonic group'
                             }[lang]} : </a>
 
                             {groups && (
