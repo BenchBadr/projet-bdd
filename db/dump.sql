@@ -7493,304 +7493,304 @@ COPY public.attribut (idatt, type_att, idespece, auteur, contenu) FROM stdin;
 
 COPY public.coordonnees (idcoord, profil, type_coord, coordonnee) FROM stdin;
 1	pruvostf	mail	pruvost.françoise@ifrance.com
-2	pruvostf	addr	11, boulevard Mahe\n30781 Fernandes
+2	pruvostf	addr	11, boulevard Mahe030781 Fernandes
 3	pruvostf	tel	+33 (0)1 80 35 98 86
 4	virginie.alexandre	mail	alexandre.virginie@tele2.fr
-5	virginie.alexandre	addr	50, chemin Vallée\n77932 Bertrand
+5	virginie.alexandre	addr	50, chemin Vallée077932 Bertrand
 6	virginie.alexandre	tel	+33 7 69 44 52 76
 7	georges.bertrand33	mail	georges.bertrand@tele2.fr
-8	georges.bertrand33	addr	40, chemin Wagner\n48396 Coulon
+8	georges.bertrand33	addr	40, chemin Wagner048396 Coulon
 9	georges.bertrand33	tel	02 79 50 44 27
 10	costa_adele	mail	costa.adèle@voila.fr
-11	costa_adele	addr	avenue Guérin\n03396 Robert
+11	costa_adele	addr	avenue Guérin003396 Robert
 12	costa_adele	tel	0366442701
 13	baillya	mail	bailly.agathe@tele2.fr
-14	baillya	addr	18, avenue Bonnin\n34394 Lopez
+14	baillya	addr	18, avenue Bonnin034394 Lopez
 15	baillya	tel	+33 (0)2 23 47 40 46
 16	guilloul	mail	guillou.laure@gmail.com
-17	guilloul	addr	37, boulevard Besson\n29906 Gauthier
+17	guilloul	addr	37, boulevard Besson029906 Gauthier
 18	guilloul	tel	+33 (0)4 15 43 15 64
 19	masse_oceane	mail	masse.océane@orange.fr
-20	masse_oceane	addr	7, rue de Cousin\n51266 Giraud-sur-Mer
+20	masse_oceane	addr	7, rue de Cousin051266 Giraud-sur-Mer
 21	masse_oceane	tel	+33 (0)2 79 51 74 80
 22	raynauda	mail	raynaud.antoinette@dbmail.com
-23	raynauda	addr	69, avenue de Richard\n09330 Delaunay
+23	raynauda	addr	69, avenue de Richard009330 Delaunay
 24	raynauda	tel	05 49 07 11 59
 25	legendre_penelope	mail	legendre.pénélope@orange.fr
-26	legendre_penelope	addr	227, boulevard Barthelemy\n91411 Pons-sur-Mer
+26	legendre_penelope	addr	227, boulevard Barthelemy091411 Pons-sur-Mer
 27	legendre_penelope	tel	04 38 17 42 26
 28	albert_etienne	mail	albert.étienne@wanadoo.fr
-29	albert_etienne	addr	77, rue Becker\n63345 HardyBourg
+29	albert_etienne	addr	77, rue Becker063345 HardyBourg
 30	albert_etienne	tel	+33 3 70 03 43 20
 31	gomez.jean70	mail	gomez.jean@gmail.com
-32	gomez.jean70	addr	75, rue Théodore Normand\n66532 Gimenez
+32	gomez.jean70	addr	75, rue Théodore Normand066532 Gimenez
 33	gomez.jean70	tel	+33 4 49 83 88 30
 34	nicolas.daniel75	mail	nicolas.daniel@free.fr
-35	nicolas.daniel75	addr	chemin Pires\n01180 Sainte LéonBourg
+35	nicolas.daniel75	addr	chemin Pires001180 Sainte LéonBourg
 36	nicolas.daniel75	tel	01 79 36 49 03
 37	thierryz	mail	thierry.zacharie@tele2.fr
-38	thierryz	addr	73, rue Guillaume\n44183 Evrard
+38	thierryz	addr	73, rue Guillaume044183 Evrard
 39	thierryz	tel	0241433563
 40	ferrand_suzanne	mail	ferrand.suzanne@laposte.net
-41	ferrand_suzanne	addr	62, rue Stéphanie Delorme\n81930 Regnier
+41	ferrand_suzanne	addr	62, rue Stéphanie Delorme081930 Regnier
 42	ferrand_suzanne	tel	0443465762
 43	b_thierry	mail	bazin.thierry@free.fr
-44	b_thierry	addr	43, rue Élise Renaud\n74102 Allain
+44	b_thierry	addr	43, rue Élise Renaud074102 Allain
 45	b_thierry	tel	+33 3 10 88 13 00
 46	l_nicole	mail	le gall.nicole@noos.fr
-47	l_nicole	addr	chemin de Vaillant\n03216 Robin-sur-Langlois
+47	l_nicole	addr	chemin de Vaillant003216 Robin-sur-Langlois
 48	l_nicole	tel	06 75 85 05 90
 49	delannoy_emilie	mail	delannoy.émilie@yahoo.fr
-50	delannoy_emilie	addr	6, rue Moreau\n08855 Lebrun
+50	delannoy_emilie	addr	6, rue Moreau008855 Lebrun
 51	delannoy_emilie	tel	0772919444
 52	carre_stephane	mail	carre.stéphane@voila.fr
-53	carre_stephane	addr	389, rue Schneider\n67232 Sainte Chantal
+53	carre_stephane	addr	389, rue Schneider067232 Sainte Chantal
 54	carre_stephane	tel	01 69 70 05 64
 55	suzanne.blot	mail	blot.suzanne@tiscali.fr
-56	suzanne.blot	addr	11, chemin Charles Carlier\n40849 Saint Luc
+56	suzanne.blot	addr	11, chemin Charles Carlier040849 Saint Luc
 57	suzanne.blot	tel	+33 (0)5 17 74 75 77
 58	remy.delahaye	mail	delahaye.rémy@hotmail.fr
-59	remy.delahaye	addr	32, rue Richard\n41334 Vaillant
+59	remy.delahaye	addr	32, rue Richard041334 Vaillant
 60	remy.delahaye	tel	+33 2 77 46 09 80
 61	blanchet.dominique40	mail	blanchet.dominique@tiscali.fr
-62	blanchet.dominique40	addr	12, avenue Margaret Weiss\n09961 Hamonnec
+62	blanchet.dominique40	addr	12, avenue Margaret Weiss009961 Hamonnec
 63	blanchet.dominique40	tel	+33 (0)5 57 06 13 36
 64	maurice.fabre	mail	fabre.maurice@tiscali.fr
-65	maurice.fabre	addr	11, chemin de Lelièvre\n41301 Saint Arthur-la-Forêt
+65	maurice.fabre	addr	11, chemin de Lelièvre041301 Saint Arthur-la-Forêt
 66	maurice.fabre	tel	+33 2 34 84 15 78
 67	l_lucie	mail	lefort.lucie@tele2.fr
-68	l_lucie	addr	23, rue de Techer\n10578 Hardy
+68	l_lucie	addr	23, rue de Techer010578 Hardy
 69	l_lucie	tel	+33 (0)2 50 41 21 36
 70	gimenez.robert60	mail	gimenez.robert@sfr.fr
-71	gimenez.robert60	addr	735, rue Agathe Dos Santos\n38193 Hebert
+71	gimenez.robert60	addr	735, rue Agathe Dos Santos038193 Hebert
 72	gimenez.robert60	tel	+33 4 81 81 39 13
 73	leroux_eugene	mail	le roux.eugène@club-internet.fr
-74	leroux_eugene	addr	35, rue Hugues Le Roux\n30521 Mercierboeuf
+74	leroux_eugene	addr	35, rue Hugues Le Roux030521 Mercierboeuf
 75	leroux_eugene	tel	+33 4 74 59 71 19
 76	maggie.voisin	mail	voisin.maggie@club-internet.fr
-77	maggie.voisin	addr	10, rue de Lombard\n79302 Charlesdan
+77	maggie.voisin	addr	10, rue de Lombard079302 Charlesdan
 78	maggie.voisin	tel	03 64 27 07 67
 79	m_jeanne	mail	muller.jeanne@bouygtel.fr
-80	m_jeanne	addr	314, rue Rousset\n29283 Saint Élise
+80	m_jeanne	addr	314, rue Rousset029283 Saint Élise
 81	m_jeanne	tel	04 73 13 99 18
 82	perond	mail	peron.daniel@ifrance.com
-83	perond	addr	31, rue Tristan Leclercq\n87250 Guyon-sur-Becker
+83	perond	addr	31, rue Tristan Leclercq087250 Guyon-sur-Becker
 84	perond	tel	+33 5 79 83 74 70
 85	georges.gauthier	mail	gauthier.georges@club-internet.fr
-86	georges.gauthier	addr	chemin de Lecoq\n74980 Lemonnierboeuf
+86	georges.gauthier	addr	chemin de Lecoq074980 Lemonnierboeuf
 87	georges.gauthier	tel	+33 (0)5 24 97 51 81
 88	b_michelle	mail	bourgeois.michelle@voila.fr
-89	b_michelle	addr	39, chemin de Delannoy\n82576 Fournier-sur-Pelletier
+89	b_michelle	addr	39, chemin de Delannoy082576 Fournier-sur-Pelletier
 90	b_michelle	tel	02 40 41 25 66
 91	adrienne.marie	mail	marie.adrienne@dbmail.com
-92	adrienne.marie	addr	94, chemin Margaud Chevallier\n90786 Garnier
+92	adrienne.marie	addr	94, chemin Margaud Chevallier090786 Garnier
 93	adrienne.marie	tel	0144440954
 94	lefebvre.daniel59	mail	lefebvre.daniel@bouygtel.fr
-95	lefebvre.daniel59	addr	977, rue de Carpentier\n75486 Bodin
+95	lefebvre.daniel59	addr	977, rue de Carpentier075486 Bodin
 96	lefebvre.daniel59	tel	+33 6 95 43 93 48
 97	lebretond	mail	lebreton.diane@noos.fr
-98	lebretond	addr	85, boulevard de Bourdon\n07534 Rémy-sur-Martinez
+98	lebretond	addr	85, boulevard de Bourdon007534 Rémy-sur-Martinez
 99	lebretond	tel	+33 4 85 54 42 22
 100	benoitm	mail	benoit.marianne@orange.fr
-101	benoitm	addr	35, rue Lacroix\n57597 Vidal
+101	benoitm	addr	35, rue Lacroix057597 Vidal
 102	benoitm	tel	0379543882
 103	maurice.letellier	mail	letellier.maurice@wanadoo.fr
-104	maurice.letellier	addr	55, avenue de Masse\n97344 BoyerBourg
+104	maurice.letellier	addr	55, avenue de Masse097344 BoyerBourg
 105	maurice.letellier	tel	0516811082
 106	b_marianne	mail	bertin.marianne@yahoo.fr
-107	b_marianne	addr	8, rue Rolland\n25381 Legrand
+107	b_marianne	addr	8, rue Rolland025381 Legrand
 108	b_marianne	tel	+33 2 23 53 95 53
 109	dossantos.constance64	mail	dos santos.constance@laposte.net
-110	dossantos.constance64	addr	3, rue Georges Maury\n51363 Gay
+110	dossantos.constance64	addr	3, rue Georges Maury051363 Gay
 111	dossantos.constance64	tel	+33 (0)4 77 11 75 84
 112	godard_michelle	mail	godard.michelle@orange.fr
-113	godard_michelle	addr	boulevard Martin Le Roux\n55296 Saint Philippe-les-Bains
+113	godard_michelle	addr	boulevard Martin Le Roux055296 Saint Philippe-les-Bains
 114	godard_michelle	tel	+33 2 33 41 87 75
 115	robin_martine	mail	robin.martine@live.com
-116	robin_martine	addr	92, avenue Legros\n16805 Sainte Timothée
+116	robin_martine	addr	92, avenue Legros016805 Sainte Timothée
 117	robin_martine	tel	+33 (0)4 98 47 68 52
 118	p_paul	mail	pereira.paul@tiscali.fr
-119	p_paul	addr	392, rue Lopez\n59845 Moulin
+119	p_paul	addr	392, rue Lopez059845 Moulin
 120	p_paul	tel	+33 (0)4 73 99 22 67
 121	barbes	mail	barbe.susan@gmail.com
-122	barbes	addr	boulevard Stéphanie Vaillant\n52914 PerretBourg
+122	barbes	addr	boulevard Stéphanie Vaillant052914 PerretBourg
 123	barbes	tel	+33 (0)4 15 72 17 39
 124	p_laetitia	mail	pelletier.laetitia@voila.fr
-125	p_laetitia	addr	avenue Émile Boulay\n40789 Weiss-sur-Loiseau
+125	p_laetitia	addr	avenue Émile Boulay040789 Weiss-sur-Loiseau
 126	p_laetitia	tel	+33 2 28 39 72 07
 127	lemoine.isaac91	mail	lemoine.isaac@tele2.fr
-128	lemoine.isaac91	addr	980, chemin Corinne Delmas\n04119 Descamps-sur-Rossi
+128	lemoine.isaac91	addr	980, chemin Corinne Delmas004119 Descamps-sur-Rossi
 129	lemoine.isaac91	tel	+33 4 79 42 53 25
 130	thomas.olivier62	mail	thomas.olivier@voila.fr
-131	thomas.olivier62	addr	17, chemin Zoé Techer\n20495 Perrin-les-Bains
+131	thomas.olivier62	addr	17, chemin Zoé Techer020495 Perrin-les-Bains
 132	thomas.olivier62	tel	+33 (0)1 60 23 68 80
 133	penelope.pires	mail	pires.pénélope@dbmail.com
-134	penelope.pires	addr	15, avenue de Camus\n26484 Delahaye-sur-Mer
+134	penelope.pires	addr	15, avenue de Camus026484 Delahaye-sur-Mer
 135	penelope.pires	tel	+33 (0)5 16 96 90 07
 136	toussainte	mail	toussaint.emmanuelle@ifrance.com
-137	toussainte	addr	24, chemin de Morin\n23438 Saint Thérèse
+137	toussainte	addr	24, chemin de Morin023438 Saint Thérèse
 138	toussainte	tel	+33 4 34 29 83 20
 139	l_zacharie	mail	leduc.zacharie@free.fr
-140	l_zacharie	addr	605, boulevard Rocher\n52268 Dupont-la-Forêt
+140	l_zacharie	addr	605, boulevard Rocher052268 Dupont-la-Forêt
 141	l_zacharie	tel	03 22 57 54 92
 142	laurent.gerard72	mail	laurent.gérard@live.com
-143	laurent.gerard72	addr	741, rue de Hardy\n84209 Valette
+143	laurent.gerard72	addr	741, rue de Hardy084209 Valette
 144	laurent.gerard72	tel	05 19 47 04 50
 145	hoaraum	mail	hoarau.maggie@sfr.fr
-146	hoaraum	addr	442, avenue Vallet\n64313 Renault
+146	hoaraum	addr	442, avenue Vallet064313 Renault
 147	hoaraum	tel	+33 5 94 31 57 20
 148	leduci	mail	leduc.isaac@noos.fr
-149	leduci	addr	952, chemin Leleu\n97282 Martel-sur-Albert
+149	leduci	addr	952, chemin Leleu097282 Martel-sur-Albert
 150	leduci	tel	0322366920
 151	collet.camille57	mail	collet.camille@tele2.fr
-152	collet.camille57	addr	80, rue Mathieu\n63880 François
+152	collet.camille57	addr	80, rue Mathieu063880 François
 153	collet.camille57	tel	01 58 74 82 15
 154	danielm	mail	daniel.marguerite@sfr.fr
-155	danielm	addr	124, chemin Thierry Vallet\n66444 Collet-la-Forêt
+155	danielm	addr	124, chemin Thierry Vallet066444 Collet-la-Forêt
 156	danielm	tel	0579169951
 157	jolym	mail	joly.michelle@yahoo.fr
-158	jolym	addr	22, boulevard Dufour\n56724 Collet
+158	jolym	addr	22, boulevard Dufour056724 Collet
 159	jolym	tel	+33 1 55 22 72 22
 160	lopesl	mail	lopes.léon@free.fr
-161	lopesl	addr	37, boulevard Dubois\n66435 Mallet
+161	lopesl	addr	37, boulevard Dubois066435 Mallet
 162	lopesl	tel	02 76 05 50 36
 163	l_victor	mail	letellier.victor@wanadoo.fr
-164	l_victor	addr	396, chemin Margot Imbert\n97143 Dos Santos
+164	l_victor	addr	396, chemin Margot Imbert097143 Dos Santos
 165	l_victor	tel	+33 (0)5 17 32 90 74
 166	faure.marcelle7	mail	faure.marcelle@hotmail.fr
-167	faure.marcelle7	addr	78, avenue Anaïs Ferrand\n07802 Thierry-sur-Barre
+167	faure.marcelle7	addr	78, avenue Anaïs Ferrand007802 Thierry-sur-Barre
 168	faure.marcelle7	tel	04 30 14 21 79
 169	dossantos.laurent56	mail	dos santos.laurent@voila.fr
-170	dossantos.laurent56	addr	94, rue Pinto\n10795 Pasquierboeuf
+170	dossantos.laurent56	addr	94, rue Pinto010795 Pasquierboeuf
 171	dossantos.laurent56	tel	04 99 49 78 41
 172	philippep	mail	philippe.paulette@hotmail.fr
-173	philippep	addr	rue Louis Lombard\n10268 DevauxBourg
+173	philippep	addr	rue Louis Lombard010268 DevauxBourg
 174	philippep	tel	03 63 53 04 52
 175	guibert_leon	mail	guibert.léon@yahoo.fr
-176	guibert_leon	addr	515, boulevard Hortense Robin\n07295 Baron
+176	guibert_leon	addr	515, boulevard Hortense Robin007295 Baron
 177	guibert_leon	tel	+33 4 37 28 10 28
 178	pelletier_zoe	mail	pelletier.zoé@voila.fr
-179	pelletier_zoe	addr	16, boulevard Michelle Grenier\n07988 Sainte Maryse
+179	pelletier_zoe	addr	16, boulevard Michelle Grenier007988 Sainte Maryse
 180	pelletier_zoe	tel	05 47 46 58 42
 181	brigitte.leclerc	mail	leclerc.brigitte@tiscali.fr
-182	brigitte.leclerc	addr	57, boulevard de Moreno\n53441 Petitjeanboeuf
+182	brigitte.leclerc	addr	57, boulevard de Moreno053441 Petitjeanboeuf
 183	brigitte.leclerc	tel	05 53 63 79 65
 184	christine.salmon	mail	salmon.christine@free.fr
-185	christine.salmon	addr	254, rue René Clément\n73835 Sainte Zoé-la-Forêt
+185	christine.salmon	addr	254, rue René Clément073835 Sainte Zoé-la-Forêt
 186	christine.salmon	tel	0519754911
 187	marie_gilles	mail	marie.gilles@gmail.com
-188	marie_gilles	addr	rue Lefèvre\n18541 Lejeune
+188	marie_gilles	addr	rue Lefèvre018541 Lejeune
 189	marie_gilles	tel	+33 (0)1 44 14 17 73
 190	chauvet.adrienne59	mail	chauvet.adrienne@sfr.fr
-191	chauvet.adrienne59	addr	91, rue Seguin\n16152 Duhamel
+191	chauvet.adrienne59	addr	91, rue Seguin016152 Duhamel
 192	chauvet.adrienne59	tel	05 08 51 30 64
 193	lambert_thibault	mail	lambert.thibault@laposte.net
-194	lambert_thibault	addr	boulevard Gimenez\n69414 Noël
+194	lambert_thibault	addr	boulevard Gimenez069414 Noël
 195	lambert_thibault	tel	+33 (0)2 32 59 63 95
 196	chantal.leroux	mail	le roux.chantal@laposte.net
-197	chantal.leroux	addr	2, chemin de Laurent\n81606 Le Goff
+197	chantal.leroux	addr	2, chemin de Laurent081606 Le Goff
 198	chantal.leroux	tel	0482774047
 199	celina.hoareau	mail	hoareau.célina@ifrance.com
-200	celina.hoareau	addr	23, boulevard Emmanuel Gimenez\n88175 Antoine
+200	celina.hoareau	addr	23, boulevard Emmanuel Gimenez088175 Antoine
 201	celina.hoareau	tel	+33 5 90 44 33 17
 202	monnier_christophe	mail	monnier.christophe@hotmail.fr
-203	monnier_christophe	addr	42, rue de Germain\n82802 Laroche
+203	monnier_christophe	addr	42, rue de Germain082802 Laroche
 204	monnier_christophe	tel	+33 (0)2 79 74 77 43
 205	pascald	mail	pascal.denis@hotmail.fr
-206	pascald	addr	157, avenue Clerc\n26350 Payet
+206	pascald	addr	157, avenue Clerc026350 Payet
 207	pascald	tel	0277503470
 208	nath.pruvost	mail	pruvost.nath@noos.fr
-209	nath.pruvost	addr	82, rue Élisabeth Lejeune\n62296 Humbertboeuf
+209	nath.pruvost	addr	82, rue Élisabeth Lejeune062296 Humbertboeuf
 210	nath.pruvost	tel	+33 5 56 88 53 54
 211	e_maggie	mail	étienne.maggie@wanadoo.fr
-212	e_maggie	addr	11, rue de Besnard\n11647 Rossi
+212	e_maggie	addr	11, rue de Besnard011647 Rossi
 213	e_maggie	tel	0479381816
 214	guyonc	mail	guyon.catherine@hotmail.fr
-215	guyonc	addr	11, boulevard Bertrand\n50544 Saint Jeanne
+215	guyonc	addr	11, boulevard Bertrand050544 Saint Jeanne
 216	guyonc	tel	04 65 71 04 51
 217	fischerp	mail	fischer.paul@voila.fr
-218	fischerp	addr	39, rue Renard\n97476 DupuisVille
+218	fischerp	addr	39, rue Renard097476 DupuisVille
 219	fischerp	tel	+33 (0)4 15 90 20 56
 220	prevostp	mail	prévost.pénélope@tiscali.fr
-221	prevostp	addr	55, avenue Lucy Muller\n43256 MilletBourg
+221	prevostp	addr	55, avenue Lucy Muller043256 MilletBourg
 222	prevostp	tel	+33 (0)5 86 28 47 28
 223	f_noel	mail	fouquet.noël@voila.fr
-224	f_noel	addr	34, avenue Michelle Lamy\n39474 Hoaraudan
+224	f_noel	addr	34, avenue Michelle Lamy039474 Hoaraudan
 225	f_noel	tel	+33 (0)2 23 93 48 03
 226	leroux.alphonse1	mail	leroux.alphonse@tele2.fr
-227	leroux.alphonse1	addr	avenue Geneviève Moreau\n36416 Schmitt-sur-Costa
+227	leroux.alphonse1	addr	avenue Geneviève Moreau036416 Schmitt-sur-Costa
 228	leroux.alphonse1	tel	+33 (0)3 23 68 27 15
 229	r_robert	mail	robin.robert@gmail.com
-230	r_robert	addr	42, avenue de Fournier\n34215 Martineaunec
+230	r_robert	addr	42, avenue de Fournier034215 Martineaunec
 231	r_robert	tel	04 15 46 90 17
 232	benard_laurence	mail	benard.laurence@dbmail.com
-233	benard_laurence	addr	21, rue Gosselin\n66124 Marion-les-Bains
+233	benard_laurence	addr	21, rue Gosselin066124 Marion-les-Bains
 234	benard_laurence	tel	+33 3 76 86 14 80
 235	huberto	mail	hubert.océane@noos.fr
-236	huberto	addr	rue Dupuis\n55628 Brun
+236	huberto	addr	rue Dupuis055628 Brun
 237	huberto	tel	03 29 84 89 67
 238	hoarau_philippe	mail	hoarau.philippe@bouygtel.fr
-239	hoarau_philippe	addr	3, avenue Gaudin\n89718 Monnier-les-Bains
+239	hoarau_philippe	addr	3, avenue Gaudin089718 Monnier-les-Bains
 240	hoarau_philippe	tel	0385472483
 241	g_cecile	mail	guyot.cécile@ifrance.com
-242	g_cecile	addr	29, rue Étienne Vasseur\n61615 Sainte Adèle-les-Bains
+242	g_cecile	addr	29, rue Étienne Vasseur061615 Sainte Adèle-les-Bains
 243	g_cecile	tel	0498456795
 244	parentc	mail	parent.cécile@noos.fr
-245	parentc	addr	56, rue Moreau\n89502 Saint Laetitia-les-Bains
+245	parentc	addr	56, rue Moreau089502 Saint Laetitia-les-Bains
 246	parentc	tel	+33 (0)7 70 81 08 34
 247	guichard.astrid15	mail	guichard.astrid@tele2.fr
-248	guichard.astrid15	addr	52, rue de Barbier\n66711 Sainte Anaïs-la-Forêt
+248	guichard.astrid15	addr	52, rue de Barbier066711 Sainte Anaïs-la-Forêt
 249	guichard.astrid15	tel	0556621030
 250	h_denis	mail	hebert.denis@bouygtel.fr
-251	h_denis	addr	47, avenue Meunier\n97227 Lebon
+251	h_denis	addr	47, avenue Meunier097227 Lebon
 252	h_denis	tel	0495717461
 253	gauthier_jerome	mail	gauthier.jérôme@dbmail.com
-254	gauthier_jerome	addr	85, rue de Lopez\n65945 Salmon
+254	gauthier_jerome	addr	85, rue de Lopez065945 Salmon
 255	gauthier_jerome	tel	+33 (0)3 87 19 12 75
 256	huet_louis	mail	huet.louis@wanadoo.fr
-257	huet_louis	addr	719, rue de Rolland\n40579 Barbier-la-Forêt
+257	huet_louis	addr	719, rue de Rolland040579 Barbier-la-Forêt
 258	huet_louis	tel	0140814282
 259	guerinc	mail	guérin.claire@gmail.com
-260	guerinc	addr	rue Laure Clerc\n06597 Renaud
+260	guerinc	addr	rue Laure Clerc006597 Renaud
 261	guerinc	tel	0449788233
 262	catherine.petitjean	mail	petitjean.catherine@free.fr
-263	catherine.petitjean	addr	296, avenue de Camus\n34496 Leblanc-sur-Neveu
+263	catherine.petitjean	addr	296, avenue de Camus034496 Leblanc-sur-Neveu
 264	catherine.petitjean	tel	0486169340
 265	adele.allard	mail	allard.adèle@laposte.net
-266	adele.allard	addr	27, avenue Lopez\n92281 Navarro-la-Forêt
+266	adele.allard	addr	27, avenue Lopez092281 Navarro-la-Forêt
 267	adele.allard	tel	02 52 57 40 16
 268	d_alphonse	mail	daniel.alphonse@ifrance.com
-269	d_alphonse	addr	rue Jean\n42163 Weber
+269	d_alphonse	addr	rue Jean042163 Weber
 270	d_alphonse	tel	0231898502
 271	b_dorothee	mail	benard.dorothée@free.fr
-272	b_dorothee	addr	rue Lebon\n44214 Muller
+272	b_dorothee	addr	rue Lebon044214 Muller
 273	b_dorothee	tel	04 98 82 75 54
 274	boulay_andree	mail	boulay.andrée@yahoo.fr
-275	boulay_andree	addr	69, boulevard Albert\n13520 Lemonnier-sur-Prévost
+275	boulay_andree	addr	69, boulevard Albert013520 Lemonnier-sur-Prévost
 276	boulay_andree	tel	+33 (0)2 62 98 88 77
 277	richard.vaillant	mail	vaillant.richard@wanadoo.fr
-278	richard.vaillant	addr	17, boulevard Brunet\n71397 Brun-sur-Pons
+278	richard.vaillant	addr	17, boulevard Brunet071397 Brun-sur-Pons
 279	richard.vaillant	tel	+33 (0)1 83 43 79 71
 280	rocherc	mail	rocher.catherine@tiscali.fr
-281	rocherc	addr	7, chemin Devaux\n40278 Martins-sur-Joseph
+281	rocherc	addr	7, chemin Devaux040278 Martins-sur-Joseph
 282	rocherc	tel	+33 6 38 83 10 99
 283	allain_david	mail	allain.david@laposte.net
-284	allain_david	addr	avenue Monique Fernandes\n05453 LemaîtreBourg
+284	allain_david	addr	avenue Monique Fernandes005453 LemaîtreBourg
 285	allain_david	tel	02 53 22 75 85
 286	launay.elise22	mail	launay.élise@hotmail.fr
-287	launay.elise22	addr	76, rue Alphonse Moreno\n91289 Lesage-sur-Guillot
+287	launay.elise22	addr	76, rue Alphonse Moreno091289 Lesage-sur-Guillot
 288	launay.elise22	tel	0178419446
 289	matthieu.dupuis	mail	dupuis.matthieu@club-internet.fr
-290	matthieu.dupuis	addr	955, avenue Élisabeth Lemoine\n72751 Girard
+290	matthieu.dupuis	addr	955, avenue Élisabeth Lemoine072751 Girard
 291	matthieu.dupuis	tel	+33 8 01 66 68 44
 292	tessier.martin15	mail	tessier.martin@bouygtel.fr
-293	tessier.martin15	addr	88, avenue de Camus\n57773 Giraudboeuf
+293	tessier.martin15	addr	88, avenue de Camus057773 Giraudboeuf
 294	tessier.martin15	tel	0376014816
 295	francois_andre	mail	françois.andré@live.com
-296	francois_andre	addr	18, avenue Merle\n44828 Petitjean
+296	francois_andre	addr	18, avenue Merle044828 Petitjean
 297	francois_andre	tel	02 57 19 91 28
 298	denis.lefevre	mail	lefèvre.denis@hotmail.fr
-299	denis.lefevre	addr	13, chemin Inès Ramos\n08170 Jean-sur-Le Gall
+299	denis.lefevre	addr	13, chemin Inès Ramos008170 Jean-sur-Le Gall
 300	denis.lefevre	tel	02 54 54 87 83
 \.
 
@@ -7811,253 +7811,253 @@ COPY public.etre_vivant (idespece, nomespece, groupe, taille) FROM stdin;
 Prunella modularis	Accenteur mouchet	oiseaux	15
 Egretta garzetta	Aigrette garzette	oiseaux	65
 Motacilla cinerea	Bergeronnette des ruisseaux	oiseaux	19
-Motacilla alba	Bergeronnette grise	oiseaux	\N
-Branta canadensis	Bernache du Canada	oiseaux	\N
+Motacilla alba	Bergeronnette grise	oiseaux	0
+Branta canadensis	Bernache du Canada	oiseaux	0
 Botaurus minutus	Blongios nain	oiseaux	38
 Pernis apivorus	Bondrée apivore	oiseaux	60
-Pyrrhula pyrrhula	Bouvreuil pivoine	oiseaux	\N
+Pyrrhula pyrrhula	Bouvreuil pivoine	oiseaux	0
 Emberiza schoeniclus	Bruant des roseaux	oiseaux	16
-Buteo buteo	Buse variable	oiseaux	\N
-Mareca strepera	Canard chipeau	oiseaux	\N
-Anas platyrhynchos	Canard colvert	oiseaux	\N
-Aix galericulata	Canard mandarin	oiseaux	\N
-Spatula clypeata	Canard souchet	oiseaux	\N
-Carduelis carduelis	Chardonneret élégant	oiseaux	\N
+Buteo buteo	Buse variable	oiseaux	0
+Mareca strepera	Canard chipeau	oiseaux	0
+Anas platyrhynchos	Canard colvert	oiseaux	0
+Aix galericulata	Canard mandarin	oiseaux	0
+Spatula clypeata	Canard souchet	oiseaux	0
+Carduelis carduelis	Chardonneret élégant	oiseaux	0
 Actitis hypoleucos	Chevalier guignette	oiseaux	21
-Coloeus monedula	Choucas des tours	oiseaux	\N
-Strix aluco	Chouette hulotte	oiseaux	\N
-Ciconia ciconia	Cigogne blanche	oiseaux	\N
+Coloeus monedula	Choucas des tours	oiseaux	0
+Strix aluco	Chouette hulotte	oiseaux	0
+Ciconia ciconia	Cigogne blanche	oiseaux	0
 Corvus frugilegus	Corbeau freux	oiseaux	49
-Corvus corone	Corneille noire	oiseaux	\N
-Cuculus canorus	Coucou gris	oiseaux	\N
-Cygnus atratus	Cygne noir	oiseaux	\N
-Cygnus olor	Cygne tuberculé	oiseaux	\N
-Accipiter nisus	Épervier d'Europe	oiseaux	\N
+Corvus corone	Corneille noire	oiseaux	0
+Cuculus canorus	Coucou gris	oiseaux	0
+Cygnus atratus	Cygne noir	oiseaux	0
+Cygnus olor	Cygne tuberculé	oiseaux	0
+Accipiter nisus	Épervier d'Europe	oiseaux	0
 Sturnus vulgaris	Étourneau sansonnet	oiseaux	22
-Falco tinnunculus	Faucon crécerelle	oiseaux	\N
+Falco tinnunculus	Faucon crécerelle	oiseaux	0
 Falco subbuteo	Faucon hobereau	oiseaux	35
 Sylvia atricapilla	Fauvette à tête noire	oiseaux	13
 Curruca curruca	Fauvette babillarde	oiseaux	14
-Sylvia borin	Fauvette des jardins	oiseaux	\N
-Curruca communis	Fauvette grisette	oiseaux	\N
+Sylvia borin	Fauvette des jardins	oiseaux	0
+Curruca communis	Fauvette grisette	oiseaux	0
 Fulica atra	Foulque macroule	oiseaux	42
 Aythya ferina	Fuligule milouin	oiseaux	58
-Aythya fuligula	Fuligule morillon	oiseaux	\N
+Aythya fuligula	Fuligule morillon	oiseaux	0
 Aythya nyroca	Fuligule nyroca	oiseaux	41
-Gallinula chloropus	Gallinule poule-d'eau	oiseaux	\N
-Garrulus glandarius	Geai des chênes	oiseaux	\N
+Gallinula chloropus	Gallinule poule-d'eau	oiseaux	0
+Garrulus glandarius	Geai des chênes	oiseaux	0
 Muscicapa striata	Gobemouche gris	oiseaux	14.5
-Ficedula hypoleuca	Gobemouche noir	oiseaux	\N
-Larus argentatus	Goéland argenté	oiseaux	\N
+Ficedula hypoleuca	Gobemouche noir	oiseaux	0
+Larus argentatus	Goéland argenté	oiseaux	0
 Larus fuscus	Goéland brun	oiseaux	57
-Phalacrocorax carbo	Grand Cormoran	oiseaux	\N
+Phalacrocorax carbo	Grand Cormoran	oiseaux	0
 Ardea alba	Grande Aigrette	oiseaux	104
-Tachybaptus ruficollis	Grèbe castagneux	oiseaux	\N
-Podiceps cristatus	Grèbe huppé	oiseaux	\N
-Certhia brachydactyla	Grimpereau des jardins	oiseaux	\N
-Turdus viscivorus	Grive draine	oiseaux	\N
+Tachybaptus ruficollis	Grèbe castagneux	oiseaux	0
+Podiceps cristatus	Grèbe huppé	oiseaux	0
+Certhia brachydactyla	Grimpereau des jardins	oiseaux	0
+Turdus viscivorus	Grive draine	oiseaux	0
 Turdus iliacus	Grive mauvis	oiseaux	24
 Turdus philomelos	Grive musicienne	oiseaux	22
 Coccothraustes coccothraustes	Grosbec casse-noyaux	oiseaux	18
-Grus grus	Grue cendrée	oiseaux	\N
+Grus grus	Grue cendrée	oiseaux	0
 Ardea cinerea	Héron cendré	oiseaux	95
-Delichon urbicum	Hirondelle de fenêtre	oiseaux	\N
-Riparia riparia	Hirondelle de rivage	oiseaux	\N
+Delichon urbicum	Hirondelle de fenêtre	oiseaux	0
+Riparia riparia	Hirondelle de rivage	oiseaux	0
 Hirundo rustica	Hirondelle rustique	oiseaux	19
 Hippolais polyglotta	Hypolaïs polyglotte	oiseaux	13.5
 Linaria cannabina	Linotte mélodieuse	oiseaux	13
-Oriolus oriolus	Loriot d'Europe	oiseaux	\N
-Alcedo atthis	Martin-pêcheur d'Europe	oiseaux	\N
-Apus apus	Martinet noir	oiseaux	\N
-Turdus merula	Merle noir	oiseaux	\N
+Oriolus oriolus	Loriot d'Europe	oiseaux	0
+Alcedo atthis	Martin-pêcheur d'Europe	oiseaux	0
+Apus apus	Martinet noir	oiseaux	0
+Turdus merula	Merle noir	oiseaux	0
 Aegithalos caudatus	Mésange à longue queue	oiseaux	14.5
 Cyanistes caeruleus	Mésange bleue	oiseaux	12
 Poecile montanus	Mésange boréale	oiseaux	12
-Parus major	Mésange charbonnière	oiseaux	\N
-Lophophanes cristatus	Mésange huppée	oiseaux	\N
-Periparus ater	Mésange noire	oiseaux	\N
-Poecile palustris	Mésange nonnette	oiseaux	\N
+Parus major	Mésange charbonnière	oiseaux	0
+Lophophanes cristatus	Mésange huppée	oiseaux	0
+Periparus ater	Mésange noire	oiseaux	0
+Poecile palustris	Mésange nonnette	oiseaux	0
 Milvus migrans	Milan noir	oiseaux	72
-Passer domesticus	Moineau domestique	oiseaux	\N
-Ichthyaetus melanocephalus	Mouette mélanocéphale	oiseaux	\N
-Chroicocephalus ridibundus	Mouette rieuse	oiseaux	\N
-Netta rufina	Nette rousse	oiseaux	\N
+Passer domesticus	Moineau domestique	oiseaux	0
+Ichthyaetus melanocephalus	Mouette mélanocéphale	oiseaux	0
+Chroicocephalus ridibundus	Mouette rieuse	oiseaux	0
+Netta rufina	Nette rousse	oiseaux	0
 Anser indicus	Oie à tête barrée	oiseaux	78
 Alopochen aegyptiaca	Ouette d'Égypte	oiseaux	73
-Psittacula krameri	Perruche à collier	oiseaux	\N
-Dendrocopos major	Pic épeiche	oiseaux	\N
-Dryobates minor	Pic épeichette	oiseaux	\N
-Dendrocoptes medius	Pic mar	oiseaux	\N
+Psittacula krameri	Perruche à collier	oiseaux	0
+Dendrocopos major	Pic épeiche	oiseaux	0
+Dryobates minor	Pic épeichette	oiseaux	0
+Dendrocoptes medius	Pic mar	oiseaux	0
 Dryocopus martius	Pic noir	oiseaux	55
-Picus viridis	Pic vert	oiseaux	\N
-Pica pica	Pie bavarde	oiseaux	\N
-Columba oenas	Pigeon colombin	oiseaux	\N
-Columba palumbus	Pigeon ramier	oiseaux	\N
-Fringilla coelebs	Pinson des arbres	oiseaux	\N
+Picus viridis	Pic vert	oiseaux	0
+Pica pica	Pie bavarde	oiseaux	0
+Columba oenas	Pigeon colombin	oiseaux	0
+Columba palumbus	Pigeon ramier	oiseaux	0
+Fringilla coelebs	Pinson des arbres	oiseaux	0
 Fringilla montifringilla	Pinson du Nord	oiseaux	16
-Gavia immer	Plongeon imbrin	oiseaux	\N
+Gavia immer	Plongeon imbrin	oiseaux	0
 Phylloscopus trochilus	Pouillot fitis	oiseaux	12.5
-Phylloscopus sibilatrix	Pouillot siffleur	oiseaux	\N
-Phylloscopus collybita	Pouillot véloce	oiseaux	\N
-Rallus aquaticus	Râle d'eau	oiseaux	\N
-Remiz pendulinus	Rémiz penduline	oiseaux	\N
-Regulus ignicapilla	Roitelet à triple bandeau	oiseaux	\N
+Phylloscopus sibilatrix	Pouillot siffleur	oiseaux	0
+Phylloscopus collybita	Pouillot véloce	oiseaux	0
+Rallus aquaticus	Râle d'eau	oiseaux	0
+Remiz pendulinus	Rémiz penduline	oiseaux	0
+Regulus ignicapilla	Roitelet à triple bandeau	oiseaux	0
 Regulus regulus	Roitelet huppé	oiseaux	9
 Luscinia megarhynchos	Rossignol philomèle	oiseaux	24
-Erithacus rubecula	Rougegorge familier	oiseaux	\N
+Erithacus rubecula	Rougegorge familier	oiseaux	0
 Phoenicurus phoenicurus	Rougequeue à front blanc	oiseaux	14
 Phoenicurus ochruros	Rougequeue noir	oiseaux	14
 Acrocephalus scirpaceus	Rousserolle effarvatte	oiseaux	13
-Acrocephalus palustris	Rousserolle verderolle	oiseaux	\N
+Acrocephalus palustris	Rousserolle verderolle	oiseaux	0
 Spatula querquedula	Sarcelle d'été	oiseaux	41
-Anas crecca	Sarcelle d'hiver	oiseaux	\N
+Anas crecca	Sarcelle d'hiver	oiseaux	0
 Serinus serinus	Serin cini	oiseaux	11.5
-Sitta europaea	Sittelle torchepot	oiseaux	\N
-Acanthis flammea cabaret	Sizerin cabaret	oiseaux	\N
+Sitta europaea	Sittelle torchepot	oiseaux	0
+Acanthis flammea cabaret	Sizerin cabaret	oiseaux	0
 Sterna hirundo	Sterne pierregarin	oiseaux	35
-Saxicola rubicola	Tarier pâtre	oiseaux	\N
+Saxicola rubicola	Tarier pâtre	oiseaux	0
 Spinus spinus	Tarin des aulnes	oiseaux	12
-Streptopelia turtur	Tourterelle des bois	oiseaux	\N
-Streptopelia decaocto	Tourterelle turque	oiseaux	\N
-Troglodytes troglodytes	Troglodyte mignon	oiseaux	\N
+Streptopelia turtur	Tourterelle des bois	oiseaux	0
+Streptopelia decaocto	Tourterelle turque	oiseaux	0
+Troglodytes troglodytes	Troglodyte mignon	oiseaux	0
 Chloris chloris	Verdier d'Europe	oiseaux	15
-Tricholoma portentosum	Tricholome prétentieux	Autres	\N
-Unio mancus	Mulette méridionale	Bivalves	\N
-Unio crassus	Mulette épaisse	Bivalves	\N
-Sphaerium corneum	Cyclade commune	Bivalves	\N
+Tricholoma portentosum	Tricholome prétentieux	Autres	0
+Unio mancus	Mulette méridionale	Bivalves	0
+Unio crassus	Mulette épaisse	Bivalves	0
+Sphaerium corneum	Cyclade commune	Bivalves	0
 Unio pictorum	Mulette des peintres	Bivalves	14
-Anodonta cygnea	Anodonte des étangs	Bivalves	\N
-Pseudanodonta complanata	Anodonte comprimée	Bivalves	\N
-Potomida littoralis	Mulette des rivières	Bivalves	\N
-Sinanodonta woodiana	Anodonte chinoise	Bivalves	\N
-Corbicula fluminalis	Corbicule striolée	Bivalves	\N
-Chirocephalus diaphanus	Chirocéphale diaphane (Le)	Crustacés	\N
-Pacifastacus leniusculus	Écrevisse de Californie (L')	Crustacés	\N
+Anodonta cygnea	Anodonte des étangs	Bivalves	0
+Pseudanodonta complanata	Anodonte comprimée	Bivalves	0
+Potomida littoralis	Mulette des rivières	Bivalves	0
+Sinanodonta woodiana	Anodonte chinoise	Bivalves	0
+Corbicula fluminalis	Corbicule striolée	Bivalves	0
+Chirocephalus diaphanus	Chirocéphale diaphane (Le)	Crustacés	0
+Pacifastacus leniusculus	Écrevisse de Californie (L')	Crustacés	0
 Austropotamobius pallipes	Écrevisse à pieds blancs (L')	Crustacés	12
-Daphnia pulex	Daphnie puce (La)	Crustacés	\N
-Faxonius limosus	Écrevisse américaine (L')	Crustacés	\N
-Tanymastix stagnalis	Branchipe stagnal (Le)	Crustacés	\N
-Philoscia muscorum	Philoscie des mousses (La)	Crustacés	\N
-Astacus astacus	Écrevisse à pattes rouges (L')	Crustacés	\N
-Armadillidium vulgare	Cloporte commun (Le)	Crustacés	\N
-Oniscus asellus	Cloporte commun (Le)	Crustacés	\N
-Podura aquatica	Podure noire aquatique	Entognathes	\N
-Stagnicola palustris	Limnée des étangs	Gastéropodes	\N
-Helicodonta obvoluta	Veloutée plane	Gastéropodes	\N
-Cernuella virgata	Caragouille globuleuse	Gastéropodes	\N
-Helix lucorum	Escargot turc	Gastéropodes	\N
-Gyraulus parvus	Planorbine voyageuse	Gastéropodes	\N
-Oxychilus draparnaudi	Grand luisant	Gastéropodes	\N
+Daphnia pulex	Daphnie puce (La)	Crustacés	0
+Faxonius limosus	Écrevisse américaine (L')	Crustacés	0
+Tanymastix stagnalis	Branchipe stagnal (Le)	Crustacés	0
+Philoscia muscorum	Philoscie des mousses (La)	Crustacés	0
+Astacus astacus	Écrevisse à pattes rouges (L')	Crustacés	0
+Armadillidium vulgare	Cloporte commun (Le)	Crustacés	0
+Oniscus asellus	Cloporte commun (Le)	Crustacés	0
+Podura aquatica	Podure noire aquatique	Entognathes	0
+Stagnicola palustris	Limnée des étangs	Gastéropodes	0
+Helicodonta obvoluta	Veloutée plane	Gastéropodes	0
+Cernuella virgata	Caragouille globuleuse	Gastéropodes	0
+Helix lucorum	Escargot turc	Gastéropodes	0
+Gyraulus parvus	Planorbine voyageuse	Gastéropodes	0
+Oxychilus draparnaudi	Grand luisant	Gastéropodes	0
 Thuja occidentalis	Thuya d'Occident	Gymnospermes	40
-Larix decidua	Mélèze d'Europe	Gymnospermes	\N
-Cupressus sempervirens	Cyprès toujours vert	Gymnospermes	\N
+Larix decidua	Mélèze d'Europe	Gymnospermes	0
+Cupressus sempervirens	Cyprès toujours vert	Gymnospermes	0
 Abies nordmanniana	Sapin de Nordmann	Gymnospermes	2
-Taxodium distichum	Taxodium distique	Gymnospermes	\N
-Thuja plicata	Thuya plié	Gymnospermes	\N
-Platycladus orientalis	Platycladus d'Orient	Gymnospermes	\N
+Taxodium distichum	Taxodium distique	Gymnospermes	0
+Thuja plicata	Thuya plié	Gymnospermes	0
+Platycladus orientalis	Platycladus d'Orient	Gymnospermes	0
 Pinus wallichiana	Pin de Wallich	Gymnospermes	20
-Sequoia sempervirens	Séquoia toujours vert	Gymnospermes	\N
-Pinus sylvestris	Pin sylvestre	Gymnospermes	\N
-Pinus nigra	Pin noir	Gymnospermes	\N
+Sequoia sempervirens	Séquoia toujours vert	Gymnospermes	0
+Pinus sylvestris	Pin sylvestre	Gymnospermes	0
+Pinus nigra	Pin noir	Gymnospermes	0
 Sequoiadendron giganteum	Séquoiadendron géant	Gymnospermes	90
-Pinus pinaster	Pin maritime	Gymnospermes	\N
-Zicrona caerulea	Punaise verte bleuâtre	Insectes	\N
-Chorthippus vagans	Criquet des Pins	Insectes	\N
+Pinus pinaster	Pin maritime	Gymnospermes	0
+Zicrona caerulea	Punaise verte bleuâtre	Insectes	0
+Chorthippus vagans	Criquet des Pins	Insectes	0
 Lissotriton vulgaris	Triton ponctué (Le)	Amphibiens	11
 Bombina variegata	Sonneur à ventre jaune (Le)	Amphibiens	5.5
-Rana temporaria	Grenouille rousse (La)	Amphibiens	\N
+Rana temporaria	Grenouille rousse (La)	Amphibiens	0
 Rana dalmatina	Grenouille agile (La)	Amphibiens	8
-Pelodytes punctatus	Pélodyte ponctué (Le)	Amphibiens	\N
+Pelodytes punctatus	Pélodyte ponctué (Le)	Amphibiens	0
 Hyla arborea	Rainette verte (La)	Amphibiens	5
 Triturus marmoratus	Triton marbré (Le)	Amphibiens	18
-Pelophylax lessonae	Grenouille de Lessona (La)	Amphibiens	\N
-Pelophylax kl. esculentus	Grenouille verte (La)	Amphibiens	\N
-Epidalea calamita	Crapaud calamite (Le)	Amphibiens	\N
-Salamandra salamandra	Salamandre tachetée (La)	Amphibiens	\N
-Bolboschoenus maritimus	Bolbochoin maritime	Angiospermes	\N
-Poa palustris	Pâturin des marais	Angiospermes	\N
-Aethusa cynapium	Petite cigüe	Angiospermes	\N
+Pelophylax lessonae	Grenouille de Lessona (La)	Amphibiens	0
+Pelophylax kl. esculentus	Grenouille verte (La)	Amphibiens	0
+Epidalea calamita	Crapaud calamite (Le)	Amphibiens	0
+Salamandra salamandra	Salamandre tachetée (La)	Amphibiens	0
+Bolboschoenus maritimus	Bolbochoin maritime	Angiospermes	0
+Poa palustris	Pâturin des marais	Angiospermes	0
+Aethusa cynapium	Petite cigüe	Angiospermes	0
 Trigonella caerulea	Mélilot bleu	Angiospermes	60
-Veronica anagallis-aquatica	Véronique mouron-d'eau	Angiospermes	\N
+Veronica anagallis-aquatica	Véronique mouron-d'eau	Angiospermes	0
 Chaenorhinum minus	Petite chénorrhine	Angiospermes	40
 Littorella uniflora	Littorelle à une fleur	Angiospermes	10
 Echinops sphaerocephalus	Échinops à tête ronde	Angiospermes	50
 Nicotiana rustica	Tabac rustique	Angiospermes	80
-Centaurium erythraea	Érythrée petite-centaurée	Angiospermes	\N
-Lumbricus terrestris	Lombric commun	Annélides	\N
-Eisenia fetida	Ver du fumier	Annélides	\N
-Hirudo medicinalis	Sangsue médicinale	Annélides	\N
-Pirata piraticus	Pirate commune	Arachnides	\N
-Drassodes lapidosus	Drassode lapidicole	Arachnides	\N
-Cheiracanthium punctorium	Chiracanthe nourrice	Arachnides	\N
-Argiope bruennichi	Épeire frelon	Arachnides	\N
-Uloborus walckenaerius	Ulobore de Walckenaer	Arachnides	\N
-Araneus angulatus	Épeire angulaire	Arachnides	\N
-Steatoda grossa	Stéatode domestique	Arachnides	\N
-Ebrechtella tricuspidata	Thomise à trois taches	Arachnides	\N
-Metellina segmentata	Méta d'automne	Arachnides	\N
-Araniella cucurbitina	Épeires concombres	Arachnides	\N
-Trametes hirsuta	Tramète hirsute	Autres	\N
-Pseudohydnum gelatinosum	Faux hydne gélatineux	Autres	\N
+Centaurium erythraea	Érythrée petite-centaurée	Angiospermes	0
+Lumbricus terrestris	Lombric commun	Annélides	0
+Eisenia fetida	Ver du fumier	Annélides	0
+Hirudo medicinalis	Sangsue médicinale	Annélides	0
+Pirata piraticus	Pirate commune	Arachnides	0
+Drassodes lapidosus	Drassode lapidicole	Arachnides	0
+Cheiracanthium punctorium	Chiracanthe nourrice	Arachnides	0
+Argiope bruennichi	Épeire frelon	Arachnides	0
+Uloborus walckenaerius	Ulobore de Walckenaer	Arachnides	0
+Araneus angulatus	Épeire angulaire	Arachnides	0
+Steatoda grossa	Stéatode domestique	Arachnides	0
+Ebrechtella tricuspidata	Thomise à trois taches	Arachnides	0
+Metellina segmentata	Méta d'automne	Arachnides	0
+Araniella cucurbitina	Épeires concombres	Arachnides	0
+Trametes hirsuta	Tramète hirsute	Autres	0
+Pseudohydnum gelatinosum	Faux hydne gélatineux	Autres	0
 Imleria badia	Bolet bai	Autres	15
-Panellus stipticus	Panelle astringente	Autres	\N
+Panellus stipticus	Panelle astringente	Autres	0
 Tricholomopsis rutilans	Tricholome rutilant	Autres	12
-Psathyrella piluliformis	Hypholome hydrophile	Autres	\N
-Macrolepiota procera	Lépiote élevée	Autres	\N
+Psathyrella piluliformis	Hypholome hydrophile	Autres	0
+Macrolepiota procera	Lépiote élevée	Autres	0
 Lactarius torminosus	Lactaire à toison	Autres	10
-Menophra abruptaria	Boarmie pétrifiée (La)	Insectes	\N
-Osmylus fulvicephalus	Osmyle à tête jaune	Insectes	\N
-Korscheltellus lupulinus	Louvette (La)	Insectes	\N
-Xanthoria parietina	Lichen encroûtant jaune	Lichens	\N
+Menophra abruptaria	Boarmie pétrifiée (La)	Insectes	0
+Osmylus fulvicephalus	Osmyle à tête jaune	Insectes	0
+Korscheltellus lupulinus	Louvette (La)	Insectes	0
+Xanthoria parietina	Lichen encroûtant jaune	Lichens	0
 Rhinolophus ferrumequinum	Grand rhinolophe	Mammifères	7
 Rattus rattus	Rat noir	Mammifères	20
 Capreolus capreolus	Chevreuil européen	Mammifères	67
 Myotis daubentonii	Murin de Daubenton	Mammifères	6.8
 Myotis mystacinus	Murin à moustaches	Mammifères	4.8
-Microtus subterraneus	Campagnol souterrain	Mammifères	\N
-Pipistrellus kuhlii	Pipistrelle de Kuhl	Mammifères	\N
-Vulpes vulpes	Renard roux	Mammifères	\N
-Vespertilio murinus	Vespertilion bicolore	Mammifères	\N
-Glis glis	Loir gris	Mammifères	\N
+Microtus subterraneus	Campagnol souterrain	Mammifères	0
+Pipistrellus kuhlii	Pipistrelle de Kuhl	Mammifères	0
+Vulpes vulpes	Renard roux	Mammifères	0
+Vespertilio murinus	Vespertilion bicolore	Mammifères	0
+Glis glis	Loir gris	Mammifères	0
 Pipistrellus nathusii	Pipistrelle de Nathusius	Mammifères	5.5
 Pipistrellus pygmaeus	Pipistrelle pygmée	Mammifères	5.1
 Arvicola sapidus	Campagnol amphibie	Mammifères	23
-Martes foina	Fouine	Mammifères	\N
+Martes foina	Fouine	Mammifères	0
 Pipistrellus pipistrellus	Pipistrelle commune	Mammifères	3.5
 Leucobryum glaucum	Coussinet des bois	Mousses	12
 Lithobius forficatus	Lithobie à pinces	Myriapodes	144
 Scutigera coleoptrata	Scutigère véloce	Myriapodes	40
-Lithobius macilentus	Lithobie maigre	Myriapodes	\N
-Proterorhinus semilunaris	Gobie demi-lune	Poissons	\N
-Leuciscus leuciscus	Vandoise	Poissons	\N
+Lithobius macilentus	Lithobie maigre	Myriapodes	0
+Proterorhinus semilunaris	Gobie demi-lune	Poissons	0
+Leuciscus leuciscus	Vandoise	Poissons	0
 Gasterosteus aculeatus	Épinoche à trois épines	Poissons	11
-Pseudorasbora parva	Pseudorasbora	Poissons	\N
-Carassius auratus	Carassin doré	Poissons	\N
+Pseudorasbora parva	Pseudorasbora	Poissons	0
+Carassius auratus	Carassin doré	Poissons	0
 Neogobius melanostomus	Gobie à tache noire	Poissons	24.6
 Lepomis gibbosus	Perche-soleil	Poissons	15
 Phoxinus phoxinus	Vairon	Poissons	10
 Gobio gobio	Goujon	Poissons	15
 Squalius cephalus	Chevesne commun	Poissons	40
 Rutilus rutilus	Gardon	Poissons	35
-Ophioglossum azoricum	Ophioglosse des Açores	Ptéridophytes	\N
-Polypodium interjectum	Polypode intermédiaire	Ptéridophytes	\N
-Athyrium filix-femina	Fougère femelle	Ptéridophytes	\N
-Asplenium septentrionale	Doradille du Nord	Ptéridophytes	\N
-Pteridium aquilinum	Ptéridion aigle	Ptéridophytes	\N
-Equisetum ramosissimum	Prêle très rameuse	Ptéridophytes	\N
-Polystichum aculeatum	Polystic à aiguillons	Ptéridophytes	\N
+Ophioglossum azoricum	Ophioglosse des Açores	Ptéridophytes	0
+Polypodium interjectum	Polypode intermédiaire	Ptéridophytes	0
+Athyrium filix-femina	Fougère femelle	Ptéridophytes	0
+Asplenium septentrionale	Doradille du Nord	Ptéridophytes	0
+Pteridium aquilinum	Ptéridion aigle	Ptéridophytes	0
+Equisetum ramosissimum	Prêle très rameuse	Ptéridophytes	0
+Polystichum aculeatum	Polystic à aiguillons	Ptéridophytes	0
 Cystopteris fragilis	Cystoptéride fragile	Ptéridophytes	15
 Botrychium lunaria	Botryche lunaire	Ptéridophytes	15
-Asplenium scolopendrium	Doradille scolopendre	Ptéridophytes	\N
-Struthiopteris spicant	Struthioptéride en épi	Ptéridophytes	\N
-Equisetum palustre	Prêle des marais	Ptéridophytes	\N
-Polypodium vulgare	Polypode commun	Ptéridophytes	\N
-Vipera aspis	Vipère aspic (La)	Reptiles	\N
+Asplenium scolopendrium	Doradille scolopendre	Ptéridophytes	0
+Struthiopteris spicant	Struthioptéride en épi	Ptéridophytes	0
+Equisetum palustre	Prêle des marais	Ptéridophytes	0
+Polypodium vulgare	Polypode commun	Ptéridophytes	0
+Vipera aspis	Vipère aspic (La)	Reptiles	0
 Lacerta bilineata	Lézard à deux raies (Le)	Reptiles	25
 Zootoca vivipara	Lézard vivipare (Le)	Reptiles	7
-Vipera berus	Vipère péliade (La)	Reptiles	\N
-Lacerta agilis	Lézard des souches	Reptiles	\N
-Graptemys pseudogeographica	Graptémyde pseudogéographique (La)	Reptiles	\N
+Vipera berus	Vipère péliade (La)	Reptiles	0
+Lacerta agilis	Lézard des souches	Reptiles	0
+Graptemys pseudogeographica	Graptémyde pseudogéographique (La)	Reptiles	0
 Anguis fragilis	Orvet fragile (L')	Reptiles	40
 Tarentola mauritanica	Tarente de Maurétanie (La)	Reptiles	15
 Hierophis viridiflavus	Couleuvre verte et jaune (La)	Reptiles	160
@@ -8228,75 +8228,75 @@ COPY public.habitat (idhabitat, nomhabitat, coords) FROM stdin;
 --
 
 COPY public.info_habitat (idinfohab, habitat, type_info, information, auteur) FROM stdin;
-1	1	statut_nichoir	\N	\N
-2	2	statut_nichoir	\N	\N
-3	3	statut_nichoir	\N	\N
-4	4	statut_nichoir	\N	\N
-5	5	statut_nichoir	\N	\N
-6	6	statut_nichoir	\N	\N
-7	7	statut_nichoir	\N	\N
-8	8	statut_nichoir	\N	\N
-9	9	statut_nichoir	\N	\N
-10	10	statut_nichoir	\N	\N
-11	11	statut_nichoir	\N	\N
-12	12	statut_nichoir	\N	\N
-13	13	statut_nichoir	\N	\N
-14	14	statut_nichoir	\N	\N
-15	15	statut_nichoir	\N	\N
-16	16	statut_nichoir	\N	\N
-17	17	statut_nichoir	\N	\N
-18	18	statut_nichoir	\N	\N
-19	19	statut_nichoir	\N	\N
-20	20	statut_nichoir	\N	\N
-21	21	statut_nichoir	\N	\N
-22	22	statut_nichoir	\N	\N
-23	23	statut_nichoir	\N	\N
-24	24	statut_nichoir	\N	\N
-25	25	statut_nichoir	\N	\N
-26	26	statut_nichoir	\N	\N
-27	27	statut_nichoir	\N	\N
-28	28	statut_nichoir	\N	\N
-29	29	statut_nichoir	\N	\N
-30	30	statut_nichoir	\N	\N
-31	31	statut_nichoir	\N	\N
-32	32	statut_nichoir	\N	\N
-33	33	statut_nichoir	\N	\N
-34	34	statut_nichoir	\N	\N
-35	35	statut_nichoir	\N	\N
-36	36	statut_nichoir	\N	\N
-37	37	statut_nichoir	\N	\N
-38	38	statut_nichoir	\N	\N
-39	39	statut_nichoir	\N	\N
-40	40	statut_nichoir	\N	\N
-41	41	statut_nichoir	\N	\N
-42	42	statut_nichoir	\N	\N
-43	43	statut_nichoir	\N	\N
-44	44	statut_nichoir	\N	\N
-45	45	statut_nichoir	\N	\N
-46	46	statut_nichoir	\N	\N
-47	47	statut_nichoir	\N	\N
-48	48	statut_nichoir	\N	\N
-49	49	statut_nichoir	\N	\N
-50	50	statut_nichoir	\N	\N
-51	51	statut_nichoir	\N	\N
-52	52	statut_nichoir	\N	\N
-53	53	statut_nichoir	\N	\N
-54	54	statut_nichoir	\N	\N
-55	55	statut_nichoir	\N	\N
-56	56	statut_nichoir	\N	\N
-57	57	statut_nichoir	\N	\N
-58	58	statut_nichoir	\N	\N
-59	59	statut_nichoir	\N	\N
-60	60	statut_nichoir	\N	\N
-61	61	statut_nichoir	\N	\N
-62	62	statut_nichoir	\N	\N
-63	63	statut_nichoir	\N	\N
-64	64	statut_nichoir	\N	\N
-65	65	statut_nichoir	\N	\N
-66	66	statut_nichoir	\N	\N
-67	67	statut_nichoir	\N	\N
-68	68	statut_nichoir	\N	\N
-69	69	statut_nichoir	\N	\N
+1	1	statut_nichoir	0	0
+2	2	statut_nichoir	0	0
+3	3	statut_nichoir	0	0
+4	4	statut_nichoir	0	0
+5	5	statut_nichoir	0	0
+6	6	statut_nichoir	0	0
+7	7	statut_nichoir	0	0
+8	8	statut_nichoir	0	0
+9	9	statut_nichoir	0	0
+10	10	statut_nichoir	0	0
+11	11	statut_nichoir	0	0
+12	12	statut_nichoir	0	0
+13	13	statut_nichoir	0	0
+14	14	statut_nichoir	0	0
+15	15	statut_nichoir	0	0
+16	16	statut_nichoir	0	0
+17	17	statut_nichoir	0	0
+18	18	statut_nichoir	0	0
+19	19	statut_nichoir	0	0
+20	20	statut_nichoir	0	0
+21	21	statut_nichoir	0	0
+22	22	statut_nichoir	0	0
+23	23	statut_nichoir	0	0
+24	24	statut_nichoir	0	0
+25	25	statut_nichoir	0	0
+26	26	statut_nichoir	0	0
+27	27	statut_nichoir	0	0
+28	28	statut_nichoir	0	0
+29	29	statut_nichoir	0	0
+30	30	statut_nichoir	0	0
+31	31	statut_nichoir	0	0
+32	32	statut_nichoir	0	0
+33	33	statut_nichoir	0	0
+34	34	statut_nichoir	0	0
+35	35	statut_nichoir	0	0
+36	36	statut_nichoir	0	0
+37	37	statut_nichoir	0	0
+38	38	statut_nichoir	0	0
+39	39	statut_nichoir	0	0
+40	40	statut_nichoir	0	0
+41	41	statut_nichoir	0	0
+42	42	statut_nichoir	0	0
+43	43	statut_nichoir	0	0
+44	44	statut_nichoir	0	0
+45	45	statut_nichoir	0	0
+46	46	statut_nichoir	0	0
+47	47	statut_nichoir	0	0
+48	48	statut_nichoir	0	0
+49	49	statut_nichoir	0	0
+50	50	statut_nichoir	0	0
+51	51	statut_nichoir	0	0
+52	52	statut_nichoir	0	0
+53	53	statut_nichoir	0	0
+54	54	statut_nichoir	0	0
+55	55	statut_nichoir	0	0
+56	56	statut_nichoir	0	0
+57	57	statut_nichoir	0	0
+58	58	statut_nichoir	0	0
+59	59	statut_nichoir	0	0
+60	60	statut_nichoir	0	0
+61	61	statut_nichoir	0	0
+62	62	statut_nichoir	0	0
+63	63	statut_nichoir	0	0
+64	64	statut_nichoir	0	0
+65	65	statut_nichoir	0	0
+66	66	statut_nichoir	0	0
+67	67	statut_nichoir	0	0
+68	68	statut_nichoir	0	0
+69	69	statut_nichoir	0	0
 \.
 
 
@@ -8313,2186 +8313,2186 @@ COPY public.inscription (num, idsortie) FROM stdin;
 --
 
 COPY public.observe (num, idespece, lieu, date, remarques, img) FROM stdin;
-22	Prunella modularis	55	2025-07-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Dunnock_(Hedge_Sparrow)_Nest_11.04.11.jpg
-50	Egretta garzetta	109	2025-07-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aigrette1.jpg
-68	Egretta garzetta	111	2025-07-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Egretta_garzetta&format=json&redirects=1&explaintext=1
-70	Egretta garzetta	106	2025-07-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aigrette_garzette,_pêche.jpg
-36	Egretta garzetta	75	2025-07-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Egretta_garzetta&format=json&redirects=1&explaintext=1
-65	Egretta garzetta	82	2025-07-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aigrette_garzette_MHNT.jpg
-23	Egretta garzetta	93	2025-07-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Egretta_garzetta&format=json&redirects=1&explaintext=1
-12	Egretta garzetta	88	2025-07-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aigrette_garzette_au_lac_sud_de_Tunis_(site_RAMSAR).jpg
-70	Egretta garzetta	97	2025-07-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Egretta_garzetta&format=json&redirects=1&explaintext=1
-38	Egretta garzetta	126	2025-07-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aigrette_garzette_lac_de_Tunis_(site_Ramsar).jpg
-83	Egretta garzetta	135	2025-07-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Egretta_garzetta&format=json&redirects=1&explaintext=1
-88	Egretta garzetta	142	2025-07-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aigrettes_garzettes.jpg
-74	Motacilla cinerea	25	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grey_wagtail_(Motacilla_cinerea_robusta).jpg
-59	Motacilla cinerea	26	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_cinerea&format=json&redirects=1&explaintext=1
-14	Motacilla cinerea	58	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/MotacillaCinereaDistributionMapIUCNv8_2.png
-54	Motacilla cinerea	59	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_cinerea&format=json&redirects=1&explaintext=1
-30	Motacilla cinerea	21	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Motacilla_cinerea_-_Ang_Khang.jpg
-17	Motacilla cinerea	18	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_cinerea&format=json&redirects=1&explaintext=1
-4	Motacilla cinerea	57	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Motacilla_cinerea_2_Luc_Viatour.jpg
-17	Motacilla cinerea	11	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_cinerea&format=json&redirects=1&explaintext=1
-90	Motacilla cinerea	7	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Motacilla_cinerea_3_Luc_Viatour.jpg
-74	Motacilla cinerea	24	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_cinerea&format=json&redirects=1&explaintext=1
-28	Motacilla cinerea	38	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Motacilla_cinerea_4_Luc_Viatour.jpg
-60	Motacilla cinerea	61	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_cinerea&format=json&redirects=1&explaintext=1
-29	Motacilla cinerea	60	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Motacilla_cinerea_canariensis_MHNT.ZOO.2010.11.203.10.jpg
-75	Motacilla cinerea	21	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_cinerea&format=json&redirects=1&explaintext=1
-3	Motacilla alba	138	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bergeronette_Grise.jpg
-67	Motacilla alba	110	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
-10	Motacilla alba	95	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bergeronette_Grise_-_Toilette.jpg
-53	Motacilla alba	95	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
-47	Motacilla alba	71	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bergeronnette_grise-haye.jpg
-27	Motacilla alba	73	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
-34	Motacilla alba	101	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.150.39.jpg
-69	Motacilla alba	130	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
-28	Motacilla alba	142	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Hakusekirei_06f5184cav.jpg
-91	Motacilla alba	128	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
-90	Motacilla alba	73	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Moroccan_Wagtail.jpg
-34	Motacilla alba	129	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
-17	Motacilla alba	84	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/MotacillaAlbaPersica.jpg
-89	Motacilla alba	129	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
-43	Motacilla alba	93	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Motacilla_alba;_Baikonur-town_001.jpg
-85	Motacilla alba	120	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
-34	Motacilla alba	113	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Motacilla_alba_alba.JPG
-35	Branta canadensis	108	2025-03-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bernache_du_canada.JPG
-40	Botaurus minutus	44	2025-01-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ixobrychus_minutus_3_(Marek_Szczepanek).jpg
-79	Pernis apivorus	126	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bondree_Apivore.jpg
-38	Pernis apivorus	92	2025-11-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pernis_apivorus&format=json&redirects=1&explaintext=1
-26	Pernis apivorus	78	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bondree_apivore.jpg
-2	Pernis apivorus	133	2025-11-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pernis_apivorus&format=json&redirects=1&explaintext=1
-87	Pernis apivorus	74	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bondrée_Apivore_en_vol.jpg
-11	Pernis apivorus	108	2025-11-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pernis_apivorus&format=json&redirects=1&explaintext=1
-68	Pernis apivorus	132	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
-70	Pernis apivorus	86	2025-11-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pernis_apivorus&format=json&redirects=1&explaintext=1
-56	Pernis apivorus	101	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Honeybuzzard.JPG
-17	Pernis apivorus	127	2025-11-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pernis_apivorus&format=json&redirects=1&explaintext=1
-46	Pernis apivorus	134	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Junger_Wespenbussard_Porträit.jpg
-55	Pernis apivorus	127	2025-11-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pernis_apivorus&format=json&redirects=1&explaintext=1
-7	Pernis apivorus	114	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pernis_apivorus_MHNT.jpg
-37	Pyrrhula pyrrhula	124	2025-06-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bullfinch_male.jpg
-47	Pyrrhula pyrrhula	124	2025-06-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pyrrhula_pyrrhula&format=json&redirects=1&explaintext=1
-30	Pyrrhula pyrrhula	130	2025-06-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Nidbouvreuil.JPG
-88	Pyrrhula pyrrhula	75	2025-06-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pyrrhula_pyrrhula&format=json&redirects=1&explaintext=1
-70	Pyrrhula pyrrhula	124	2025-06-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-48	Pyrrhula pyrrhula	99	2025-06-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pyrrhula_pyrrhula&format=json&redirects=1&explaintext=1
-19	Pyrrhula pyrrhula	128	2025-06-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/PyrrhulaPyrrhulaIUCN2019-3.png
-81	Pyrrhula pyrrhula	113	2025-06-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pyrrhula_pyrrhula&format=json&redirects=1&explaintext=1
-34	Pyrrhula pyrrhula	92	2025-06-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pyrrhula_pyrrhula_europoea_Gouvieux_222.jpg
-4	Pyrrhula pyrrhula	126	2025-06-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pyrrhula_pyrrhula&format=json&redirects=1&explaintext=1
-27	Emberiza schoeniclus	12	2025-03-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bruant_des_Roseaux._Mâle_en_hiver.jpg
-3	Emberiza schoeniclus	54	2025-03-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Emberiza_schoeniclus&format=json&redirects=1&explaintext=1
-35	Emberiza schoeniclus	45	2025-03-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bruant_des_roseaux.jpg
-81	Emberiza schoeniclus	32	2025-03-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Emberiza_schoeniclus&format=json&redirects=1&explaintext=1
-47	Emberiza schoeniclus	3	2025-03-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/EmberizaSchoeniclusIUCN2019-3.png
-20	Buteo buteo	94	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Battle_(193157391).jpeg
-6	Buteo buteo	125	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
-85	Buteo buteo	113	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Buizerd-rh_20091021_002_(cropped).jpg
-75	Buteo buteo	108	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
-86	Buteo buteo	121	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Buteo-roadkill.jpg
-28	Buteo buteo	80	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
-65	Buteo buteo	119	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_buteo_-Hamerton_Zoo,_Cambridgeshire,_England_-head-8a.jpg
-28	Buteo buteo	133	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
-40	Buteo buteo	141	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_buteo_-Netherlands-8.jpg
-62	Buteo buteo	80	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
-57	Buteo buteo	92	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_buteo_-_Bernard_Stam_03.jpg
-24	Buteo buteo	132	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
-73	Buteo buteo	122	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_buteo_1_(Martin_Mecnarowski).jpg
-46	Buteo buteo	107	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
-17	Buteo buteo	140	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_buteo_4_(Marek_Szczepanek).jpg
-61	Buteo buteo	92	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
-76	Mareca strepera	73	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/ADN_static_h.png
-91	Mareca strepera	75	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Mareca_strepera&format=json&redirects=1&explaintext=1
-46	Mareca strepera	85	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_strepera.jpg
-14	Mareca strepera	148	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Mareca_strepera&format=json&redirects=1&explaintext=1
-34	Mareca strepera	99	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_strepera_pair.jpg
-92	Anas platyrhynchos	85	2025-07-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_platyrhynchos_002.jpg
-61	Anas platyrhynchos	70	2025-07-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_platyrhynchos&format=json&redirects=1&explaintext=1
-68	Anas platyrhynchos	111	2025-07-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_platyrhynchos_MHNT.ZOO.2010.11.18.6.jpg
-59	Aix galericulata	126	2025-11-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2_mandarins_bruxelles_mai_19.jpg
-21	Aix galericulata	137	2025-11-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aix_galericulata&format=json&redirects=1&explaintext=1
-82	Aix galericulata	115	2025-11-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aix_galericulata_(Canard_mandarin)_-_364.jpg
-52	Aix galericulata	141	2025-11-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aix_galericulata&format=json&redirects=1&explaintext=1
-75	Aix galericulata	138	2025-11-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aix_galericulata_dis.PNG
-85	Aix galericulata	136	2025-11-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aix_galericulata&format=json&redirects=1&explaintext=1
-53	Aix galericulata	99	2025-11-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Canard_mandarin.jpg
-45	Aix galericulata	135	2025-11-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aix_galericulata&format=json&redirects=1&explaintext=1
-3	Aix galericulata	121	2025-11-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Mandarin_duck_(Aix_galericulata).jpg
-90	Aix galericulata	127	2025-11-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aix_galericulata&format=json&redirects=1&explaintext=1
-39	Aix galericulata	110	2025-11-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ouwehands_Dierenpark_-_Aix_galericulata_(4337587308)_(2).jpg
-84	Spatula clypeata	93	2025-03-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_clypeata_03538.JPG
-64	Spatula clypeata	139	2025-03-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
-61	Spatula clypeata	71	2025-03-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_clypeata_04610.JPG
-58	Spatula clypeata	78	2025-03-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
-79	Spatula clypeata	106	2025-03-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_clypeata_dis.PNG
-81	Spatula clypeata	94	2025-03-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
-33	Spatula clypeata	131	2025-03-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
-83	Spatula clypeata	80	2025-03-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
-90	Spatula clypeata	140	2025-03-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Northern_Shoveler_Anas_clypeata.jpg
-82	Spatula clypeata	101	2025-03-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
-75	Spatula clypeata	123	2025-03-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Northern_shoveler_(Spatula_clypeata)_male_in_flight_Almoloya.jpg
-20	Spatula clypeata	135	2025-03-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
-18	Spatula clypeata	121	2025-03-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Northern_shoveler_male_in_Marine_Park_(33296).jpg
-6	Spatula clypeata	144	2025-03-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
-36	Spatula clypeata	92	2025-03-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Northern_shoveler_pair_in_Marine_Park_(33233).jpg
-56	Spatula clypeata	142	2025-03-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
-7	Spatula clypeata	116	2025-03-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-89	Spatula clypeata	84	2025-03-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
-57	Spatula clypeata	76	2025-03-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Spatula_clypeata_Couple.jpg
-1	Spatula clypeata	105	2025-03-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
-50	Carduelis carduelis	105	2025-11-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carcar.jpg
-77	Carduelis carduelis	77	2025-11-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
-34	Carduelis carduelis	95	2025-11-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis-carduelis.JPG
-85	Carduelis carduelis	91	2025-11-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
-76	Carduelis carduelis	99	2025-11-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_carduelis3.jpg
-78	Carduelis carduelis	94	2025-11-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
-58	Carduelis carduelis	97	2025-11-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_carduelis_carduelis_MHNT_223_Lambézellec.jpg
-31	Carduelis carduelis	147	2025-11-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
-25	Carduelis carduelis	117	2025-11-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_carduelis_parva_MHNT_223_HdB_Ouarsenis.jpg
-19	Carduelis carduelis	145	2025-11-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
-44	Carduelis carduelis	133	2025-11-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chardonneret_juvenile.JPG
-61	Carduelis carduelis	80	2025-11-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
-79	Carduelis carduelis	108	2025-11-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chardonneret_élégant_sur_un_doigt.JPG
-12	Carduelis carduelis	77	2025-11-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
-73	Carduelis carduelis	85	2025-11-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chardonneret_élégant_sur_une_mangeoire.jpg
-46	Carduelis carduelis	108	2025-11-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
-79	Actitis hypoleucos	2	2025-04-25	\N	https://commons.wikimedia.org/wiki/Special:FilePath/ActitisHypoleucosIUCNver2018_2.png
-10	Coloeus monedula	111	2025-07-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2013_Fliegende_Dohle.JPG
-64	Coloeus monedula	122	2025-07-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coloeus_monedula&format=json&redirects=1&explaintext=1
-31	Coloeus monedula	113	2025-07-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Coloeus_monedula,_juvenile,_Newcastle_upon_Tyne,_England.jpg
-15	Coloeus monedula	142	2025-07-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coloeus_monedula&format=json&redirects=1&explaintext=1
-27	Coloeus monedula	118	2025-07-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Coloeus_monedula.jpg
-51	Coloeus monedula	121	2025-07-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coloeus_monedula&format=json&redirects=1&explaintext=1
-75	Coloeus monedula	97	2025-07-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Coloeus_monedula_-Conwy_Castle,_Clwyd,_Wales-8_(2).jpg
-39	Coloeus monedula	114	2025-07-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coloeus_monedula&format=json&redirects=1&explaintext=1
-70	Coloeus monedula	118	2025-07-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Coloeus_monedula_-_Western_Jackdaw_01.jpg
-52	Strix aluco	107	2025-08-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Brooch_in_the_form_of_an_owl_head_MET_DP-12990-011.jpg
-91	Strix aluco	80	2025-08-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Strix_aluco&format=json&redirects=1&explaintext=1
-49	Strix aluco	142	2025-08-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carnivora_Collected_by_the_American_Museum_Congo_Expedition_(1922-1925)_plate_xxi_fig._2.png
-49	Strix aluco	135	2025-08-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Strix_aluco&format=json&redirects=1&explaintext=1
-19	Strix aluco	80	2025-08-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fieldofview01.png
-47	Strix aluco	118	2025-08-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Strix_aluco&format=json&redirects=1&explaintext=1
-69	Ciconia ciconia	79	2025-05-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carl_Kappstein_Störche.jpg
-9	Ciconia ciconia	86	2025-05-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ciconia_ciconia&format=json&redirects=1&explaintext=1
-84	Ciconia ciconia	105	2025-05-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ciconia_alba_Schaeffer_1774.jpg
-8	Ciconia ciconia	109	2025-05-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ciconia_ciconia&format=json&redirects=1&explaintext=1
-34	Ciconia ciconia	77	2025-05-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ciconia_ciconia(Gollibolli)3.JPG
-81	Ciconia ciconia	101	2025-05-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ciconia_ciconia&format=json&redirects=1&explaintext=1
-48	Ciconia ciconia	108	2025-05-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ciconia_ciconia_-Artis_Zoo,_Netherlands_-parent_and_chicks-8b.jpg
-11	Ciconia ciconia	143	2025-05-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ciconia_ciconia&format=json&redirects=1&explaintext=1
-17	Ciconia ciconia	80	2025-05-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ciconia_ciconia_-Guadiana_River,_Badajoz,_Extremadura,_Spain-8.jpg
-71	Ciconia ciconia	75	2025-05-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ciconia_ciconia&format=json&redirects=1&explaintext=1
-15	Ciconia ciconia	135	2025-05-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ciconia_ciconia_-Iglesia_de_San_Isidoro,_Ciguenas_en_el_campanario,_Salamanca,_Spain-18June2006.jpg
-78	Ciconia ciconia	115	2025-05-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ciconia_ciconia&format=json&redirects=1&explaintext=1
-19	Corvus frugilegus	48	2025-11-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Corvus_frugilegus1.jpg
-91	Corvus frugilegus	48	2025-11-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_frugilegus&format=json&redirects=1&explaintext=1
-66	Corvus frugilegus	39	2025-11-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Corvus_frugilegus_MHNT.ZOO.2010.11.174.1.jpg
-91	Corvus frugilegus	30	2025-11-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_frugilegus&format=json&redirects=1&explaintext=1
-5	Corvus frugilegus	46	2025-11-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Corvus_frugilegus_distribution.png
-2	Corvus frugilegus	7	2025-11-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_frugilegus&format=json&redirects=1&explaintext=1
-17	Corvus frugilegus	12	2025-11-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-82	Corvus frugilegus	45	2025-11-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_frugilegus&format=json&redirects=1&explaintext=1
-34	Corvus frugilegus	54	2025-11-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Rook-Corvus_frugilegus.jpg
-66	Corvus frugilegus	25	2025-11-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_frugilegus&format=json&redirects=1&explaintext=1
-72	Corvus frugilegus	36	2025-11-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Rook_4_(6354273333).jpg
-32	Corvus frugilegus	27	2025-11-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_frugilegus&format=json&redirects=1&explaintext=1
-22	Corvus frugilegus	64	2025-11-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Rook_colonies_smoothed.JPG
-36	Corvus frugilegus	64	2025-11-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_frugilegus&format=json&redirects=1&explaintext=1
-37	Corvus corone	145	2025-11-24	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2017.07.04.-06-Scharmuetzelsee-Bad_Saarow--Nebelkraehe.jpg
-64	Corvus corone	112	2025-11-24	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_corone&format=json&redirects=1&explaintext=1
-52	Corvus corone	80	2025-11-24	\N	https://commons.wikimedia.org/wiki/Special:FilePath/August_Friedrich_Albrecht_Schenck_-_Anguish_-_Google_Art_Project.jpg
-10	Cuculus canorus	87	2025-08-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Birds_from_Moidart_and_elsewhere_(Plate_52)_(8511371172).jpg
-82	Cuculus canorus	93	2025-08-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cuculus_canorus&format=json&redirects=1&explaintext=1
-6	Cuculus canorus	87	2025-08-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus2.jpg
-87	Cuculus canorus	121	2025-08-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cuculus_canorus&format=json&redirects=1&explaintext=1
-23	Cuculus canorus	139	2025-08-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_441344397.jpg
-81	Cuculus canorus	117	2025-08-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cuculus_canorus&format=json&redirects=1&explaintext=1
-75	Cuculus canorus	117	2025-08-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_bangsi_MHNT.ZOO.2010.11.149.13.jpg
-48	Cuculus canorus	120	2025-08-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cuculus_canorus&format=json&redirects=1&explaintext=1
-85	Cuculus canorus	91	2025-08-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.149.48.jpg
-42	Cuculus canorus	143	2025-08-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cuculus_canorus&format=json&redirects=1&explaintext=1
-50	Cuculus canorus	72	2025-08-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Distribution_of_Cuculus_canorus.PNG
-33	Cuculus canorus	125	2025-08-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cuculus_canorus&format=json&redirects=1&explaintext=1
-55	Cuculus canorus	131	2025-08-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Kuckuck_maennchen.jpg
-52	Cuculus canorus	72	2025-08-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cuculus_canorus&format=json&redirects=1&explaintext=1
-38	Cygnus atratus	106	2025-03-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Black_Swan_Family.jpg
-9	Cygnus atratus	89	2025-03-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_atratus&format=json&redirects=1&explaintext=1
-53	Cygnus atratus	121	2025-03-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Black_Swan_in_Australia.JPG
-21	Cygnus atratus	119	2025-03-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_atratus&format=json&redirects=1&explaintext=1
-24	Cygnus atratus	83	2025-03-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cygnes-noirs.JPG
-22	Cygnus atratus	83	2025-03-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_atratus&format=json&redirects=1&explaintext=1
-59	Cygnus atratus	74	2025-03-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cygnus_atratus_-adult_with_chicks_in_Australia-8.jpg
-5	Cygnus atratus	88	2025-03-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_atratus&format=json&redirects=1&explaintext=1
-81	Cygnus atratus	105	2025-03-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cygnus_atratus_MHNT.ZOO.2010.11.16.5.jpg
-86	Cygnus atratus	107	2025-03-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_atratus&format=json&redirects=1&explaintext=1
-57	Cygnus atratus	76	2025-03-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cygnus_atratus_in_flight-1.jpg
-2	Cygnus atratus	80	2025-03-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_atratus&format=json&redirects=1&explaintext=1
-3	Cygnus olor	103	2025-10-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/093_Wild_Mute_swan_at_Lake_Geneva_during_sunset_Photo_by_Giles_Laurent.jpg
-19	Cygnus olor	72	2025-10-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_olor&format=json&redirects=1&explaintext=1
-16	Cygnus olor	136	2025-10-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/CygneVaires.jpg
-11	Cygnus olor	117	2025-10-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_olor&format=json&redirects=1&explaintext=1
-24	Cygnus olor	94	2025-10-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cygne_et_cygneau_-_Léman.jpg
-90	Cygnus olor	99	2025-10-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_olor&format=json&redirects=1&explaintext=1
-2	Cygnus olor	109	2025-10-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cygne_nid_2.jpg
-17	Accipiter nisus	92	2025-09-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/AccipiterGrantiKeulemans.jpg
-12	Accipiter nisus	112	2025-09-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
-29	Accipiter nisus	103	2025-09-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_brevipes_Dresser.jpg
-48	Accipiter nisus	105	2025-09-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
-55	Accipiter nisus	116	2025-09-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_gentilisAAP045CA.jpg
-16	Accipiter nisus	97	2025-09-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
-26	Accipiter nisus	105	2025-09-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_1_(Bohuš_Číčel).jpg
-30	Accipiter nisus	144	2025-09-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
-92	Accipiter nisus	93	2025-09-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_Forst_Jungfernheide_080610.jpg
-49	Accipiter nisus	121	2025-09-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
-85	Accipiter nisus	108	2025-09-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_MHNT.jpg
-90	Accipiter nisus	140	2025-09-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
-80	Accipiter nisus	96	2025-09-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_Meneer_Zjeroen.jpg
-89	Accipiter nisus	81	2025-09-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
-35	Accipiter nisus	144	2025-09-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_female.jpg
-13	Accipiter nisus	103	2025-09-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
-30	Accipiter nisus	97	2025-09-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_punicus_MHNT.ZOO.2010.11.85.1.jpg
-1	Accipiter nisus	111	2025-09-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
-76	Accipiter nisus	135	2025-09-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_virgatus_Keulemans.jpg
-61	Accipiter nisus	105	2025-09-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
-35	Sturnus vulgaris	49	2025-02-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Beaumaris_Castle_2015_123.jpg
-21	Sturnus vulgaris	34	2025-02-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
-21	Sturnus vulgaris	65	2025-02-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bird_on_Horseback_(2761927585).jpg
-52	Sturnus vulgaris	41	2025-02-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
-68	Sturnus vulgaris	47	2025-02-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Birds_nest_in_a_cable_box.jpg
-73	Sturnus vulgaris	56	2025-02-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
-91	Sturnus vulgaris	9	2025-02-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Birds_of_a_feather_-_geograph.org.uk_-_613048.jpg
-25	Sturnus vulgaris	9	2025-02-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
-55	Sturnus vulgaris	22	2025-02-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_starling_in_london.jpg
-56	Sturnus vulgaris	11	2025-02-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
-87	Sturnus vulgaris	52	2025-02-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Etourneau_Sansonnet_Parc_des_Aiguamolls.jpg
-75	Sturnus vulgaris	68	2025-02-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
-64	Sturnus vulgaris	45	2025-02-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Etourneau_juvenile.jpg
-21	Sturnus vulgaris	25	2025-02-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
-62	Sturnus vulgaris	26	2025-02-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Etourneaux_sur_le_toit_du_clocher_d'_une_église.JPG
-28	Sturnus vulgaris	36	2025-02-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
-35	Sturnus vulgaris	31	2025-02-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/European_Starling.jpg
-14	Sturnus vulgaris	56	2025-02-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
-88	Falco tinnunculus	133	2025-08-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/077_Wild_Common_kestrel_in_flight_at_Pfyn-Finges_Photo_by_Giles_Laurent.jpg
-64	Falco tinnunculus	114	2025-08-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_tinnunculus&format=json&redirects=1&explaintext=1
-60	Falco tinnunculus	142	2025-08-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/078_Wild_Common_kestrel_in_flight_at_Pfyn-Finges_Photo_by_Giles_Laurent.jpg
-80	Falco tinnunculus	139	2025-08-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_tinnunculus&format=json&redirects=1&explaintext=1
-92	Falco tinnunculus	126	2025-08-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2010._Stamp_of_Belarus_04-2010-03-11-m.jpg
-41	Falco tinnunculus	121	2025-08-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_tinnunculus&format=json&redirects=1&explaintext=1
-58	Falco tinnunculus	147	2025-08-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/A_Common_Kestrel_on_the_hunt_for_insects_(49718325433)_cropped.jpg
-42	Falco tinnunculus	73	2025-08-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_tinnunculus&format=json&redirects=1&explaintext=1
-66	Falco tinnunculus	85	2025-08-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/A_Kestrel_Fledgling_Mantling!_(14339757180).jpg
-59	Falco tinnunculus	141	2025-08-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_tinnunculus&format=json&redirects=1&explaintext=1
-50	Falco tinnunculus	102	2025-08-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Accouplement_crécerelle.jpg
-80	Falco tinnunculus	140	2025-08-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_tinnunculus&format=json&redirects=1&explaintext=1
-88	Falco tinnunculus	87	2025-08-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Kestrel_Falco_tinnunculus_Tal_Chappar_Rajasthan_India_14.02.2013.jpg
-52	Falco tinnunculus	122	2025-08-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_tinnunculus&format=json&redirects=1&explaintext=1
-18	Falco subbuteo	8	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/FalcoSubbuteoIUCNver2019_2.png
-80	Falco subbuteo	50	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_subbuteo&format=json&redirects=1&explaintext=1
-53	Falco subbuteo	7	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Falco_subbuteo_MHNT.ZOO.2010.11.105.6.jpg
-62	Falco subbuteo	18	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_subbuteo&format=json&redirects=1&explaintext=1
-68	Falco subbuteo	58	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Falco_subbuteo_NAUMANN.jpg
-18	Falco subbuteo	26	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_subbuteo&format=json&redirects=1&explaintext=1
-48	Falco subbuteo	13	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-81	Falco subbuteo	8	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_subbuteo&format=json&redirects=1&explaintext=1
-72	Sylvia atricapilla	29	2025-03-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Blackcap_(Sylvia_atricapilla)_male.jpg
-74	Sylvia atricapilla	16	2025-03-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_atricapilla&format=json&redirects=1&explaintext=1
-8	Sylvia atricapilla	36	2025-03-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_bangsi_MHNT.ZOO.2010.11.150.31.jpg
-16	Sylvia atricapilla	51	2025-03-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_atricapilla&format=json&redirects=1&explaintext=1
-43	Sylvia atricapilla	67	2025-03-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Jeune_fauvette_à_tête_noire_05.jpg
-63	Sylvia atricapilla	42	2025-03-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_atricapilla&format=json&redirects=1&explaintext=1
-87	Sylvia atricapilla	13	2025-03-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Male_Eurasian_Blackcap_(Sylvia_atricapilla)_in_Boutlélis,_Oran._November_2025.jpg
-23	Sylvia atricapilla	4	2025-03-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_atricapilla&format=json&redirects=1&explaintext=1
-55	Sylvia atricapilla	52	2025-03-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-24	Sylvia atricapilla	5	2025-03-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_atricapilla&format=json&redirects=1&explaintext=1
-2	Sylvia atricapilla	61	2025-03-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/SylviaAtricapillaIUCNver2018_2.png
-40	Sylvia atricapilla	36	2025-03-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_atricapilla&format=json&redirects=1&explaintext=1
-9	Curruca curruca	38	2025-09-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Curruca_curruca_MHNT.ZOO.2010.11.196.47.jpg
-41	Curruca curruca	8	2025-09-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_curruca&format=json&redirects=1&explaintext=1
-9	Curruca curruca	8	2025-09-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lesser_Whitethroat_(Sylvia_curruca)_(4).jpg
-1	Curruca curruca	47	2025-09-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_curruca&format=json&redirects=1&explaintext=1
-83	Curruca curruca	43	2025-09-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Nest_of_Lesser_Whitethroat.jpg
-47	Curruca curruca	5	2025-09-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_curruca&format=json&redirects=1&explaintext=1
-9	Curruca curruca	63	2025-09-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-80	Curruca curruca	3	2025-09-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_curruca&format=json&redirects=1&explaintext=1
-20	Curruca curruca	69	2025-09-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Spiza_americana_male_94_231051626_13e01e8125_o_cropped.png
-12	Curruca curruca	68	2025-09-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_curruca&format=json&redirects=1&explaintext=1
-70	Curruca curruca	41	2025-09-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/SylviaCurrucaIUCN.png
-31	Curruca curruca	46	2025-09-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_curruca&format=json&redirects=1&explaintext=1
-44	Curruca curruca	52	2025-09-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Sylvia_curruca.jpg
-9	Sylvia borin	142	2025-06-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Barred_Warbler_(Sylvia_nisoria)_(34406940671)_(cropped).jpg
-35	Sylvia borin	133	2025-06-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
-45	Sylvia borin	131	2025-06-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.150.37.jpg
-90	Sylvia borin	117	2025-06-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
-89	Sylvia borin	129	2025-06-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Garden_Warbler_1_(portrait).jpg
-46	Sylvia borin	74	2025-06-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
-70	Sylvia borin	146	2025-06-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Naturalis_Biodiversity_Center_-_RMNH.AVES.138188_1_-_Sylvia_borin_borin_(Boddaert,_1783)_-_Sylviidae_-_bird_skin_specimen.jpeg
-13	Sylvia borin	80	2025-06-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
-11	Sylvia borin	111	2025-06-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Naturalis_Biodiversity_Center_-_RMNH.AVES.138188_2_-_Sylvia_borin_borin_(Boddaert,_1783)_-_Sylviidae_-_bird_skin_specimen.jpeg
-85	Sylvia borin	83	2025-06-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
-32	Sylvia borin	111	2025-06-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Naturalis_Biodiversity_Center_-_RMNH.AVES.9153_1_-_Sylvia_borin_borin_(Boddaert,_1783)_-_Sylviidae_-_bird_skin_specimen.jpeg
-90	Sylvia borin	144	2025-06-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
-78	Sylvia borin	106	2025-06-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Naturalis_Biodiversity_Center_-_RMNH.AVES.9153_2_-_Sylvia_borin_borin_(Boddaert,_1783)_-_Sylviidae_-_bird_skin_specimen.jpeg
-27	Sylvia borin	90	2025-06-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
-7	Sylvia borin	79	2025-06-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Naturalis_Biodiversity_Center_-_RMNH.AVES.94935_1_-_Sylvia_borin_woodwardi_(Sharpe,_1877)_-_Sylviidae_-_bird_skin_specimen.jpeg
-16	Sylvia borin	138	2025-06-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
-63	Curruca communis	81	2025-03-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.150.38.jpg
-2	Curruca communis	93	2025-03-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_communis&format=json&redirects=1&explaintext=1
-29	Curruca communis	122	2025-03-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fauvette_Grisette.jpg
-38	Curruca communis	144	2025-03-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_communis&format=json&redirects=1&explaintext=1
-21	Curruca communis	75	2025-03-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-59	Curruca communis	88	2025-03-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_communis&format=json&redirects=1&explaintext=1
-24	Curruca communis	97	2025-03-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/SylviaCommunisIUCN2019-3.png
-69	Curruca communis	92	2025-03-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_communis&format=json&redirects=1&explaintext=1
-11	Curruca communis	121	2025-03-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Tallareta_vulgar_01_(Sylvia_communis).jpg
-32	Curruca communis	108	2025-03-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_communis&format=json&redirects=1&explaintext=1
-18	Fulica atra	21	2025-08-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/20050507-007-fulica-atra.jpg
-41	Fulica atra	7	2025-08-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fulica_atra&format=json&redirects=1&explaintext=1
-83	Fulica atra	28	2025-08-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Couvaison.jpg
-57	Fulica atra	20	2025-08-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fulica_atra&format=json&redirects=1&explaintext=1
-56	Fulica atra	61	2025-08-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_Coot_nest_and_eggs.JPG
-63	Fulica atra	32	2025-08-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fulica_atra&format=json&redirects=1&explaintext=1
-50	Fulica atra	47	2025-08-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_coot_(Fulica_atra)_juvenile.jpg
-31	Fulica atra	43	2025-08-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fulica_atra&format=json&redirects=1&explaintext=1
-43	Fulica atra	2	2025-08-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_coot_(Fulica_atra)_with_chicks.jpg
-7	Fulica atra	15	2025-08-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fulica_atra&format=json&redirects=1&explaintext=1
-82	Fulica atra	69	2025-08-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Foulque_Macroule_juvénile.jpg
-63	Aythya ferina	73	2025-02-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/AythyaFerinaIUCNver2018_2.png
-81	Aythya ferina	123	2025-02-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
-72	Aythya ferina	102	2025-02-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aythya_ferina_(Marek_Szczepanek).jpg
-35	Aythya ferina	111	2025-02-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
-54	Aythya ferina	108	2025-02-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aythya_ferina_MHNT.ZOO.2010.11.20.4.jpg
-44	Aythya ferina	133	2025-02-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
-79	Aythya ferina	85	2025-02-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_pochard_(Aythya_ferina)_female_3.jpg
-64	Aythya ferina	141	2025-02-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
-42	Aythya ferina	110	2025-02-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Couple_de_Fuligule_Milouins.jpg
-58	Aythya ferina	141	2025-02-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
-27	Aythya ferina	78	2025-02-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fuligule.milouin1.jpg
-86	Aythya ferina	101	2025-02-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
-59	Aythya ferina	116	2025-02-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fuligule.milouin3.jpg
-15	Aythya ferina	135	2025-02-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
-36	Aythya ferina	127	2025-02-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fuligule_Milouin_mâle.jpg
-74	Aythya ferina	135	2025-02-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
-26	Aythya ferina	83	2025-02-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fuligule_milouin.jpg
-31	Aythya ferina	88	2025-02-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
-40	Aythya fuligula	74	2025-03-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/AythyaFuligulaIUCNver2018_2.png
-13	Aythya fuligula	80	2025-03-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_fuligula&format=json&redirects=1&explaintext=1
-35	Aythya fuligula	147	2025-03-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aythya_fuligula_MHNT.ZOO.2010.11.20.3.jpg
-60	Aythya fuligula	119	2025-03-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_fuligula&format=json&redirects=1&explaintext=1
-83	Aythya fuligula	122	2025-03-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-43	Aythya nyroca	67	2025-05-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/AythyaNyrocaIUCNver2019_1.png
-41	Aythya nyroca	31	2025-05-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_nyroca&format=json&redirects=1&explaintext=1
-59	Aythya nyroca	55	2025-05-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aythya_nyroca_MHNT.ZOO.2010.11.20.5.jpg
-87	Aythya nyroca	22	2025-05-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_nyroca&format=json&redirects=1&explaintext=1
-61	Aythya nyroca	64	2025-05-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aythya_nyroca_at_Martin_Mere_1.jpg
-41	Aythya nyroca	6	2025-05-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_nyroca&format=json&redirects=1&explaintext=1
-7	Aythya nyroca	27	2025-05-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-77	Aythya nyroca	27	2025-05-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_nyroca&format=json&redirects=1&explaintext=1
-86	Gallinula chloropus	116	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/20170619_4046_Naivasha_Gallinule_poule-d'eau.jpg
-29	Gallinula chloropus	98	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gallinula_chloropus&format=json&redirects=1&explaintext=1
-59	Gallinula chloropus	106	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_moorhen_(Gallinula_chloropus)_France.jpg
-78	Gallinula chloropus	128	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gallinula_chloropus&format=json&redirects=1&explaintext=1
-17	Gallinula chloropus	134	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_moorhen_in_Suita,_Osaka,_December_2016_-_689.jpg
-80	Gallinula chloropus	128	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gallinula_chloropus&format=json&redirects=1&explaintext=1
-24	Gallinula chloropus	131	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/GallinulaChloropusIUCNver2019-2.png
-49	Garrulus glandarius	107	2025-08-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/01-veic-07-001.jpg
-66	Garrulus glandarius	73	2025-08-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
-48	Garrulus glandarius	132	2025-08-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/075_Wild_Eurasian_jay_in_flight_at_the_Parc_naturel_régional_Jura_vaudois_Photo_by_Giles_Laurent.jpg
-75	Garrulus glandarius	72	2025-08-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
-65	Garrulus glandarius	147	2025-08-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Eicherhaeher.Kopf.jpg
-88	Garrulus glandarius	110	2025-08-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
-24	Garrulus glandarius	70	2025-08-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Gargla.jpg
-48	Podiceps cristatus	102	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Great_Crested_Grebe_1_-_Penrith.jpg
-61	Garrulus glandarius	108	2025-08-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
-55	Garrulus glandarius	131	2025-08-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Garrulus_glandarius_1_Luc_Viatour.jpg
-91	Garrulus glandarius	74	2025-08-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
-82	Garrulus glandarius	119	2025-08-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Garrulus_glandarius_atricapillus_MHNT.ZOO.2010.11.170.18.jpg
-49	Garrulus glandarius	133	2025-08-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
-15	Garrulus glandarius	91	2025-08-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Garrulus_glandarius_distribution.jpg
-52	Garrulus glandarius	141	2025-08-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
-76	Garrulus glandarius	140	2025-08-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Garrulus_glandarius_rufitergum_MHNT_232_Weymouth.jpg
-30	Garrulus glandarius	71	2025-08-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
-21	Garrulus glandarius	106	2025-08-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Geai--des--chêne--.jpg
-27	Garrulus glandarius	125	2025-08-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
-26	Muscicapa striata	53	2025-01-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.150.43.jpg
-92	Muscicapa striata	69	2025-01-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Muscicapa_striata&format=json&redirects=1&explaintext=1
-59	Muscicapa striata	19	2025-01-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Juvenile_Spotted_Flycatcher.JPG
-23	Ficedula hypoleuca	141	2025-03-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ficedula_hypoleuca-chicks2.jpg
-92	Ficedula hypoleuca	95	2025-03-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
-81	Ficedula hypoleuca	131	2025-03-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ficedula_hypoleuca-female.jpg
-63	Ficedula hypoleuca	73	2025-03-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
-27	Ficedula hypoleuca	92	2025-03-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ficedula_hypoleuca_NRM.jpg
-21	Ficedula hypoleuca	126	2025-03-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
-66	Ficedula hypoleuca	145	2025-03-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ficedula_hypoleuca_Sussex_1.jpg
-65	Ficedula hypoleuca	144	2025-03-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
-6	Ficedula hypoleuca	99	2025-03-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ficedula_hypoleuca_egg.JPG
-85	Ficedula hypoleuca	73	2025-03-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
-68	Ficedula hypoleuca	88	2025-03-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ficedula_hypoleuca_hypoleuca_MHNT.ZOO.2010.11.206.3.jpg
-45	Ficedula hypoleuca	141	2025-03-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
-42	Ficedula hypoleuca	87	2025-03-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Papamosca_cerrojillo._(Ficedula_hypoleuca)(♀)_1Inv_(7973806338).jpg
-57	Ficedula hypoleuca	97	2025-03-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
-47	Ficedula hypoleuca	113	2025-03-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Photo_de_gobemouche_noir.jpg
-3	Ficedula hypoleuca	137	2025-03-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
-29	Larus argentatus	142	2025-04-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2004-04-10_Larus_michahellis_ad.jpg
-52	Larus fuscus	96	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Goeland_adulte_et_juvénile.jpg
-61	Larus fuscus	93	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
-53	Larus fuscus	142	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Goéland_brun_(larus_fuscus).jpg
-17	Larus fuscus	78	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
-28	Larus fuscus	106	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Larus-fuscus-taxbox.jpg
-33	Larus fuscus	91	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
-69	Larus fuscus	117	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Larus_fuscus_graellsii_MHNT.ZOO.2010.11.122.15.jpg
-89	Larus fuscus	128	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
-49	Larus fuscus	86	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lesser_Black-backed_Gull_(Larus_fuscus_graellsii)_(26207788150).jpg
-57	Larus fuscus	95	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
-5	Larus fuscus	140	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lesser_black-backed_gull_Morocco.jpg
-47	Larus fuscus	73	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
-30	Larus fuscus	113	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/PT05_ubt.jpeg
-7	Larus fuscus	99	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
-73	Larus fuscus	72	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-55	Larus fuscus	90	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
-45	Larus fuscus	75	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Silltrut-Larus_fuscus-1cy-Ystad-2009.jpg
-27	Larus fuscus	81	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
-54	Phalacrocorax carbo	104	2025-09-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aalscholver_-_Great_Cormorant_(15380885176).jpg
-54	Phalacrocorax carbo	79	2025-09-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
-59	Phalacrocorax carbo	78	2025-09-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Arbres_corrodés_par_les_fientes_de_cormorans_(1).jpg
-78	Phalacrocorax carbo	81	2025-09-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
-69	Phalacrocorax carbo	75	2025-09-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cormoran_du_Parc_Forestier_et_Zoologique_de_Hann_Sénégal_01.jpg
-70	Phalacrocorax carbo	83	2025-09-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
-33	Phalacrocorax carbo	85	2025-09-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Détail_Plumage_Grand_Cormoran.jpg
-36	Phalacrocorax carbo	92	2025-09-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
-80	Phalacrocorax carbo	129	2025-09-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Cormoran,_Bayonne,_Adour,_Phalacrocorax_carbo,_Great_Cormorant_02.jpg
-25	Phalacrocorax carbo	112	2025-09-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
-55	Phalacrocorax carbo	72	2025-09-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Cormoran,_construction_du_nid..jpg
-73	Phalacrocorax carbo	70	2025-09-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
-69	Phalacrocorax carbo	131	2025-09-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Cormoran.jpg
-45	Phalacrocorax carbo	93	2025-09-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
-24	Phalacrocorax carbo	79	2025-09-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grand_cormoran_lac_de_Tunis_(site_Ramsar).jpg
-10	Phalacrocorax carbo	73	2025-09-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
-61	Ardea alba	121	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/ArdeaAlbaIUCNver2019_1.png
-38	Ardea alba	75	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_alba&format=json&redirects=1&explaintext=1
-88	Ardea alba	140	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_alba4.jpg
-21	Ardea alba	142	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_alba&format=json&redirects=1&explaintext=1
-36	Ardea alba	83	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_alba;_3_chicks,_Morro_Bay_Heron_Rookery_2_-_by_Mike_Baird.jpg
-72	Ardea alba	95	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_alba&format=json&redirects=1&explaintext=1
-75	Ardea alba	114	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_alba_(head).jpg
-41	Ardea alba	86	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_alba&format=json&redirects=1&explaintext=1
-26	Ardea alba	113	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_alba_melanorhynchos_MHNT.ZOO.2010.11.52.1.jpg
-34	Ardea alba	88	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_alba&format=json&redirects=1&explaintext=1
-35	Ardea alba	85	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bird_in_Iguazú_falls.jpg
-74	Ardea alba	117	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_alba&format=json&redirects=1&explaintext=1
-33	Ardea alba	125	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Casmerodius_albus.jpg
-69	Ardea alba	97	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_alba&format=json&redirects=1&explaintext=1
-7	Tachybaptus ruficollis	132	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
-31	Tachybaptus ruficollis	80	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tachybaptus_ruficollis&format=json&redirects=1&explaintext=1
-91	Tachybaptus ruficollis	79	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grèbe_castagneux_-_Tachybaptus_ruficollis.jpg
-5	Tachybaptus ruficollis	107	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tachybaptus_ruficollis&format=json&redirects=1&explaintext=1
-72	Tachybaptus ruficollis	114	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Little_Grebe_(Tachybaptus_ruficollis),_Parc_de_Woluwé,_Brussels_(19847854714).jpg
-44	Tachybaptus ruficollis	96	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tachybaptus_ruficollis&format=json&redirects=1&explaintext=1
-9	Tachybaptus ruficollis	123	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Little_Grebe_(Tachybaptus_ruficollis)_diving_..._(26002569196).jpg
-18	Tachybaptus ruficollis	101	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tachybaptus_ruficollis&format=json&redirects=1&explaintext=1
-76	Tachybaptus ruficollis	87	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Little_Grebe_(Tachybaptus_ruficollis)_eggs_and_nest_..._(26580418992).jpg
-77	Tachybaptus ruficollis	111	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tachybaptus_ruficollis&format=json&redirects=1&explaintext=1
-85	Tachybaptus ruficollis	114	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Little_Grebe_(Tachybaptus_ruficollis)_nest_(25959956404).jpg
-21	Podiceps cristatus	113	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Great_Crested_Grebe_(Podiceps_cristatus)_(26735133762).jpg
-45	Podiceps cristatus	140	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
-71	Podiceps cristatus	84	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Great_Crested_Grebe_(Podiceps_cristatus)_with_Pumpkinseed_(Lepomis_gibbosus)_(26662687256).jpg
-2	Podiceps cristatus	78	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
-30	Rana temporaria	123	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-53	Podiceps cristatus	134	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
-29	Podiceps cristatus	82	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grebe_Courtship_(detail).jpg
-69	Podiceps cristatus	145	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
-41	Podiceps cristatus	134	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lac-du-der-taucher.jpg
-7	Podiceps cristatus	145	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
-58	Podiceps cristatus	130	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Neuhaus_Haubentaucher_füttert_Küken_am_Nest_P5RM1096.jpg
-59	Podiceps cristatus	97	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
-80	Podiceps cristatus	126	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-9	Podiceps cristatus	137	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
-50	Podiceps cristatus	78	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/PodicepsCristatusIUCN2019-2.png
-49	Podiceps cristatus	84	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
-26	Certhia brachydactyla	132	2025-07-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Certhia_brachydactyla_mauritanica_Witherby,_1905,_Souk_Ahras.jpg
-39	Turdus viscivorus	83	2025-04-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-87	Turdus viscivorus	74	2025-04-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_viscivorus&format=json&redirects=1&explaintext=1
-55	Turdus viscivorus	146	2025-04-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/TurdusViscivorusIUCN2019_2.png
-34	Turdus iliacus	58	2025-04-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-38	Turdus iliacus	10	2025-04-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_iliacus&format=json&redirects=1&explaintext=1
-45	Turdus iliacus	10	2025-04-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Redwing_nest.jpg
-90	Turdus iliacus	23	2025-04-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_iliacus&format=json&redirects=1&explaintext=1
-85	Turdus iliacus	4	2025-04-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Redwing_on_Snæfellsnes,_Iceland.jpg
-56	Turdus iliacus	39	2025-04-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_iliacus&format=json&redirects=1&explaintext=1
-41	Turdus iliacus	43	2025-04-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/TurdusIliacusIUCNver2020-1.png
-15	Turdus philomelos	12	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-46	Turdus philomelos	8	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_philomelos&format=json&redirects=1&explaintext=1
-2	Turdus philomelos	4	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Song_Thrush_Turdus_philomelos.jpg
-71	Turdus philomelos	31	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_philomelos&format=json&redirects=1&explaintext=1
-82	Turdus philomelos	52	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Turdus_philomelos_MHNT_ZOO_2010_11_187_Courtalain.jpg
-45	Turdus philomelos	61	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_philomelos&format=json&redirects=1&explaintext=1
-66	Turdus philomelos	7	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Turdus_philomelos_musée_Edimbourg.jpg
-79	Turdus philomelos	58	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_philomelos&format=json&redirects=1&explaintext=1
-30	Coccothraustes coccothraustes	66	2025-10-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Coccothraustes_coccothraustes_3_(Martin_Mecnarowski).jpg
-49	Coccothraustes coccothraustes	60	2025-10-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coccothraustes_coccothraustes&format=json&redirects=1&explaintext=1
-75	Coccothraustes coccothraustes	13	2025-10-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Coccothraustes_coccothraustes_MHNT.ZOO.2010.11_Gouvieux.jpg
-49	Coccothraustes coccothraustes	27	2025-10-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coccothraustes_coccothraustes&format=json&redirects=1&explaintext=1
-16	Coccothraustes coccothraustes	8	2025-10-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Coccothraustes_coccothraustes_à_Melesse.jpg
-25	Coccothraustes coccothraustes	31	2025-10-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coccothraustes_coccothraustes&format=json&redirects=1&explaintext=1
-59	Coccothraustes coccothraustes	62	2025-10-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
-59	Grus grus	117	2025-05-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_crane_grus_grus.jpg
-84	Grus grus	117	2025-05-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
-56	Grus grus	142	2025-05-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_Cranes_migrating_to_Meyghan_Salt_Lake.jpg
-83	Grus grus	112	2025-05-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
-65	Grus grus	121	2025-05-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grus_grus.JPG
-19	Grus grus	103	2025-05-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
-10	Grus grus	142	2025-05-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grus_grus_2_(Marek_Szczepanek).jpg
-80	Grus grus	104	2025-05-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
-48	Grus grus	105	2025-05-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grus_grus_5_(Marek_Szczepanek).jpg
-35	Grus grus	119	2025-05-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
-49	Grus grus	97	2025-05-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grus_grus_6_(Marek_Szczepanek).jpg
-56	Rana dalmatina	132	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Rana_dalmatina.png
-29	Grus grus	75	2025-05-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
-1	Grus grus	137	2025-05-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grus_grus_egg_-_Niitvälja_bog.jpg
-17	Grus grus	80	2025-05-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
-75	Grus grus	129	2025-05-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grus_grus_migration01.jpg
-34	Grus grus	113	2025-05-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
-14	Ardea cinerea	131	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ardcin.jpg
-87	Ardea cinerea	71	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
-58	Ardea cinerea	127	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_(Grey_heron)_eating_fish.jpg
-84	Ardea cinerea	146	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
-81	Ardea cinerea	109	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_2_(Marek_Szczepanek).jpg
-43	Ardea cinerea	142	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
-42	Ardea cinerea	143	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_Luc_Viatour.jpg
-31	Ardea cinerea	148	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
-78	Ardea cinerea	86	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_MHNT.ZOO.2010.11.54.1.jpg
-20	Ardea cinerea	91	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
-17	Ardea cinerea	120	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_MHNT_Crâne.jpg
-70	Ardea cinerea	145	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
-12	Ardea cinerea	88	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_eggs.JPG
-36	Ardea cinerea	82	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
-8	Ardea cinerea	84	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_map.png
-34	Ardea cinerea	126	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
-17	Ardea cinerea	104	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Blauwe_Reiger.jpg
-1	Delichon urbicum	74	2025-01-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/DelichonIbis-crop.jpg
-27	Delichon urbicum	84	2025-01-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Delichon_urbicum&format=json&redirects=1&explaintext=1
-78	Delichon urbicum	142	2025-01-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Delichon_dasypus_Sharpe_(1).jpg
-30	Delichon urbicum	73	2025-01-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Delichon_urbicum&format=json&redirects=1&explaintext=1
-77	Delichon urbicum	141	2025-01-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Delichon_urbica_juvenile.jpg
-15	Delichon urbicum	139	2025-01-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Delichon_urbicum&format=json&redirects=1&explaintext=1
-31	Delichon urbicum	79	2025-01-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Delichon_urbicum.png
-10	Riparia riparia	77	2025-06-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Brutroehre_Riparia_riparia.JPG
-44	Riparia riparia	115	2025-06-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Riparia_riparia&format=json&redirects=1&explaintext=1
-66	Riparia riparia	72	2025-06-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Hirondelle_de_Rivage_à_l'entrée_des_nids.jpg
-32	Riparia riparia	109	2025-06-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Riparia_riparia&format=json&redirects=1&explaintext=1
-84	Riparia riparia	111	2025-06-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-33	Riparia riparia	122	2025-06-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Riparia_riparia&format=json&redirects=1&explaintext=1
-8	Riparia riparia	110	2025-06-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Riparia_riparia-Brutfleck.jpg
-54	Riparia riparia	122	2025-06-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Riparia_riparia&format=json&redirects=1&explaintext=1
-45	Riparia riparia	134	2025-06-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Riparia_riparia-nest.jpg
-25	Hirundo rustica	8	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/BarnSwallowJapan.jpg
-53	Hirundo rustica	33	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
-30	Hirundo rustica	65	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/BarnSwallow_cajay.jpg
-27	Hirundo rustica	4	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
-29	Hirundo rustica	52	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Barn_Swallow_(Hirundo_rustica)_in_Kolkata_W_IMG_3419.jpg
-20	Hirundo rustica	8	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
-16	Hirundo rustica	5	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Barn_swallow_(feeding)_at_Tennōji_Park_in_Osaka,_June_2016_-_315.jpg
-37	Hirundo rustica	3	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
-81	Hirundo rustica	3	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Barn_swallow_in_Montezuma_(14460).jpg
-29	Hirundo rustica	27	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
-36	Hirundo rustica	23	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Delichon_urbica_NRM.jpg
-13	Hirundo rustica	26	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
-39	Hirundo rustica	6	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/EEK-500krooni-rear.jpg
-70	Hirundo rustica	53	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
-44	Hirundo rustica	1	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
-74	Hirundo rustica	56	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
-82	Hippolais polyglotta	30	2025-01-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Hippolais_polyglotta_MHNT_ZOO_2010_11_201_Ouarsenis.jpg
-71	Hippolais polyglotta	47	2025-01-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hippolais_polyglotta&format=json&redirects=1&explaintext=1
-77	Hippolais polyglotta	61	2025-01-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Hippolais_polyglotta_distribution_map.png
-22	Hippolais polyglotta	7	2025-01-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hippolais_polyglotta&format=json&redirects=1&explaintext=1
-10	Hippolais polyglotta	17	2025-01-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Melodious_Warbler_2025_05_23.jpg
-36	Hippolais polyglotta	25	2025-01-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hippolais_polyglotta&format=json&redirects=1&explaintext=1
-47	Hippolais polyglotta	60	2025-01-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-22	Hippolais polyglotta	9	2025-01-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hippolais_polyglotta&format=json&redirects=1&explaintext=1
-61	Linaria cannabina	1	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_cannabina_01.jpg
-80	Linaria cannabina	22	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
-86	Linaria cannabina	31	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_cannabina_Lvk.jpg
-53	Linaria cannabina	50	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
-16	Linaria cannabina	56	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_cannabina_cannabina_MHNT_223_St_Moré.jpg
-91	Linaria cannabina	37	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
-16	Linaria cannabina	35	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_cannabina_meadewaldoi_MHNT_223_Tejeda_RdN.jpg
-53	Linaria cannabina	5	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
-36	Linaria cannabina	56	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_linnet_(Linaria_cannabina_mediterranea)_juvenile.jpg
-27	Linaria cannabina	3	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
-62	Linaria cannabina	43	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Konopleanka_2009_moldavia.jpg
-29	Linaria cannabina	51	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
-66	Linaria cannabina	37	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Linaria_cannabina_-_Linotte_mélodieuse.jpg
-5	Linaria cannabina	33	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
-45	Linaria cannabina	8	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Linaria_cannabina_Horenka.jpg
-35	Linaria cannabina	68	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
-4	Linaria cannabina	62	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Linaria_cannabina_mediterranea_MHNT.ZOO.2010.11.223.20.jpg
-24	Linaria cannabina	54	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
-34	Oriolus oriolus	72	2025-05-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/1979._Иволга.jpg
-55	Oriolus oriolus	136	2025-05-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
-89	Oriolus oriolus	76	2025-05-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_Golden_Oriole_(Oriolus_oriolus)_nest_W_IMG_9566.jpg
-19	Oriolus oriolus	142	2025-05-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
-68	Oriolus oriolus	130	2025-05-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Goldenoriole26.jpg
-53	Oriolus oriolus	134	2025-05-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
-41	Oriolus oriolus	120	2025-05-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Loriot_juvenile.JPG
-74	Oriolus oriolus	144	2025-05-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
-72	Oriolus oriolus	122	2025-05-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Oriolus_oriolus_Ayodar_1.jpg
-24	Oriolus oriolus	72	2025-05-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
-47	Oriolus oriolus	118	2025-05-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Oriolus_oriolus_Ayodar_2.jpg
-21	Oriolus oriolus	118	2025-05-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
-68	Oriolus oriolus	113	2025-05-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Oriolus_oriolus_MHNT_232_Foret_de_la_Mamora_Maroc_RdN.jpg
-24	Oriolus oriolus	93	2025-05-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
-70	Oriolus oriolus	86	2025-05-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Oriolus_oriolus_distribution_map.png
-88	Oriolus oriolus	119	2025-05-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
-39	Alcedo atthis	148	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/04--Martin-Pecheur-20-01-24-Halois-Belgium-Luc_viatour.jpg
-11	Alcedo atthis	113	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alcedo_atthis&format=json&redirects=1&explaintext=1
-15	Alcedo atthis	115	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo_atthis_-_Khao_Yai.jpg
-21	Alcedo atthis	90	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alcedo_atthis&format=json&redirects=1&explaintext=1
-6	Alcedo atthis	116	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo_atthis_-_Riserve_naturali_e_aree_contigue_della_fascia_fluviale_del_Po.jpg
-91	Alcedo atthis	110	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alcedo_atthis&format=json&redirects=1&explaintext=1
-55	Alcedo atthis	142	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo_atthis_-range_map-2-cp.png
-56	Alcedo atthis	144	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alcedo_atthis&format=json&redirects=1&explaintext=1
-25	Alcedo atthis	108	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo_atthis_1_(Bohuš_Číčel).jpg
-20	Alcedo atthis	81	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alcedo_atthis&format=json&redirects=1&explaintext=1
-27	Alcedo atthis	83	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo_atthis_1_tb.jpg
-15	Alcedo atthis	122	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alcedo_atthis&format=json&redirects=1&explaintext=1
-87	Alcedo atthis	94	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo_atthis_MHNT_ZOO_2010_11_160_Arcy-sur-Cure.jpg
-18	Apus apus	105	2025-05-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ailes_martinet_noir.jpg
-12	Apus apus	98	2025-05-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Apus_apus&format=json&redirects=1&explaintext=1
-82	Apus apus	92	2025-05-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Apus_apus_01.jpg
-4	Apus apus	80	2025-05-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Apus_apus&format=json&redirects=1&explaintext=1
-25	Apus apus	103	2025-05-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Apus_apus_MHNT_ZOO_2011_11_159_Le_Louvres_Paris.jpg
-3	Turdus merula	90	2025-10-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Amsel_auf_der_Insel_Krk.JPG
-53	Aegithalos caudatus	35	2025-02-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aegithalos_caudatus_(4).jpg
-77	Aegithalos caudatus	20	2025-02-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aegithalos_caudatus&format=json&redirects=1&explaintext=1
-56	Aegithalos caudatus	69	2025-02-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aegithalos_caudatus_MHNT.ZOO.2010.11.180.1.jpg
-62	Cyanistes caeruleus	62	2025-02-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/'Capuchin_squirrel_monkey,_two_guinea_pigs,_a_blue_tit_and_an_Amazon_St._Vincent_parrot_with_Peaches,_Figs_and_Pears_in_a_landscape'.jpg
-86	Cyanistes caeruleus	28	2025-02-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
-49	Cyanistes caeruleus	20	2025-02-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/073_Wild_Eurasian_blue_tit_parent_feeding_at_Pfyn-Finges_Photo_by_Giles_Laurent.jpg
-25	Cyanistes caeruleus	20	2025-02-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
-63	Cyanistes caeruleus	26	2025-02-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/20120605_091000_Side_w.jpg
-8	Cyanistes caeruleus	55	2025-02-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
-83	Cyanistes caeruleus	55	2025-02-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/20120607_041013_Side_w1.jpg
-31	Cyanistes caeruleus	58	2025-02-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
-83	Cyanistes caeruleus	48	2025-02-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/20120617_124000_Side_w.jpg
-48	Cyanistes caeruleus	17	2025-02-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
-28	Cyanistes caeruleus	17	2025-02-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/A_bald_blue_tit_with_mite.jpg
-51	Cyanistes caeruleus	50	2025-02-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
-59	Cyanistes caeruleus	59	2025-02-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_kill.jpg
-24	Cyanistes caeruleus	64	2025-02-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
-30	Cyanistes caeruleus	5	2025-02-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bird_on_Bike_-_geograph.org.uk_-_202475.jpg
-52	Cyanistes caeruleus	53	2025-02-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
-67	Poecile montanus	18	2025-11-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-23	Poecile montanus	63	2025-11-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_montanus&format=json&redirects=1&explaintext=1
-53	Poecile montanus	54	2025-11-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Poecile_Montanus_Kittila_20120306.JPG
-35	Poecile montanus	19	2025-11-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_montanus&format=json&redirects=1&explaintext=1
-84	Poecile montanus	65	2025-11-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Poecile_montanus_MHNT.ZOO.2010.11.179.1.jpg
-21	Poecile montanus	13	2025-11-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_montanus&format=json&redirects=1&explaintext=1
-71	Poecile montanus	24	2025-11-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Poecile_montanus_distribution_map.png
-62	Poecile montanus	55	2025-11-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_montanus&format=json&redirects=1&explaintext=1
-48	Poecile montanus	32	2025-11-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Poecile_montanus_kleinschmidti_2.jpg
-17	Poecile montanus	26	2025-11-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_montanus&format=json&redirects=1&explaintext=1
-49	Poecile montanus	59	2025-11-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Poecile_palustris_dresseri_MHNT.ZOO.2010.11.182.23.jpg
-42	Poecile montanus	16	2025-11-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_montanus&format=json&redirects=1&explaintext=1
-59	Parus major	129	2025-06-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Acanthis_flammea,_Kotka,_Finland_3.jpg
-13	Parus major	148	2025-06-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Parus_major&format=json&redirects=1&explaintext=1
-16	Parus major	74	2025-06-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charb_juv1.JPG
-23	Parus major	145	2025-06-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Parus_major&format=json&redirects=1&explaintext=1
-86	Parus major	93	2025-06-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Great_Tit_eating_(17026400959).jpg
-91	Parus major	93	2025-06-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Parus_major&format=json&redirects=1&explaintext=1
-19	Parus major	146	2025-06-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Koolmees_op_nest.jpg
-80	Lophophanes cristatus	126	2025-11-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/1979._Хохлатая_синица.jpg
-68	Lophophanes cristatus	106	2025-11-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lophophanes_cristatus&format=json&redirects=1&explaintext=1
-78	Lophophanes cristatus	96	2025-11-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Abernethy_Forest_-_geograph.org.uk_-_212234.jpg
-25	Lophophanes cristatus	73	2025-11-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lophophanes_cristatus&format=json&redirects=1&explaintext=1
-68	Lophophanes cristatus	129	2025-11-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chapim-de-poupa,_Crested_Tit_(49737913436).jpg
-34	Periparus ater	76	2025-06-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2017.01.27.-23-Paradiski-La_Plagne-Champagny-en-Vanoise--Tannenmeise.jpg
-46	Periparus ater	104	2025-06-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Periparus_ater&format=json&redirects=1&explaintext=1
-46	Periparus ater	99	2025-06-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Coal_tit_UK09.JPG
-2	Periparus ater	81	2025-06-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Periparus_ater&format=json&redirects=1&explaintext=1
-2	Periparus ater	80	2025-06-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Parus_ater_2_(Marek_Szczepanek).jpg
-20	Periparus ater	108	2025-06-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Periparus_ater&format=json&redirects=1&explaintext=1
-54	Periparus ater	135	2025-06-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/PeriparusAterIUCN2018_2.png
-49	Periparus ater	71	2025-06-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Periparus_ater&format=json&redirects=1&explaintext=1
-29	Periparus ater	71	2025-06-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Periparus_ater_ledouci.jpg
-75	Periparus ater	94	2025-06-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Periparus_ater&format=json&redirects=1&explaintext=1
-27	Periparus ater	79	2025-06-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Periparus_ater_ledouci_232_Ouarsenis_Algerie.jpg
-56	Periparus ater	78	2025-06-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Periparus_ater&format=json&redirects=1&explaintext=1
-62	Periparus ater	124	2025-06-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-11	Periparus ater	113	2025-06-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Periparus_ater&format=json&redirects=1&explaintext=1
-3	Poecile palustris	71	2025-11-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/20140209Sambucus_nigra06.jpg
-14	Poecile palustris	141	2025-11-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_palustris&format=json&redirects=1&explaintext=1
-43	Poecile palustris	71	2025-11-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2017.10.15.-06-Kirschgartshaeuser_Schlaege_Mannheim--Sumpfmeise.jpg
-32	Poecile palustris	123	2025-11-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_palustris&format=json&redirects=1&explaintext=1
-65	Poecile palustris	132	2025-11-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_1_(Bohuš_Číčel).jpg
-87	Milvus migrans	98	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/20121111233953!Milvus_migrans_distr.png
-85	Milvus migrans	120	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Milvus_migrans&format=json&redirects=1&explaintext=1
-2	Milvus migrans	87	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Black_kite_(Milvus_migrans_affinis)_in_flight_Adelaide_River_2.jpg
-65	Milvus migrans	140	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Milvus_migrans&format=json&redirects=1&explaintext=1
-59	Milvus migrans	145	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Black_kite_impersonating_an_osprey.jpg
-73	Milvus migrans	73	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Milvus_migrans&format=json&redirects=1&explaintext=1
-12	Milvus migrans	74	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Milvus_migrans_(Milan_noir)_-_402.jpg
-3	Milvus migrans	81	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Milvus_migrans&format=json&redirects=1&explaintext=1
-24	Milvus migrans	147	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Milvus_migrans_01.jpg
-41	Milvus migrans	99	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Milvus_migrans&format=json&redirects=1&explaintext=1
-3	Milvus migrans	121	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Milvus_migrans_MHNT.ZOO.2006.11.86.jpg
-47	Milvus migrans	142	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Milvus_migrans&format=json&redirects=1&explaintext=1
-22	Milvus migrans	83	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Milvus_migrans_front(ThKraft).jpg
-90	Milvus migrans	119	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Milvus_migrans&format=json&redirects=1&explaintext=1
-90	Passer domesticus	145	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Faroe_stamp_344_house_sparrow_(passer_domesticus).jpg
-91	Passer domesticus	146	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Passer_domesticus&format=json&redirects=1&explaintext=1
-77	Passer domesticus	84	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/House_Sparrow_(M)_I_IMG_7881.jpg
-71	Passer domesticus	76	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Passer_domesticus&format=json&redirects=1&explaintext=1
-21	Passer domesticus	83	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/House_Sparrow_(Passer_domesticus)-_Female_in_Kolkata_I_IMG_3787_(cropped).jpg
-87	Passer domesticus	99	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Passer_domesticus&format=json&redirects=1&explaintext=1
-68	Passer domesticus	97	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/House_Sparrow_mar08.jpg
-83	Passer domesticus	82	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Passer_domesticus&format=json&redirects=1&explaintext=1
-28	Passer domesticus	117	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/House_Sparrows_mating_I_IMG_0066.jpg
-69	Passer domesticus	91	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Passer_domesticus&format=json&redirects=1&explaintext=1
-10	Passer domesticus	128	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/House_sparrow_Nepal.jpg
-69	Passer domesticus	140	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Passer_domesticus&format=json&redirects=1&explaintext=1
-55	Ichthyaetus melanocephalus	98	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2013-08-01_Ichthyaetus_melanocephalus,_Brierdene,_Whitley_Bay,_Northumberland_1.jpg
-65	Ichthyaetus melanocephalus	98	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ichthyaetus_melanocephalus&format=json&redirects=1&explaintext=1
-24	Ichthyaetus melanocephalus	143	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ichthyaetus_melanocephalus_MHNT.ZOO.2010.11.130.3.jpg
-52	Ichthyaetus melanocephalus	136	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ichthyaetus_melanocephalus&format=json&redirects=1&explaintext=1
-57	Ichthyaetus melanocephalus	75	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/LarusMelanocephalus.png
-73	Ichthyaetus melanocephalus	135	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ichthyaetus_melanocephalus&format=json&redirects=1&explaintext=1
-17	Ichthyaetus melanocephalus	90	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Larus_melanocephalus_-Zwin_(Belgium).jpg
-56	Ichthyaetus melanocephalus	143	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ichthyaetus_melanocephalus&format=json&redirects=1&explaintext=1
-5	Ichthyaetus melanocephalus	137	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Med_gull1.jpg
-85	Ichthyaetus melanocephalus	122	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ichthyaetus_melanocephalus&format=json&redirects=1&explaintext=1
-72	Ichthyaetus melanocephalus	116	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-52	Ichthyaetus melanocephalus	116	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ichthyaetus_melanocephalus&format=json&redirects=1&explaintext=1
-8	Chroicocephalus ridibundus	113	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Black-headed_Gull_from_the_Crossley_ID_Guide_Britain_and_Ireland.jpg
-7	Chroicocephalus ridibundus	77	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
-26	Chroicocephalus ridibundus	91	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chroicocephalus_ridibundus_-_Seefeldquai_2011-11-07_12-34-35_(SX230HS).JPG
-89	Chroicocephalus ridibundus	84	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
-30	Chroicocephalus ridibundus	89	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Groupe_de_mouettes_rieuses.jpg
-51	Chroicocephalus ridibundus	73	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
-13	Chroicocephalus ridibundus	119	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Gulls_in_flight_Cuxhaven_June_2009_20090626_004.jpg
-7	Chroicocephalus ridibundus	126	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
-49	Chroicocephalus ridibundus	141	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lachmöwe_IMG_0200ab.jpg
-23	Chroicocephalus ridibundus	143	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
-29	Chroicocephalus ridibundus	82	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Larus_ridibundus.jpg
-5	Chroicocephalus ridibundus	137	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
-5	Chroicocephalus ridibundus	87	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Larus_ridibundus1.jpg
-79	Chroicocephalus ridibundus	86	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
-18	Chroicocephalus ridibundus	100	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Larus_ridibundus_MWNH_0380.JPG
-40	Chroicocephalus ridibundus	101	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
-36	Netta rufina	113	2025-08-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/NettaRufinaIUCNverz2018_2.png
-81	Netta rufina	124	2025-08-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Netta_rufina&format=json&redirects=1&explaintext=1
-46	Netta rufina	107	2025-08-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Netta_rufina_-Bushy_Park,_London,_England_-swimming-8.jpg
-77	Netta rufina	146	2025-08-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Netta_rufina&format=json&redirects=1&explaintext=1
-50	Netta rufina	118	2025-08-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Netta_rufina_-St_James's_Park,_London,_England_-male_with_ducklings-8.jpg
-32	Netta rufina	108	2025-08-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Netta_rufina&format=json&redirects=1&explaintext=1
-45	Netta rufina	88	2025-08-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Netta_rufina_MHNT.ZOO.2010.11.20.2.jpg
-1	Anser indicus	73	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anser_indicus_MHNT.ZOO.2010.11.15.3.jpg
-62	Anser indicus	88	2025-01-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anser_indicus&format=json&redirects=1&explaintext=1
-89	Anser indicus	83	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bar-headed_Geese_-_Anser_indicus.jpg
-74	Anser indicus	79	2025-01-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anser_indicus&format=json&redirects=1&explaintext=1
-2	Anser indicus	90	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bar-headed_Goose_(Anser_indicus).jpg
-37	Anser indicus	112	2025-01-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anser_indicus&format=json&redirects=1&explaintext=1
-69	Anser indicus	102	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bar-headed_Goose_1.jpg
-11	Anser indicus	128	2025-01-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anser_indicus&format=json&redirects=1&explaintext=1
-64	Anser indicus	88	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bar-headed_Goose_in_flight.jpg
-21	Anser indicus	87	2025-01-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anser_indicus&format=json&redirects=1&explaintext=1
-73	Anser indicus	111	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-89	Alopochen aegyptiaca	106	2025-03-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2016.08.19.-04-Waldsee_Viernheim--Nilgans.jpg
-69	Alopochen aegyptiaca	77	2025-03-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alopochen_aegyptiaca&format=json&redirects=1&explaintext=1
-13	Alopochen aegyptiaca	103	2025-03-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Alopochen-aegyptiacus.jpg
-76	Alopochen aegyptiaca	119	2025-03-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alopochen_aegyptiaca&format=json&redirects=1&explaintext=1
-59	Alopochen aegyptiaca	89	2025-03-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/AlopochenAegyptiacaIUCN2019_2.png
-89	Alopochen aegyptiaca	83	2025-03-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alopochen_aegyptiaca&format=json&redirects=1&explaintext=1
-91	Alopochen aegyptiaca	74	2025-03-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Alopochen_aegyptiacus_MHNT.ZOO.2010.11.13.2.jpg
-59	Alopochen aegyptiaca	138	2025-03-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alopochen_aegyptiaca&format=json&redirects=1&explaintext=1
-91	Alopochen aegyptiaca	105	2025-03-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Egyptian_Geese_(Alopochen_aegyptiaca),_Kruger_NP_(11451534654).jpg
-82	Psittacula krameri	78	2025-10-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/(Toulouse)_Le_Goût_(La_Dame_à_la_licorne)_-_La_Dame_-_Musée_de_Cluny_Paris.jpg
-4	Psittacula krameri	84	2025-10-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psittacula_krameri&format=json&redirects=1&explaintext=1
-72	Psittacula krameri	139	2025-10-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2018.03.03.-10-Mannheim-Vogelstang--Halsbandsittich-Weibchen.jpg
-4	Psittacula krameri	117	2025-10-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psittacula_krameri&format=json&redirects=1&explaintext=1
-79	Psittacula krameri	102	2025-10-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Albino_-Psittacula_krameri_manillensis_2c.jpg
-25	Psittacula krameri	70	2025-10-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psittacula_krameri&format=json&redirects=1&explaintext=1
-35	Psittacula krameri	88	2025-10-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Dionysus_mosaic_(detail),_from_around_A.D._220_230,_Romisch-Germanisches_Museum,_Cologne_(8115585524).jpg
-1	Psittacula krameri	116	2025-10-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psittacula_krameri&format=json&redirects=1&explaintext=1
-83	Psittacula krameri	101	2025-10-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grandes_Heures_du_duc_de_Berry_(BNF_latin919)_-_Folio_8_Oiseau-11.jpg
-77	Psittacula krameri	113	2025-10-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psittacula_krameri&format=json&redirects=1&explaintext=1
-7	Psittacula krameri	130	2025-10-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Hen-grey-turquoise_cock-turquoise-lacewing.jpg
-44	Psittacula krameri	73	2025-10-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psittacula_krameri&format=json&redirects=1&explaintext=1
-79	Psittacula krameri	70	2025-10-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Indian_Rose-ringed_Parakeet_(Psittacula_krameri_borealis)_at_the_entrance_of_its_nest_(20073615869).jpg
-33	Psittacula krameri	94	2025-10-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psittacula_krameri&format=json&redirects=1&explaintext=1
-33	Dendrocopos major	122	2025-10-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Deiker_Jagdbare_Tiere_1093224.jpg
-50	Dendrocopos major	87	2025-10-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dendrocopos_major&format=json&redirects=1&explaintext=1
-25	Dendrocopos major	117	2025-10-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocopos_major,_female_and_male.jpg
-66	Dryobates minor	133	2025-10-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocopos_minor_distr.png
-2	Dryobates minor	93	2025-10-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dryobates_minor&format=json&redirects=1&explaintext=1
-70	Dryobates minor	77	2025-10-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocopos_minor_female.jpg
-32	Dendrocoptes medius	130	2025-08-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocopos_medius_MHNT.ZOO.2010.11.164.13.jpg
-48	Dendrocoptes medius	112	2025-08-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dendrocoptes_medius&format=json&redirects=1&explaintext=1
-20	Dendrocoptes medius	95	2025-08-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocopos_medius_distr.png
-76	Dendrocoptes medius	141	2025-08-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dendrocoptes_medius&format=json&redirects=1&explaintext=1
-58	Dendrocoptes medius	110	2025-08-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-58	Dendrocoptes medius	126	2025-08-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dendrocoptes_medius&format=json&redirects=1&explaintext=1
-86	Dendrocoptes medius	123	2025-08-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Средний_пёстрый_дятел_(Dendrocoptes_medius),_Битцевский_лес.jpg
-72	Dendrocoptes medius	106	2025-08-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dendrocoptes_medius&format=json&redirects=1&explaintext=1
-13	Dryocopus martius	86	2025-04-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Black_woodpecker_(Dryocopus_martius).jpg
-56	Dryocopus martius	110	2025-04-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dryocopus_martius&format=json&redirects=1&explaintext=1
-84	Dryocopus martius	123	2025-04-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Dryocopus_martius_02.jpg
-35	Dryocopus martius	86	2025-04-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dryocopus_martius&format=json&redirects=1&explaintext=1
-3	Dryocopus martius	141	2025-04-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Dryocopus_martius_03.jpg
-8	Dryocopus martius	139	2025-04-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dryocopus_martius&format=json&redirects=1&explaintext=1
-58	Dryocopus martius	106	2025-04-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Dryocopus_martius_distr.PNG
-85	Dryocopus martius	79	2025-04-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dryocopus_martius&format=json&redirects=1&explaintext=1
-63	Dryocopus martius	84	2025-04-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Dryocopus_martius_pinetorum_MHNT.ZOO.2010.11.164.6.jpg
-9	Picus viridis	125	2025-09-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/01_vgrue-10-01.jpg
-47	Picus viridis	134	2025-09-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Picus_viridis&format=json&redirects=1&explaintext=1
-15	Picus viridis	125	2025-09-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/European_green_woodpecker_(Picus_viridis)_female.jpg
-42	Picus viridis	95	2025-09-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Picus_viridis&format=json&redirects=1&explaintext=1
-54	Picus viridis	77	2025-09-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Female_green_woodpecker_in_flight.jpg
-80	Picus viridis	108	2025-09-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Picus_viridis&format=json&redirects=1&explaintext=1
-39	Picus viridis	96	2025-09-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Green_Woodpecker_(Picus_viridis)_-_geograph.org.uk_-_657030.jpg
-27	Pica pica	87	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Clamator_glandarius_-_D8-04-7547.JPG
-45	Pica pica	96	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
-35	Pica pica	123	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Daegu_hyanggyo_magpie_nest.jpg
-34	Pica pica	140	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
-91	Pica pica	98	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Don_Manuel_Osorio_Manrique_de_Zúñiga.jpg
-56	Pica pica	97	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
-8	Pica pica	132	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Elster_Ei.jpg
-15	Pica pica	98	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
-92	Pica pica	86	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Elster_wikipedia2.jpg
-7	Pica pica	126	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
-92	Pica pica	107	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_Magpie_2023-10-16_01.jpg
-16	Pica pica	114	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
-25	Pica pica	76	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Magpie_eating_dead_rabbit.jpg
-42	Pica pica	85	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
-77	Pica pica	94	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Magpie_in_Madrid_(Spain)_22.jpg
-66	Pica pica	100	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
-9	Pica pica	74	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pica_pica.01.jpg
-68	Pica pica	145	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
-21	Columba oenas	140	2025-06-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/ColumbaOenas.jpg
-75	Columba palumbus	82	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Columba-palumbus-dist.png
-58	Columba palumbus	70	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Columba_palumbus&format=json&redirects=1&explaintext=1
-9	Columba palumbus	134	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Columba_palumbus_-garden_post-8.jpg
-41	Columba palumbus	123	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Columba_palumbus&format=json&redirects=1&explaintext=1
-59	Columba palumbus	98	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Columba_palumbus_azorica.jpg
-51	Columba palumbus	88	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Columba_palumbus&format=json&redirects=1&explaintext=1
-6	Columba palumbus	78	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Wood_Pigeon_facing_left.jpg
-32	Columba palumbus	106	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Columba_palumbus&format=json&redirects=1&explaintext=1
-35	Columba palumbus	83	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Détail_des_serres_d'une_palombe.jpg
-84	Columba palumbus	79	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Columba_palumbus&format=json&redirects=1&explaintext=1
-91	Columba palumbus	114	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Nederlandsche_vogelen_(KB)_-_Columba_palumbus_(010a).jpg
-48	Columba palumbus	143	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Columba_palumbus&format=json&redirects=1&explaintext=1
-6	Fringilla coelebs	89	2025-08-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bayağı_ispinoz_yavru.jpg
-28	Fringilla coelebs	95	2025-08-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
-20	Fringilla coelebs	87	2025-08-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bayağı_ispinoz_yuva.jpg
-18	Fringilla coelebs	143	2025-08-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
-60	Fringilla coelebs	144	2025-08-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chaffinch_(Fringilla_coelebs).jpg
-88	Fringilla coelebs	86	2025-08-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
-88	Fringilla coelebs	71	2025-08-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Chaffinch_(Fringilla_coelebs)_male_singing_(17003888337).jpg
-26	Fringilla coelebs	113	2025-08-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
-7	Fringilla coelebs	144	2025-08-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
-59	Fringilla coelebs	113	2025-08-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
-84	Fringilla coelebs	118	2025-08-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/FringillaCoelebsFemale.jpg
-51	Fringilla coelebs	75	2025-08-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
-39	Fringilla coelebs	128	2025-08-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla_coelebs_Pinson_des_arbres_Les_arcs_2019_1.jpg
-34	Fringilla coelebs	127	2025-08-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
-21	Fringilla coelebs	71	2025-08-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla_coelebs_africana_MHNT.ZOO.2010.11.222.44.jpg
-54	Fringilla coelebs	76	2025-08-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
-63	Fringilla montifringilla	8	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bergfink_(Fringilla_montifringilla)_-_Ystad-2018.jpg
-44	Fringilla montifringilla	2	2025-01-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_montifringilla&format=json&redirects=1&explaintext=1
-43	Fringilla montifringilla	21	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla_montifringilla_-_Kajaani_Finlande_222.jpg
-18	Fringilla montifringilla	44	2025-01-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_montifringilla&format=json&redirects=1&explaintext=1
-3	Fringilla montifringilla	9	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla_montifringilla_2_(Marek_Szczepanek).jpg
-79	Fringilla montifringilla	50	2025-01-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_montifringilla&format=json&redirects=1&explaintext=1
-91	Fringilla montifringilla	39	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla_montifringilla_3_(Marek_Szczepanek).jpg
-15	Fringilla montifringilla	5	2025-01-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_montifringilla&format=json&redirects=1&explaintext=1
-30	Fringilla montifringilla	36	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla_montifringilla_ltdp.JPG
-86	Fringilla montifringilla	23	2025-01-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_montifringilla&format=json&redirects=1&explaintext=1
-64	Fringilla montifringilla	28	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-35	Gavia immer	111	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Loon.jpg
-5	Gavia immer	128	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gavia_immer&format=json&redirects=1&explaintext=1
-51	Gavia immer	118	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Loon_head_sideways.jpg
-17	Gavia immer	142	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gavia_immer&format=json&redirects=1&explaintext=1
-80	Gavia immer	91	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Loon_with_chick.jpg
-63	Gavia immer	98	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gavia_immer&format=json&redirects=1&explaintext=1
-29	Gavia immer	82	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_loon_yellowstone.jpg
-15	Gavia immer	125	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gavia_immer&format=json&redirects=1&explaintext=1
-87	Gavia immer	105	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Gavia_immer_MHNT.ZOO.2010.11.36.4.jpg
-30	Gavia immer	101	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gavia_immer&format=json&redirects=1&explaintext=1
-48	Gavia immer	136	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Huard_decollage.jpg
-90	Gavia immer	140	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gavia_immer&format=json&redirects=1&explaintext=1
-80	Phylloscopus trochilus	58	2025-09-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Phylloscopus_trochilus_MHNT.ZOO.2010.11.202.16.jpg
-69	Phylloscopus trochilus	55	2025-09-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_trochilus&format=json&redirects=1&explaintext=1
-55	Phylloscopus trochilus	44	2025-09-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-90	Phylloscopus trochilus	41	2025-09-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_trochilus&format=json&redirects=1&explaintext=1
-62	Phylloscopus trochilus	7	2025-09-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Willow_Warbler_Phylloscopus_trochilus.jpg
-26	Phylloscopus trochilus	54	2025-09-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_trochilus&format=json&redirects=1&explaintext=1
-36	Phylloscopus sibilatrix	95	2025-06-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_Rainbirder_-_Wood_Warbler_(Phylloscopus_sibilatrix).jpg
-33	Phylloscopus sibilatrix	88	2025-06-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_sibilatrix&format=json&redirects=1&explaintext=1
-63	Phylloscopus sibilatrix	130	2025-06-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Phylloscopus_sibilatrix_MHNT.ZOO.2010.11.195.1.jpg
-75	Phylloscopus sibilatrix	143	2025-06-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_sibilatrix&format=json&redirects=1&explaintext=1
-85	Phylloscopus sibilatrix	88	2025-06-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Phylloscopus_sibilatrix_juv..JPG
-63	Phylloscopus sibilatrix	111	2025-06-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_sibilatrix&format=json&redirects=1&explaintext=1
-5	Phylloscopus sibilatrix	133	2025-06-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-54	Phylloscopus sibilatrix	74	2025-06-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_sibilatrix&format=json&redirects=1&explaintext=1
-52	Phylloscopus collybita	105	2025-07-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/01-Magpie.jpg
-56	Phylloscopus collybita	102	2025-07-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_collybita&format=json&redirects=1&explaintext=1
-15	Phylloscopus collybita	112	2025-07-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2017.05.17.-03-Kirschgartshaeuser_Schlaege-Mannheim--Zilpzalp.jpg
-55	Rallus aquaticus	99	2025-08-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Borrelia_burgdorferi_(CDC-PHIL_-6631)_lores.jpg
-88	Rallus aquaticus	105	2025-08-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rallus_aquaticus&format=json&redirects=1&explaintext=1
-36	Rallus aquaticus	145	2025-08-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_Rainbirder_-_Water_Rail(Rallus_aquaticus).jpg
-91	Rallus aquaticus	136	2025-08-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rallus_aquaticus&format=json&redirects=1&explaintext=1
-20	Rallus aquaticus	79	2025-08-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Harilik_pilliroog.jpg
-58	Rallus aquaticus	86	2025-08-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rallus_aquaticus&format=json&redirects=1&explaintext=1
-89	Rallus aquaticus	102	2025-08-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Kunawodna3.JPG
-8	Rallus aquaticus	85	2025-08-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rallus_aquaticus&format=json&redirects=1&explaintext=1
-90	Rallus aquaticus	120	2025-08-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Parkgatemarsh.jpg
-55	Rallus aquaticus	74	2025-08-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rallus_aquaticus&format=json&redirects=1&explaintext=1
-29	Rallus aquaticus	81	2025-08-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-77	Rallus aquaticus	77	2025-08-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rallus_aquaticus&format=json&redirects=1&explaintext=1
-10	Rallus aquaticus	128	2025-08-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/RallusIndicusNeale.jpg
-22	Rallus aquaticus	82	2025-08-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rallus_aquaticus&format=json&redirects=1&explaintext=1
-48	Remiz pendulinus	108	2025-04-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Deutschland_Mecklenburg-Vorpommern_NSG_Fischteiche_in_der_Lewitz_Beutelmeise_Foto_Ralf_Ottmann.jpg
-11	Remiz pendulinus	86	2025-04-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Remiz_pendulinus&format=json&redirects=1&explaintext=1
-67	Remiz pendulinus	81	2025-04-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-47	Remiz pendulinus	107	2025-04-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Remiz_pendulinus&format=json&redirects=1&explaintext=1
-68	Remiz pendulinus	105	2025-04-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Remiz_pendulinis_7.jpg
-73	Regulus ignicapilla	135	2025-09-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Entomobrya_nicoleti_(8411768255).jpg
-63	Regulus ignicapilla	138	2025-09-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_ignicapilla&format=json&redirects=1&explaintext=1
-20	Regulus ignicapilla	95	2025-09-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-51	Regulus ignicapilla	114	2025-09-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_ignicapilla&format=json&redirects=1&explaintext=1
-64	Regulus ignicapilla	103	2025-09-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_ignicapilla_-approx_range_map.png
-23	Regulus ignicapilla	107	2025-09-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_ignicapilla&format=json&redirects=1&explaintext=1
-21	Regulus ignicapilla	85	2025-09-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_ignicapilla_Frank_Vassen.jpg
-55	Regulus ignicapilla	91	2025-09-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_ignicapilla&format=json&redirects=1&explaintext=1
-21	Regulus ignicapilla	96	2025-09-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_ignicapilla_MHNT.ZOO.2010.11.207.jpg
-30	Regulus regulus	17	2025-04-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Goldcrest_1.jpg
-22	Regulus regulus	32	2025-04-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_regulus&format=json&redirects=1&explaintext=1
-24	Regulus regulus	31	2025-04-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-2	Regulus regulus	5	2025-04-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_regulus&format=json&redirects=1&explaintext=1
-68	Regulus regulus	31	2025-04-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_regulus.jpg
-22	Regulus regulus	37	2025-04-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_regulus&format=json&redirects=1&explaintext=1
-13	Regulus regulus	17	2025-04-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_regulus0.jpg
-6	Regulus regulus	66	2025-04-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_regulus&format=json&redirects=1&explaintext=1
-46	Regulus regulus	56	2025-04-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_regulus_regulus_MHNT.ZOO.2010.11.207.jpg
-22	Regulus regulus	17	2025-04-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_regulus&format=json&redirects=1&explaintext=1
-57	Regulus regulus	33	2025-04-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Roitelet-huppé.jpg
-21	Regulus regulus	38	2025-04-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_regulus&format=json&redirects=1&explaintext=1
-35	Luscinia megarhynchos	7	2025-07-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Luscinia_megarhynchos,_subspecies._Distribution_map.png
-52	Luscinia megarhynchos	45	2025-07-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
-48	Luscinia megarhynchos	58	2025-07-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Luscinia_megarhynchos_Istria_01.jpg
-12	Pinus nigra	105	2025-08-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ab_plant_479.jpg
-27	Luscinia megarhynchos	9	2025-07-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
-53	Luscinia megarhynchos	13	2025-07-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Luscinia_megarhynchos_MHNT_232_HdB_Bouzareah_Algérie.jpg
-44	Luscinia megarhynchos	29	2025-07-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
-38	Luscinia megarhynchos	25	2025-07-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Luscinia_megarhynchos_megarhynchos_-_Marcel_Burkhardt.jpg
-42	Luscinia megarhynchos	39	2025-07-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
-40	Luscinia megarhynchos	3	2025-07-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Luscinia_megarhynchos_vogelartinfo_chris_romeiks_CHR4443.jpg
-90	Luscinia megarhynchos	45	2025-07-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
-34	Luscinia megarhynchos	17	2025-07-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Nachtigall_singend_Stromkabel_(cropped).jpg
-70	Luscinia megarhynchos	20	2025-07-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
-20	Luscinia megarhynchos	62	2025-07-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-23	Luscinia megarhynchos	17	2025-07-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
-3	Luscinia megarhynchos	50	2025-07-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Rossinyol_03_(Luscinia_megarhynchos).jpg
-39	Luscinia megarhynchos	12	2025-07-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
-22	Erithacus rubecula	107	2025-05-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/030_European_robin_in_the_Camargue_Photo_by_Giles_Laurent.jpg
-13	Erithacus rubecula	148	2025-05-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Erithacus_rubecula&format=json&redirects=1&explaintext=1
-29	Erithacus rubecula	139	2025-05-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.150.1.jpg
-60	Erithacus rubecula	148	2025-05-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Erithacus_rubecula&format=json&redirects=1&explaintext=1
-91	Erithacus rubecula	121	2025-05-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Erithacus_rubecula_-Canary_Islands,_Spain_-adult_and_juvenile-8.jpg
-17	Phoenicurus phoenicurus	65	2025-03-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Distribution_ph_phoenicurus.png
-43	Phoenicurus phoenicurus	24	2025-03-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_phoenicurus&format=json&redirects=1&explaintext=1
-11	Phoenicurus phoenicurus	56	2025-03-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Gekraagderoodstaart2.jpg
-80	Phoenicurus ochruros	62	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Hausrotschwanz_Brutpflege_2006-05-01.jpg
-91	Phoenicurus ochruros	65	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
-19	Phoenicurus ochruros	22	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Hausrotschwanz_Brutpflege_2006-05-24_211.jpg
-44	Phoenicurus ochruros	4	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
-48	Phoenicurus ochruros	39	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Hausrotschwanz_IMG_1907.jpg
-5	Phoenicurus ochruros	19	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
-28	Phoenicurus ochruros	4	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Juveniler_Hausrotschwanz_(Phoenicurus_ochruros)_01.jpg
-44	Phoenicurus ochruros	59	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
-7	Phoenicurus ochruros	50	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Kopciuszek_juv.jpg
-91	Phoenicurus ochruros	4	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
-7	Phoenicurus ochruros	15	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Nid_Rouge.queue.jpg
-56	Phoenicurus ochruros	54	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
-81	Phoenicurus ochruros	67	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/PhoenicurusOchrurosGuntherHasler01.jpg
-61	Phoenicurus ochruros	23	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
-59	Phoenicurus ochruros	24	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Phoenicurus_ochruros_@_Calanque_des_Pierres-Tombées_19.jpg
-72	Phoenicurus ochruros	59	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
-25	Phoenicurus ochruros	42	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Phoenicurus_ochruros_MHNT.ZOO.2010.11.194.20.jpg
-16	Phoenicurus ochruros	6	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
-32	Acrocephalus scirpaceus	16	2025-09-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Acrocephalus_scirpaceus_(Bertinetto).jpg
-70	Acrocephalus scirpaceus	9	2025-09-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_scirpaceus&format=json&redirects=1&explaintext=1
-55	Acrocephalus scirpaceus	52	2025-09-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Acrocephalus_scirpaceus_MHNT_323_Larache_MAroc_RdN.jpg
-24	Acrocephalus scirpaceus	66	2025-09-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_scirpaceus&format=json&redirects=1&explaintext=1
-55	Acrocephalus scirpaceus	66	2025-09-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Acrocephalus_scirpaceus_MHNT_SYL_1998_8.jpg
-80	Acrocephalus scirpaceus	19	2025-09-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_scirpaceus&format=json&redirects=1&explaintext=1
-91	Acrocephalus scirpaceus	50	2025-09-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.149.14.jpg
-69	Acrocephalus scirpaceus	22	2025-09-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_scirpaceus&format=json&redirects=1&explaintext=1
-34	Acrocephalus scirpaceus	56	2025-09-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-45	Acrocephalus palustris	129	2025-03-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Acrocephalus_palustris_(Marek_Szczepanek).jpg
-31	Acrocephalus palustris	83	2025-03-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_palustris&format=json&redirects=1&explaintext=1
-90	Acrocephalus palustris	73	2025-03-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Acrocephalus_palustris_distribution_map.png
-9	Acrocephalus palustris	135	2025-03-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_palustris&format=json&redirects=1&explaintext=1
-81	Acrocephalus palustris	88	2025-03-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.149.42.jpg
-70	Acrocephalus palustris	110	2025-03-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_palustris&format=json&redirects=1&explaintext=1
-17	Acrocephalus palustris	116	2025-03-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-55	Acrocephalus palustris	135	2025-03-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_palustris&format=json&redirects=1&explaintext=1
-31	Spatula querquedula	14	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_querquedula,_Hong_Kong_1.jpg
-54	Spatula querquedula	56	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_querquedula&format=json&redirects=1&explaintext=1
-20	Spatula querquedula	28	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_querquedula,_Llobregat_Delta,_Barcelona_5.jpg
-44	Spatula querquedula	54	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_querquedula&format=json&redirects=1&explaintext=1
-49	Spatula querquedula	7	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_querquedula_Male_and_females.jpg
-34	Anas crecca	105	2025-06-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/1989_CPA_6085.jpg
-15	Anas crecca	129	2025-06-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
-67	Anas crecca	132	2025-06-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_carolinensis_FWS.jpg
-89	Anas crecca	117	2025-06-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
-11	Anas crecca	86	2025-06-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_carolinensis_dis.png
-32	Anas crecca	124	2025-06-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
-28	Anas crecca	126	2025-06-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_crecca_Csörgő_réce.jpg
-86	Anas crecca	95	2025-06-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
-91	Anas crecca	93	2025-06-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_crecca_MHNT.ZOO.2010.11.18.3.jpg
-9	Anas crecca	147	2025-06-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
-43	Anas crecca	123	2025-06-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_crecca_distribution_map.png
-41	Anas crecca	110	2025-06-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
-26	Anas crecca	128	2025-06-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_crecca_m.jpg
-91	Anas crecca	137	2025-06-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
-71	Anas crecca	74	2025-06-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Teals_I_IMG_1553.jpg
-62	Anas crecca	96	2025-06-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
-16	Serinus serinus	4	2025-06-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-44	Serinus serinus	35	2025-06-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
-48	Serinus serinus	54	2025-06-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Serin_cini,_Serinus_serinus.jpg
-25	Serinus serinus	4	2025-06-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
-52	Serinus serinus	68	2025-06-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Serin_cini_1.jpg
-76	Serinus serinus	16	2025-06-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
-24	Serinus serinus	24	2025-06-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Serin_cini_2.jpg
-13	Serinus serinus	54	2025-06-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
-70	Serinus serinus	17	2025-06-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Serin_cini_3.jpg
-45	Serinus serinus	35	2025-06-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
-58	Serinus serinus	63	2025-06-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Serin_cini_mars.JPG
-51	Serinus serinus	51	2025-06-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
-15	Serinus serinus	47	2025-06-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Serinus_serinus_(Madrid,_Spain)_008.jpg
-11	Serinus serinus	48	2025-06-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
-65	Serinus serinus	47	2025-06-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Serinus_serinus_(Madrid,_Spain)_010.jpg
-64	Serinus serinus	67	2025-06-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
-72	Sitta europaea	116	2025-01-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chestnut-vented_Nuthatch_(Sitta_nagaensis).jpg
-84	Sitta europaea	98	2025-01-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sitta_europaea&format=json&redirects=1&explaintext=1
-46	Sitta europaea	75	2025-01-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocopos_major_male_eating.JPG
-22	Sitta europaea	78	2025-01-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sitta_europaea&format=json&redirects=1&explaintext=1
-49	Sitta europaea	145	2025-01-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Epping_Forest_3.JPG
-54	Sitta europaea	135	2025-01-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sitta_europaea&format=json&redirects=1&explaintext=1
-46	Sitta europaea	109	2025-01-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Kleiber_Flug.jpg
-71	Sitta europaea	144	2025-01-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sitta_europaea&format=json&redirects=1&explaintext=1
-79	Sitta europaea	131	2025-01-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Kleiberei.jpg
-18	Sitta europaea	94	2025-01-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sitta_europaea&format=json&redirects=1&explaintext=1
-40	Acanthis flammea cabaret	91	2025-04-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Acanthis_flammea_UL_02.jpg
-66	Acanthis flammea cabaret	136	2025-04-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acanthis_flammea_cabaret&format=json&redirects=1&explaintext=1
-72	Acanthis flammea cabaret	103	2025-04-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_flammea_cabaret_MHNT.ZOO.2010.11.221_Naurois_HdB_Tolborough.jpg
-15	Acanthis flammea cabaret	130	2025-04-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acanthis_flammea_cabaret&format=json&redirects=1&explaintext=1
-84	Acanthis flammea cabaret	142	2025-04-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_flammea_flammea_MHNT.ZOO.2010.11.221_Luleå.jpg
-12	Acanthis flammea cabaret	96	2025-04-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acanthis_flammea_cabaret&format=json&redirects=1&explaintext=1
-45	Acanthis flammea cabaret	121	2025-04-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-73	Acanthis flammea cabaret	122	2025-04-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acanthis_flammea_cabaret&format=json&redirects=1&explaintext=1
-23	Acanthis flammea cabaret	99	2025-04-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Spiza_americana_male_94_231051626_13e01e8125_o_cropped.png
-37	Acanthis flammea cabaret	109	2025-04-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acanthis_flammea_cabaret&format=json&redirects=1&explaintext=1
-19	Sterna hirundo	51	2025-10-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_tern.web.jpg
-9	Sterna hirundo	68	2025-10-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sterna_hirundo&format=json&redirects=1&explaintext=1
-89	Sterna hirundo	13	2025-10-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_tern_2025_07_08_08.jpg
-66	Saxicola rubicola	113	2025-06-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/European_stonechat2.jpg
-71	Saxicola rubicola	83	2025-06-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
-3	Saxicola rubicola	115	2025-06-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Female_stonechat.JPG
-6	Saxicola rubicola	139	2025-06-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
-64	Saxicola rubicola	78	2025-06-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Femelle_juvénile_de_Tarier_pâtre_(Saxicola_rubicola).jpg
-71	Saxicola rubicola	126	2025-06-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
-68	Saxicola rubicola	91	2025-06-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-27	Saxicola rubicola	86	2025-06-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
-36	Saxicola rubicola	98	2025-06-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ruddy-turnstone-icon.png
-47	Saxicola rubicola	74	2025-06-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
-6	Saxicola rubicola	98	2025-06-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Saxicola_rubicola_232_HdB_Ouarsenis_Algérie.jpg
-42	Saxicola rubicola	148	2025-06-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
-22	Saxicola rubicola	77	2025-06-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Stonechat_(Saxicola_rubicola)_male,_Beaulieu,_Hampshire.jpg
-28	Saxicola rubicola	90	2025-06-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
-28	Saxicola rubicola	93	2025-06-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Stonechat_Grönvold.jpg
-8	Saxicola rubicola	124	2025-06-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
-26	Saxicola rubicola	126	2025-06-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Tarier_patre_ichkeul.jpg
-37	Saxicola rubicola	125	2025-06-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
-77	Spinus spinus	53	2025-10-24	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_spinus_MHNT.ZOO.2010.11_Anvers.jpg
-26	Spinus spinus	34	2025-10-24	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spinus_spinus&format=json&redirects=1&explaintext=1
-19	Spinus spinus	9	2025-10-24	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_spinus_female.jpg
-84	Spinus spinus	56	2025-10-24	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spinus_spinus&format=json&redirects=1&explaintext=1
-50	Spinus spinus	7	2025-10-24	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
-28	Spinus spinus	25	2025-10-24	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spinus_spinus&format=json&redirects=1&explaintext=1
-12	Spinus spinus	54	2025-10-24	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grönsiska-1763_-_Flickr_-_Ragnhild_&_Neil_Crawford.jpg
-80	Spinus spinus	36	2025-10-24	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spinus_spinus&format=json&redirects=1&explaintext=1
-84	Spinus spinus	26	2025-10-24	\N	https://commons.wikimedia.org/wiki/Special:FilePath/P4050010k.JPG
-67	Spinus spinus	63	2025-10-24	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spinus_spinus&format=json&redirects=1&explaintext=1
-15	Spinus spinus	66	2025-10-24	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-83	Spinus spinus	65	2025-10-24	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spinus_spinus&format=json&redirects=1&explaintext=1
-74	Spinus spinus	10	2025-10-24	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Rangemap-tarin.PNG
-80	Spinus spinus	69	2025-10-24	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spinus_spinus&format=json&redirects=1&explaintext=1
-89	Streptopelia turtur	143	2025-01-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/European_Turtle_Dove_(Streptopelia_turtur).jpg
-70	Streptopelia decaocto	99	2025-06-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
-77	Streptopelia decaocto	90	2025-06-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Streptopelia_decaocto&format=json&redirects=1&explaintext=1
-64	Streptopelia decaocto	146	2025-06-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Streptopelia_decaocto.jpg
-52	Streptopelia decaocto	147	2025-06-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Streptopelia_decaocto&format=json&redirects=1&explaintext=1
-4	Streptopelia decaocto	140	2025-06-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Streptopelia_decaoctoTêteBec.jpg
-86	Troglodytes troglodytes	98	2025-01-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.149.17.jpg
-86	Troglodytes troglodytes	86	2025-01-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Troglodytes_troglodytes&format=json&redirects=1&explaintext=1
-60	Troglodytes troglodytes	103	2025-01-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_Wren.jpg
-84	Troglodytes troglodytes	137	2025-01-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Troglodytes_troglodytes&format=json&redirects=1&explaintext=1
-53	Troglodytes troglodytes	98	2025-01-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_wren_2023_12_31_02.jpg
-20	Troglodytes troglodytes	136	2025-01-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Troglodytes_troglodytes&format=json&redirects=1&explaintext=1
-5	Troglodytes troglodytes	78	2025-01-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_wren_Franconville_04.jpg
-22	Troglodytes troglodytes	101	2025-01-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Troglodytes_troglodytes&format=json&redirects=1&explaintext=1
-28	Troglodytes troglodytes	81	2025-01-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Gärdsmyg_(Troglodytes_troglodytes)_-_Ystad-2019.jpg
-44	Troglodytes troglodytes	138	2025-01-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Troglodytes_troglodytes&format=json&redirects=1&explaintext=1
-38	Troglodytes troglodytes	114	2025-01-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Nid_de_Troglodyte_mignon.jpg
-5	Troglodytes troglodytes	84	2025-01-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Troglodytes_troglodytes&format=json&redirects=1&explaintext=1
-76	Troglodytes troglodytes	132	2025-01-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Nid_de_Troglodyte_mignon_1.JPG
-43	Troglodytes troglodytes	145	2025-01-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Troglodytes_troglodytes&format=json&redirects=1&explaintext=1
-18	Chloris chloris	62	2025-08-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_chloris_7_(Marek_Szczepanek)_cropped.jpg
-42	Chloris chloris	38	2025-08-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
-82	Chloris chloris	26	2025-08-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_chloris_distribution_map.png
-44	Chloris chloris	38	2025-08-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
-10	Chloris chloris	62	2025-08-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chloris_chloris_(profile).jpg
-78	Chloris chloris	30	2025-08-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
-39	Chloris chloris	14	2025-08-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chloris_chloris_chloris_MHNT_223_Gouvieux.jpg
-11	Chloris chloris	65	2025-08-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
-89	Chloris chloris	42	2025-08-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chloris_chloris_female.jpg
-90	Chloris chloris	36	2025-08-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
-47	Chloris chloris	54	2025-08-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_bangsi_MHNT.ZOO.2010.11.150.42.jpg
-77	Chloris chloris	36	2025-08-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
-24	Chloris chloris	55	2025-08-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
-3	Chloris chloris	65	2025-08-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
-52	Chloris chloris	39	2025-08-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Greenfinch_(Carduelis_chloris)_(2).jpg
-87	Chloris chloris	41	2025-08-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
-19	Chloris chloris	62	2025-08-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grünfink_(Chloris_chloris)_Sonnenblume-20250928-RM-104703.jpg
-1	Chloris chloris	33	2025-08-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
-28	Lissotriton vulgaris	134	2025-07-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-45	Bombina variegata	142	2025-07-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Bombina_variegata&format=json&redirects=1&explaintext=1
-65	Rana temporaria	84	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
-28	Rana dalmatina	135	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
-67	Pelodytes punctatus	111	2025-03-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pelodytes_punctatus_side.jpg
-45	Lissotriton vulgaris	140	2025-07-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lissotriton_vulgaris&format=json&redirects=1&explaintext=1
-62	Bombina variegata	148	2025-07-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bombina_variegata_(Marek_Szczepanek).jpg
-90	Rana temporaria	98	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/LarvaeBufoBufoRanaTemporaria.JPG
-56	Rana dalmatina	88	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Rana_dalmatina.jpg
-56	Pelodytes punctatus	114	2025-03-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
-23	Pelodytes punctatus	140	2025-03-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
-58	Hyla arborea	99	2025-01-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Laubfrosch_(Hyla_arborea).jpg
-16	Triturus marmoratus	115	2025-11-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Triturus_marmoratus&format=json&redirects=1&explaintext=1
-7	Triturus marmoratus	74	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Triturus_marmoratus_dis.png
-72	Epidalea calamita	76	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/BufoCalamitaByNight.jpg
-88	Epidalea calamita	86	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
-55	Salamandra salamandra	137	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Feuersalamander.jpg
-7	Bolboschoenus maritimus	115	2025-07-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Bolboschoenus_maritimus&format=json&redirects=1&explaintext=1
-19	Aethusa cynapium	91	2025-03-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aethusa_cynapium_seeds.jpg
-33	Veronica anagallis-aquatica	108	2025-04-25	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Veronica_anagallis-aquatica&format=json&redirects=1&explaintext=1
-67	Nicotiana rustica	86	2025-11-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Nicotiana_rustica_-_Köhler–s_Medizinal-Pflanzen-226.jpg
-91	Lumbricus terrestris	145	2025-08-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lumbricus_terrestris&format=json&redirects=1&explaintext=1
-10	Hirudo medicinalis	85	2025-10-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirudo_medicinalis&format=json&redirects=1&explaintext=1
-89	Pirata piraticus	120	2025-09-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pirata.piraticus.male.jpg
-87	Cheiracanthium punctorium	123	2025-08-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cheiracanthium_punctorium_2.JPG
-38	Argiope bruennichi	109	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
-42	Uloborus walckenaerius	118	2025-03-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Distribution.uloborus.walckenaerius.1.png
-26	Araneus angulatus	83	2025-09-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Araneus_angulatus&format=json&redirects=1&explaintext=1
-8	Ebrechtella tricuspidata	71	2025-03-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ebrechtella_tricuspidata&format=json&redirects=1&explaintext=1
-45	Trametes hirsuta	98	2025-03-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Trametes_hirsuta_G3.jpg
-54	Pseudohydnum gelatinosum	108	2025-05-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pseudohydnum_gelatinosum_060922_down.jpg
-62	Imleria badia	125	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Imleria_badia&format=json&redirects=1&explaintext=1
-89	Tricholomopsis rutilans	81	2025-01-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tricholomopsis_rutilans&format=json&redirects=1&explaintext=1
-42	Macrolepiota procera	96	2025-04-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2006-10-14_Amanita_ceciliae_crop.jpg
-33	Lactarius torminosus	114	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Kantarell,_Iduns_kokbok.png
-92	Tricholoma portentosum	78	2025-09-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2012-03-28_Tricholoma_pardinum_Quél_208648.jpg
-59	Unio pictorum	83	2025-07-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_pictorum&format=json&redirects=1&explaintext=1
-76	Pseudanodonta complanata	128	2025-04-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pseudanodonta_complanata.JPG
-84	Corbicula fluminalis	129	2025-05-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Corbicula_fluminalis.jpg
-11	Pacifastacus leniusculus	141	2025-01-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pacifastacus_leniusculus&format=json&redirects=1&explaintext=1
-77	Astacus astacus	107	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Astacus_astacus&format=json&redirects=1&explaintext=1
-19	Stagnicola palustris	74	2025-02-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Stagnicola_palustris&format=json&redirects=1&explaintext=1
-62	Helix lucorum	75	2025-11-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helix_lucorum&format=json&redirects=1&explaintext=1
-3	Thuja occidentalis	96	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Thuja_occidentalis2.jpg
-74	Larix decidua	74	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
-72	Abies nordmanniana	127	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_Caucasian_Fir_ევროპული_სოჭი_(2).jpg
-74	Pinus wallichiana	136	2025-10-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_wallichiana&format=json&redirects=1&explaintext=1
-42	Pinus nigra	99	2025-08-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_nigra&format=json&redirects=1&explaintext=1
-10	Zicrona caerulea	133	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Zicrona_caerulea.JPG
-56	Xanthoria parietina	86	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
-74	Capreolus capreolus	100	2025-07-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Capreolus_capreolus_2_Jojo.jpg
-84	Myotis mystacinus	80	2025-04-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Myotis_mystacinus&format=json&redirects=1&explaintext=1
-18	Rutilus rutilus	117	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Rabbit&cat3.png
-67	Lissotriton vulgaris	123	2025-07-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/LissotritonVulgarisFemaleWater.JPG
-76	Rana temporaria	128	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/EggsBufoBufoRanaTemporaria.JPG
-34	Rana temporaria	123	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
-32	Rana dalmatina	70	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
-19	Pelodytes punctatus	130	2025-03-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-23	Pelodytes punctatus	101	2025-03-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pelodytes_punctatus_with_scale.jpg
-62	Hyla arborea	112	2025-01-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
-71	Triturus marmoratus	123	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-11	Pelophylax lessonae	139	2025-06-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-13	Epidalea calamita	114	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
-63	Epidalea calamita	142	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Natterjack_Toad_(Epidalea_calamita)_female_(16779432866).jpg
-72	Salamandra salamandra	73	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
-62	Poa palustris	71	2025-11-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Poa_palustris.jpg
-51	Aethusa cynapium	137	2025-03-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aethusa_cynapium&format=json&redirects=1&explaintext=1
-45	Chaenorhinum minus	101	2025-07-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chaenorhinum_minus_Sturm20.jpg
-41	Nicotiana rustica	97	2025-11-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nicotiana_rustica&format=json&redirects=1&explaintext=1
-80	Lumbricus terrestris	107	2025-08-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Icône_Portail_Annélides.png
-82	Hirudo medicinalis	88	2025-10-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Hirudo_verbana2.jpg
-52	Drassodes lapidosus	97	2025-02-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Drassodes_7636.jpg
-20	Cheiracanthium punctorium	73	2025-08-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cheiracanthium_punctorium&format=json&redirects=1&explaintext=1
-2	Argiope bruennichi	95	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Argiope_empaquetage.jpg
-26	Uloborus walckenaerius	130	2025-03-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Uloborus_walckenaerius&format=json&redirects=1&explaintext=1
-33	Araneus angulatus	122	2025-09-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Araneus-angulatus-figure1757.jpg
-15	Ebrechtella tricuspidata	112	2025-03-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ebrechtella_tricuspidata,_female_1.JPG
-56	Trametes hirsuta	78	2025-03-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Trametes_hirsuta&format=json&redirects=1&explaintext=1
-76	Pseudohydnum gelatinosum	140	2025-05-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudohydnum_gelatinosum&format=json&redirects=1&explaintext=1
-54	Imleria badia	79	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Boletus_badius_5052175998_df099ccc79_b_cropped_cropped.jpg
-81	Tricholomopsis rutilans	88	2025-01-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Kantarell,_Iduns_kokbok.png
-56	Macrolepiota procera	71	2025-04-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Macrolepiota_procera&format=json&redirects=1&explaintext=1
-6	Lactarius torminosus	128	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lactarius_torminosus&format=json&redirects=1&explaintext=1
-92	Tricholoma portentosum	142	2025-09-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tricholoma_portentosum&format=json&redirects=1&explaintext=1
-4	Unio pictorum	129	2025-07-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Korýtka_maliarske,_Ružiná_2019.jpg
-30	Pseudanodonta complanata	91	2025-04-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudanodonta_complanata&format=json&redirects=1&explaintext=1
-1	Corbicula fluminalis	119	2025-05-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corbicula_fluminalis&format=json&redirects=1&explaintext=1
-43	Austropotamobius pallipes	79	2025-06-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Austropotamobius_pallipes.jpg
-11	Astacus astacus	103	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
-59	Stagnicola palustris	122	2025-02-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Stagnicola_palustris.jpg
-37	Helix lucorum	73	2025-11-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Helix_lucorum_2.jpg
-79	Thuja occidentalis	128	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Thuja_occidentalis&format=json&redirects=1&explaintext=1
-88	Cupressus sempervirens	92	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cupressus-sempervirens-conos.jpg
-61	Abies nordmanniana	70	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
-87	Pinus wallichiana	146	2025-10-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bhutan-Paro-144-Abstieg_vom_Taktshang-Tigernest-Pinienzweig-gje.jpg
-76	Pinus nigra	141	2025-08-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bosc_en_regeneració_a_cara_llevant.JPG
-51	Zicrona caerulea	147	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zicrona_caerulea&format=json&redirects=1&explaintext=1
-34	Xanthoria parietina	100	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lichen_on_Tabaiba,_Gran_Canaria_MP.jpg
-52	Capreolus capreolus	73	2025-07-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
-22	Myotis mystacinus	106	2025-04-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Myotis_mystacinus_-_Manuel_Ruedi.JPG
-45	Vulpes vulpes	118	2025-07-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bruno_Liljefors_-_Beagle_and_Fox.jpg
-11	Lacerta agilis	107	2025-04-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-4	Lissotriton vulgaris	75	2025-07-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lissotriton_vulgaris&format=json&redirects=1&explaintext=1
-14	Rana temporaria	144	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
-26	Rana temporaria	122	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Rana_temporaria.png
-48	Rana dalmatina	114	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Rana_dalmatina01a.jpg
-25	Pelodytes punctatus	109	2025-03-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
-39	Pelodytes punctatus	106	2025-03-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
-23	Hyla arborea	101	2025-01-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Laubfrosch_Macro.jpg
-51	Triturus marmoratus	78	2025-11-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Triturus_marmoratus&format=json&redirects=1&explaintext=1
-63	Pelophylax lessonae	103	2025-06-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelophylax_lessonae&format=json&redirects=1&explaintext=1
-25	Epidalea calamita	132	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/BufoCalamitaTadpoles.jpg
-30	Epidalea calamita	85	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
-12	Salamandra salamandra	94	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Feuersalamander_DE.jpg
-11	Poa palustris	87	2025-11-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poa_palustris&format=json&redirects=1&explaintext=1
-35	Aethusa cynapium	107	2025-03-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aethusa_cynapium_subsp._cynapium_s._lat._sl19.jpg
-83	Chaenorhinum minus	71	2025-07-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chaenorhinum_minus&format=json&redirects=1&explaintext=1
-12	Nicotiana rustica	73	2025-11-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Nicotiana_rustica_fleur1.JPG
-23	Lumbricus terrestris	78	2025-08-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lumbricus_terrestris&format=json&redirects=1&explaintext=1
-19	Hirudo medicinalis	81	2025-10-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirudo_medicinalis&format=json&redirects=1&explaintext=1
-79	Drassodes lapidosus	86	2025-02-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Drassodes_lapidosus&format=json&redirects=1&explaintext=1
-62	Cheiracanthium punctorium	75	2025-08-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cheiracanthium_punctorium_male.jpg
-46	Argiope bruennichi	83	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
-91	Uloborus walckenaerius	106	2025-03-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Uloborus_walckenaerius.jpg
-60	Araneus angulatus	111	2025-09-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Araneus_angulatus&format=json&redirects=1&explaintext=1
-90	Ebrechtella tricuspidata	148	2025-03-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ebrechtella_tricuspidata&format=json&redirects=1&explaintext=1
-64	Pseudohydnum gelatinosum	74	2025-05-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Eiszitterpilz_Pseudohydnum_gelatinosum.jpg
-63	Pseudohydnum gelatinosum	113	2025-05-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pseudohydnum_gelatinosum_72233.jpg
-37	Imleria badia	146	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Imleria_badia&format=json&redirects=1&explaintext=1
-74	Tricholomopsis rutilans	120	2025-01-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tricholomopsis_rutilans&format=json&redirects=1&explaintext=1
-71	Macrolepiota procera	128	2025-04-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2010-10-10_Chlorophyllum_brunneum.jpg
-47	Lactarius torminosus	87	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius_t.jpg
-81	Tricholoma portentosum	139	2025-09-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2016-06-27_Tricholoma_scalpturatum_(Fr.)_Quél_718603.jpg
-36	Unio pictorum	82	2025-07-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_pictorum&format=json&redirects=1&explaintext=1
-86	Pseudanodonta complanata	94	2025-04-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pseudanodonta_complanata_2.jpg
-2	Corbicula fluminalis	74	2025-05-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Corbicula_fluminalis_-_Belvédère_lens_II_-_grijs.jpg
-43	Austropotamobius pallipes	74	2025-06-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Austropotamobius_pallipes&format=json&redirects=1&explaintext=1
-3	Astacus astacus	147	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Astacus_astacus&format=json&redirects=1&explaintext=1
-25	Helicodonta obvoluta	97	2025-11-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-73	Helix lucorum	74	2025-11-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helix_lucorum&format=json&redirects=1&explaintext=1
-26	Larix decidua	92	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bergtocht_van_Peio_Paese_naar_Lago_Covel_in_het_Nationaal_park_Stelvio_(Italië)._Wond_van_een_afgebroken_tak._Europese_larix_(Larix_decidua)_02.jpg
-41	Cupressus sempervirens	109	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cupressus_sempervirens&format=json&redirects=1&explaintext=1
-30	Abies nordmanniana	95	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_apical_buds.jpg
-28	Sequoia sempervirens	142	2025-10-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/030803a_redwoodfog.jpg
-64	Pinus nigra	123	2025-08-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_nigra&format=json&redirects=1&explaintext=1
-58	Zicrona caerulea	119	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Zicrona_caerulea01.jpg
-62	Xanthoria parietina	76	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
-81	Capreolus capreolus	119	2025-07-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Capreolus_capreolus_cloven_hoof.jpg
-45	Myotis mystacinus	93	2025-04-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Myotis_mystacinus&format=json&redirects=1&explaintext=1
-83	Lissotriton vulgaris	131	2025-07-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/LissotritonVulgarisMaleWater.JPG
-67	Rana temporaria	119	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grasfrosch-Rana-temporaria-side.jpg
-79	Rana temporaria	137	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
-30	Rana dalmatina	141	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
-16	Pelodytes punctatus	72	2025-03-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Parsley_Frogs_(Pelodytes_punctatus)_mating_(16803726502).jpg
-35	Hyla arborea	141	2025-01-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Hello_spring.jpg
-13	Hyla arborea	147	2025-01-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
-57	Triturus marmoratus	127	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Triton_jaspeado_Cozuelos.jpg
-6	Pelophylax lessonae	89	2025-06-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/PelophylaxLessonaeAmplex.JPG
-1	Epidalea calamita	99	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
-61	Salamandra salamandra	128	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/20170926_Feuersalamander_3.jpg
-53	Salamandra salamandra	136	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
-26	Poa palustris	79	2025-11-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Poa_palustris_(6134346701).jpg
-20	Aethusa cynapium	134	2025-03-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aethusa_cynapium&format=json&redirects=1&explaintext=1
-26	Littorella uniflora	86	2025-08-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/LittorellaUniflora.jpg
-44	Nicotiana rustica	73	2025-11-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nicotiana_rustica&format=json&redirects=1&explaintext=1
-77	Lumbricus terrestris	78	2025-08-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lumbricus_terrestris_anatomy_+_description.jpg
-68	Hirudo medicinalis	118	2025-10-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Icône_Portail_Annélides.png
-28	Drassodes lapidosus	141	2025-02-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Drassodes_7646.jpg
-46	Cheiracanthium punctorium	107	2025-08-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cheiracanthium_punctorium&format=json&redirects=1&explaintext=1
-18	Argiope bruennichi	125	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Argiope_frelon,_ventre.jpg
-74	Uloborus walckenaerius	133	2025-03-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Uloborus_walckenaerius&format=json&redirects=1&explaintext=1
-35	Araneus angulatus	103	2025-09-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Araneus_angulatus_(50838568828).jpg
-4	Ebrechtella tricuspidata	102	2025-03-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ebrechtella_tricuspidata,_male.JPG
-28	Pseudohydnum gelatinosum	91	2025-05-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudohydnum_gelatinosum&format=json&redirects=1&explaintext=1
-42	Pseudohydnum gelatinosum	141	2025-05-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudohydnum_gelatinosum&format=json&redirects=1&explaintext=1
-11	Imleria badia	75	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Boletus_badius_JPG1_cropped.jpg
-27	Tricholomopsis rutilans	137	2025-01-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Trichol_rutilans02_Alberto_Vázquez.JPG
-92	Macrolepiota procera	120	2025-04-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Macrolepiota_procera&format=json&redirects=1&explaintext=1
-88	Lactarius torminosus	142	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lactarius_torminosus&format=json&redirects=1&explaintext=1
-8	Unio mancus	75	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-55	Unio pictorum	97	2025-07-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Unio_pictorum_01.jpg
-33	Potomida littoralis	114	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-48	Corbicula fluminalis	105	2025-05-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corbicula_fluminalis&format=json&redirects=1&explaintext=1
-21	Austropotamobius pallipes	91	2025-06-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
-79	Astacus astacus	120	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ecrevisse_pattes_rouges.jpg
-2	Helicodonta obvoluta	72	2025-11-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helicodonta_obvoluta&format=json&redirects=1&explaintext=1
-80	Helix lucorum	133	2025-11-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Helix_lucorum_MHNT.ZOO.2005.0.jpg
-66	Larix decidua	142	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
-71	Cupressus sempervirens	122	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cypress.JPG
-51	Abies nordmanniana	113	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
-34	Sequoia sempervirens	73	2025-10-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sequoia_sempervirens&format=json&redirects=1&explaintext=1
-60	Pinus nigra	147	2025-08-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/JDCC_Pino_Salgareño.jpg
-50	Chorthippus vagans	72	2025-06-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chorthippus_vagans_pronotum.jpg
-44	Xanthoria parietina	112	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Xanthoria-parietina-gelbflechte.jpg
-53	Capreolus capreolus	97	2025-07-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
-48	Microtus subterraneus	77	2025-09-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Atlas_de_poche_des_mammifères_de_France,_de_la_Suisse_romane_et_de_la_Belgique_(Pl._23)_(6312166664).jpg
-91	Vulpes vulpes	71	2025-07-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vulpes_vulpes&format=json&redirects=1&explaintext=1
-70	Arvicola sapidus	95	2025-03-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Arvicola_sapidus_02_by-dpc.jpg
-38	Lissotriton vulgaris	129	2025-07-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lissotriton_vulgaris&format=json&redirects=1&explaintext=1
-58	Rana temporaria	84	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
-82	Rana temporaria	122	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Rana.temporaria.eggs.jpg
-16	Rana dalmatina	135	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Rana_dalmatina_(Grenouille_agile).JPG
-12	Pelodytes punctatus	98	2025-03-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
-44	Hyla arborea	118	2025-01-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
-42	Hyla arborea	123	2025-01-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Hyla_arborea.png
-91	Triturus marmoratus	97	2025-11-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Triturus_marmoratus&format=json&redirects=1&explaintext=1
-48	Pelophylax kl. esculentus	130	2025-03-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Edible_Frog_(Pelophylax_esculentus)_(17198900716).jpg
-88	Epidalea calamita	136	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bufo_calamita_(Marek_Szczepanek).jpg
-75	Salamandra salamandra	72	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
-43	Salamandra salamandra	102	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Feuersalamander_Fehlpaarung.jpg
-41	Poa palustris	146	2025-11-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poa_palustris&format=json&redirects=1&explaintext=1
-90	Aethusa cynapium	74	2025-03-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Illustration_Aethusa_cynapium0_clean.jpg
-62	Littorella uniflora	83	2025-08-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Littorella_uniflora&format=json&redirects=1&explaintext=1
-21	Nicotiana rustica	129	2025-11-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Nicotiana_rustica_plante.JPG
-82	Lumbricus terrestris	121	2025-08-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lumbricus_terrestris&format=json&redirects=1&explaintext=1
-15	Hirudo medicinalis	121	2025-10-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirudo_medicinalis&format=json&redirects=1&explaintext=1
-43	Drassodes lapidosus	98	2025-02-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Drassodes_lapidosus&format=json&redirects=1&explaintext=1
-18	Cheiracanthium punctorium	96	2025-08-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cheiracanthium_punctorium_mâle_-_vue_de_face.jpg
-40	Argiope bruennichi	93	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
-60	Uloborus walckenaerius	78	2025-03-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Uloborus_walckenaerius_(ventral).JPG
-32	Steatoda grossa	112	2025-06-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Kaldari_Steatoda_grossa_female_01.jpg
-5	Ebrechtella tricuspidata	93	2025-03-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ebrechtella_tricuspidata&format=json&redirects=1&explaintext=1
-64	Pseudohydnum gelatinosum	134	2025-05-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Kantarell,_Iduns_kokbok.png
-17	Pseudohydnum gelatinosum	136	2025-05-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pseudohydnum_gelatinosum_9.JPG
-23	Panellus stipticus	128	2025-08-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Kantarell,_Iduns_kokbok.png
-63	Tricholomopsis rutilans	140	2025-01-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tricholomopsis_rutilans&format=json&redirects=1&explaintext=1
-14	Macrolepiota procera	96	2025-04-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2011-07-30_Amanita_rubescens_1.jpg
-55	Lactarius torminosus	99	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius_torminosus_(cropped).jpg
-63	Unio mancus	103	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_mancus&format=json&redirects=1&explaintext=1
-49	Unio pictorum	71	2025-07-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_pictorum&format=json&redirects=1&explaintext=1
-1	Potomida littoralis	86	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Potomida_littoralis&format=json&redirects=1&explaintext=1
-37	Corbicula fluminalis	86	2025-05-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Feingerippte,_innen_und_außen.jpg
-15	Austropotamobius pallipes	148	2025-06-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Austropotamobius_pallipes&format=json&redirects=1&explaintext=1
-19	Astacus astacus	79	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Astacus_astacus&format=json&redirects=1&explaintext=1
-44	Helicodonta obvoluta	89	2025-11-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Helicodonta-obvoluta-map-eur-nm-moll.jpg
-62	Helix lucorum	95	2025-11-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helix_lucorum&format=json&redirects=1&explaintext=1
-66	Larix decidua	136	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bergtocht_van_Vens_naar_Bettex_in_Valle_d'Aosta_(Italië)_012.jpg
-78	Cupressus sempervirens	127	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cupressus_sempervirens&format=json&redirects=1&explaintext=1
-17	Abies nordmanniana	99	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_female_cone_(Karachay-Cherkessia,_Russia)_1.jpg
-88	Sequoia sempervirens	143	2025-10-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Redwood_bonsai.JPG
-72	Pinus nigra	99	2025-08-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_nigra&format=json&redirects=1&explaintext=1
-90	Chorthippus vagans	97	2025-06-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chorthippus_vagans&format=json&redirects=1&explaintext=1
-62	Xanthoria parietina	130	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
-6	Capreolus capreolus	139	2025-07-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chevreuil_Capreolus_capreolus_(france).jpg
-72	Microtus subterraneus	139	2025-09-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Microtus_subterraneus&format=json&redirects=1&explaintext=1
-29	Lissotriton vulgaris	89	2025-07-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ringelnatter,_Natrix_natrix_mit_Teichmolch_3.JPG
-5	Rana temporaria	93	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grasfrosch_auf_Stein.jpg
-92	Rana dalmatina	144	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Agile_frog_(Rana_dalmatina).jpg
-86	Rana dalmatina	96	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
-33	Pelodytes punctatus	106	2025-03-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pelodytes_punctatus_1.jpg
-1	Hyla arborea	129	2025-01-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-30	Hyla arborea	76	2025-01-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
-88	Triturus marmoratus	123	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Triton_marbre_de_correze.jpg
-42	Pelophylax kl. esculentus	147	2025-03-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelophylax_kl._esculentus&format=json&redirects=1&explaintext=1
-3	Epidalea calamita	97	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
-66	Salamandra salamandra	96	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Accouchement_salamandre.jpg
-57	Salamandra salamandra	78	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
-53	Poa palustris	96	2025-11-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Poa_palustris_(6134893262).jpg
-57	Aethusa cynapium	119	2025-03-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aethusa_cynapium&format=json&redirects=1&explaintext=1
-14	Littorella uniflora	131	2025-08-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Littorella_uniflora.jpeg
-27	Nicotiana rustica	110	2025-11-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nicotiana_rustica&format=json&redirects=1&explaintext=1
-41	Eisenia fetida	88	2025-03-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Compost_with_worms.jpg
-90	Pirata piraticus	99	2025-09-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2018.04.07.-10-Kirschgartshaeuser_Schlaege_Mannheim--Piratenspinne-Weibchen.jpg
-24	Drassodes lapidosus	100	2025-02-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Drassodes_lapidosus_322142656.jpg
-68	Cheiracanthium punctorium	105	2025-08-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cheiracanthium_punctorium&format=json&redirects=1&explaintext=1
-5	Argiope bruennichi	109	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Argiope_frelon_IMG_5831.jpg
-81	Uloborus walckenaerius	113	2025-03-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Uloborus_walckenaerius&format=json&redirects=1&explaintext=1
-12	Steatoda grossa	123	2025-06-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Steatoda_grossa&format=json&redirects=1&explaintext=1
-78	Metellina segmentata	81	2025-08-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Metellina.segmentata.female.jpg
-30	Pseudohydnum gelatinosum	107	2025-05-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudohydnum_gelatinosum&format=json&redirects=1&explaintext=1
-16	Imleria badia	95	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2007-07-14_Imleria_badia_2.jpg
-61	Panellus stipticus	141	2025-08-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Panellus_stipticus&format=json&redirects=1&explaintext=1
-25	Psathyrella piluliformis	148	2025-03-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Kantarell,_Iduns_kokbok.png
-59	Macrolepiota procera	102	2025-04-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Macrolepiota_procera&format=json&redirects=1&explaintext=1
-30	Unio mancus	143	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Unio-mancus-map-eur-nm-moll.jpg
-71	Unio pictorum	142	2025-07-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Unio_pictorum_02.jpg
-86	Potomida littoralis	131	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Freshwater_Mussel_(Potomida_littoralis)_empty_shell_found_on_the_bank_of_Orne_river_(16590902404).jpg
-12	Corbicula fluminalis	145	2025-05-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corbicula_fluminalis&format=json&redirects=1&explaintext=1
-32	Austropotamobius pallipes	91	2025-06-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/White-footed_Crayfish_(Austropotamobius_pallipes)_(13533705014).jpg
-37	Armadillidium vulgare	129	2025-05-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Armadillidium_vulgare_000.jpg
-23	Helicodonta obvoluta	125	2025-11-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helicodonta_obvoluta&format=json&redirects=1&explaintext=1
-55	Gyraulus parvus	111	2025-06-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-4	Larix decidua	143	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
-84	Cupressus sempervirens	146	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cyprès_Commun.jpg
-38	Abies nordmanniana	75	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
-61	Sequoia sempervirens	120	2025-10-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sequoia_sempervirens&format=json&redirects=1&explaintext=1
-23	Pinus nigra	81	2025-08-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pin_noir_d'Autriche_à_L'Hôpital_(Moselle).jpg
-2	Chorthippus vagans	92	2025-06-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Mombach_fg19.jpg
-11	Xanthoria parietina	97	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Xanthoria_aureola_Penharn.jpg
-86	Capreolus capreolus	133	2025-07-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
-91	Microtus subterraneus	101	2025-09-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Musu_grauzikas1_resize.jpg
-66	Vulpes vulpes	130	2025-07-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chasse_a_courre.jpg
-67	Arvicola sapidus	97	2025-03-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Arvicola_sapidus&format=json&redirects=1&explaintext=1
-82	Scutigera coleoptrata	93	2025-04-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Scutigera_coleoptrata_MHNT_.jpg
-34	Lissotriton vulgaris	141	2025-07-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lissotriton_vulgaris&format=json&redirects=1&explaintext=1
-35	Rana temporaria	101	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
-31	Rana dalmatina	146	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
-60	Rana dalmatina	139	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Rana_dalmatina_auf_Finger.jpg
-44	Pelodytes punctatus	119	2025-03-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
-83	Hyla arborea	134	2025-01-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
-7	Hyla arborea	110	2025-01-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Rzekotka_drzewna_2.jpg
-77	Triturus marmoratus	81	2025-11-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Triturus_marmoratus&format=json&redirects=1&explaintext=1
-23	Pelophylax kl. esculentus	91	2025-03-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Green_frog_(Pelophylax_esculentus_complex)_Danube_delta.jpg
-61	Epidalea calamita	111	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bufo_calamita_2006-08-15.jpg
-72	Salamandra salamandra	105	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
-79	Salamandra salamandra	85	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Feuersalamander_im_Harz_2014.jpg
-53	Poa palustris	143	2025-11-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poa_palustris&format=json&redirects=1&explaintext=1
-10	Trigonella caerulea	88	2025-11-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Peanuts_(1).png
-12	Littorella uniflora	96	2025-08-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Littorella_uniflora&format=json&redirects=1&explaintext=1
-85	Nicotiana rustica	86	2025-11-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/P1000513_Nicotiana_rustica_(Aztec_tobacco,_wild_tobacco)_(Solanaceae)_Plant.JPG
-40	Eisenia fetida	84	2025-03-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Eisenia_fetida&format=json&redirects=1&explaintext=1
-59	Pirata piraticus	71	2025-09-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pirata_piraticus&format=json&redirects=1&explaintext=1
-66	Drassodes lapidosus	88	2025-02-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Drassodes_lapidosus&format=json&redirects=1&explaintext=1
-65	Argiope bruennichi	79	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/(MHNT)_Argiope_bruennichi_female_dorsal.jpg
-77	Argiope bruennichi	85	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
-81	Uloborus walckenaerius	109	2025-03-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Uloborus_walckenaerius_weaving.jpg
-36	Steatoda grossa	84	2025-06-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Kaldari_Steatoda_grossa_female_02.jpg
-20	Araniella cucurbitina	108	2025-02-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/(MHNT)_Araniella_cucurbitina_male_dorsal.jpg
-87	Pseudohydnum gelatinosum	98	2025-05-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pseudohydnum.gelatinosum3.-.lindsey.jpg
-68	Imleria badia	114	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Imleria_badia&format=json&redirects=1&explaintext=1
-85	Panellus stipticus	72	2025-08-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Panellus_stipticus_G3.jpg
-34	Psathyrella piluliformis	94	2025-03-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psathyrella_piluliformis&format=json&redirects=1&explaintext=1
-62	Macrolepiota procera	93	2025-04-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/20161005Macrolepiota_procera1.jpg
-57	Unio mancus	98	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_mancus&format=json&redirects=1&explaintext=1
-1	Unio pictorum	92	2025-07-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_pictorum&format=json&redirects=1&explaintext=1
-51	Potomida littoralis	93	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Potomida_littoralis&format=json&redirects=1&explaintext=1
-87	Corbicula fluminalis	146	2025-05-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Planorbarius_corneus_Posthorn,_Biomphalaria_tenagophila,_Tellerschnecke,_Biomphalaria_pfeifferi_2013_am_Rohrspitzufer.JPG
-87	Austropotamobius pallipes	90	2025-06-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Austropotamobius_pallipes&format=json&redirects=1&explaintext=1
-63	Armadillidium vulgare	125	2025-05-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Armadillidium_vulgare&format=json&redirects=1&explaintext=1
-82	Helicodonta obvoluta	124	2025-11-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Helicodonta_obvoluta,_la_"Chiocciola_spinosa".jpg
-28	Gyraulus parvus	85	2025-06-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gyraulus_parvus&format=json&redirects=1&explaintext=1
-73	Larix decidua	117	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Coin_of_Ukraine_modryna_r.jpg
-56	Cupressus sempervirens	103	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cupressus_sempervirens&format=json&redirects=1&explaintext=1
-40	Abies nordmanniana	140	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_female_cone_(Karachay-Cherkessia,_Russia)_2.jpg
-19	Sequoia sempervirens	135	2025-10-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Sequoia_Sequoiadendron_range_map.png
-24	Pinus nigra	86	2025-08-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_nigra&format=json&redirects=1&explaintext=1
-1	Chorthippus vagans	148	2025-06-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chorthippus_vagans&format=json&redirects=1&explaintext=1
-84	Xanthoria parietina	123	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
-68	Capreolus capreolus	139	2025-07-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/DeerBotFlyReaumur.jpg
-47	Microtus subterraneus	105	2025-09-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Microtus_subterraneus&format=json&redirects=1&explaintext=1
-88	Lissotriton vulgaris	127	2025-07-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Teichmolch_maennchen_web.jpg
-84	Rana temporaria	73	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grenouille_des_Pyrénées.jpg
-36	Rana dalmatina	146	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grenouille_agile_en_phase_aquatique.jpg
-30	Rana dalmatina	93	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
-32	Pelodytes punctatus	135	2025-03-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pelodytes_punctatus_belly.jpg
-59	Hyla arborea	128	2025-01-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/HylaArboreaEye.jpg
-47	Hyla arborea	148	2025-01-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
-77	Triturus marmoratus	80	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Triton_marbré_femelle.jpg
-21	Pelophylax kl. esculentus	140	2025-03-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelophylax_kl._esculentus&format=json&redirects=1&explaintext=1
-76	Epidalea calamita	138	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
-35	Salamandra salamandra	111	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Biegacz_fioletowy_Carabus_violaceus_1.jpg
-19	Salamandra salamandra	135	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
-57	Poa palustris	140	2025-11-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Poa_palustris_(6134897768).jpg
-86	Trigonella caerulea	100	2025-11-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Trigonella_caerulea&format=json&redirects=1&explaintext=1
-27	Echinops sphaerocephalus	125	2025-05-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Echinops_sphaerocephalus_-_Oursin3.jpg
-51	Nicotiana rustica	79	2025-11-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nicotiana_rustica&format=json&redirects=1&explaintext=1
-42	Eisenia fetida	80	2025-03-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Eisenia_fetida_HC1.jpg
-29	Pirata piraticus	97	2025-09-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_Lukjonis_-_Spider_-_Pirata_piraticus.jpg
-77	Drassodes lapidosus	102	2025-02-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Drassodes_lapidosus_male.jpg
-51	Argiope bruennichi	114	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
-73	Argiope bruennichi	137	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Argiope_frelon_IMG_5917.jpg
-82	Uloborus walckenaerius	70	2025-03-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Uloborus_walckenaerius&format=json&redirects=1&explaintext=1
-13	Steatoda grossa	128	2025-06-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Steatoda_grossa&format=json&redirects=1&explaintext=1
-34	Araniella cucurbitina	78	2025-02-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Araniella_cucurbitina&format=json&redirects=1&explaintext=1
-1	Pseudohydnum gelatinosum	115	2025-05-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudohydnum_gelatinosum&format=json&redirects=1&explaintext=1
-73	Imleria badia	79	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Boletus_aereus_6.jpg
-89	Panellus stipticus	81	2025-08-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Panellus_stipticus&format=json&redirects=1&explaintext=1
-77	Psathyrella piluliformis	73	2025-03-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Psathyrella_piluliformis.-.lindsey.jpg
-60	Macrolepiota procera	116	2025-04-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Macrolepiota_procera&format=json&redirects=1&explaintext=1
-46	Unio mancus	110	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Unionidae_-_Unio_mancus.JPG
-81	Unio pictorum	122	2025-07-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Unio_pictorum_03.jpg
-49	Potomida littoralis	141	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Potomida_littoralis_01_by-dpc.jpg
-57	Corbicula fluminalis	144	2025-05-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corbicula_fluminalis&format=json&redirects=1&explaintext=1
-60	Daphnia pulex	147	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
-65	Armadillidium vulgare	89	2025-05-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Armadillidium_vulgare_001.jpg
-20	Helicodonta obvoluta	91	2025-11-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helicodonta_obvoluta&format=json&redirects=1&explaintext=1
-24	Gyraulus parvus	122	2025-06-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Gyraulus_parvus_0780_(38386108562).jpg
-90	Larix decidua	84	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
-50	Cupressus sempervirens	135	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Med_Cypress.jpg
-37	Abies nordmanniana	93	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
-35	Sequoia sempervirens	132	2025-10-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sequoia_sempervirens&format=json&redirects=1&explaintext=1
-73	Pinus nigra	100	2025-08-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_nigra_cone.jpg
-8	Menophra abruptaria	111	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/(1936)_Waved_Umber_(Menophra_abruptaria)_(16927951443).jpg
-10	Xanthoria parietina	79	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Xanthoria_calcicola_Carris_-_Frossay.jpg
-78	Capreolus capreolus	133	2025-07-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
-38	Pipistrellus kuhlii	93	2025-04-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bat-right_side.jpg
-12	Vulpes vulpes	85	2025-07-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vulpes_vulpes&format=json&redirects=1&explaintext=1
-26	Arvicola sapidus	124	2025-03-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Arvicola_sapidus_04_by-dpc.jpg
-84	Martes foina	127	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Martes_foina&format=json&redirects=1&explaintext=1
-70	Bombina variegata	122	2025-07-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/BombinaVariegataJuv2.jpg
-11	Rana temporaria	124	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
-15	Rana dalmatina	102	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
-65	Rana dalmatina	122	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Springfrosch-Rana-dalmatina.jpg
-21	Pelodytes punctatus	73	2025-03-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
-57	Hyla arborea	123	2025-01-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
-31	Triturus marmoratus	125	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Azureus.png
-86	Triturus marmoratus	146	2025-11-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Triturus_marmoratus&format=json&redirects=1&explaintext=1
-18	Pelophylax kl. esculentus	95	2025-03-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grenouille_verte_dans_une_mare_à_characées.jpg
-41	Epidalea calamita	122	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-84	Salamandra salamandra	123	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
-24	Salamandra salamandra	91	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fire_Salamander_(Salamandra_salamandra)_(13532310553).jpg
-18	Poa palustris	134	2025-11-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poa_palustris&format=json&redirects=1&explaintext=1
-49	Trigonella caerulea	120	2025-11-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Trigonella_caerulea.jpg
-28	Echinops sphaerocephalus	110	2025-05-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Echinops_sphaerocephalus&format=json&redirects=1&explaintext=1
-29	Nicotiana rustica	106	2025-11-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/P1000514_Nicotiana_rustica_(Aztec_tobacco,_wild_tobacco)_(Solanaceae)_Leaf.JPG
-40	Hirudo medicinalis	144	2025-10-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aeromonas_hydrophila.jpg
-66	Pirata piraticus	90	2025-09-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pirata_piraticus&format=json&redirects=1&explaintext=1
-21	Drassodes lapidosus	126	2025-02-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Drassodes_lapidosus&format=json&redirects=1&explaintext=1
-80	Argiope bruennichi	117	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Argiope-bruennichi.jpg
-43	Argiope bruennichi	127	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
-82	Uloborus walckenaerius	135	2025-03-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Walckenaer's_hackled_orb_weaver_(Uloborus_walckenaerius).jpg
-31	Steatoda grossa	95	2025-06-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Steatoda.grossa.jpg
-21	Araniella cucurbitina	76	2025-02-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/(MHNT)_Araniella_cucurbitina_male_ventral.jpg
-28	Pseudohydnum gelatinosum	70	2025-05-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pseudohydnum_gelatinosum.jpg
-86	Imleria badia	130	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Imleria_badia&format=json&redirects=1&explaintext=1
-22	Tricholomopsis rutilans	134	2025-01-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2008-09-11_Tricholomopsis_decora_mod.jpg
-65	Psathyrella piluliformis	132	2025-03-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psathyrella_piluliformis&format=json&redirects=1&explaintext=1
-90	Macrolepiota procera	87	2025-04-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Amanita_excelsa_2.jpg
-6	Unio crassus	78	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-92	Unio pictorum	80	2025-07-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_pictorum&format=json&redirects=1&explaintext=1
-68	Potomida littoralis	83	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Potomida_littoralis&format=json&redirects=1&explaintext=1
-11	Corbicula fluminalis	121	2025-05-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Toegeknepen_korfmossel.jpg
-77	Daphnia pulex	118	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Daphnia_pulex&format=json&redirects=1&explaintext=1
-75	Armadillidium vulgare	107	2025-05-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Armadillidium_vulgare&format=json&redirects=1&explaintext=1
-31	Helicodonta obvoluta	129	2025-11-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Helicodonta_obvoluta.png
-51	Gyraulus parvus	142	2025-06-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gyraulus_parvus&format=json&redirects=1&explaintext=1
-86	Larix decidua	78	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Die_Farben_der_Schweizer_Herbst.jpg
-23	Cupressus sempervirens	83	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cupressus_sempervirens&format=json&redirects=1&explaintext=1
-77	Taxodium distichum	109	2025-08-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ademwortel_(pneumatoforen)_van_een_moerascipres_(Taxodium_distichum)_18-03-2024_(d.j.b.).jpg
-92	Sequoia sempervirens	148	2025-10-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Sequoia_sempervirens4.jpg
-64	Pinus nigra	124	2025-08-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_nigra&format=json&redirects=1&explaintext=1
-54	Menophra abruptaria	134	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Menophra_abruptaria&format=json&redirects=1&explaintext=1
-32	Xanthoria parietina	128	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
-4	Capreolus capreolus	104	2025-07-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Gehörn_eines_Rehbocks.jpg
-92	Pipistrellus kuhlii	140	2025-04-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pipistrellus_kuhlii&format=json&redirects=1&explaintext=1
-4	Vespertilio murinus	124	2025-05-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Mroczak_posrebrzany.jpg
-1	Arvicola sapidus	77	2025-03-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Arvicola_sapidus&format=json&redirects=1&explaintext=1
-73	Bombina variegata	112	2025-07-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Bombina_variegata&format=json&redirects=1&explaintext=1
-39	Rana temporaria	93	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Grenrousse2300.jpg
-21	Rana dalmatina	130	2025-11-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-36	Rana dalmatina	106	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
-21	Pelodytes punctatus	101	2025-03-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pelodytes_punctatus_range_Map.png
-88	Hyla arborea	90	2025-01-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Hyla_arborea_dark.jpg
-24	Triturus marmoratus	89	2025-11-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Triturus_marmoratus&format=json&redirects=1&explaintext=1
-64	Triturus marmoratus	73	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Triturus_marmoratus1.JPG
-76	Epidalea calamita	102	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/17.18a.JRA.jpg
-47	Epidalea calamita	129	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
-22	Salamandra salamandra	130	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Felsenmeer_b_Jägerfelsen.jpg
-18	Salamandra salamandra	95	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
-16	Aethusa cynapium	108	2025-03-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aethusa_cynapium_002.JPG
-57	Trigonella caerulea	137	2025-11-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Trigonella_caerulea&format=json&redirects=1&explaintext=1
-17	Nicotiana rustica	94	2025-11-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Angiospermes_arbre9.png
-79	Centaurium erythraea	85	2025-11-24	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Centaurium_erythraea_(Jardin_des_plantes).jpg
-77	Hirudo medicinalis	96	2025-10-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirudo_medicinalis&format=json&redirects=1&explaintext=1
-40	Pirata piraticus	121	2025-09-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pirata.piraticus.female.with.egg.sac.jpg
-19	Cheiracanthium punctorium	116	2025-08-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cheiracanthium_punctorium_(mâle)_sur_un_mur_de_maison.jpg
-80	Argiope bruennichi	120	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
-41	Argiope bruennichi	118	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Wespspin_met_eicocon.jpg
-81	Uloborus walckenaerius	86	2025-03-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Uloborus_walckenaerius&format=json&redirects=1&explaintext=1
-67	Steatoda grossa	81	2025-06-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Steatoda_grossa&format=json&redirects=1&explaintext=1
-22	Unio crassus	111	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_crassus&format=json&redirects=1&explaintext=1
-43	Unio pictorum	144	2025-07-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Unio_pictorum_05.jpg
-86	Potomida littoralis	82	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Potomida_littoralis_02_by-dpc.jpg
-31	Corbicula fluminalis	138	2025-05-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corbicula_fluminalis&format=json&redirects=1&explaintext=1
-20	Daphnia pulex	129	2025-02-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Daphnia_pulex.png
-88	Armadillidium vulgare	132	2025-05-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
-22	Helicodonta obvoluta	84	2025-11-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helicodonta_obvoluta&format=json&redirects=1&explaintext=1
-74	Oxychilus draparnaudi	131	2025-11-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-69	Larix decidua	130	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
-42	Abies nordmanniana	147	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/17550_Hıdırlar-Yenice-Çanakkale,_Turkey_-_panoramio.jpg
-28	Taxodium distichum	96	2025-08-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Taxodium_distichum&format=json&redirects=1&explaintext=1
-73	Sequoia sempervirens	76	2025-10-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sequoia_sempervirens&format=json&redirects=1&explaintext=1
-79	Sequoiadendron giganteum	130	2025-04-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/GeantSequoiaRouen.jpg
-46	Menophra abruptaria	95	2025-08-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/(70.257)_(BF1936)_Waved_Umber_(Menophra_abruptaria)_-_Flickr_-_Bennyboymothman.jpg
-14	Xanthoria parietina	105	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Xanthoria_elegans_97571.jpg
-18	Capreolus capreolus	129	2025-07-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
-33	Pipistrellus kuhlii	108	2025-04-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Macracanthorhynchus_hirudinaceus_adult_BAM1.jpg
-15	Vespertilio murinus	111	2025-05-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vespertilio_murinus&format=json&redirects=1&explaintext=1
-32	Arvicola sapidus	83	2025-03-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Arvicola_sapidus_MHNT.ZOO.2010.11.236.2.jpg
-37	Martes foina	136	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Martes_foina_litter_2.jpg
-50	Scutigera coleoptrata	126	2025-04-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Scutigera_coleoptrata&format=json&redirects=1&explaintext=1
-50	Proterorhinus semilunaris	90	2025-06-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Tubenose_goby_Baraboy_River.jpg
-86	Pseudorasbora parva	127	2025-06-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudorasbora_parva&format=json&redirects=1&explaintext=1
-42	Lepomis gibbosus	84	2025-02-25	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Great_Crested_Grebe_(Podiceps_cristatus)_with_Pumpkinseed_(Lepomis_gibbosus)_(26662687256).jpg
-57	Trametes hirsuta	103	2025-03-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Kantarell,_Iduns_kokbok.png
-35	Imleria badia	147	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Boletus_badius_02.jpg
-4	Unio crassus	134	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Unio_crassus_01.jpg
-25	Unio pictorum	113	2025-07-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_pictorum&format=json&redirects=1&explaintext=1
-85	Potomida littoralis	87	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Potomida_littoralis&format=json&redirects=1&explaintext=1
-17	Chirocephalus diaphanus	71	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chirocephalus_diaphanus_Baird.jpg
-53	Daphnia pulex	81	2025-02-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Daphnia_pulex&format=json&redirects=1&explaintext=1
-64	Armadillidium vulgare	80	2025-05-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Armadillidium_vulgare&format=json&redirects=1&explaintext=1
-69	Helicodonta obvoluta	126	2025-11-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Helicodonta_obvoluta_(Helicodontidae)_-_(empty_shell),_Montchâlons,_France.jpg
-90	Oxychilus draparnaudi	116	2025-11-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oxychilus_draparnaudi&format=json&redirects=1&explaintext=1
-42	Larix decidua	131	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fiore_di_larice.jpg
-1	Abies nordmanniana	79	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
-33	Taxodium distichum	113	2025-08-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ademwortels_(pneumatoforen)_van_een_moerascipres_(Taxodium_distichum)_09-02-2023_(d.j.b.).jpg
-3	Sequoia sempervirens	106	2025-10-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Sequoia_sempervirens_-_foliage.jpg
-53	Pinus pinaster	74	2025-09-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fleur_Pins.JPG
-39	Menophra abruptaria	100	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Menophra_abruptaria&format=json&redirects=1&explaintext=1
-35	Xanthoria parietina	104	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
-68	Capreolus capreolus	111	2025-07-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/HanChevreuils.JPG
-17	Pipistrellus kuhlii	89	2025-04-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pipistrellus_kuhlii&format=json&redirects=1&explaintext=1
-30	Vespertilio murinus	143	2025-05-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Vespertilio_murinus_2.jpg
-32	Martes foina	90	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Beech_Marten_area.png
-60	Martes foina	122	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Martes_foina&format=json&redirects=1&explaintext=1
-64	Scutigera coleoptrata	87	2025-04-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Scutigeromorpha_(16152800767).jpg
-10	Proterorhinus semilunaris	100	2025-06-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Proterorhinus_semilunaris&format=json&redirects=1&explaintext=1
-1	Pseudorasbora parva	133	2025-06-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/PseudorasboraParva.JPG
-81	Lepomis gibbosus	96	2025-02-25	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lepomis_gibbosus&format=json&redirects=1&explaintext=1
-5	Phoxinus phoxinus	119	2025-07-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoxinus_phoxinus&format=json&redirects=1&explaintext=1
-39	Phoxinus phoxinus	89	2025-07-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoxinus_phoxinus&format=json&redirects=1&explaintext=1
-45	Squalius cephalus	77	2025-04-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Squalius_cephalus&format=json&redirects=1&explaintext=1
-32	Rutilus rutilus	109	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rutilus_rutilus&format=json&redirects=1&explaintext=1
-45	Athyrium filix-femina	126	2025-04-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Athyrium_filix-femina2.jpg
-46	Pteridium aquilinum	147	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pteridium_aquilinum&format=json&redirects=1&explaintext=1
-90	Pteridium aquilinum	98	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pteridium_aquilinum&format=json&redirects=1&explaintext=1
-4	Botrychium lunaria	116	2025-11-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/511_Botrychium_lunaria_fragment.jpg
-40	Asplenium scolopendrium	76	2025-02-03	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Etude_de_fougère_scolopendre_par_Henri_Bergé.jpg
-22	Struthiopteris spicant	70	2025-06-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Struthiopteris_spicant&format=json&redirects=1&explaintext=1
-19	Polypodium vulgare	107	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polypodium_vulgare&format=json&redirects=1&explaintext=1
-1	Vipera aspis	116	2025-11-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
-44	Vipera aspis	130	2025-11-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
-16	Lacerta bilineata	84	2025-02-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
-42	Lacerta bilineata	91	2025-02-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
-80	Zootoca vivipara	82	2025-02-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zootoca_vivipara&format=json&redirects=1&explaintext=1
-23	Vipera berus	147	2025-07-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_berus&format=json&redirects=1&explaintext=1
-66	Lacerta agilis	105	2025-04-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_agilis&format=json&redirects=1&explaintext=1
-50	Lacerta agilis	106	2025-04-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_agilis&format=json&redirects=1&explaintext=1
-37	Anguis fragilis	113	2025-05-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis_fragilis.jpeg
-72	Anguis fragilis	138	2025-05-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis_fragilis_Anguidae_OrvetHelfaut3.jpg
-5	Hierophis viridiflavus	122	2025-09-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierophis_viridiflavus&format=json&redirects=1&explaintext=1
-74	Coronella austriaca	148	2025-01-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Gom4.jpg
-35	Unio crassus	104	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_crassus&format=json&redirects=1&explaintext=1
-14	Anodonta cygnea	139	2025-04-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anodonta_cygnea1.jpg
-76	Sinanodonta woodiana	113	2025-10-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/20090830_imutaike_kagoshima-ken_japan.jpg
-19	Chirocephalus diaphanus	125	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chirocephalus_diaphanus&format=json&redirects=1&explaintext=1
-52	Faxonius limosus	147	2025-01-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
-60	Oniscus asellus	73	2025-10-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/ADN_static_h.png
-88	Helicodonta obvoluta	115	2025-11-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helicodonta_obvoluta&format=json&redirects=1&explaintext=1
-72	Oxychilus draparnaudi	108	2025-11-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Oxychilus_draparnaudi.jpg
-79	Larix decidua	120	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
-60	Abies nordmanniana	84	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmannia_Zweig_Detailaufnahme.jpg
-51	Taxodium distichum	104	2025-08-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Taxodium_distichum&format=json&redirects=1&explaintext=1
-70	Sequoia sempervirens	140	2025-10-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sequoia_sempervirens&format=json&redirects=1&explaintext=1
-36	Pinus pinaster	107	2025-09-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_pinaster&format=json&redirects=1&explaintext=1
-24	Osmylus fulvicephalus	110	2025-08-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Osmylus_fulvicephalus_(Osmyle_à_tête_jaune).jpg
-86	Xanthoria parietina	145	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Xanthoria_parietina_(06_03_31).jpg
-26	Capreolus capreolus	87	2025-07-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
-60	Pipistrellus kuhlii	128	2025-04-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pipistrellus_kuhlii_adult.jpg
-53	Vespertilio murinus	84	2025-05-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vespertilio_murinus&format=json&redirects=1&explaintext=1
-34	Martes foina	124	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Martes_foina&format=json&redirects=1&explaintext=1
-85	Pipistrellus pipistrellus	124	2025-06-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bats_are_smaller_than_one_generally_thinks..._(5933690662).jpg
-15	Scutigera coleoptrata	146	2025-04-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Scutigera_coleoptrata&format=json&redirects=1&explaintext=1
-21	Leuciscus leuciscus	81	2025-10-24	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
-3	Pseudorasbora parva	106	2025-06-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudorasbora_parva&format=json&redirects=1&explaintext=1
-6	Lepomis gibbosus	96	2025-02-25	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Juveniles_percasol_(Lepomis_gibbosus).jpg
-19	Phoxinus phoxinus	98	2025-07-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Phoxinus.jpg
-18	Gobio gobio	100	2025-03-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
-18	Squalius cephalus	125	2025-04-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Brown_trout_fry_Pudisoo_river.jpg
-55	Rutilus rutilus	82	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/RutilusRutilus.JPG
-39	Athyrium filix-femina	130	2025-04-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Athyrium_filix-femina&format=json&redirects=1&explaintext=1
-84	Pteridium aquilinum	83	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Adelaarsvaren_wortelstok_Pteridium_aquilinum.jpg
-44	Pteridium aquilinum	138	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pteridium_aquilinum_nf.jpg
-34	Botrychium lunaria	108	2025-11-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Botrychium_lunaria&format=json&redirects=1&explaintext=1
-34	Struthiopteris spicant	78	2025-06-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Blechnum_spicant0.jpg
-87	Equisetum palustre	91	2025-07-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Equisetum_palustre4.JPG
-46	Polypodium vulgare	89	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Polypodium_vulgare_002.JPG
-79	Vipera aspis	146	2025-11-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aspic_Viper_(Vipera_aspis_zinnikeri)_subadult_female_(10114686826).jpg
-1	Vipera aspis	120	2025-11-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/European_Asp_(Vipera_aspis)_male_(found_by_Jean_NICOLAS)_(25750413110).jpg
-10	Lacerta bilineata	124	2025-02-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lacerta_bilineata_masculus_et_femella_+_Podarcis_muralis_(Sarthe).JPG
-27	Lacerta bilineata	119	2025-02-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lézard_vert_au_Malmont.jpg
-55	Zootoca vivipara	72	2025-02-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lézard_vivipaire.jpg
-91	Vipera berus	102	2025-07-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/ViperaBerusEatingZootocaVivipara.JPG
-40	Lacerta agilis	106	2025-04-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Jaszczurka.jpg
-68	Graptemys pseudogeographica	92	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/20051114135926.jpg
-25	Anguis fragilis	79	2025-05-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
-75	Anguis fragilis	77	2025-05-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
-64	Hierophis viridiflavus	120	2025-09-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-23	Hierophis viridiflavus	135	2025-09-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierophis_viridiflavus&format=json&redirects=1&explaintext=1
-91	Natrix maura	119	2025-10-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Couleuvre_vipérine_(Natrix_maura)_mangeant_un_poisson.jpg
-42	Coronella austriaca	89	2025-01-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
-87	Sphaerium corneum	110	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-21	Anodonta cygnea	95	2025-04-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anodonta_cygnea&format=json&redirects=1&explaintext=1
-26	Sinanodonta woodiana	80	2025-10-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sinanodonta_woodiana&format=json&redirects=1&explaintext=1
-11	Chirocephalus diaphanus	93	2025-03-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Symbole-faune.png
-41	Faxonius limosus	131	2025-01-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Faxonius_limosus&format=json&redirects=1&explaintext=1
-45	Podura aquatica	109	2025-02-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Podura_aquatica_-_3.jpg
-24	Helicodonta obvoluta	74	2025-11-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Helicodonta_obvoluta_01.JPG
-6	Oxychilus draparnaudi	143	2025-11-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oxychilus_draparnaudi&format=json&redirects=1&explaintext=1
-31	Larix decidua	108	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fotothek_df_ps_0002064_Landschaften_^_Hügellandschaften_-_Gebirgslandschaften_^.jpg
-48	Abies nordmanniana	106	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
-4	Taxodium distichum	99	2025-08-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bald_Cypress_Leaves_2000px.jpg
-22	Sequoia sempervirens	110	2025-10-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Sequoia_sempervirens_Big_Basin_Redwoods_State_Park_1.jpg
-90	Pinus pinaster	70	2025-09-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Landes_pins_mimizan.JPG
-89	Korscheltellus lupulinus	120	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Dégat_salade.jpg
-35	Xanthoria parietina	101	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
-35	Myotis daubentonii	92	2025-08-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Murin_de_Daubenton.jpg
-49	Pipistrellus kuhlii	80	2025-04-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pipistrellus_kuhlii&format=json&redirects=1&explaintext=1
-81	Vespertilio murinus	83	2025-05-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Vespertilio_murinus_male.jpg
-80	Martes foina	124	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Martes_foina_(roadkill).jpg
-82	Leucobryum glaucum	135	2025-06-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Leucobryum_glaucum_2.jpg
-58	Scutigera coleoptrata	133	2025-04-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Symbole-faune.png
-80	Gasterosteus aculeatus	83	2025-01-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
-10	Pseudorasbora parva	70	2025-06-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/PseudorasboraParva2.JPG
-11	Lepomis gibbosus	104	2025-02-25	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lepomis_gibbosus&format=json&redirects=1&explaintext=1
-69	Phoxinus phoxinus	118	2025-07-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoxinus_phoxinus&format=json&redirects=1&explaintext=1
-81	Gobio gobio	113	2025-03-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gobio_gobio&format=json&redirects=1&explaintext=1
-45	Rutilus rutilus	106	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
-6	Rutilus rutilus	81	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rutilus_rutilus&format=json&redirects=1&explaintext=1
-6	Athyrium filix-femina	135	2025-04-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Illustration_Athyrium_filix-femina0.jpg
-16	Pteridium aquilinum	71	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pteridium_aquilinum&format=json&redirects=1&explaintext=1
-7	Equisetum ramosissimum	135	2025-05-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Equisetum_ramosissimum,_Slavičín,_Czech_Republic.jpg
-85	Botrychium lunaria	125	2025-11-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Botrychium_lunaria_(Vanoise).JPG
-18	Struthiopteris spicant	93	2025-06-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Struthiopteris_spicant&format=json&redirects=1&explaintext=1
-10	Equisetum palustre	128	2025-07-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Equisetum_palustre&format=json&redirects=1&explaintext=1
-79	Polypodium vulgare	134	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polypodium_vulgare&format=json&redirects=1&explaintext=1
-52	Vipera aspis	72	2025-11-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
-74	Vipera aspis	75	2025-11-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
-89	Lacerta bilineata	148	2025-02-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
-61	Lacerta bilineata	100	2025-02-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
-4	Zootoca vivipara	78	2025-02-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zootoca_vivipara&format=json&redirects=1&explaintext=1
-85	Vipera berus	144	2025-07-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_berus&format=json&redirects=1&explaintext=1
-80	Lacerta agilis	133	2025-04-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_agilis&format=json&redirects=1&explaintext=1
-84	Graptemys pseudogeographica	125	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Graptemys_pseudogeographica&format=json&redirects=1&explaintext=1
-57	Anguis fragilis	118	2025-05-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis_fragilis_20050721_001.jpg
-71	Tarentola mauritanica	76	2025-10-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Gecko_with_moth.jpg
-76	Hierophis viridiflavus	115	2025-09-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierophis_viridiflavus&format=json&redirects=1&explaintext=1
-16	Hierophis viridiflavus	113	2025-09-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Viridiflavus-Lorraine-IMG_4974.jpg
-21	Natrix maura	93	2025-10-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Natrix_maura&format=json&redirects=1&explaintext=1
-29	Sphaerium corneum	141	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sphaerium_corneum&format=json&redirects=1&explaintext=1
-3	Anodonta cygnea	105	2025-04-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anodonta_cygnea_01.jpg
-15	Sinanodonta woodiana	79	2025-10-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-33	Chirocephalus diaphanus	121	2025-03-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chirocephalus_diaphanus&format=json&redirects=1&explaintext=1
-59	Faxonius limosus	99	2025-01-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Orconectes_limosus_-_Kamberkrebs.jpg
-32	Podura aquatica	86	2025-02-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podura_aquatica&format=json&redirects=1&explaintext=1
-29	Helicodonta obvoluta	140	2025-11-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helicodonta_obvoluta&format=json&redirects=1&explaintext=1
-46	Oxychilus draparnaudi	117	2025-11-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Oxychilus_draparnaudi_01.JPG
-38	Larix decidua	114	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
-23	Abies nordmanniana	92	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_(Uludag_National_Park,_Turkey).jpg
-71	Thuja plicata	114	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/20110925Moschee_Schwetzingen16.jpg
-25	Sequoia sempervirens	128	2025-10-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sequoia_sempervirens&format=json&redirects=1&explaintext=1
-51	Pinus pinaster	122	2025-09-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_pinaster&format=json&redirects=1&explaintext=1
-55	Korscheltellus lupulinus	132	2025-01-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Korscheltellus_lupulinus&format=json&redirects=1&explaintext=1
-92	Xanthoria parietina	88	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Xanthoria_parietina_Rennes_2010-10-23.jpg
-23	Myotis daubentonii	75	2025-08-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Myotis_daubentonii&format=json&redirects=1&explaintext=1
-18	Pipistrellus kuhlii	110	2025-04-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pipistrellus_kuhlii_range_Map_crop.png
-31	Glis glis	102	2025-03-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Glis_glis_Haut-Doubs.jpg
-87	Martes foina	138	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Martes_foina&format=json&redirects=1&explaintext=1
-69	Leucobryum glaucum	122	2025-06-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Leucobryum_glaucum&format=json&redirects=1&explaintext=1
-41	Lithobius macilentus	108	2025-10-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lithobiidae_(10.3897-zookeys.741.21706)_Figure_3.jpg
-91	Gasterosteus aculeatus	115	2025-01-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gasterosteus_aculeatus&format=json&redirects=1&explaintext=1
-55	Carassius auratus	77	2025-01-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/1856aquariumfresh.png
-33	Lepomis gibbosus	113	2025-02-25	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lepomis_gibbosus_U_S_Fish_and_Wildlife_Service.jpg
-82	Phoxinus phoxinus	115	2025-07-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Phoxinus_phoxinus_Prague_Vltava1.jpg
-77	Gobio gobio	140	2025-03-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Gudgeons_(Gobio_gobio)_(13533313875).jpg
-38	Rutilus rutilus	140	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rutilus_rutilus&format=json&redirects=1&explaintext=1
-14	Rutilus rutilus	75	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/RutilusRutilusBigAdultWaal.JPG
-90	Athyrium filix-femina	123	2025-04-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Athyrium_filix-femina&format=json&redirects=1&explaintext=1
-8	Pteridium aquilinum	134	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Autumnal_coloured_Bracken_in_Fore_Wood_-_geograph.org.uk_-_1577189.jpg
-46	Equisetum ramosissimum	79	2025-05-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Equisetum_ramosissimum&format=json&redirects=1&explaintext=1
-12	Botrychium lunaria	88	2025-11-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Botrychium_lunaria&format=json&redirects=1&explaintext=1
-47	Struthiopteris spicant	130	2025-06-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Blechnum_spicant1.jpg
-3	Equisetum palustre	117	2025-07-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Equisetum_palustre_nf.jpg
-17	Vipera aspis	81	2025-11-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/110610b1.jpg
-50	Vipera aspis	103	2025-11-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aspisviper_01.jpg
-14	Lacerta bilineata	76	2025-02-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Accouplement_lézards_verts_(Lacerta_bilineata)_-_Labeil.jpeg
-3	Lacerta bilineata	102	2025-02-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lugny_(71)_-_Site_naturel_protégé_de_la_Boucherette_-_Lézard_vert.jpg
-13	Zootoca vivipara	128	2025-02-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Lizard_(Zootoca_vivipara)_-_geograph.org.uk_-_1111043.jpg
-32	Zootoca vivipara	88	2025-02-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Zootoca_vivipara.png
-58	Vipera berus	145	2025-07-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Vipera_berus_melanotica.jpg
-72	Lacerta agilis	123	2025-04-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Jaszczurka_zwinka.jpg
-18	Graptemys pseudogeographica	115	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-42	Anguis fragilis	83	2025-05-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
-2	Tarentola mauritanica	126	2025-10-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tarentola_mauritanica&format=json&redirects=1&explaintext=1
-50	Hierophis viridiflavus	146	2025-09-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Hierophis_viridiflavus.jpg
-35	Hierophis viridiflavus	109	2025-09-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierophis_viridiflavus&format=json&redirects=1&explaintext=1
-73	Natrix maura	91	2025-10-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-58	Coronella austriaca	81	2025-01-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/CoronellaAustriaca2.jpg
-21	Sphaerium corneum	120	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Sphaerium_corneum.jpg
-85	Anodonta cygnea	96	2025-04-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anodonta_cygnea&format=json&redirects=1&explaintext=1
-17	Sinanodonta woodiana	84	2025-10-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sinanodonta_woodiana&format=json&redirects=1&explaintext=1
-36	Pacifastacus leniusculus	111	2025-01-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
-83	Faxonius limosus	73	2025-01-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Faxonius_limosus&format=json&redirects=1&explaintext=1
-70	Podura aquatica	106	2025-02-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Podura_aquatica_-_4.jpg
-45	Cernuella virgata	116	2025-06-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Arum_maculatum_-_infrutescence.JPG
-91	Oxychilus draparnaudi	78	2025-11-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oxychilus_draparnaudi&format=json&redirects=1&explaintext=1
-72	Larix decidua	114	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Larix_decidua0.jpg
-70	Abies nordmanniana	102	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
-12	Thuja plicata	138	2025-01-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Thuja_plicata&format=json&redirects=1&explaintext=1
-50	Pinus sylvestris	106	2025-10-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Meenikunno_maastikukaiteala.jpg
-48	Pinus pinaster	104	2025-09-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_pinaster_JPG2.jpg
-79	Korscheltellus lupulinus	147	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Korscheltellus_lupulinus01.jpg
-12	Rhinolophus ferrumequinum	125	2025-09-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Audiogramme_de_Rhinolophus_ferrumequinum.jpg
-65	Myotis daubentonii	129	2025-08-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Myotis_daubentoni.jpg
-60	Pipistrellus kuhlii	125	2025-04-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pipistrellus_kuhlii&format=json&redirects=1&explaintext=1
-58	Pipistrellus nathusii	140	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pipistrelle_de_nathusius.jpg
-92	Martes foina	136	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Martes_foina_1_(Bohuš_Číčel).jpg
-38	Lithobius forficatus	71	2025-01-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lithobius_forficatus-u.jpg
-69	Lithobius macilentus	123	2025-10-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lithobius_macilentus&format=json&redirects=1&explaintext=1
-16	Gasterosteus aculeatus	147	2025-01-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/GasterosteusAculeatusMaleHead.JPG
-62	Neogobius melanostomus	76	2025-08-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
-70	Lepomis gibbosus	132	2025-02-25	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lepomis_gibbosus&format=json&redirects=1&explaintext=1
-55	Phoxinus phoxinus	141	2025-07-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoxinus_phoxinus&format=json&redirects=1&explaintext=1
-19	Gobio gobio	140	2025-03-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gobio_gobio&format=json&redirects=1&explaintext=1
-14	Rutilus rutilus	129	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Blausteinsee_Tierwelt_03.jpg
-80	Ophioglossum azoricum	134	2025-01-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Ophioglossum_azoricum.jpg
-22	Athyrium filix-femina	143	2025-04-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Wijfjesvaren_blad_(Athyrium_filix-femina).jpg
-6	Pteridium aquilinum	99	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pteridium_aquilinum&format=json&redirects=1&explaintext=1
-10	Polystichum aculeatum	88	2025-04-25	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Jona_-_Tannertobel_IMG_5603.JPG
-51	Botrychium lunaria	80	2025-11-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Botrychium_lunaria_jung.jpeg
-36	Struthiopteris spicant	79	2025-06-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Struthiopteris_spicant&format=json&redirects=1&explaintext=1
-6	Equisetum palustre	84	2025-07-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Equisetum_palustre&format=json&redirects=1&explaintext=1
-38	Vipera aspis	111	2025-11-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
-50	Vipera aspis	84	2025-11-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
-57	Lacerta bilineata	110	2025-02-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
-31	Lacerta bilineata	117	2025-02-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
-68	Zootoca vivipara	92	2025-02-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zootoca_vivipara&format=json&redirects=1&explaintext=1
-51	Zootoca vivipara	132	2025-02-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zootoca_vivipara&format=json&redirects=1&explaintext=1
-43	Vipera berus	85	2025-07-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_berus&format=json&redirects=1&explaintext=1
-40	Lacerta agilis	146	2025-04-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_agilis&format=json&redirects=1&explaintext=1
-59	Anguis fragilis	96	2025-05-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anguidae.jpg
-5	Anguis fragilis	101	2025-05-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis_fragilis_95.jpg
-52	Tarentola mauritanica	135	2025-10-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Geckofuß_Mauergecko_Schema.jpg
-10	Hierophis viridiflavus	130	2025-09-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierophis_viridiflavus&format=json&redirects=1&explaintext=1
-80	Hierophis viridiflavus	141	2025-09-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Western_Whip_Snake_(Hierophis_viridiflavus)_female_(Found_by_Jean_NICOLAS)_(14062814522).jpg
-37	Natrix maura	77	2025-10-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Natrix_maura&format=json&redirects=1&explaintext=1
-35	Sphaerium corneum	145	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sphaerium_corneum&format=json&redirects=1&explaintext=1
-38	Anodonta cygnea	111	2025-04-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anodonta_cygnea_02.jpg
-55	Sinanodonta woodiana	92	2025-10-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Sinanodonta_woodiana_01.jpg
-43	Pacifastacus leniusculus	115	2025-01-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pacifastacus_leniusculus&format=json&redirects=1&explaintext=1
-75	Tanymastix stagnalis	136	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
-76	Podura aquatica	96	2025-02-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podura_aquatica&format=json&redirects=1&explaintext=1
-55	Cernuella virgata	132	2025-06-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cernuella_virgata&format=json&redirects=1&explaintext=1
-14	Oxychilus draparnaudi	80	2025-11-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Oxychilus_draparnaudi_02.jpg
-2	Larix decidua	72	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
-71	Abies nordmanniana	96	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_2.jpg
-17	Thuja plicata	97	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Garatshausen,_Schlosspark_ib-4.jpg
-77	Pinus sylvestris	111	2025-10-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_sylvestris&format=json&redirects=1&explaintext=1
-91	Pinus pinaster	136	2025-09-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_pinaster&format=json&redirects=1&explaintext=1
-70	Korscheltellus lupulinus	97	2025-01-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Korscheltellus_lupulinus&format=json&redirects=1&explaintext=1
-62	Rattus rattus	130	2025-06-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Roofrat_Hagenbeck_02.jpg
-11	Myotis daubentonii	96	2025-08-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Myotis_daubentonii&format=json&redirects=1&explaintext=1
-37	Vulpes vulpes	97	2025-07-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Alopex_lagopus,_Asahikawa_Asahiyama_Zoological_Park.jpg
-88	Pipistrellus nathusii	127	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pipistrellus_nathusii&format=json&redirects=1&explaintext=1
-38	Martes foina	106	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Martes_foina&format=json&redirects=1&explaintext=1
-4	Scutigera coleoptrata	71	2025-04-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/HouseCentipedeCloseup.jpg
-59	Lithobius macilentus	122	2025-10-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Protura.png
-13	Gasterosteus aculeatus	145	2025-01-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gasterosteus_aculeatus&format=json&redirects=1&explaintext=1
-57	Neogobius melanostomus	91	2025-08-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neogobius_melanostomus&format=json&redirects=1&explaintext=1
-41	Lepomis gibbosus	139	2025-02-25	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Perche-soleil.JPG
-73	Phoxinus phoxinus	76	2025-07-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Phoxinus_phoxinus_Prague_Vltava_2.jpg
-83	Gobio gobio	133	2025-03-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Riviergrondel.jpg
-54	Rutilus rutilus	116	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rutilus_rutilus&format=json&redirects=1&explaintext=1
-49	Ophioglossum azoricum	137	2025-01-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ophioglossum_azoricum&format=json&redirects=1&explaintext=1
-60	Asplenium septentrionale	89	2025-07-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Asplenium_septentrionale01.jpg
-73	Pteridium aquilinum	144	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/DidzialapisSakys.JPG
-84	Polystichum aculeatum	127	2025-04-25	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polystichum_aculeatum&format=json&redirects=1&explaintext=1
-54	Botrychium lunaria	129	2025-11-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Botrychium_lunaria&format=json&redirects=1&explaintext=1
-6	Struthiopteris spicant	90	2025-06-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Blechnum_spicant_(fertile_and_sterile_fronts).jpg
-59	Polypodium vulgare	146	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Association_lierre_(hedera_helix)_et_Fougère_(Polypodium_vulgare)_en_épiphyte_Marenla_03_aout_2017_01.jpg
-47	Vipera aspis	113	2025-11-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Asp_Viper_(Vipera_aspis)_female_(found_by_Jean_NICOLAS)_(34854584514).jpg
-14	Vipera aspis	119	2025-11-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Corpo_di_Vipera_aspis.jpg
-60	Lacerta bilineata	88	2025-02-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-2	Lacerta bilineata	129	2025-02-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lézard_Vert_(212234099).jpeg
-39	Zootoca vivipara	146	2025-02-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_lizard_(Zootoca_vivipara)_juvenile.jpg
-85	Zootoca vivipara	78	2025-02-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Zootoca-vivipara-33.jpg
-26	Vipera berus	144	2025-07-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Vipera_berus_tagged.PNG
-40	Lacerta agilis	102	2025-04-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lacerta_agilis_male_2011_G2.jpg
-27	Anguis fragilis	128	2025-05-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
-88	Anguis fragilis	86	2025-05-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
-72	Tarentola mauritanica	115	2025-10-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tarentola_mauritanica&format=json&redirects=1&explaintext=1
-70	Hierophis viridiflavus	143	2025-09-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Hierophis_viridiflavus_Juvenile_A1000068.jpg
-72	Chelydra serpentina	145	2025-06-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Blumengärten_Hirschstetten_2016-02-21_Schnappschildkröte_(Chelydra_serpentina)_a.jpg
-23	Natrix maura	137	2025-10-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Natrix_maura.png
-60	Sphaerium corneum	94	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Sphaerium_corneum_001.jpg
-67	Anodonta cygnea	131	2025-04-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anodonta_cygnea&format=json&redirects=1&explaintext=1
-8	Sinanodonta woodiana	127	2025-10-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sinanodonta_woodiana&format=json&redirects=1&explaintext=1
-44	Pacifastacus leniusculus	136	2025-01-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Distribucion-pacifastacus-leniusculus.jpg
-87	Tanymastix stagnalis	86	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tanymastix_stagnalis&format=json&redirects=1&explaintext=1
-28	Podura aquatica	90	2025-02-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Podura_aquatica_01.JPG
-25	Cernuella virgata	148	2025-06-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cernuella_virgata_(Da_Costa,_1778)_(8528249834).jpg
-54	Oxychilus draparnaudi	106	2025-11-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oxychilus_draparnaudi&format=json&redirects=1&explaintext=1
-13	Larix decidua	122	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Larix_decidua_'Repens'_2006-05-03_01.jpg
-85	Abies nordmanniana	107	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
-77	Platycladus orientalis	81	2025-03-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Platycladus1.jpg
-16	Pinus sylvestris	111	2025-10-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pine_cones_-_Scots_Pine.jpg
-8	Pinus pinaster	128	2025-09-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_pinaster_female.jpg
-92	Korscheltellus lupulinus	142	2025-01-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Korscheltellus_lupulinus02.jpg
-55	Rattus rattus	143	2025-06-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rattus_rattus&format=json&redirects=1&explaintext=1
-19	Myotis daubentonii	87	2025-08-29	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Myotis_daubentoni01.jpg
-45	Vulpes vulpes	93	2025-07-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vulpes_vulpes&format=json&redirects=1&explaintext=1
-67	Pipistrellus nathusii	98	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pipistrelle_de_nathusius_1.jpg
-84	Martes foina	116	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Martes_foina_4.jpg
-55	Scutigera coleoptrata	83	2025-04-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Scutigera_coleoptrata&format=json&redirects=1&explaintext=1
-8	Lithobius macilentus	72	2025-10-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lithobius_macilentus&format=json&redirects=1&explaintext=1
-88	Gasterosteus aculeatus	109	2025-01-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Gasterosteus_aculeatus.jpg
-25	Neogobius melanostomus	102	2025-08-30	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Neogobius_melanostomus1.jpg
-14	Lepomis gibbosus	112	2025-02-25	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lepomis_gibbosus&format=json&redirects=1&explaintext=1
-88	Phoxinus phoxinus	96	2025-07-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoxinus_phoxinus&format=json&redirects=1&explaintext=1
-63	Gobio gobio	71	2025-03-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gobio_gobio&format=json&redirects=1&explaintext=1
-65	Rutilus rutilus	98	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/GardonsLilleFosséCitadelleAout2011.jpg
-15	Polypodium interjectum	135	2025-03-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/3970-Polypodium_interjectum-Foresta_Umbra-5.06.jpg
-85	Asplenium septentrionale	78	2025-07-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Asplenium_septentrionale&format=json&redirects=1&explaintext=1
-19	Pteridium aquilinum	97	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pteridium_aquilinum&format=json&redirects=1&explaintext=1
-85	Polystichum aculeatum	148	2025-04-25	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Polystichum_aculeatum0.jpg
-69	Asplenium scolopendrium	114	2025-02-03	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Asplenium_scolopendrium_in_Aveyron_(3).jpg
-32	Struthiopteris spicant	131	2025-06-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Struthiopteris_spicant&format=json&redirects=1&explaintext=1
-24	Polypodium vulgare	85	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polypodium_vulgare&format=json&redirects=1&explaintext=1
-10	Vipera aspis	141	2025-11-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
-71	Vipera aspis	143	2025-11-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
-14	Lacerta bilineata	142	2025-02-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
-81	Lacerta bilineata	119	2025-02-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
-7	Zootoca vivipara	131	2025-02-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zootoca_vivipara&format=json&redirects=1&explaintext=1
-17	Zootoca vivipara	132	2025-02-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zootoca_vivipara&format=json&redirects=1&explaintext=1
-75	Vipera berus	135	2025-07-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_berus&format=json&redirects=1&explaintext=1
-51	Lacerta agilis	83	2025-04-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_agilis&format=json&redirects=1&explaintext=1
-32	Anguis fragilis	130	2025-05-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis-distribution.png
-50	Anguis fragilis	126	2025-05-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis_fragilis_96.jpg
-18	Tarentola mauritanica	87	2025-10-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Geco_comune.jpg
-21	Hierophis viridiflavus	120	2025-09-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierophis_viridiflavus&format=json&redirects=1&explaintext=1
-49	Chelydra serpentina	70	2025-06-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chelydra_serpentina&format=json&redirects=1&explaintext=1
-40	Coronella austriaca	76	2025-01-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2003._Stamp_of_Belarus_0498.jpg
-6	Sphaerium corneum	103	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sphaerium_corneum&format=json&redirects=1&explaintext=1
-88	Anodonta cygnea	114	2025-04-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-53	Sinanodonta woodiana	135	2025-10-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Sinanodonta_woodiana_02.jpg
-21	Pacifastacus leniusculus	109	2025-01-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pacifastacus_leniusculus&format=json&redirects=1&explaintext=1
-39	Tanymastix stagnalis	125	2025-08-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Tanymastix_stagnalis_(Branchipe_stagnal).jpg
-82	Podura aquatica	78	2025-02-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podura_aquatica&format=json&redirects=1&explaintext=1
-22	Cernuella virgata	138	2025-06-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cernuella_virgata&format=json&redirects=1&explaintext=1
-39	Thuja occidentalis	81	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Raindrops_on_white_cedar.jpg
-68	Larix decidua	99	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
-40	Abies nordmanniana	118	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_3.jpg
-18	Platycladus orientalis	145	2025-03-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Platycladus_orientalis&format=json&redirects=1&explaintext=1
-40	Pinus sylvestris	94	2025-10-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_sylvestris&format=json&redirects=1&explaintext=1
-20	Pinus pinaster	91	2025-09-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_pinaster&format=json&redirects=1&explaintext=1
-28	Korscheltellus lupulinus	86	2025-01-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Korscheltellus_lupulinus&format=json&redirects=1&explaintext=1
-16	Capreolus capreolus	131	2025-07-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2012_CSK_06836_0099_rosa_bonheur_a_roe_deer_in_the_forest).jpg
-14	Myotis daubentonii	91	2025-08-29	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Myotis_daubentonii&format=json&redirects=1&explaintext=1
-1	Vulpes vulpes	91	2025-07-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Aquila_chrysaetos_1_(Bohuš_Číčel).jpg
-47	Pipistrellus nathusii	124	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pipistrellus_nathusii&format=json&redirects=1&explaintext=1
-3	Martes foina	147	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Martes_foina&format=json&redirects=1&explaintext=1
-25	Scutigera coleoptrata	144	2025-04-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/House_centipede,_face,_beltsville_2014-04-21-18.44.09_ZS_PMax_(14053176887).jpg
-67	Lithobius macilentus	98	2025-10-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Symbole-faune.png
-38	Gasterosteus aculeatus	132	2025-01-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gasterosteus_aculeatus&format=json&redirects=1&explaintext=1
-17	Neogobius melanostomus	123	2025-08-30	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neogobius_melanostomus&format=json&redirects=1&explaintext=1
-24	Lepomis gibbosus	121	2025-02-25	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pumpkinseed_(Lepomis_gibbosus)_(13533753654).jpg
-1	Phoxinus phoxinus	143	2025-07-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Shoaling_Minnow.JPG
-39	Squalius cephalus	124	2025-04-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
-1	Rutilus rutilus	70	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rutilus_rutilus&format=json&redirects=1&explaintext=1
-86	Polypodium interjectum	90	2025-03-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polypodium_interjectum&format=json&redirects=1&explaintext=1
-68	Asplenium septentrionale	99	2025-07-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Asplenium_septentrionale_2005.07.11_11.35.02-p7110215.jpg
-22	Pteridium aquilinum	80	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Dried_Eastern_brakenfern.jpg
-64	Polystichum aculeatum	136	2025-04-25	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polystichum_aculeatum&format=json&redirects=1&explaintext=1
-91	Asplenium scolopendrium	148	2025-02-03	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Asplenium_scolopendrium&format=json&redirects=1&explaintext=1
-78	Struthiopteris spicant	112	2025-06-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Blechnum_spicant_nf.jpg
-56	Polypodium vulgare	113	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Illustration_Polypodium_vulgare0.jpg
-19	Vipera aspis	124	2025-11-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Asp_Viper_(Vipera_aspis)_male_(found_by_Jean_NICOLAS)_(34941989463).jpg
-55	Vipera aspis	118	2025-11-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/European_Asp_(Vipera_aspis)_female_(found_by_Jean_NICOLAS)_(25930495232).jpg
-20	Lacerta bilineata	81	2025-02-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lacerta_bilineata-pjt.jpg
-33	Lacerta bilineata	74	2025-02-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lézard_vert_(2).JPG
-26	Zootoca vivipara	148	2025-02-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_lizard_(Zootoca_vivipara)_male,_with_everted_hemipenes.jpg
-55	Vipera berus	108	2025-07-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-64	Vipera berus	113	2025-07-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Viperaberus1.jpg
-65	Lacerta agilis	126	2025-04-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lacerta_agilis_range_Map_cutted.png
-72	Anguis fragilis	143	2025-05-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
-72	Anguis fragilis	117	2025-05-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
-62	Tarentola mauritanica	75	2025-10-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tarentola_mauritanica&format=json&redirects=1&explaintext=1
-12	Hierophis viridiflavus	144	2025-09-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Hierophis_viridiflavus_juvenil.jpg
-44	Chelydra serpentina	103	2025-06-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Chelydra_serpentina_PP_06.jpg
-37	Sphaerium corneum	144	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Sphaerium_corneum_002.jpg
-48	Anodonta cygnea	122	2025-04-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anodonta_cygnea&format=json&redirects=1&explaintext=1
-16	Sinanodonta woodiana	115	2025-10-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sinanodonta_woodiana&format=json&redirects=1&explaintext=1
-81	Pacifastacus leniusculus	137	2025-01-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pacifastacus_leniusculus_01_by-dpc.jpg
-82	Tanymastix stagnalis	82	2025-08-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tanymastix_stagnalis&format=json&redirects=1&explaintext=1
-85	Stagnicola palustris	116	2025-02-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-78	Cernuella virgata	94	2025-06-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-39	Thuja occidentalis	145	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Thuja_occidentalis&format=json&redirects=1&explaintext=1
-42	Larix decidua	134	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Larix_decidua_Bonzai_02_by_Line1.jpg
-89	Abies nordmanniana	73	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
-53	Platycladus orientalis	122	2025-03-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/PlatycladusOrientalis2.jpg
-86	Pinus sylvestris	127	2025-10-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pine_releasing_pollen_into_the_wind_in_Tuntorp_1.jpg
-13	Pinus pinaster	76	2025-09-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Seekiefer_Dielen.jpg
-88	Xanthoria parietina	74	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Balea_perversa_PaR.jpg
-48	Capreolus capreolus	93	2025-07-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
-2	Myotis mystacinus	72	2025-04-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Murin_à_moustaches_agrippé_au_plafond.jpg
-1	Vulpes vulpes	76	2025-07-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vulpes_vulpes&format=json&redirects=1&explaintext=1
-46	Pipistrellus nathusii	130	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pipistrellus_nathusii.jpg
-27	Martes foina	84	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Martes_foina_MHNT_ZOO_2010.9.2._Crane.jpg
-84	Scutigera coleoptrata	111	2025-04-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Scutigera_coleoptrata&format=json&redirects=1&explaintext=1
-24	Lithobius macilentus	137	2025-10-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lithobius_macilentus&format=json&redirects=1&explaintext=1
-55	Gasterosteus aculeatus	122	2025-01-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/PICT0246-1.JPG
-73	Lepomis gibbosus	140	2025-02-25	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
-1	Lepomis gibbosus	72	2025-02-25	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lepomis_gibbosus&format=json&redirects=1&explaintext=1
-58	Phoxinus phoxinus	73	2025-07-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoxinus_phoxinus&format=json&redirects=1&explaintext=1
-69	Squalius cephalus	132	2025-04-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Squalius_cephalus&format=json&redirects=1&explaintext=1
-43	Rutilus rutilus	79	2025-09-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/PICT3114_edited.JPG
-62	Polypodium interjectum	106	2025-03-05	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fern-leaf-oliv.jpg
-39	Asplenium septentrionale	86	2025-07-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Asplenium_septentrionale&format=json&redirects=1&explaintext=1
-68	Pteridium aquilinum	111	2025-10-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pteridium_aquilinum&format=json&redirects=1&explaintext=1
-66	Cystopteris fragilis	102	2025-01-03	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cystopteris_fragilis_3.jpg
-55	Asplenium scolopendrium	132	2025-02-03	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Asplenium_scolopendrium_prothallus.jpg
-23	Struthiopteris spicant	115	2025-06-02	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Struthiopteris_spicant&format=json&redirects=1&explaintext=1
-51	Polypodium vulgare	145	2025-07-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polypodium_vulgare&format=json&redirects=1&explaintext=1
-48	Vipera aspis	93	2025-11-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
-39	Vipera aspis	83	2025-11-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
-9	Lacerta bilineata	103	2025-02-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
-2	Lacerta bilineata	107	2025-02-08	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
-32	Zootoca vivipara	126	2025-02-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zootoca_vivipara&format=json&redirects=1&explaintext=1
-29	Vipera berus	103	2025-07-01	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_berus&format=json&redirects=1&explaintext=1
-8	Lacerta agilis	73	2025-04-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2017.07.06.-48-Wendisch_Rietz--Zauneidechse-Weibchen.jpg
-64	Lacerta agilis	114	2025-04-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_agilis&format=json&redirects=1&explaintext=1
-34	Anguis fragilis	78	2025-05-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis_colchica-3.jpg
-88	Anguis fragilis	87	2025-05-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis_fragilis_Anguidae_OrvetHelfaut2.jpg
-39	Tarentola mauritanica	144	2025-10-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-70	Hierophis viridiflavus	113	2025-09-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierophis_viridiflavus&format=json&redirects=1&explaintext=1
-45	Natrix maura	129	2025-10-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Cobra-de-água-viperina.jpg
-88	Coronella austriaca	137	2025-01-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
-92	Sphaerium corneum	117	2025-07-28	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sphaerium_corneum&format=json&redirects=1&explaintext=1
-24	Pseudanodonta complanata	126	2025-04-20	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-17	Corbicula fluminalis	110	2025-05-18	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-58	Pacifastacus leniusculus	129	2025-01-04	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pacifastacus_leniusculus&format=json&redirects=1&explaintext=1
-69	Philoscia muscorum	142	2025-05-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
-46	Stagnicola palustris	119	2025-02-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Stagnicola_palustris&format=json&redirects=1&explaintext=1
-9	Cernuella virgata	123	2025-06-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cernuella_virgata&format=json&redirects=1&explaintext=1
-36	Thuja occidentalis	125	2025-05-16	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Thuja_occidentalis0.jpg
-82	Larix decidua	108	2025-11-07	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
-30	Abies nordmanniana	122	2025-09-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_4.jpg
-17	Platycladus orientalis	102	2025-03-10	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Platycladus_orientalis&format=json&redirects=1&explaintext=1
-59	Pinus nigra	118	2025-08-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2014-12-30_13_31_47_Austrian_Pine,_utility_pole_and_street_light_on_Brenwal_Avenue_in_Ewing,_New_Jersey.JPG
-17	Zicrona caerulea	92	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Zicrona.caerulea.jpg
-26	Xanthoria parietina	85	2025-04-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
-71	Capreolus capreolus	147	2025-07-26	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Capreolus-capreolus-map.png
-83	Myotis mystacinus	75	2025-04-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Myotis_mystacinus&format=json&redirects=1&explaintext=1
-76	Vulpes vulpes	100	2025-07-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Beijingzoo_white_fox.jpg
-89	Pipistrellus nathusii	108	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pipistrellus_nathusii&format=json&redirects=1&explaintext=1
-24	Martes foina	142	2025-01-15	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Martes_foina&format=json&redirects=1&explaintext=1
-29	Scutigera coleoptrata	137	2025-04-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Scutigera_coleoptrata.jpg
-14	Proterorhinus semilunaris	77	2025-06-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
-23	Gasterosteus aculeatus	144	2025-01-22	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gasterosteus_aculeatus&format=json&redirects=1&explaintext=1
-54	Lepomis gibbosus	110	2025-02-25	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lepomis_gibbosus&format=json&redirects=1&explaintext=1
-48	Phoxinus phoxinus	118	2025-07-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
-76	Phoxinus phoxinus	95	2025-07-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Vairon_WIKI800px.JPG
-46	Squalius cephalus	146	2025-04-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Beautiful_Aquatic_plants.jpg
-32	Rutilus rutilus	94	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rutilus_rutilus&format=json&redirects=1&explaintext=1
-85	Polypodium interjectum	76	2025-03-05	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polypodium_interjectum&format=json&redirects=1&explaintext=1
-1	Pteridium aquilinum	99	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Adelaarsvaren_stengeldoorsnede_Pteridium_aquilinum.jpg
-17	Pteridium aquilinum	142	2025-10-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pteridium_aquilinum_2005_spring_001.jpg
-71	Cystopteris fragilis	120	2025-01-03	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cystopteris_fragilis&format=json&redirects=1&explaintext=1
-9	Asplenium scolopendrium	137	2025-02-03	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Asplenium_scolopendrium&format=json&redirects=1&explaintext=1
-71	Struthiopteris spicant	129	2025-06-02	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Fern-leaf-oliv.jpg
-80	Polypodium vulgare	147	2025-07-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Polypode_commun_épiphyte.JPG
-54	Vipera aspis	146	2025-11-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Asp_Viper_(Vipera_aspis_zinnikeri)_female_(36248649611).jpg
-51	Vipera aspis	90	2025-11-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/European_Asp_(Vipera_aspis)_juvenile_(found_by_Jean_NICOLAS)_(26022930415).jpg
-79	Lacerta bilineata	118	2025-02-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lacerta_bilineata_jeune-P8150246.JPG
-76	Lacerta bilineata	76	2025-02-08	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Lézard_vert_(Lacerta_bilineata)_-_Labeil.jpeg
-54	Zootoca vivipara	77	2025-02-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-3	Vipera berus	102	2025-07-01	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Three's_a_Crowd.jpg
-15	Lacerta agilis	111	2025-04-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_agilis&format=json&redirects=1&explaintext=1
-14	Lacerta agilis	121	2025-04-14	\N	https://commons.wikimedia.org/wiki/Special:FilePath/M_Zauneidechse1_Edit1.jpg
-91	Anguis fragilis	144	2025-05-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
-13	Anguis fragilis	88	2025-05-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
-69	Hierophis viridiflavus	143	2025-09-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Coluber_viridiflavus.jpg
-62	Hierophis viridiflavus	132	2025-09-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Hierophis_viridiflavus.png
-7	Natrix maura	139	2025-10-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Natrix_maura&format=json&redirects=1&explaintext=1
-51	Coronella austriaca	142	2025-01-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Coronella-biss.JPG
-55	Unio pictorum	119	2025-07-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-77	Pseudanodonta complanata	145	2025-04-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudanodonta_complanata&format=json&redirects=1&explaintext=1
-14	Corbicula fluminalis	110	2025-05-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corbicula_fluminalis&format=json&redirects=1&explaintext=1
-20	Pacifastacus leniusculus	137	2025-01-04	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pacifastacus_leniusculus_1.jpg
-59	Astacus astacus	126	2025-07-28	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bluish-crayfish_sun_FI-EU_2007-Aug-15_by-RAM.JPG
-25	Stagnicola palustris	80	2025-02-27	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Naturalis_Biodiversity_Center_-_ZMA.MOLL.372076_1_-_Stagnicola_palustris_(Müller,_1774)_-_Lymnaeidae_-_Mollusc_shell.jpeg
-82	Helix lucorum	141	2025-11-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
-53	Thuja occidentalis	111	2025-05-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Thuja_occidentalis&format=json&redirects=1&explaintext=1
-5	Larix decidua	75	2025-11-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Larix_decidua_Saastal.jpg
-80	Abies nordmanniana	109	2025-09-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
-58	Pinus wallichiana	128	2025-10-10	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Arceuthobium_minutissimum.jpg
-31	Pinus nigra	146	2025-08-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_nigra&format=json&redirects=1&explaintext=1
-39	Zicrona caerulea	108	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zicrona_caerulea&format=json&redirects=1&explaintext=1
-74	Xanthoria parietina	72	2025-04-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Kantarell,_Iduns_kokbok.png
-57	Capreolus capreolus	75	2025-07-26	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
-11	Myotis mystacinus	88	2025-04-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Murin_à_moustaches_posé.jpg
-37	Vulpes vulpes	129	2025-07-17	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vulpes_vulpes&format=json&redirects=1&explaintext=1
-15	Pipistrellus pygmaeus	70	2025-09-17	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Pipistrelle_pygmée.jpg
-39	Martes foina	86	2025-01-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Martes_foina_MHNT_ZOO_2010.9.2_Black.jpg
-13	Scutigera coleoptrata	81	2025-04-23	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Scutigera_coleoptrata&format=json&redirects=1&explaintext=1
-31	Proterorhinus semilunaris	75	2025-06-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Proterorhinus_semilunaris&format=json&redirects=1&explaintext=1
-17	Pseudorasbora parva	138	2025-06-12	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
-3	Bombina variegata	92	2025-07-15	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bombina_variegata1.jpg
-24	Rana temporaria	140	2025-08-27	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
-31	Rana dalmatina	78	2025-11-18	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
-45	Pelodytes punctatus	127	2025-03-21	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Parsley_Frog_(Pelodytes_punctatus)_(10113790946).jpg
-21	Pelodytes punctatus	108	2025-03-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
-85	Hyla arborea	94	2025-01-16	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
-47	Triturus marmoratus	102	2025-11-06	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bestiole_2012-10-05_11.42.39.jpg
-80	Triturus marmoratus	99	2025-11-06	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Triturus_marmoratus&format=json&redirects=1&explaintext=1
-28	Epidalea calamita	91	2025-08-09	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
-14	Epidalea calamita	125	2025-08-09	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Epidalea_calamita.png
-75	Salamandra salamandra	116	2025-09-21	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
-26	Bolboschoenus maritimus	112	2025-07-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Bolboschoenus_maritimus.jpeg
-20	Aethusa cynapium	82	2025-03-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aethusa_cynapium&format=json&redirects=1&explaintext=1
-25	Veronica anagallis-aquatica	88	2025-04-25	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Veronica_anagallis-aquatica.jpg
-35	Nicotiana rustica	145	2025-11-20	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nicotiana_rustica&format=json&redirects=1&explaintext=1
-90	Lumbricus terrestris	79	2025-08-23	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Earthworm_on_earth_-_heart.jpg
-80	Hirudo medicinalis	140	2025-10-07	\N	https://commons.wikimedia.org/wiki/Special:FilePath/HirudoAttack2.jpg
-48	Pirata piraticus	110	2025-09-12	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pirata_piraticus&format=json&redirects=1&explaintext=1
-17	Cheiracanthium punctorium	84	2025-08-14	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cheiracanthium_punctorium&format=json&redirects=1&explaintext=1
-20	Argiope bruennichi	100	2025-06-11	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Argiope_Frelon,_mâle_et_femelle.jpg
-63	Argiope bruennichi	82	2025-06-11	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
-25	Araneus angulatus	145	2025-09-13	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Araneidae_-_Araneus_angulatus.JPG
-43	Ebrechtella tricuspidata	147	2025-03-22	\N	https://commons.wikimedia.org/wiki/Special:FilePath/2013.06.04.-12-Viernheimer_Heide_Viernheim--Dreieck-Krabbenspinne-Weibchen.jpg
-88	Trametes hirsuta	77	2025-03-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Trametes_hirsuta&format=json&redirects=1&explaintext=1
-55	Pseudohydnum gelatinosum	96	2025-05-13	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudohydnum_gelatinosum&format=json&redirects=1&explaintext=1
-35	Coronella austriaca	97	2025-01-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
-85	Coronella austriaca	74	2025-01-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Coronella_austriaca_(3664104382).jpg
-12	Coronella austriaca	91	2025-01-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
-35	Coronella austriaca	117	2025-01-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Coronella_austriaca_Deutschland_001.jpg
-12	Coronella austriaca	98	2025-01-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
-34	Coronella austriaca	100	2025-01-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
-54	Coronella austriaca	88	2025-01-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
-54	Coronella austriaca	111	2025-01-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
-80	Coronella austriaca	84	2025-01-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Coronella_austriaca.png
-26	Coronella austriaca	100	2025-01-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
-86	Coronella austriaca	148	2025-01-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Schlingnatter2_by_Moehre1992.jpg
-30	Coronella austriaca	116	2025-01-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
-42	Coronella austriaca	71	2025-01-19	\N	https://commons.wikimedia.org/wiki/Special:FilePath/Snake-vs-lizard-2.jpg
-28	Coronella austriaca	91	2025-01-19	\N	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
+22	Prunella modularis	55	2025-07-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Dunnock_(Hedge_Sparrow)_Nest_11.04.11.jpg
+50	Egretta garzetta	109	2025-07-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aigrette1.jpg
+68	Egretta garzetta	111	2025-07-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Egretta_garzetta&format=json&redirects=1&explaintext=1
+70	Egretta garzetta	106	2025-07-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aigrette_garzette,_pêche.jpg
+36	Egretta garzetta	75	2025-07-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Egretta_garzetta&format=json&redirects=1&explaintext=1
+65	Egretta garzetta	82	2025-07-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aigrette_garzette_MHNT.jpg
+23	Egretta garzetta	93	2025-07-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Egretta_garzetta&format=json&redirects=1&explaintext=1
+12	Egretta garzetta	88	2025-07-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aigrette_garzette_au_lac_sud_de_Tunis_(site_RAMSAR).jpg
+70	Egretta garzetta	97	2025-07-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Egretta_garzetta&format=json&redirects=1&explaintext=1
+38	Egretta garzetta	126	2025-07-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aigrette_garzette_lac_de_Tunis_(site_Ramsar).jpg
+83	Egretta garzetta	135	2025-07-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Egretta_garzetta&format=json&redirects=1&explaintext=1
+88	Egretta garzetta	142	2025-07-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aigrettes_garzettes.jpg
+74	Motacilla cinerea	25	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grey_wagtail_(Motacilla_cinerea_robusta).jpg
+59	Motacilla cinerea	26	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_cinerea&format=json&redirects=1&explaintext=1
+14	Motacilla cinerea	58	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/MotacillaCinereaDistributionMapIUCNv8_2.png
+54	Motacilla cinerea	59	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_cinerea&format=json&redirects=1&explaintext=1
+30	Motacilla cinerea	21	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Motacilla_cinerea_-_Ang_Khang.jpg
+17	Motacilla cinerea	18	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_cinerea&format=json&redirects=1&explaintext=1
+4	Motacilla cinerea	57	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Motacilla_cinerea_2_Luc_Viatour.jpg
+17	Motacilla cinerea	11	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_cinerea&format=json&redirects=1&explaintext=1
+90	Motacilla cinerea	7	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Motacilla_cinerea_3_Luc_Viatour.jpg
+74	Motacilla cinerea	24	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_cinerea&format=json&redirects=1&explaintext=1
+28	Motacilla cinerea	38	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Motacilla_cinerea_4_Luc_Viatour.jpg
+60	Motacilla cinerea	61	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_cinerea&format=json&redirects=1&explaintext=1
+29	Motacilla cinerea	60	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Motacilla_cinerea_canariensis_MHNT.ZOO.2010.11.203.10.jpg
+75	Motacilla cinerea	21	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_cinerea&format=json&redirects=1&explaintext=1
+3	Motacilla alba	138	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bergeronette_Grise.jpg
+67	Motacilla alba	110	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
+10	Motacilla alba	95	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bergeronette_Grise_-_Toilette.jpg
+53	Motacilla alba	95	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
+47	Motacilla alba	71	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bergeronnette_grise-haye.jpg
+27	Motacilla alba	73	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
+34	Motacilla alba	101	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.150.39.jpg
+69	Motacilla alba	130	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
+28	Motacilla alba	142	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Hakusekirei_06f5184cav.jpg
+91	Motacilla alba	128	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
+90	Motacilla alba	73	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Moroccan_Wagtail.jpg
+34	Motacilla alba	129	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
+17	Motacilla alba	84	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/MotacillaAlbaPersica.jpg
+89	Motacilla alba	129	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
+43	Motacilla alba	93	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Motacilla_alba;_Baikonur-town_001.jpg
+85	Motacilla alba	120	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Motacilla_alba&format=json&redirects=1&explaintext=1
+34	Motacilla alba	113	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Motacilla_alba_alba.JPG
+35	Branta canadensis	108	2025-03-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bernache_du_canada.JPG
+40	Botaurus minutus	44	2025-01-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ixobrychus_minutus_3_(Marek_Szczepanek).jpg
+79	Pernis apivorus	126	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bondree_Apivore.jpg
+38	Pernis apivorus	92	2025-11-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pernis_apivorus&format=json&redirects=1&explaintext=1
+26	Pernis apivorus	78	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bondree_apivore.jpg
+2	Pernis apivorus	133	2025-11-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pernis_apivorus&format=json&redirects=1&explaintext=1
+87	Pernis apivorus	74	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bondrée_Apivore_en_vol.jpg
+11	Pernis apivorus	108	2025-11-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pernis_apivorus&format=json&redirects=1&explaintext=1
+68	Pernis apivorus	132	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
+70	Pernis apivorus	86	2025-11-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pernis_apivorus&format=json&redirects=1&explaintext=1
+56	Pernis apivorus	101	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Honeybuzzard.JPG
+17	Pernis apivorus	127	2025-11-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pernis_apivorus&format=json&redirects=1&explaintext=1
+46	Pernis apivorus	134	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Junger_Wespenbussard_Porträit.jpg
+55	Pernis apivorus	127	2025-11-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pernis_apivorus&format=json&redirects=1&explaintext=1
+7	Pernis apivorus	114	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pernis_apivorus_MHNT.jpg
+37	Pyrrhula pyrrhula	124	2025-06-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bullfinch_male.jpg
+47	Pyrrhula pyrrhula	124	2025-06-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pyrrhula_pyrrhula&format=json&redirects=1&explaintext=1
+30	Pyrrhula pyrrhula	130	2025-06-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Nidbouvreuil.JPG
+88	Pyrrhula pyrrhula	75	2025-06-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pyrrhula_pyrrhula&format=json&redirects=1&explaintext=1
+70	Pyrrhula pyrrhula	124	2025-06-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+48	Pyrrhula pyrrhula	99	2025-06-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pyrrhula_pyrrhula&format=json&redirects=1&explaintext=1
+19	Pyrrhula pyrrhula	128	2025-06-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/PyrrhulaPyrrhulaIUCN2019-3.png
+81	Pyrrhula pyrrhula	113	2025-06-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pyrrhula_pyrrhula&format=json&redirects=1&explaintext=1
+34	Pyrrhula pyrrhula	92	2025-06-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pyrrhula_pyrrhula_europoea_Gouvieux_222.jpg
+4	Pyrrhula pyrrhula	126	2025-06-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pyrrhula_pyrrhula&format=json&redirects=1&explaintext=1
+27	Emberiza schoeniclus	12	2025-03-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bruant_des_Roseaux._Mâle_en_hiver.jpg
+3	Emberiza schoeniclus	54	2025-03-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Emberiza_schoeniclus&format=json&redirects=1&explaintext=1
+35	Emberiza schoeniclus	45	2025-03-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bruant_des_roseaux.jpg
+81	Emberiza schoeniclus	32	2025-03-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Emberiza_schoeniclus&format=json&redirects=1&explaintext=1
+47	Emberiza schoeniclus	3	2025-03-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/EmberizaSchoeniclusIUCN2019-3.png
+20	Buteo buteo	94	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Battle_(193157391).jpeg
+6	Buteo buteo	125	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
+85	Buteo buteo	113	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Buizerd-rh_20091021_002_(cropped).jpg
+75	Buteo buteo	108	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
+86	Buteo buteo	121	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Buteo-roadkill.jpg
+28	Buteo buteo	80	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
+65	Buteo buteo	119	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_buteo_-Hamerton_Zoo,_Cambridgeshire,_England_-head-8a.jpg
+28	Buteo buteo	133	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
+40	Buteo buteo	141	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_buteo_-Netherlands-8.jpg
+62	Buteo buteo	80	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
+57	Buteo buteo	92	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_buteo_-_Bernard_Stam_03.jpg
+24	Buteo buteo	132	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
+73	Buteo buteo	122	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_buteo_1_(Martin_Mecnarowski).jpg
+46	Buteo buteo	107	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
+17	Buteo buteo	140	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_buteo_4_(Marek_Szczepanek).jpg
+61	Buteo buteo	92	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Buteo_buteo&format=json&redirects=1&explaintext=1
+76	Mareca strepera	73	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/ADN_static_h.png
+91	Mareca strepera	75	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Mareca_strepera&format=json&redirects=1&explaintext=1
+46	Mareca strepera	85	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_strepera.jpg
+14	Mareca strepera	148	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Mareca_strepera&format=json&redirects=1&explaintext=1
+34	Mareca strepera	99	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_strepera_pair.jpg
+92	Anas platyrhynchos	85	2025-07-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_platyrhynchos_002.jpg
+61	Anas platyrhynchos	70	2025-07-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_platyrhynchos&format=json&redirects=1&explaintext=1
+68	Anas platyrhynchos	111	2025-07-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_platyrhynchos_MHNT.ZOO.2010.11.18.6.jpg
+59	Aix galericulata	126	2025-11-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/2_mandarins_bruxelles_mai_19.jpg
+21	Aix galericulata	137	2025-11-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aix_galericulata&format=json&redirects=1&explaintext=1
+82	Aix galericulata	115	2025-11-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aix_galericulata_(Canard_mandarin)_-_364.jpg
+52	Aix galericulata	141	2025-11-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aix_galericulata&format=json&redirects=1&explaintext=1
+75	Aix galericulata	138	2025-11-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aix_galericulata_dis.PNG
+85	Aix galericulata	136	2025-11-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aix_galericulata&format=json&redirects=1&explaintext=1
+53	Aix galericulata	99	2025-11-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Canard_mandarin.jpg
+45	Aix galericulata	135	2025-11-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aix_galericulata&format=json&redirects=1&explaintext=1
+3	Aix galericulata	121	2025-11-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Mandarin_duck_(Aix_galericulata).jpg
+90	Aix galericulata	127	2025-11-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aix_galericulata&format=json&redirects=1&explaintext=1
+39	Aix galericulata	110	2025-11-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ouwehands_Dierenpark_-_Aix_galericulata_(4337587308)_(2).jpg
+84	Spatula clypeata	93	2025-03-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_clypeata_03538.JPG
+64	Spatula clypeata	139	2025-03-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
+61	Spatula clypeata	71	2025-03-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_clypeata_04610.JPG
+58	Spatula clypeata	78	2025-03-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
+79	Spatula clypeata	106	2025-03-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_clypeata_dis.PNG
+81	Spatula clypeata	94	2025-03-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
+33	Spatula clypeata	131	2025-03-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
+83	Spatula clypeata	80	2025-03-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
+90	Spatula clypeata	140	2025-03-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Northern_Shoveler_Anas_clypeata.jpg
+82	Spatula clypeata	101	2025-03-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
+75	Spatula clypeata	123	2025-03-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Northern_shoveler_(Spatula_clypeata)_male_in_flight_Almoloya.jpg
+20	Spatula clypeata	135	2025-03-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
+18	Spatula clypeata	121	2025-03-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Northern_shoveler_male_in_Marine_Park_(33296).jpg
+6	Spatula clypeata	144	2025-03-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
+36	Spatula clypeata	92	2025-03-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Northern_shoveler_pair_in_Marine_Park_(33233).jpg
+56	Spatula clypeata	142	2025-03-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
+7	Spatula clypeata	116	2025-03-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+89	Spatula clypeata	84	2025-03-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
+57	Spatula clypeata	76	2025-03-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Spatula_clypeata_Couple.jpg
+1	Spatula clypeata	105	2025-03-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_clypeata&format=json&redirects=1&explaintext=1
+50	Carduelis carduelis	105	2025-11-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carcar.jpg
+77	Carduelis carduelis	77	2025-11-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
+34	Carduelis carduelis	95	2025-11-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis-carduelis.JPG
+85	Carduelis carduelis	91	2025-11-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
+76	Carduelis carduelis	99	2025-11-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_carduelis3.jpg
+78	Carduelis carduelis	94	2025-11-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
+58	Carduelis carduelis	97	2025-11-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_carduelis_carduelis_MHNT_223_Lambézellec.jpg
+31	Carduelis carduelis	147	2025-11-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
+25	Carduelis carduelis	117	2025-11-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_carduelis_parva_MHNT_223_HdB_Ouarsenis.jpg
+19	Carduelis carduelis	145	2025-11-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
+44	Carduelis carduelis	133	2025-11-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chardonneret_juvenile.JPG
+61	Carduelis carduelis	80	2025-11-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
+79	Carduelis carduelis	108	2025-11-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chardonneret_élégant_sur_un_doigt.JPG
+12	Carduelis carduelis	77	2025-11-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
+73	Carduelis carduelis	85	2025-11-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chardonneret_élégant_sur_une_mangeoire.jpg
+46	Carduelis carduelis	108	2025-11-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Carduelis_carduelis&format=json&redirects=1&explaintext=1
+79	Actitis hypoleucos	2	2025-04-25	0	https://commons.wikimedia.org/wiki/Special:FilePath/ActitisHypoleucosIUCNver2018_2.png
+10	Coloeus monedula	111	2025-07-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/2013_Fliegende_Dohle.JPG
+64	Coloeus monedula	122	2025-07-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coloeus_monedula&format=json&redirects=1&explaintext=1
+31	Coloeus monedula	113	2025-07-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Coloeus_monedula,_juvenile,_Newcastle_upon_Tyne,_England.jpg
+15	Coloeus monedula	142	2025-07-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coloeus_monedula&format=json&redirects=1&explaintext=1
+27	Coloeus monedula	118	2025-07-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Coloeus_monedula.jpg
+51	Coloeus monedula	121	2025-07-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coloeus_monedula&format=json&redirects=1&explaintext=1
+75	Coloeus monedula	97	2025-07-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Coloeus_monedula_-Conwy_Castle,_Clwyd,_Wales-8_(2).jpg
+39	Coloeus monedula	114	2025-07-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coloeus_monedula&format=json&redirects=1&explaintext=1
+70	Coloeus monedula	118	2025-07-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Coloeus_monedula_-_Western_Jackdaw_01.jpg
+52	Strix aluco	107	2025-08-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Brooch_in_the_form_of_an_owl_head_MET_DP-12990-011.jpg
+91	Strix aluco	80	2025-08-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Strix_aluco&format=json&redirects=1&explaintext=1
+49	Strix aluco	142	2025-08-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carnivora_Collected_by_the_American_Museum_Congo_Expedition_(1922-1925)_plate_xxi_fig._2.png
+49	Strix aluco	135	2025-08-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Strix_aluco&format=json&redirects=1&explaintext=1
+19	Strix aluco	80	2025-08-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fieldofview01.png
+47	Strix aluco	118	2025-08-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Strix_aluco&format=json&redirects=1&explaintext=1
+69	Ciconia ciconia	79	2025-05-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carl_Kappstein_Störche.jpg
+9	Ciconia ciconia	86	2025-05-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ciconia_ciconia&format=json&redirects=1&explaintext=1
+84	Ciconia ciconia	105	2025-05-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ciconia_alba_Schaeffer_1774.jpg
+8	Ciconia ciconia	109	2025-05-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ciconia_ciconia&format=json&redirects=1&explaintext=1
+34	Ciconia ciconia	77	2025-05-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ciconia_ciconia(Gollibolli)3.JPG
+81	Ciconia ciconia	101	2025-05-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ciconia_ciconia&format=json&redirects=1&explaintext=1
+48	Ciconia ciconia	108	2025-05-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ciconia_ciconia_-Artis_Zoo,_Netherlands_-parent_and_chicks-8b.jpg
+11	Ciconia ciconia	143	2025-05-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ciconia_ciconia&format=json&redirects=1&explaintext=1
+17	Ciconia ciconia	80	2025-05-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ciconia_ciconia_-Guadiana_River,_Badajoz,_Extremadura,_Spain-8.jpg
+71	Ciconia ciconia	75	2025-05-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ciconia_ciconia&format=json&redirects=1&explaintext=1
+15	Ciconia ciconia	135	2025-05-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ciconia_ciconia_-Iglesia_de_San_Isidoro,_Ciguenas_en_el_campanario,_Salamanca,_Spain-18June2006.jpg
+78	Ciconia ciconia	115	2025-05-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ciconia_ciconia&format=json&redirects=1&explaintext=1
+19	Corvus frugilegus	48	2025-11-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Corvus_frugilegus1.jpg
+91	Corvus frugilegus	48	2025-11-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_frugilegus&format=json&redirects=1&explaintext=1
+66	Corvus frugilegus	39	2025-11-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Corvus_frugilegus_MHNT.ZOO.2010.11.174.1.jpg
+91	Corvus frugilegus	30	2025-11-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_frugilegus&format=json&redirects=1&explaintext=1
+5	Corvus frugilegus	46	2025-11-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Corvus_frugilegus_distribution.png
+2	Corvus frugilegus	7	2025-11-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_frugilegus&format=json&redirects=1&explaintext=1
+17	Corvus frugilegus	12	2025-11-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+82	Corvus frugilegus	45	2025-11-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_frugilegus&format=json&redirects=1&explaintext=1
+34	Corvus frugilegus	54	2025-11-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Rook-Corvus_frugilegus.jpg
+66	Corvus frugilegus	25	2025-11-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_frugilegus&format=json&redirects=1&explaintext=1
+72	Corvus frugilegus	36	2025-11-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Rook_4_(6354273333).jpg
+32	Corvus frugilegus	27	2025-11-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_frugilegus&format=json&redirects=1&explaintext=1
+22	Corvus frugilegus	64	2025-11-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Rook_colonies_smoothed.JPG
+36	Corvus frugilegus	64	2025-11-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_frugilegus&format=json&redirects=1&explaintext=1
+37	Corvus corone	145	2025-11-24	0	https://commons.wikimedia.org/wiki/Special:FilePath/2017.07.04.-06-Scharmuetzelsee-Bad_Saarow--Nebelkraehe.jpg
+64	Corvus corone	112	2025-11-24	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corvus_corone&format=json&redirects=1&explaintext=1
+52	Corvus corone	80	2025-11-24	0	https://commons.wikimedia.org/wiki/Special:FilePath/August_Friedrich_Albrecht_Schenck_-_Anguish_-_Google_Art_Project.jpg
+10	Cuculus canorus	87	2025-08-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Birds_from_Moidart_and_elsewhere_(Plate_52)_(8511371172).jpg
+82	Cuculus canorus	93	2025-08-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cuculus_canorus&format=json&redirects=1&explaintext=1
+6	Cuculus canorus	87	2025-08-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus2.jpg
+87	Cuculus canorus	121	2025-08-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cuculus_canorus&format=json&redirects=1&explaintext=1
+23	Cuculus canorus	139	2025-08-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_441344397.jpg
+81	Cuculus canorus	117	2025-08-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cuculus_canorus&format=json&redirects=1&explaintext=1
+75	Cuculus canorus	117	2025-08-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_bangsi_MHNT.ZOO.2010.11.149.13.jpg
+48	Cuculus canorus	120	2025-08-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cuculus_canorus&format=json&redirects=1&explaintext=1
+85	Cuculus canorus	91	2025-08-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.149.48.jpg
+42	Cuculus canorus	143	2025-08-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cuculus_canorus&format=json&redirects=1&explaintext=1
+50	Cuculus canorus	72	2025-08-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Distribution_of_Cuculus_canorus.PNG
+33	Cuculus canorus	125	2025-08-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cuculus_canorus&format=json&redirects=1&explaintext=1
+55	Cuculus canorus	131	2025-08-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Kuckuck_maennchen.jpg
+52	Cuculus canorus	72	2025-08-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cuculus_canorus&format=json&redirects=1&explaintext=1
+38	Cygnus atratus	106	2025-03-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Black_Swan_Family.jpg
+9	Cygnus atratus	89	2025-03-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_atratus&format=json&redirects=1&explaintext=1
+53	Cygnus atratus	121	2025-03-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Black_Swan_in_Australia.JPG
+21	Cygnus atratus	119	2025-03-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_atratus&format=json&redirects=1&explaintext=1
+24	Cygnus atratus	83	2025-03-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cygnes-noirs.JPG
+22	Cygnus atratus	83	2025-03-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_atratus&format=json&redirects=1&explaintext=1
+59	Cygnus atratus	74	2025-03-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cygnus_atratus_-adult_with_chicks_in_Australia-8.jpg
+5	Cygnus atratus	88	2025-03-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_atratus&format=json&redirects=1&explaintext=1
+81	Cygnus atratus	105	2025-03-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cygnus_atratus_MHNT.ZOO.2010.11.16.5.jpg
+86	Cygnus atratus	107	2025-03-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_atratus&format=json&redirects=1&explaintext=1
+57	Cygnus atratus	76	2025-03-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cygnus_atratus_in_flight-1.jpg
+2	Cygnus atratus	80	2025-03-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_atratus&format=json&redirects=1&explaintext=1
+3	Cygnus olor	103	2025-10-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/093_Wild_Mute_swan_at_Lake_Geneva_during_sunset_Photo_by_Giles_Laurent.jpg
+19	Cygnus olor	72	2025-10-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_olor&format=json&redirects=1&explaintext=1
+16	Cygnus olor	136	2025-10-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/CygneVaires.jpg
+11	Cygnus olor	117	2025-10-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_olor&format=json&redirects=1&explaintext=1
+24	Cygnus olor	94	2025-10-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cygne_et_cygneau_-_Léman.jpg
+90	Cygnus olor	99	2025-10-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cygnus_olor&format=json&redirects=1&explaintext=1
+2	Cygnus olor	109	2025-10-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cygne_nid_2.jpg
+17	Accipiter nisus	92	2025-09-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/AccipiterGrantiKeulemans.jpg
+12	Accipiter nisus	112	2025-09-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
+29	Accipiter nisus	103	2025-09-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_brevipes_Dresser.jpg
+48	Accipiter nisus	105	2025-09-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
+55	Accipiter nisus	116	2025-09-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_gentilisAAP045CA.jpg
+16	Accipiter nisus	97	2025-09-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
+26	Accipiter nisus	105	2025-09-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_1_(Bohuš_Číčel).jpg
+30	Accipiter nisus	144	2025-09-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
+92	Accipiter nisus	93	2025-09-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_Forst_Jungfernheide_080610.jpg
+49	Accipiter nisus	121	2025-09-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
+85	Accipiter nisus	108	2025-09-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_MHNT.jpg
+90	Accipiter nisus	140	2025-09-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
+80	Accipiter nisus	96	2025-09-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_Meneer_Zjeroen.jpg
+89	Accipiter nisus	81	2025-09-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
+35	Accipiter nisus	144	2025-09-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_female.jpg
+13	Accipiter nisus	103	2025-09-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
+30	Accipiter nisus	97	2025-09-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_punicus_MHNT.ZOO.2010.11.85.1.jpg
+1	Accipiter nisus	111	2025-09-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
+76	Accipiter nisus	135	2025-09-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_virgatus_Keulemans.jpg
+61	Accipiter nisus	105	2025-09-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Accipiter_nisus&format=json&redirects=1&explaintext=1
+35	Sturnus vulgaris	49	2025-02-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Beaumaris_Castle_2015_123.jpg
+21	Sturnus vulgaris	34	2025-02-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
+21	Sturnus vulgaris	65	2025-02-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bird_on_Horseback_(2761927585).jpg
+52	Sturnus vulgaris	41	2025-02-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
+68	Sturnus vulgaris	47	2025-02-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Birds_nest_in_a_cable_box.jpg
+73	Sturnus vulgaris	56	2025-02-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
+91	Sturnus vulgaris	9	2025-02-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Birds_of_a_feather_-_geograph.org.uk_-_613048.jpg
+25	Sturnus vulgaris	9	2025-02-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
+55	Sturnus vulgaris	22	2025-02-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_starling_in_london.jpg
+56	Sturnus vulgaris	11	2025-02-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
+87	Sturnus vulgaris	52	2025-02-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Etourneau_Sansonnet_Parc_des_Aiguamolls.jpg
+75	Sturnus vulgaris	68	2025-02-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
+64	Sturnus vulgaris	45	2025-02-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Etourneau_juvenile.jpg
+21	Sturnus vulgaris	25	2025-02-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
+62	Sturnus vulgaris	26	2025-02-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Etourneaux_sur_le_toit_du_clocher_d'_une_église.JPG
+28	Sturnus vulgaris	36	2025-02-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
+35	Sturnus vulgaris	31	2025-02-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/European_Starling.jpg
+14	Sturnus vulgaris	56	2025-02-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sturnus_vulgaris&format=json&redirects=1&explaintext=1
+88	Falco tinnunculus	133	2025-08-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/077_Wild_Common_kestrel_in_flight_at_Pfyn-Finges_Photo_by_Giles_Laurent.jpg
+64	Falco tinnunculus	114	2025-08-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_tinnunculus&format=json&redirects=1&explaintext=1
+60	Falco tinnunculus	142	2025-08-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/078_Wild_Common_kestrel_in_flight_at_Pfyn-Finges_Photo_by_Giles_Laurent.jpg
+80	Falco tinnunculus	139	2025-08-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_tinnunculus&format=json&redirects=1&explaintext=1
+92	Falco tinnunculus	126	2025-08-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/2010._Stamp_of_Belarus_04-2010-03-11-m.jpg
+41	Falco tinnunculus	121	2025-08-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_tinnunculus&format=json&redirects=1&explaintext=1
+58	Falco tinnunculus	147	2025-08-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/A_Common_Kestrel_on_the_hunt_for_insects_(49718325433)_cropped.jpg
+42	Falco tinnunculus	73	2025-08-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_tinnunculus&format=json&redirects=1&explaintext=1
+66	Falco tinnunculus	85	2025-08-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/A_Kestrel_Fledgling_Mantling!_(14339757180).jpg
+59	Falco tinnunculus	141	2025-08-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_tinnunculus&format=json&redirects=1&explaintext=1
+50	Falco tinnunculus	102	2025-08-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Accouplement_crécerelle.jpg
+80	Falco tinnunculus	140	2025-08-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_tinnunculus&format=json&redirects=1&explaintext=1
+88	Falco tinnunculus	87	2025-08-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Kestrel_Falco_tinnunculus_Tal_Chappar_Rajasthan_India_14.02.2013.jpg
+52	Falco tinnunculus	122	2025-08-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_tinnunculus&format=json&redirects=1&explaintext=1
+18	Falco subbuteo	8	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/FalcoSubbuteoIUCNver2019_2.png
+80	Falco subbuteo	50	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_subbuteo&format=json&redirects=1&explaintext=1
+53	Falco subbuteo	7	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Falco_subbuteo_MHNT.ZOO.2010.11.105.6.jpg
+62	Falco subbuteo	18	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_subbuteo&format=json&redirects=1&explaintext=1
+68	Falco subbuteo	58	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Falco_subbuteo_NAUMANN.jpg
+18	Falco subbuteo	26	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_subbuteo&format=json&redirects=1&explaintext=1
+48	Falco subbuteo	13	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+81	Falco subbuteo	8	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Falco_subbuteo&format=json&redirects=1&explaintext=1
+72	Sylvia atricapilla	29	2025-03-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Blackcap_(Sylvia_atricapilla)_male.jpg
+74	Sylvia atricapilla	16	2025-03-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_atricapilla&format=json&redirects=1&explaintext=1
+8	Sylvia atricapilla	36	2025-03-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_bangsi_MHNT.ZOO.2010.11.150.31.jpg
+16	Sylvia atricapilla	51	2025-03-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_atricapilla&format=json&redirects=1&explaintext=1
+43	Sylvia atricapilla	67	2025-03-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Jeune_fauvette_à_tête_noire_05.jpg
+63	Sylvia atricapilla	42	2025-03-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_atricapilla&format=json&redirects=1&explaintext=1
+87	Sylvia atricapilla	13	2025-03-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Male_Eurasian_Blackcap_(Sylvia_atricapilla)_in_Boutlélis,_Oran._November_2025.jpg
+23	Sylvia atricapilla	4	2025-03-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_atricapilla&format=json&redirects=1&explaintext=1
+55	Sylvia atricapilla	52	2025-03-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+24	Sylvia atricapilla	5	2025-03-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_atricapilla&format=json&redirects=1&explaintext=1
+2	Sylvia atricapilla	61	2025-03-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/SylviaAtricapillaIUCNver2018_2.png
+40	Sylvia atricapilla	36	2025-03-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_atricapilla&format=json&redirects=1&explaintext=1
+9	Curruca curruca	38	2025-09-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Curruca_curruca_MHNT.ZOO.2010.11.196.47.jpg
+41	Curruca curruca	8	2025-09-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_curruca&format=json&redirects=1&explaintext=1
+9	Curruca curruca	8	2025-09-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lesser_Whitethroat_(Sylvia_curruca)_(4).jpg
+1	Curruca curruca	47	2025-09-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_curruca&format=json&redirects=1&explaintext=1
+83	Curruca curruca	43	2025-09-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Nest_of_Lesser_Whitethroat.jpg
+47	Curruca curruca	5	2025-09-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_curruca&format=json&redirects=1&explaintext=1
+9	Curruca curruca	63	2025-09-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+80	Curruca curruca	3	2025-09-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_curruca&format=json&redirects=1&explaintext=1
+20	Curruca curruca	69	2025-09-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Spiza_americana_male_94_231051626_13e01e8125_o_cropped.png
+12	Curruca curruca	68	2025-09-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_curruca&format=json&redirects=1&explaintext=1
+70	Curruca curruca	41	2025-09-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/SylviaCurrucaIUCN.png
+31	Curruca curruca	46	2025-09-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_curruca&format=json&redirects=1&explaintext=1
+44	Curruca curruca	52	2025-09-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Sylvia_curruca.jpg
+9	Sylvia borin	142	2025-06-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Barred_Warbler_(Sylvia_nisoria)_(34406940671)_(cropped).jpg
+35	Sylvia borin	133	2025-06-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
+45	Sylvia borin	131	2025-06-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.150.37.jpg
+90	Sylvia borin	117	2025-06-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
+89	Sylvia borin	129	2025-06-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Garden_Warbler_1_(portrait).jpg
+46	Sylvia borin	74	2025-06-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
+70	Sylvia borin	146	2025-06-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Naturalis_Biodiversity_Center_-_RMNH.AVES.138188_1_-_Sylvia_borin_borin_(Boddaert,_1783)_-_Sylviidae_-_bird_skin_specimen.jpeg
+13	Sylvia borin	80	2025-06-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
+11	Sylvia borin	111	2025-06-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Naturalis_Biodiversity_Center_-_RMNH.AVES.138188_2_-_Sylvia_borin_borin_(Boddaert,_1783)_-_Sylviidae_-_bird_skin_specimen.jpeg
+85	Sylvia borin	83	2025-06-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
+32	Sylvia borin	111	2025-06-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Naturalis_Biodiversity_Center_-_RMNH.AVES.9153_1_-_Sylvia_borin_borin_(Boddaert,_1783)_-_Sylviidae_-_bird_skin_specimen.jpeg
+90	Sylvia borin	144	2025-06-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
+78	Sylvia borin	106	2025-06-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Naturalis_Biodiversity_Center_-_RMNH.AVES.9153_2_-_Sylvia_borin_borin_(Boddaert,_1783)_-_Sylviidae_-_bird_skin_specimen.jpeg
+27	Sylvia borin	90	2025-06-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
+7	Sylvia borin	79	2025-06-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Naturalis_Biodiversity_Center_-_RMNH.AVES.94935_1_-_Sylvia_borin_woodwardi_(Sharpe,_1877)_-_Sylviidae_-_bird_skin_specimen.jpeg
+16	Sylvia borin	138	2025-06-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sylvia_borin&format=json&redirects=1&explaintext=1
+63	Curruca communis	81	2025-03-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.150.38.jpg
+2	Curruca communis	93	2025-03-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_communis&format=json&redirects=1&explaintext=1
+29	Curruca communis	122	2025-03-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fauvette_Grisette.jpg
+38	Curruca communis	144	2025-03-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_communis&format=json&redirects=1&explaintext=1
+21	Curruca communis	75	2025-03-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+59	Curruca communis	88	2025-03-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_communis&format=json&redirects=1&explaintext=1
+24	Curruca communis	97	2025-03-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/SylviaCommunisIUCN2019-3.png
+69	Curruca communis	92	2025-03-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_communis&format=json&redirects=1&explaintext=1
+11	Curruca communis	121	2025-03-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Tallareta_vulgar_01_(Sylvia_communis).jpg
+32	Curruca communis	108	2025-03-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Curruca_communis&format=json&redirects=1&explaintext=1
+18	Fulica atra	21	2025-08-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/20050507-007-fulica-atra.jpg
+41	Fulica atra	7	2025-08-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fulica_atra&format=json&redirects=1&explaintext=1
+83	Fulica atra	28	2025-08-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Couvaison.jpg
+57	Fulica atra	20	2025-08-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fulica_atra&format=json&redirects=1&explaintext=1
+56	Fulica atra	61	2025-08-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_Coot_nest_and_eggs.JPG
+63	Fulica atra	32	2025-08-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fulica_atra&format=json&redirects=1&explaintext=1
+50	Fulica atra	47	2025-08-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_coot_(Fulica_atra)_juvenile.jpg
+31	Fulica atra	43	2025-08-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fulica_atra&format=json&redirects=1&explaintext=1
+43	Fulica atra	2	2025-08-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_coot_(Fulica_atra)_with_chicks.jpg
+7	Fulica atra	15	2025-08-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fulica_atra&format=json&redirects=1&explaintext=1
+82	Fulica atra	69	2025-08-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Foulque_Macroule_juvénile.jpg
+63	Aythya ferina	73	2025-02-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/AythyaFerinaIUCNver2018_2.png
+81	Aythya ferina	123	2025-02-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
+72	Aythya ferina	102	2025-02-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aythya_ferina_(Marek_Szczepanek).jpg
+35	Aythya ferina	111	2025-02-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
+54	Aythya ferina	108	2025-02-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aythya_ferina_MHNT.ZOO.2010.11.20.4.jpg
+44	Aythya ferina	133	2025-02-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
+79	Aythya ferina	85	2025-02-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_pochard_(Aythya_ferina)_female_3.jpg
+64	Aythya ferina	141	2025-02-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
+42	Aythya ferina	110	2025-02-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Couple_de_Fuligule_Milouins.jpg
+58	Aythya ferina	141	2025-02-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
+27	Aythya ferina	78	2025-02-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fuligule.milouin1.jpg
+86	Aythya ferina	101	2025-02-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
+59	Aythya ferina	116	2025-02-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fuligule.milouin3.jpg
+15	Aythya ferina	135	2025-02-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
+36	Aythya ferina	127	2025-02-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fuligule_Milouin_mâle.jpg
+74	Aythya ferina	135	2025-02-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
+26	Aythya ferina	83	2025-02-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fuligule_milouin.jpg
+31	Aythya ferina	88	2025-02-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_ferina&format=json&redirects=1&explaintext=1
+40	Aythya fuligula	74	2025-03-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/AythyaFuligulaIUCNver2018_2.png
+13	Aythya fuligula	80	2025-03-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_fuligula&format=json&redirects=1&explaintext=1
+35	Aythya fuligula	147	2025-03-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aythya_fuligula_MHNT.ZOO.2010.11.20.3.jpg
+60	Aythya fuligula	119	2025-03-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_fuligula&format=json&redirects=1&explaintext=1
+83	Aythya fuligula	122	2025-03-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+43	Aythya nyroca	67	2025-05-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/AythyaNyrocaIUCNver2019_1.png
+41	Aythya nyroca	31	2025-05-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_nyroca&format=json&redirects=1&explaintext=1
+59	Aythya nyroca	55	2025-05-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aythya_nyroca_MHNT.ZOO.2010.11.20.5.jpg
+87	Aythya nyroca	22	2025-05-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_nyroca&format=json&redirects=1&explaintext=1
+61	Aythya nyroca	64	2025-05-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aythya_nyroca_at_Martin_Mere_1.jpg
+41	Aythya nyroca	6	2025-05-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_nyroca&format=json&redirects=1&explaintext=1
+7	Aythya nyroca	27	2025-05-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+77	Aythya nyroca	27	2025-05-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aythya_nyroca&format=json&redirects=1&explaintext=1
+86	Gallinula chloropus	116	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/20170619_4046_Naivasha_Gallinule_poule-d'eau.jpg
+29	Gallinula chloropus	98	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gallinula_chloropus&format=json&redirects=1&explaintext=1
+59	Gallinula chloropus	106	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_moorhen_(Gallinula_chloropus)_France.jpg
+78	Gallinula chloropus	128	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gallinula_chloropus&format=json&redirects=1&explaintext=1
+17	Gallinula chloropus	134	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_moorhen_in_Suita,_Osaka,_December_2016_-_689.jpg
+80	Gallinula chloropus	128	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gallinula_chloropus&format=json&redirects=1&explaintext=1
+24	Gallinula chloropus	131	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/GallinulaChloropusIUCNver2019-2.png
+49	Garrulus glandarius	107	2025-08-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/01-veic-07-001.jpg
+66	Garrulus glandarius	73	2025-08-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
+48	Garrulus glandarius	132	2025-08-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/075_Wild_Eurasian_jay_in_flight_at_the_Parc_naturel_régional_Jura_vaudois_Photo_by_Giles_Laurent.jpg
+75	Garrulus glandarius	72	2025-08-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
+65	Garrulus glandarius	147	2025-08-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Eicherhaeher.Kopf.jpg
+88	Garrulus glandarius	110	2025-08-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
+24	Garrulus glandarius	70	2025-08-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Gargla.jpg
+48	Podiceps cristatus	102	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Great_Crested_Grebe_1_-_Penrith.jpg
+61	Garrulus glandarius	108	2025-08-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
+55	Garrulus glandarius	131	2025-08-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Garrulus_glandarius_1_Luc_Viatour.jpg
+91	Garrulus glandarius	74	2025-08-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
+82	Garrulus glandarius	119	2025-08-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Garrulus_glandarius_atricapillus_MHNT.ZOO.2010.11.170.18.jpg
+49	Garrulus glandarius	133	2025-08-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
+15	Garrulus glandarius	91	2025-08-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Garrulus_glandarius_distribution.jpg
+52	Garrulus glandarius	141	2025-08-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
+76	Garrulus glandarius	140	2025-08-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Garrulus_glandarius_rufitergum_MHNT_232_Weymouth.jpg
+30	Garrulus glandarius	71	2025-08-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
+21	Garrulus glandarius	106	2025-08-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Geai--des--chêne--.jpg
+27	Garrulus glandarius	125	2025-08-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Garrulus_glandarius&format=json&redirects=1&explaintext=1
+26	Muscicapa striata	53	2025-01-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.150.43.jpg
+92	Muscicapa striata	69	2025-01-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Muscicapa_striata&format=json&redirects=1&explaintext=1
+59	Muscicapa striata	19	2025-01-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Juvenile_Spotted_Flycatcher.JPG
+23	Ficedula hypoleuca	141	2025-03-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ficedula_hypoleuca-chicks2.jpg
+92	Ficedula hypoleuca	95	2025-03-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
+81	Ficedula hypoleuca	131	2025-03-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ficedula_hypoleuca-female.jpg
+63	Ficedula hypoleuca	73	2025-03-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
+27	Ficedula hypoleuca	92	2025-03-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ficedula_hypoleuca_NRM.jpg
+21	Ficedula hypoleuca	126	2025-03-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
+66	Ficedula hypoleuca	145	2025-03-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ficedula_hypoleuca_Sussex_1.jpg
+65	Ficedula hypoleuca	144	2025-03-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
+6	Ficedula hypoleuca	99	2025-03-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ficedula_hypoleuca_egg.JPG
+85	Ficedula hypoleuca	73	2025-03-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
+68	Ficedula hypoleuca	88	2025-03-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ficedula_hypoleuca_hypoleuca_MHNT.ZOO.2010.11.206.3.jpg
+45	Ficedula hypoleuca	141	2025-03-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
+42	Ficedula hypoleuca	87	2025-03-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Papamosca_cerrojillo._(Ficedula_hypoleuca)(♀)_1Inv_(7973806338).jpg
+57	Ficedula hypoleuca	97	2025-03-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
+47	Ficedula hypoleuca	113	2025-03-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Photo_de_gobemouche_noir.jpg
+3	Ficedula hypoleuca	137	2025-03-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ficedula_hypoleuca&format=json&redirects=1&explaintext=1
+29	Larus argentatus	142	2025-04-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/2004-04-10_Larus_michahellis_ad.jpg
+52	Larus fuscus	96	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Goeland_adulte_et_juvénile.jpg
+61	Larus fuscus	93	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
+53	Larus fuscus	142	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Goéland_brun_(larus_fuscus).jpg
+17	Larus fuscus	78	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
+28	Larus fuscus	106	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Larus-fuscus-taxbox.jpg
+33	Larus fuscus	91	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
+69	Larus fuscus	117	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Larus_fuscus_graellsii_MHNT.ZOO.2010.11.122.15.jpg
+89	Larus fuscus	128	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
+49	Larus fuscus	86	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lesser_Black-backed_Gull_(Larus_fuscus_graellsii)_(26207788150).jpg
+57	Larus fuscus	95	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
+5	Larus fuscus	140	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lesser_black-backed_gull_Morocco.jpg
+47	Larus fuscus	73	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
+30	Larus fuscus	113	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/PT05_ubt.jpeg
+7	Larus fuscus	99	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
+73	Larus fuscus	72	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+55	Larus fuscus	90	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
+45	Larus fuscus	75	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Silltrut-Larus_fuscus-1cy-Ystad-2009.jpg
+27	Larus fuscus	81	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larus_fuscus&format=json&redirects=1&explaintext=1
+54	Phalacrocorax carbo	104	2025-09-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aalscholver_-_Great_Cormorant_(15380885176).jpg
+54	Phalacrocorax carbo	79	2025-09-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
+59	Phalacrocorax carbo	78	2025-09-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Arbres_corrodés_par_les_fientes_de_cormorans_(1).jpg
+78	Phalacrocorax carbo	81	2025-09-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
+69	Phalacrocorax carbo	75	2025-09-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cormoran_du_Parc_Forestier_et_Zoologique_de_Hann_Sénégal_01.jpg
+70	Phalacrocorax carbo	83	2025-09-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
+33	Phalacrocorax carbo	85	2025-09-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Détail_Plumage_Grand_Cormoran.jpg
+36	Phalacrocorax carbo	92	2025-09-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
+80	Phalacrocorax carbo	129	2025-09-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Cormoran,_Bayonne,_Adour,_Phalacrocorax_carbo,_Great_Cormorant_02.jpg
+25	Phalacrocorax carbo	112	2025-09-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
+55	Phalacrocorax carbo	72	2025-09-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Cormoran,_construction_du_nid..jpg
+73	Phalacrocorax carbo	70	2025-09-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
+69	Phalacrocorax carbo	131	2025-09-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Cormoran.jpg
+45	Phalacrocorax carbo	93	2025-09-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
+24	Phalacrocorax carbo	79	2025-09-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grand_cormoran_lac_de_Tunis_(site_Ramsar).jpg
+10	Phalacrocorax carbo	73	2025-09-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phalacrocorax_carbo&format=json&redirects=1&explaintext=1
+61	Ardea alba	121	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/ArdeaAlbaIUCNver2019_1.png
+38	Ardea alba	75	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_alba&format=json&redirects=1&explaintext=1
+88	Ardea alba	140	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_alba4.jpg
+21	Ardea alba	142	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_alba&format=json&redirects=1&explaintext=1
+36	Ardea alba	83	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_alba;_3_chicks,_Morro_Bay_Heron_Rookery_2_-_by_Mike_Baird.jpg
+72	Ardea alba	95	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_alba&format=json&redirects=1&explaintext=1
+75	Ardea alba	114	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_alba_(head).jpg
+41	Ardea alba	86	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_alba&format=json&redirects=1&explaintext=1
+26	Ardea alba	113	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_alba_melanorhynchos_MHNT.ZOO.2010.11.52.1.jpg
+34	Ardea alba	88	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_alba&format=json&redirects=1&explaintext=1
+35	Ardea alba	85	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bird_in_Iguazú_falls.jpg
+74	Ardea alba	117	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_alba&format=json&redirects=1&explaintext=1
+33	Ardea alba	125	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Casmerodius_albus.jpg
+69	Ardea alba	97	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_alba&format=json&redirects=1&explaintext=1
+7	Tachybaptus ruficollis	132	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
+31	Tachybaptus ruficollis	80	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tachybaptus_ruficollis&format=json&redirects=1&explaintext=1
+91	Tachybaptus ruficollis	79	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grèbe_castagneux_-_Tachybaptus_ruficollis.jpg
+5	Tachybaptus ruficollis	107	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tachybaptus_ruficollis&format=json&redirects=1&explaintext=1
+72	Tachybaptus ruficollis	114	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Little_Grebe_(Tachybaptus_ruficollis),_Parc_de_Woluwé,_Brussels_(19847854714).jpg
+44	Tachybaptus ruficollis	96	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tachybaptus_ruficollis&format=json&redirects=1&explaintext=1
+9	Tachybaptus ruficollis	123	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Little_Grebe_(Tachybaptus_ruficollis)_diving_..._(26002569196).jpg
+18	Tachybaptus ruficollis	101	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tachybaptus_ruficollis&format=json&redirects=1&explaintext=1
+76	Tachybaptus ruficollis	87	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Little_Grebe_(Tachybaptus_ruficollis)_eggs_and_nest_..._(26580418992).jpg
+77	Tachybaptus ruficollis	111	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tachybaptus_ruficollis&format=json&redirects=1&explaintext=1
+85	Tachybaptus ruficollis	114	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Little_Grebe_(Tachybaptus_ruficollis)_nest_(25959956404).jpg
+21	Podiceps cristatus	113	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Great_Crested_Grebe_(Podiceps_cristatus)_(26735133762).jpg
+45	Podiceps cristatus	140	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
+71	Podiceps cristatus	84	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Great_Crested_Grebe_(Podiceps_cristatus)_with_Pumpkinseed_(Lepomis_gibbosus)_(26662687256).jpg
+2	Podiceps cristatus	78	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
+30	Rana temporaria	123	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+53	Podiceps cristatus	134	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
+29	Podiceps cristatus	82	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grebe_Courtship_(detail).jpg
+69	Podiceps cristatus	145	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
+41	Podiceps cristatus	134	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lac-du-der-taucher.jpg
+7	Podiceps cristatus	145	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
+58	Podiceps cristatus	130	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Neuhaus_Haubentaucher_füttert_Küken_am_Nest_P5RM1096.jpg
+59	Podiceps cristatus	97	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
+80	Podiceps cristatus	126	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+9	Podiceps cristatus	137	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
+50	Podiceps cristatus	78	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/PodicepsCristatusIUCN2019-2.png
+49	Podiceps cristatus	84	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podiceps_cristatus&format=json&redirects=1&explaintext=1
+26	Certhia brachydactyla	132	2025-07-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Certhia_brachydactyla_mauritanica_Witherby,_1905,_Souk_Ahras.jpg
+39	Turdus viscivorus	83	2025-04-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+87	Turdus viscivorus	74	2025-04-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_viscivorus&format=json&redirects=1&explaintext=1
+55	Turdus viscivorus	146	2025-04-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/TurdusViscivorusIUCN2019_2.png
+34	Turdus iliacus	58	2025-04-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+38	Turdus iliacus	10	2025-04-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_iliacus&format=json&redirects=1&explaintext=1
+45	Turdus iliacus	10	2025-04-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Redwing_nest.jpg
+90	Turdus iliacus	23	2025-04-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_iliacus&format=json&redirects=1&explaintext=1
+85	Turdus iliacus	4	2025-04-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Redwing_on_Snæfellsnes,_Iceland.jpg
+56	Turdus iliacus	39	2025-04-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_iliacus&format=json&redirects=1&explaintext=1
+41	Turdus iliacus	43	2025-04-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/TurdusIliacusIUCNver2020-1.png
+15	Turdus philomelos	12	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+46	Turdus philomelos	8	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_philomelos&format=json&redirects=1&explaintext=1
+2	Turdus philomelos	4	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Song_Thrush_Turdus_philomelos.jpg
+71	Turdus philomelos	31	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_philomelos&format=json&redirects=1&explaintext=1
+82	Turdus philomelos	52	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Turdus_philomelos_MHNT_ZOO_2010_11_187_Courtalain.jpg
+45	Turdus philomelos	61	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_philomelos&format=json&redirects=1&explaintext=1
+66	Turdus philomelos	7	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Turdus_philomelos_musée_Edimbourg.jpg
+79	Turdus philomelos	58	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Turdus_philomelos&format=json&redirects=1&explaintext=1
+30	Coccothraustes coccothraustes	66	2025-10-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Coccothraustes_coccothraustes_3_(Martin_Mecnarowski).jpg
+49	Coccothraustes coccothraustes	60	2025-10-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coccothraustes_coccothraustes&format=json&redirects=1&explaintext=1
+75	Coccothraustes coccothraustes	13	2025-10-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Coccothraustes_coccothraustes_MHNT.ZOO.2010.11_Gouvieux.jpg
+49	Coccothraustes coccothraustes	27	2025-10-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coccothraustes_coccothraustes&format=json&redirects=1&explaintext=1
+16	Coccothraustes coccothraustes	8	2025-10-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Coccothraustes_coccothraustes_à_Melesse.jpg
+25	Coccothraustes coccothraustes	31	2025-10-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coccothraustes_coccothraustes&format=json&redirects=1&explaintext=1
+59	Coccothraustes coccothraustes	62	2025-10-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
+59	Grus grus	117	2025-05-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_crane_grus_grus.jpg
+84	Grus grus	117	2025-05-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
+56	Grus grus	142	2025-05-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_Cranes_migrating_to_Meyghan_Salt_Lake.jpg
+83	Grus grus	112	2025-05-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
+65	Grus grus	121	2025-05-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grus_grus.JPG
+19	Grus grus	103	2025-05-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
+10	Grus grus	142	2025-05-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grus_grus_2_(Marek_Szczepanek).jpg
+80	Grus grus	104	2025-05-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
+48	Grus grus	105	2025-05-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grus_grus_5_(Marek_Szczepanek).jpg
+35	Grus grus	119	2025-05-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
+49	Grus grus	97	2025-05-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grus_grus_6_(Marek_Szczepanek).jpg
+56	Rana dalmatina	132	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Rana_dalmatina.png
+29	Grus grus	75	2025-05-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
+1	Grus grus	137	2025-05-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grus_grus_egg_-_Niitvälja_bog.jpg
+17	Grus grus	80	2025-05-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
+75	Grus grus	129	2025-05-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grus_grus_migration01.jpg
+34	Grus grus	113	2025-05-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Grus_grus&format=json&redirects=1&explaintext=1
+14	Ardea cinerea	131	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ardcin.jpg
+87	Ardea cinerea	71	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
+58	Ardea cinerea	127	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_(Grey_heron)_eating_fish.jpg
+84	Ardea cinerea	146	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
+81	Ardea cinerea	109	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_2_(Marek_Szczepanek).jpg
+43	Ardea cinerea	142	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
+42	Ardea cinerea	143	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_Luc_Viatour.jpg
+31	Ardea cinerea	148	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
+78	Ardea cinerea	86	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_MHNT.ZOO.2010.11.54.1.jpg
+20	Ardea cinerea	91	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
+17	Ardea cinerea	120	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_MHNT_Crâne.jpg
+70	Ardea cinerea	145	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
+12	Ardea cinerea	88	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_eggs.JPG
+36	Ardea cinerea	82	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
+8	Ardea cinerea	84	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_map.png
+34	Ardea cinerea	126	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ardea_cinerea&format=json&redirects=1&explaintext=1
+17	Ardea cinerea	104	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Blauwe_Reiger.jpg
+1	Delichon urbicum	74	2025-01-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/DelichonIbis-crop.jpg
+27	Delichon urbicum	84	2025-01-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Delichon_urbicum&format=json&redirects=1&explaintext=1
+78	Delichon urbicum	142	2025-01-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Delichon_dasypus_Sharpe_(1).jpg
+30	Delichon urbicum	73	2025-01-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Delichon_urbicum&format=json&redirects=1&explaintext=1
+77	Delichon urbicum	141	2025-01-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Delichon_urbica_juvenile.jpg
+15	Delichon urbicum	139	2025-01-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Delichon_urbicum&format=json&redirects=1&explaintext=1
+31	Delichon urbicum	79	2025-01-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Delichon_urbicum.png
+10	Riparia riparia	77	2025-06-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Brutroehre_Riparia_riparia.JPG
+44	Riparia riparia	115	2025-06-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Riparia_riparia&format=json&redirects=1&explaintext=1
+66	Riparia riparia	72	2025-06-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Hirondelle_de_Rivage_à_l'entrée_des_nids.jpg
+32	Riparia riparia	109	2025-06-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Riparia_riparia&format=json&redirects=1&explaintext=1
+84	Riparia riparia	111	2025-06-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+33	Riparia riparia	122	2025-06-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Riparia_riparia&format=json&redirects=1&explaintext=1
+8	Riparia riparia	110	2025-06-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Riparia_riparia-Brutfleck.jpg
+54	Riparia riparia	122	2025-06-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Riparia_riparia&format=json&redirects=1&explaintext=1
+45	Riparia riparia	134	2025-06-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Riparia_riparia-nest.jpg
+25	Hirundo rustica	8	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/BarnSwallowJapan.jpg
+53	Hirundo rustica	33	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
+30	Hirundo rustica	65	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/BarnSwallow_cajay.jpg
+27	Hirundo rustica	4	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
+29	Hirundo rustica	52	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Barn_Swallow_(Hirundo_rustica)_in_Kolkata_W_IMG_3419.jpg
+20	Hirundo rustica	8	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
+16	Hirundo rustica	5	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Barn_swallow_(feeding)_at_Tennōji_Park_in_Osaka,_June_2016_-_315.jpg
+37	Hirundo rustica	3	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
+81	Hirundo rustica	3	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Barn_swallow_in_Montezuma_(14460).jpg
+29	Hirundo rustica	27	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
+36	Hirundo rustica	23	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Delichon_urbica_NRM.jpg
+13	Hirundo rustica	26	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
+39	Hirundo rustica	6	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/EEK-500krooni-rear.jpg
+70	Hirundo rustica	53	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
+44	Hirundo rustica	1	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
+74	Hirundo rustica	56	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirundo_rustica&format=json&redirects=1&explaintext=1
+82	Hippolais polyglotta	30	2025-01-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Hippolais_polyglotta_MHNT_ZOO_2010_11_201_Ouarsenis.jpg
+71	Hippolais polyglotta	47	2025-01-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hippolais_polyglotta&format=json&redirects=1&explaintext=1
+77	Hippolais polyglotta	61	2025-01-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Hippolais_polyglotta_distribution_map.png
+22	Hippolais polyglotta	7	2025-01-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hippolais_polyglotta&format=json&redirects=1&explaintext=1
+10	Hippolais polyglotta	17	2025-01-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Melodious_Warbler_2025_05_23.jpg
+36	Hippolais polyglotta	25	2025-01-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hippolais_polyglotta&format=json&redirects=1&explaintext=1
+47	Hippolais polyglotta	60	2025-01-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+22	Hippolais polyglotta	9	2025-01-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hippolais_polyglotta&format=json&redirects=1&explaintext=1
+61	Linaria cannabina	1	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_cannabina_01.jpg
+80	Linaria cannabina	22	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
+86	Linaria cannabina	31	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_cannabina_Lvk.jpg
+53	Linaria cannabina	50	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
+16	Linaria cannabina	56	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_cannabina_cannabina_MHNT_223_St_Moré.jpg
+91	Linaria cannabina	37	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
+16	Linaria cannabina	35	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_cannabina_meadewaldoi_MHNT_223_Tejeda_RdN.jpg
+53	Linaria cannabina	5	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
+36	Linaria cannabina	56	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_linnet_(Linaria_cannabina_mediterranea)_juvenile.jpg
+27	Linaria cannabina	3	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
+62	Linaria cannabina	43	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Konopleanka_2009_moldavia.jpg
+29	Linaria cannabina	51	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
+66	Linaria cannabina	37	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Linaria_cannabina_-_Linotte_mélodieuse.jpg
+5	Linaria cannabina	33	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
+45	Linaria cannabina	8	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Linaria_cannabina_Horenka.jpg
+35	Linaria cannabina	68	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
+4	Linaria cannabina	62	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Linaria_cannabina_mediterranea_MHNT.ZOO.2010.11.223.20.jpg
+24	Linaria cannabina	54	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Linaria_cannabina&format=json&redirects=1&explaintext=1
+34	Oriolus oriolus	72	2025-05-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/1979._Иволга.jpg
+55	Oriolus oriolus	136	2025-05-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
+89	Oriolus oriolus	76	2025-05-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_Golden_Oriole_(Oriolus_oriolus)_nest_W_IMG_9566.jpg
+19	Oriolus oriolus	142	2025-05-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
+68	Oriolus oriolus	130	2025-05-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Goldenoriole26.jpg
+53	Oriolus oriolus	134	2025-05-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
+41	Oriolus oriolus	120	2025-05-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Loriot_juvenile.JPG
+74	Oriolus oriolus	144	2025-05-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
+72	Oriolus oriolus	122	2025-05-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Oriolus_oriolus_Ayodar_1.jpg
+24	Oriolus oriolus	72	2025-05-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
+47	Oriolus oriolus	118	2025-05-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Oriolus_oriolus_Ayodar_2.jpg
+21	Oriolus oriolus	118	2025-05-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
+68	Oriolus oriolus	113	2025-05-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Oriolus_oriolus_MHNT_232_Foret_de_la_Mamora_Maroc_RdN.jpg
+24	Oriolus oriolus	93	2025-05-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
+70	Oriolus oriolus	86	2025-05-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Oriolus_oriolus_distribution_map.png
+88	Oriolus oriolus	119	2025-05-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oriolus_oriolus&format=json&redirects=1&explaintext=1
+39	Alcedo atthis	148	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/04--Martin-Pecheur-20-01-24-Halois-Belgium-Luc_viatour.jpg
+11	Alcedo atthis	113	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alcedo_atthis&format=json&redirects=1&explaintext=1
+15	Alcedo atthis	115	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo_atthis_-_Khao_Yai.jpg
+21	Alcedo atthis	90	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alcedo_atthis&format=json&redirects=1&explaintext=1
+6	Alcedo atthis	116	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo_atthis_-_Riserve_naturali_e_aree_contigue_della_fascia_fluviale_del_Po.jpg
+91	Alcedo atthis	110	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alcedo_atthis&format=json&redirects=1&explaintext=1
+55	Alcedo atthis	142	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo_atthis_-range_map-2-cp.png
+56	Alcedo atthis	144	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alcedo_atthis&format=json&redirects=1&explaintext=1
+25	Alcedo atthis	108	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo_atthis_1_(Bohuš_Číčel).jpg
+20	Alcedo atthis	81	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alcedo_atthis&format=json&redirects=1&explaintext=1
+27	Alcedo atthis	83	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo_atthis_1_tb.jpg
+15	Alcedo atthis	122	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alcedo_atthis&format=json&redirects=1&explaintext=1
+87	Alcedo atthis	94	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo_atthis_MHNT_ZOO_2010_11_160_Arcy-sur-Cure.jpg
+18	Apus apus	105	2025-05-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ailes_martinet_noir.jpg
+12	Apus apus	98	2025-05-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Apus_apus&format=json&redirects=1&explaintext=1
+82	Apus apus	92	2025-05-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Apus_apus_01.jpg
+4	Apus apus	80	2025-05-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Apus_apus&format=json&redirects=1&explaintext=1
+25	Apus apus	103	2025-05-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Apus_apus_MHNT_ZOO_2011_11_159_Le_Louvres_Paris.jpg
+3	Turdus merula	90	2025-10-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Amsel_auf_der_Insel_Krk.JPG
+53	Aegithalos caudatus	35	2025-02-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aegithalos_caudatus_(4).jpg
+77	Aegithalos caudatus	20	2025-02-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aegithalos_caudatus&format=json&redirects=1&explaintext=1
+56	Aegithalos caudatus	69	2025-02-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aegithalos_caudatus_MHNT.ZOO.2010.11.180.1.jpg
+62	Cyanistes caeruleus	62	2025-02-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/'Capuchin_squirrel_monkey,_two_guinea_pigs,_a_blue_tit_and_an_Amazon_St._Vincent_parrot_with_Peaches,_Figs_and_Pears_in_a_landscape'.jpg
+86	Cyanistes caeruleus	28	2025-02-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
+49	Cyanistes caeruleus	20	2025-02-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/073_Wild_Eurasian_blue_tit_parent_feeding_at_Pfyn-Finges_Photo_by_Giles_Laurent.jpg
+25	Cyanistes caeruleus	20	2025-02-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
+63	Cyanistes caeruleus	26	2025-02-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/20120605_091000_Side_w.jpg
+8	Cyanistes caeruleus	55	2025-02-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
+83	Cyanistes caeruleus	55	2025-02-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/20120607_041013_Side_w1.jpg
+31	Cyanistes caeruleus	58	2025-02-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
+83	Cyanistes caeruleus	48	2025-02-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/20120617_124000_Side_w.jpg
+48	Cyanistes caeruleus	17	2025-02-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
+28	Cyanistes caeruleus	17	2025-02-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/A_bald_blue_tit_with_mite.jpg
+51	Cyanistes caeruleus	50	2025-02-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
+59	Cyanistes caeruleus	59	2025-02-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_kill.jpg
+24	Cyanistes caeruleus	64	2025-02-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
+30	Cyanistes caeruleus	5	2025-02-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bird_on_Bike_-_geograph.org.uk_-_202475.jpg
+52	Cyanistes caeruleus	53	2025-02-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cyanistes_caeruleus&format=json&redirects=1&explaintext=1
+67	Poecile montanus	18	2025-11-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+23	Poecile montanus	63	2025-11-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_montanus&format=json&redirects=1&explaintext=1
+53	Poecile montanus	54	2025-11-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Poecile_Montanus_Kittila_20120306.JPG
+35	Poecile montanus	19	2025-11-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_montanus&format=json&redirects=1&explaintext=1
+84	Poecile montanus	65	2025-11-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Poecile_montanus_MHNT.ZOO.2010.11.179.1.jpg
+21	Poecile montanus	13	2025-11-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_montanus&format=json&redirects=1&explaintext=1
+71	Poecile montanus	24	2025-11-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Poecile_montanus_distribution_map.png
+62	Poecile montanus	55	2025-11-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_montanus&format=json&redirects=1&explaintext=1
+48	Poecile montanus	32	2025-11-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Poecile_montanus_kleinschmidti_2.jpg
+17	Poecile montanus	26	2025-11-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_montanus&format=json&redirects=1&explaintext=1
+49	Poecile montanus	59	2025-11-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Poecile_palustris_dresseri_MHNT.ZOO.2010.11.182.23.jpg
+42	Poecile montanus	16	2025-11-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_montanus&format=json&redirects=1&explaintext=1
+59	Parus major	129	2025-06-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Acanthis_flammea,_Kotka,_Finland_3.jpg
+13	Parus major	148	2025-06-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Parus_major&format=json&redirects=1&explaintext=1
+16	Parus major	74	2025-06-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charb_juv1.JPG
+23	Parus major	145	2025-06-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Parus_major&format=json&redirects=1&explaintext=1
+86	Parus major	93	2025-06-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Great_Tit_eating_(17026400959).jpg
+91	Parus major	93	2025-06-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Parus_major&format=json&redirects=1&explaintext=1
+19	Parus major	146	2025-06-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Koolmees_op_nest.jpg
+80	Lophophanes cristatus	126	2025-11-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/1979._Хохлатая_синица.jpg
+68	Lophophanes cristatus	106	2025-11-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lophophanes_cristatus&format=json&redirects=1&explaintext=1
+78	Lophophanes cristatus	96	2025-11-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Abernethy_Forest_-_geograph.org.uk_-_212234.jpg
+25	Lophophanes cristatus	73	2025-11-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lophophanes_cristatus&format=json&redirects=1&explaintext=1
+68	Lophophanes cristatus	129	2025-11-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chapim-de-poupa,_Crested_Tit_(49737913436).jpg
+34	Periparus ater	76	2025-06-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/2017.01.27.-23-Paradiski-La_Plagne-Champagny-en-Vanoise--Tannenmeise.jpg
+46	Periparus ater	104	2025-06-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Periparus_ater&format=json&redirects=1&explaintext=1
+46	Periparus ater	99	2025-06-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Coal_tit_UK09.JPG
+2	Periparus ater	81	2025-06-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Periparus_ater&format=json&redirects=1&explaintext=1
+2	Periparus ater	80	2025-06-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Parus_ater_2_(Marek_Szczepanek).jpg
+20	Periparus ater	108	2025-06-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Periparus_ater&format=json&redirects=1&explaintext=1
+54	Periparus ater	135	2025-06-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/PeriparusAterIUCN2018_2.png
+49	Periparus ater	71	2025-06-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Periparus_ater&format=json&redirects=1&explaintext=1
+29	Periparus ater	71	2025-06-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Periparus_ater_ledouci.jpg
+75	Periparus ater	94	2025-06-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Periparus_ater&format=json&redirects=1&explaintext=1
+27	Periparus ater	79	2025-06-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Periparus_ater_ledouci_232_Ouarsenis_Algerie.jpg
+56	Periparus ater	78	2025-06-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Periparus_ater&format=json&redirects=1&explaintext=1
+62	Periparus ater	124	2025-06-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+11	Periparus ater	113	2025-06-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Periparus_ater&format=json&redirects=1&explaintext=1
+3	Poecile palustris	71	2025-11-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/20140209Sambucus_nigra06.jpg
+14	Poecile palustris	141	2025-11-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_palustris&format=json&redirects=1&explaintext=1
+43	Poecile palustris	71	2025-11-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/2017.10.15.-06-Kirschgartshaeuser_Schlaege_Mannheim--Sumpfmeise.jpg
+32	Poecile palustris	123	2025-11-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poecile_palustris&format=json&redirects=1&explaintext=1
+65	Poecile palustris	132	2025-11-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Accipiter_nisus_1_(Bohuš_Číčel).jpg
+87	Milvus migrans	98	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/20121111233953!Milvus_migrans_distr.png
+85	Milvus migrans	120	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Milvus_migrans&format=json&redirects=1&explaintext=1
+2	Milvus migrans	87	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Black_kite_(Milvus_migrans_affinis)_in_flight_Adelaide_River_2.jpg
+65	Milvus migrans	140	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Milvus_migrans&format=json&redirects=1&explaintext=1
+59	Milvus migrans	145	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Black_kite_impersonating_an_osprey.jpg
+73	Milvus migrans	73	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Milvus_migrans&format=json&redirects=1&explaintext=1
+12	Milvus migrans	74	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Milvus_migrans_(Milan_noir)_-_402.jpg
+3	Milvus migrans	81	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Milvus_migrans&format=json&redirects=1&explaintext=1
+24	Milvus migrans	147	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Milvus_migrans_01.jpg
+41	Milvus migrans	99	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Milvus_migrans&format=json&redirects=1&explaintext=1
+3	Milvus migrans	121	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Milvus_migrans_MHNT.ZOO.2006.11.86.jpg
+47	Milvus migrans	142	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Milvus_migrans&format=json&redirects=1&explaintext=1
+22	Milvus migrans	83	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Milvus_migrans_front(ThKraft).jpg
+90	Milvus migrans	119	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Milvus_migrans&format=json&redirects=1&explaintext=1
+90	Passer domesticus	145	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Faroe_stamp_344_house_sparrow_(passer_domesticus).jpg
+91	Passer domesticus	146	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Passer_domesticus&format=json&redirects=1&explaintext=1
+77	Passer domesticus	84	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/House_Sparrow_(M)_I_IMG_7881.jpg
+71	Passer domesticus	76	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Passer_domesticus&format=json&redirects=1&explaintext=1
+21	Passer domesticus	83	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/House_Sparrow_(Passer_domesticus)-_Female_in_Kolkata_I_IMG_3787_(cropped).jpg
+87	Passer domesticus	99	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Passer_domesticus&format=json&redirects=1&explaintext=1
+68	Passer domesticus	97	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/House_Sparrow_mar08.jpg
+83	Passer domesticus	82	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Passer_domesticus&format=json&redirects=1&explaintext=1
+28	Passer domesticus	117	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/House_Sparrows_mating_I_IMG_0066.jpg
+69	Passer domesticus	91	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Passer_domesticus&format=json&redirects=1&explaintext=1
+10	Passer domesticus	128	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/House_sparrow_Nepal.jpg
+69	Passer domesticus	140	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Passer_domesticus&format=json&redirects=1&explaintext=1
+55	Ichthyaetus melanocephalus	98	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/2013-08-01_Ichthyaetus_melanocephalus,_Brierdene,_Whitley_Bay,_Northumberland_1.jpg
+65	Ichthyaetus melanocephalus	98	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ichthyaetus_melanocephalus&format=json&redirects=1&explaintext=1
+24	Ichthyaetus melanocephalus	143	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ichthyaetus_melanocephalus_MHNT.ZOO.2010.11.130.3.jpg
+52	Ichthyaetus melanocephalus	136	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ichthyaetus_melanocephalus&format=json&redirects=1&explaintext=1
+57	Ichthyaetus melanocephalus	75	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/LarusMelanocephalus.png
+73	Ichthyaetus melanocephalus	135	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ichthyaetus_melanocephalus&format=json&redirects=1&explaintext=1
+17	Ichthyaetus melanocephalus	90	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Larus_melanocephalus_-Zwin_(Belgium).jpg
+56	Ichthyaetus melanocephalus	143	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ichthyaetus_melanocephalus&format=json&redirects=1&explaintext=1
+5	Ichthyaetus melanocephalus	137	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Med_gull1.jpg
+85	Ichthyaetus melanocephalus	122	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ichthyaetus_melanocephalus&format=json&redirects=1&explaintext=1
+72	Ichthyaetus melanocephalus	116	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+52	Ichthyaetus melanocephalus	116	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ichthyaetus_melanocephalus&format=json&redirects=1&explaintext=1
+8	Chroicocephalus ridibundus	113	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Black-headed_Gull_from_the_Crossley_ID_Guide_Britain_and_Ireland.jpg
+7	Chroicocephalus ridibundus	77	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
+26	Chroicocephalus ridibundus	91	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chroicocephalus_ridibundus_-_Seefeldquai_2011-11-07_12-34-35_(SX230HS).JPG
+89	Chroicocephalus ridibundus	84	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
+30	Chroicocephalus ridibundus	89	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Groupe_de_mouettes_rieuses.jpg
+51	Chroicocephalus ridibundus	73	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
+13	Chroicocephalus ridibundus	119	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Gulls_in_flight_Cuxhaven_June_2009_20090626_004.jpg
+7	Chroicocephalus ridibundus	126	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
+49	Chroicocephalus ridibundus	141	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lachmöwe_IMG_0200ab.jpg
+23	Chroicocephalus ridibundus	143	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
+29	Chroicocephalus ridibundus	82	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Larus_ridibundus.jpg
+5	Chroicocephalus ridibundus	137	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
+5	Chroicocephalus ridibundus	87	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Larus_ridibundus1.jpg
+79	Chroicocephalus ridibundus	86	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
+18	Chroicocephalus ridibundus	100	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Larus_ridibundus_MWNH_0380.JPG
+40	Chroicocephalus ridibundus	101	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chroicocephalus_ridibundus&format=json&redirects=1&explaintext=1
+36	Netta rufina	113	2025-08-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/NettaRufinaIUCNverz2018_2.png
+81	Netta rufina	124	2025-08-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Netta_rufina&format=json&redirects=1&explaintext=1
+46	Netta rufina	107	2025-08-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Netta_rufina_-Bushy_Park,_London,_England_-swimming-8.jpg
+77	Netta rufina	146	2025-08-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Netta_rufina&format=json&redirects=1&explaintext=1
+50	Netta rufina	118	2025-08-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Netta_rufina_-St_James's_Park,_London,_England_-male_with_ducklings-8.jpg
+32	Netta rufina	108	2025-08-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Netta_rufina&format=json&redirects=1&explaintext=1
+45	Netta rufina	88	2025-08-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Netta_rufina_MHNT.ZOO.2010.11.20.2.jpg
+1	Anser indicus	73	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anser_indicus_MHNT.ZOO.2010.11.15.3.jpg
+62	Anser indicus	88	2025-01-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anser_indicus&format=json&redirects=1&explaintext=1
+89	Anser indicus	83	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bar-headed_Geese_-_Anser_indicus.jpg
+74	Anser indicus	79	2025-01-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anser_indicus&format=json&redirects=1&explaintext=1
+2	Anser indicus	90	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bar-headed_Goose_(Anser_indicus).jpg
+37	Anser indicus	112	2025-01-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anser_indicus&format=json&redirects=1&explaintext=1
+69	Anser indicus	102	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bar-headed_Goose_1.jpg
+11	Anser indicus	128	2025-01-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anser_indicus&format=json&redirects=1&explaintext=1
+64	Anser indicus	88	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bar-headed_Goose_in_flight.jpg
+21	Anser indicus	87	2025-01-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anser_indicus&format=json&redirects=1&explaintext=1
+73	Anser indicus	111	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+89	Alopochen aegyptiaca	106	2025-03-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/2016.08.19.-04-Waldsee_Viernheim--Nilgans.jpg
+69	Alopochen aegyptiaca	77	2025-03-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alopochen_aegyptiaca&format=json&redirects=1&explaintext=1
+13	Alopochen aegyptiaca	103	2025-03-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Alopochen-aegyptiacus.jpg
+76	Alopochen aegyptiaca	119	2025-03-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alopochen_aegyptiaca&format=json&redirects=1&explaintext=1
+59	Alopochen aegyptiaca	89	2025-03-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/AlopochenAegyptiacaIUCN2019_2.png
+89	Alopochen aegyptiaca	83	2025-03-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alopochen_aegyptiaca&format=json&redirects=1&explaintext=1
+91	Alopochen aegyptiaca	74	2025-03-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Alopochen_aegyptiacus_MHNT.ZOO.2010.11.13.2.jpg
+59	Alopochen aegyptiaca	138	2025-03-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Alopochen_aegyptiaca&format=json&redirects=1&explaintext=1
+91	Alopochen aegyptiaca	105	2025-03-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Egyptian_Geese_(Alopochen_aegyptiaca),_Kruger_NP_(11451534654).jpg
+82	Psittacula krameri	78	2025-10-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/(Toulouse)_Le_Goût_(La_Dame_à_la_licorne)_-_La_Dame_-_Musée_de_Cluny_Paris.jpg
+4	Psittacula krameri	84	2025-10-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psittacula_krameri&format=json&redirects=1&explaintext=1
+72	Psittacula krameri	139	2025-10-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/2018.03.03.-10-Mannheim-Vogelstang--Halsbandsittich-Weibchen.jpg
+4	Psittacula krameri	117	2025-10-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psittacula_krameri&format=json&redirects=1&explaintext=1
+79	Psittacula krameri	102	2025-10-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Albino_-Psittacula_krameri_manillensis_2c.jpg
+25	Psittacula krameri	70	2025-10-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psittacula_krameri&format=json&redirects=1&explaintext=1
+35	Psittacula krameri	88	2025-10-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Dionysus_mosaic_(detail),_from_around_A.D._220_230,_Romisch-Germanisches_Museum,_Cologne_(8115585524).jpg
+1	Psittacula krameri	116	2025-10-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psittacula_krameri&format=json&redirects=1&explaintext=1
+83	Psittacula krameri	101	2025-10-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grandes_Heures_du_duc_de_Berry_(BNF_latin919)_-_Folio_8_Oiseau-11.jpg
+77	Psittacula krameri	113	2025-10-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psittacula_krameri&format=json&redirects=1&explaintext=1
+7	Psittacula krameri	130	2025-10-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Hen-grey-turquoise_cock-turquoise-lacewing.jpg
+44	Psittacula krameri	73	2025-10-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psittacula_krameri&format=json&redirects=1&explaintext=1
+79	Psittacula krameri	70	2025-10-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Indian_Rose-ringed_Parakeet_(Psittacula_krameri_borealis)_at_the_entrance_of_its_nest_(20073615869).jpg
+33	Psittacula krameri	94	2025-10-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psittacula_krameri&format=json&redirects=1&explaintext=1
+33	Dendrocopos major	122	2025-10-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Deiker_Jagdbare_Tiere_1093224.jpg
+50	Dendrocopos major	87	2025-10-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dendrocopos_major&format=json&redirects=1&explaintext=1
+25	Dendrocopos major	117	2025-10-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocopos_major,_female_and_male.jpg
+66	Dryobates minor	133	2025-10-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocopos_minor_distr.png
+2	Dryobates minor	93	2025-10-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dryobates_minor&format=json&redirects=1&explaintext=1
+70	Dryobates minor	77	2025-10-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocopos_minor_female.jpg
+32	Dendrocoptes medius	130	2025-08-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocopos_medius_MHNT.ZOO.2010.11.164.13.jpg
+48	Dendrocoptes medius	112	2025-08-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dendrocoptes_medius&format=json&redirects=1&explaintext=1
+20	Dendrocoptes medius	95	2025-08-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocopos_medius_distr.png
+76	Dendrocoptes medius	141	2025-08-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dendrocoptes_medius&format=json&redirects=1&explaintext=1
+58	Dendrocoptes medius	110	2025-08-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+58	Dendrocoptes medius	126	2025-08-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dendrocoptes_medius&format=json&redirects=1&explaintext=1
+86	Dendrocoptes medius	123	2025-08-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Средний_пёстрый_дятел_(Dendrocoptes_medius),_Битцевский_лес.jpg
+72	Dendrocoptes medius	106	2025-08-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dendrocoptes_medius&format=json&redirects=1&explaintext=1
+13	Dryocopus martius	86	2025-04-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Black_woodpecker_(Dryocopus_martius).jpg
+56	Dryocopus martius	110	2025-04-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dryocopus_martius&format=json&redirects=1&explaintext=1
+84	Dryocopus martius	123	2025-04-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Dryocopus_martius_02.jpg
+35	Dryocopus martius	86	2025-04-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dryocopus_martius&format=json&redirects=1&explaintext=1
+3	Dryocopus martius	141	2025-04-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Dryocopus_martius_03.jpg
+8	Dryocopus martius	139	2025-04-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dryocopus_martius&format=json&redirects=1&explaintext=1
+58	Dryocopus martius	106	2025-04-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Dryocopus_martius_distr.PNG
+85	Dryocopus martius	79	2025-04-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Dryocopus_martius&format=json&redirects=1&explaintext=1
+63	Dryocopus martius	84	2025-04-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Dryocopus_martius_pinetorum_MHNT.ZOO.2010.11.164.6.jpg
+9	Picus viridis	125	2025-09-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/01_vgrue-10-01.jpg
+47	Picus viridis	134	2025-09-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Picus_viridis&format=json&redirects=1&explaintext=1
+15	Picus viridis	125	2025-09-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/European_green_woodpecker_(Picus_viridis)_female.jpg
+42	Picus viridis	95	2025-09-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Picus_viridis&format=json&redirects=1&explaintext=1
+54	Picus viridis	77	2025-09-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Female_green_woodpecker_in_flight.jpg
+80	Picus viridis	108	2025-09-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Picus_viridis&format=json&redirects=1&explaintext=1
+39	Picus viridis	96	2025-09-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Green_Woodpecker_(Picus_viridis)_-_geograph.org.uk_-_657030.jpg
+27	Pica pica	87	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Clamator_glandarius_-_D8-04-7547.JPG
+45	Pica pica	96	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
+35	Pica pica	123	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Daegu_hyanggyo_magpie_nest.jpg
+34	Pica pica	140	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
+91	Pica pica	98	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Don_Manuel_Osorio_Manrique_de_Zúñiga.jpg
+56	Pica pica	97	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
+8	Pica pica	132	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Elster_Ei.jpg
+15	Pica pica	98	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
+92	Pica pica	86	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Elster_wikipedia2.jpg
+7	Pica pica	126	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
+92	Pica pica	107	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_Magpie_2023-10-16_01.jpg
+16	Pica pica	114	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
+25	Pica pica	76	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Magpie_eating_dead_rabbit.jpg
+42	Pica pica	85	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
+77	Pica pica	94	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Magpie_in_Madrid_(Spain)_22.jpg
+66	Pica pica	100	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
+9	Pica pica	74	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pica_pica.01.jpg
+68	Pica pica	145	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pica_pica&format=json&redirects=1&explaintext=1
+21	Columba oenas	140	2025-06-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/ColumbaOenas.jpg
+75	Columba palumbus	82	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Columba-palumbus-dist.png
+58	Columba palumbus	70	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Columba_palumbus&format=json&redirects=1&explaintext=1
+9	Columba palumbus	134	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Columba_palumbus_-garden_post-8.jpg
+41	Columba palumbus	123	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Columba_palumbus&format=json&redirects=1&explaintext=1
+59	Columba palumbus	98	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Columba_palumbus_azorica.jpg
+51	Columba palumbus	88	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Columba_palumbus&format=json&redirects=1&explaintext=1
+6	Columba palumbus	78	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Wood_Pigeon_facing_left.jpg
+32	Columba palumbus	106	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Columba_palumbus&format=json&redirects=1&explaintext=1
+35	Columba palumbus	83	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Détail_des_serres_d'une_palombe.jpg
+84	Columba palumbus	79	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Columba_palumbus&format=json&redirects=1&explaintext=1
+91	Columba palumbus	114	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Nederlandsche_vogelen_(KB)_-_Columba_palumbus_(010a).jpg
+48	Columba palumbus	143	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Columba_palumbus&format=json&redirects=1&explaintext=1
+6	Fringilla coelebs	89	2025-08-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bayağı_ispinoz_yavru.jpg
+28	Fringilla coelebs	95	2025-08-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
+20	Fringilla coelebs	87	2025-08-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bayağı_ispinoz_yuva.jpg
+18	Fringilla coelebs	143	2025-08-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
+60	Fringilla coelebs	144	2025-08-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chaffinch_(Fringilla_coelebs).jpg
+88	Fringilla coelebs	86	2025-08-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
+88	Fringilla coelebs	71	2025-08-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Chaffinch_(Fringilla_coelebs)_male_singing_(17003888337).jpg
+26	Fringilla coelebs	113	2025-08-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
+7	Fringilla coelebs	144	2025-08-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
+59	Fringilla coelebs	113	2025-08-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
+84	Fringilla coelebs	118	2025-08-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/FringillaCoelebsFemale.jpg
+51	Fringilla coelebs	75	2025-08-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
+39	Fringilla coelebs	128	2025-08-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla_coelebs_Pinson_des_arbres_Les_arcs_2019_1.jpg
+34	Fringilla coelebs	127	2025-08-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
+21	Fringilla coelebs	71	2025-08-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla_coelebs_africana_MHNT.ZOO.2010.11.222.44.jpg
+54	Fringilla coelebs	76	2025-08-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_coelebs&format=json&redirects=1&explaintext=1
+63	Fringilla montifringilla	8	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bergfink_(Fringilla_montifringilla)_-_Ystad-2018.jpg
+44	Fringilla montifringilla	2	2025-01-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_montifringilla&format=json&redirects=1&explaintext=1
+43	Fringilla montifringilla	21	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla_montifringilla_-_Kajaani_Finlande_222.jpg
+18	Fringilla montifringilla	44	2025-01-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_montifringilla&format=json&redirects=1&explaintext=1
+3	Fringilla montifringilla	9	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla_montifringilla_2_(Marek_Szczepanek).jpg
+79	Fringilla montifringilla	50	2025-01-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_montifringilla&format=json&redirects=1&explaintext=1
+91	Fringilla montifringilla	39	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla_montifringilla_3_(Marek_Szczepanek).jpg
+15	Fringilla montifringilla	5	2025-01-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_montifringilla&format=json&redirects=1&explaintext=1
+30	Fringilla montifringilla	36	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fringilla_montifringilla_ltdp.JPG
+86	Fringilla montifringilla	23	2025-01-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fringilla_montifringilla&format=json&redirects=1&explaintext=1
+64	Fringilla montifringilla	28	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+35	Gavia immer	111	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Loon.jpg
+5	Gavia immer	128	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gavia_immer&format=json&redirects=1&explaintext=1
+51	Gavia immer	118	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Loon_head_sideways.jpg
+17	Gavia immer	142	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gavia_immer&format=json&redirects=1&explaintext=1
+80	Gavia immer	91	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Loon_with_chick.jpg
+63	Gavia immer	98	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gavia_immer&format=json&redirects=1&explaintext=1
+29	Gavia immer	82	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_loon_yellowstone.jpg
+15	Gavia immer	125	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gavia_immer&format=json&redirects=1&explaintext=1
+87	Gavia immer	105	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Gavia_immer_MHNT.ZOO.2010.11.36.4.jpg
+30	Gavia immer	101	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gavia_immer&format=json&redirects=1&explaintext=1
+48	Gavia immer	136	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Huard_decollage.jpg
+90	Gavia immer	140	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gavia_immer&format=json&redirects=1&explaintext=1
+80	Phylloscopus trochilus	58	2025-09-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Phylloscopus_trochilus_MHNT.ZOO.2010.11.202.16.jpg
+69	Phylloscopus trochilus	55	2025-09-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_trochilus&format=json&redirects=1&explaintext=1
+55	Phylloscopus trochilus	44	2025-09-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+90	Phylloscopus trochilus	41	2025-09-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_trochilus&format=json&redirects=1&explaintext=1
+62	Phylloscopus trochilus	7	2025-09-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Willow_Warbler_Phylloscopus_trochilus.jpg
+26	Phylloscopus trochilus	54	2025-09-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_trochilus&format=json&redirects=1&explaintext=1
+36	Phylloscopus sibilatrix	95	2025-06-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_Rainbirder_-_Wood_Warbler_(Phylloscopus_sibilatrix).jpg
+33	Phylloscopus sibilatrix	88	2025-06-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_sibilatrix&format=json&redirects=1&explaintext=1
+63	Phylloscopus sibilatrix	130	2025-06-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Phylloscopus_sibilatrix_MHNT.ZOO.2010.11.195.1.jpg
+75	Phylloscopus sibilatrix	143	2025-06-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_sibilatrix&format=json&redirects=1&explaintext=1
+85	Phylloscopus sibilatrix	88	2025-06-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Phylloscopus_sibilatrix_juv..JPG
+63	Phylloscopus sibilatrix	111	2025-06-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_sibilatrix&format=json&redirects=1&explaintext=1
+5	Phylloscopus sibilatrix	133	2025-06-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+54	Phylloscopus sibilatrix	74	2025-06-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_sibilatrix&format=json&redirects=1&explaintext=1
+52	Phylloscopus collybita	105	2025-07-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/01-Magpie.jpg
+56	Phylloscopus collybita	102	2025-07-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phylloscopus_collybita&format=json&redirects=1&explaintext=1
+15	Phylloscopus collybita	112	2025-07-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/2017.05.17.-03-Kirschgartshaeuser_Schlaege-Mannheim--Zilpzalp.jpg
+55	Rallus aquaticus	99	2025-08-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Borrelia_burgdorferi_(CDC-PHIL_-6631)_lores.jpg
+88	Rallus aquaticus	105	2025-08-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rallus_aquaticus&format=json&redirects=1&explaintext=1
+36	Rallus aquaticus	145	2025-08-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_Rainbirder_-_Water_Rail(Rallus_aquaticus).jpg
+91	Rallus aquaticus	136	2025-08-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rallus_aquaticus&format=json&redirects=1&explaintext=1
+20	Rallus aquaticus	79	2025-08-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Harilik_pilliroog.jpg
+58	Rallus aquaticus	86	2025-08-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rallus_aquaticus&format=json&redirects=1&explaintext=1
+89	Rallus aquaticus	102	2025-08-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Kunawodna3.JPG
+8	Rallus aquaticus	85	2025-08-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rallus_aquaticus&format=json&redirects=1&explaintext=1
+90	Rallus aquaticus	120	2025-08-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Parkgatemarsh.jpg
+55	Rallus aquaticus	74	2025-08-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rallus_aquaticus&format=json&redirects=1&explaintext=1
+29	Rallus aquaticus	81	2025-08-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+77	Rallus aquaticus	77	2025-08-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rallus_aquaticus&format=json&redirects=1&explaintext=1
+10	Rallus aquaticus	128	2025-08-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/RallusIndicusNeale.jpg
+22	Rallus aquaticus	82	2025-08-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rallus_aquaticus&format=json&redirects=1&explaintext=1
+48	Remiz pendulinus	108	2025-04-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Deutschland_Mecklenburg-Vorpommern_NSG_Fischteiche_in_der_Lewitz_Beutelmeise_Foto_Ralf_Ottmann.jpg
+11	Remiz pendulinus	86	2025-04-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Remiz_pendulinus&format=json&redirects=1&explaintext=1
+67	Remiz pendulinus	81	2025-04-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+47	Remiz pendulinus	107	2025-04-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Remiz_pendulinus&format=json&redirects=1&explaintext=1
+68	Remiz pendulinus	105	2025-04-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Remiz_pendulinis_7.jpg
+73	Regulus ignicapilla	135	2025-09-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Entomobrya_nicoleti_(8411768255).jpg
+63	Regulus ignicapilla	138	2025-09-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_ignicapilla&format=json&redirects=1&explaintext=1
+20	Regulus ignicapilla	95	2025-09-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+51	Regulus ignicapilla	114	2025-09-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_ignicapilla&format=json&redirects=1&explaintext=1
+64	Regulus ignicapilla	103	2025-09-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_ignicapilla_-approx_range_map.png
+23	Regulus ignicapilla	107	2025-09-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_ignicapilla&format=json&redirects=1&explaintext=1
+21	Regulus ignicapilla	85	2025-09-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_ignicapilla_Frank_Vassen.jpg
+55	Regulus ignicapilla	91	2025-09-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_ignicapilla&format=json&redirects=1&explaintext=1
+21	Regulus ignicapilla	96	2025-09-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_ignicapilla_MHNT.ZOO.2010.11.207.jpg
+30	Regulus regulus	17	2025-04-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Goldcrest_1.jpg
+22	Regulus regulus	32	2025-04-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_regulus&format=json&redirects=1&explaintext=1
+24	Regulus regulus	31	2025-04-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+2	Regulus regulus	5	2025-04-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_regulus&format=json&redirects=1&explaintext=1
+68	Regulus regulus	31	2025-04-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_regulus.jpg
+22	Regulus regulus	37	2025-04-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_regulus&format=json&redirects=1&explaintext=1
+13	Regulus regulus	17	2025-04-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_regulus0.jpg
+6	Regulus regulus	66	2025-04-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_regulus&format=json&redirects=1&explaintext=1
+46	Regulus regulus	56	2025-04-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_regulus_regulus_MHNT.ZOO.2010.11.207.jpg
+22	Regulus regulus	17	2025-04-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_regulus&format=json&redirects=1&explaintext=1
+57	Regulus regulus	33	2025-04-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Roitelet-huppé.jpg
+21	Regulus regulus	38	2025-04-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Regulus_regulus&format=json&redirects=1&explaintext=1
+35	Luscinia megarhynchos	7	2025-07-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Luscinia_megarhynchos,_subspecies._Distribution_map.png
+52	Luscinia megarhynchos	45	2025-07-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
+48	Luscinia megarhynchos	58	2025-07-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Luscinia_megarhynchos_Istria_01.jpg
+12	Pinus nigra	105	2025-08-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ab_plant_479.jpg
+27	Luscinia megarhynchos	9	2025-07-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
+53	Luscinia megarhynchos	13	2025-07-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Luscinia_megarhynchos_MHNT_232_HdB_Bouzareah_Algérie.jpg
+44	Luscinia megarhynchos	29	2025-07-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
+38	Luscinia megarhynchos	25	2025-07-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Luscinia_megarhynchos_megarhynchos_-_Marcel_Burkhardt.jpg
+42	Luscinia megarhynchos	39	2025-07-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
+40	Luscinia megarhynchos	3	2025-07-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Luscinia_megarhynchos_vogelartinfo_chris_romeiks_CHR4443.jpg
+90	Luscinia megarhynchos	45	2025-07-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
+34	Luscinia megarhynchos	17	2025-07-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Nachtigall_singend_Stromkabel_(cropped).jpg
+70	Luscinia megarhynchos	20	2025-07-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
+20	Luscinia megarhynchos	62	2025-07-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+23	Luscinia megarhynchos	17	2025-07-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
+3	Luscinia megarhynchos	50	2025-07-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Rossinyol_03_(Luscinia_megarhynchos).jpg
+39	Luscinia megarhynchos	12	2025-07-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Luscinia_megarhynchos&format=json&redirects=1&explaintext=1
+22	Erithacus rubecula	107	2025-05-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/030_European_robin_in_the_Camargue_Photo_by_Giles_Laurent.jpg
+13	Erithacus rubecula	148	2025-05-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Erithacus_rubecula&format=json&redirects=1&explaintext=1
+29	Erithacus rubecula	139	2025-05-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.150.1.jpg
+60	Erithacus rubecula	148	2025-05-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Erithacus_rubecula&format=json&redirects=1&explaintext=1
+91	Erithacus rubecula	121	2025-05-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Erithacus_rubecula_-Canary_Islands,_Spain_-adult_and_juvenile-8.jpg
+17	Phoenicurus phoenicurus	65	2025-03-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Distribution_ph_phoenicurus.png
+43	Phoenicurus phoenicurus	24	2025-03-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_phoenicurus&format=json&redirects=1&explaintext=1
+11	Phoenicurus phoenicurus	56	2025-03-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Gekraagderoodstaart2.jpg
+80	Phoenicurus ochruros	62	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Hausrotschwanz_Brutpflege_2006-05-01.jpg
+91	Phoenicurus ochruros	65	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
+19	Phoenicurus ochruros	22	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Hausrotschwanz_Brutpflege_2006-05-24_211.jpg
+44	Phoenicurus ochruros	4	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
+48	Phoenicurus ochruros	39	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Hausrotschwanz_IMG_1907.jpg
+5	Phoenicurus ochruros	19	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
+28	Phoenicurus ochruros	4	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Juveniler_Hausrotschwanz_(Phoenicurus_ochruros)_01.jpg
+44	Phoenicurus ochruros	59	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
+7	Phoenicurus ochruros	50	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Kopciuszek_juv.jpg
+91	Phoenicurus ochruros	4	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
+7	Phoenicurus ochruros	15	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Nid_Rouge.queue.jpg
+56	Phoenicurus ochruros	54	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
+81	Phoenicurus ochruros	67	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/PhoenicurusOchrurosGuntherHasler01.jpg
+61	Phoenicurus ochruros	23	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
+59	Phoenicurus ochruros	24	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Phoenicurus_ochruros_@_Calanque_des_Pierres-Tombées_19.jpg
+72	Phoenicurus ochruros	59	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
+25	Phoenicurus ochruros	42	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Phoenicurus_ochruros_MHNT.ZOO.2010.11.194.20.jpg
+16	Phoenicurus ochruros	6	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoenicurus_ochruros&format=json&redirects=1&explaintext=1
+32	Acrocephalus scirpaceus	16	2025-09-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Acrocephalus_scirpaceus_(Bertinetto).jpg
+70	Acrocephalus scirpaceus	9	2025-09-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_scirpaceus&format=json&redirects=1&explaintext=1
+55	Acrocephalus scirpaceus	52	2025-09-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Acrocephalus_scirpaceus_MHNT_323_Larache_MAroc_RdN.jpg
+24	Acrocephalus scirpaceus	66	2025-09-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_scirpaceus&format=json&redirects=1&explaintext=1
+55	Acrocephalus scirpaceus	66	2025-09-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Acrocephalus_scirpaceus_MHNT_SYL_1998_8.jpg
+80	Acrocephalus scirpaceus	19	2025-09-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_scirpaceus&format=json&redirects=1&explaintext=1
+91	Acrocephalus scirpaceus	50	2025-09-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.149.14.jpg
+69	Acrocephalus scirpaceus	22	2025-09-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_scirpaceus&format=json&redirects=1&explaintext=1
+34	Acrocephalus scirpaceus	56	2025-09-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+45	Acrocephalus palustris	129	2025-03-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Acrocephalus_palustris_(Marek_Szczepanek).jpg
+31	Acrocephalus palustris	83	2025-03-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_palustris&format=json&redirects=1&explaintext=1
+90	Acrocephalus palustris	73	2025-03-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Acrocephalus_palustris_distribution_map.png
+9	Acrocephalus palustris	135	2025-03-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_palustris&format=json&redirects=1&explaintext=1
+81	Acrocephalus palustris	88	2025-03-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.149.42.jpg
+70	Acrocephalus palustris	110	2025-03-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_palustris&format=json&redirects=1&explaintext=1
+17	Acrocephalus palustris	116	2025-03-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+55	Acrocephalus palustris	135	2025-03-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acrocephalus_palustris&format=json&redirects=1&explaintext=1
+31	Spatula querquedula	14	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_querquedula,_Hong_Kong_1.jpg
+54	Spatula querquedula	56	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_querquedula&format=json&redirects=1&explaintext=1
+20	Spatula querquedula	28	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_querquedula,_Llobregat_Delta,_Barcelona_5.jpg
+44	Spatula querquedula	54	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spatula_querquedula&format=json&redirects=1&explaintext=1
+49	Spatula querquedula	7	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_querquedula_Male_and_females.jpg
+34	Anas crecca	105	2025-06-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/1989_CPA_6085.jpg
+15	Anas crecca	129	2025-06-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
+67	Anas crecca	132	2025-06-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_carolinensis_FWS.jpg
+89	Anas crecca	117	2025-06-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
+11	Anas crecca	86	2025-06-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_carolinensis_dis.png
+32	Anas crecca	124	2025-06-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
+28	Anas crecca	126	2025-06-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_crecca_Csörgő_réce.jpg
+86	Anas crecca	95	2025-06-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
+91	Anas crecca	93	2025-06-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_crecca_MHNT.ZOO.2010.11.18.3.jpg
+9	Anas crecca	147	2025-06-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
+43	Anas crecca	123	2025-06-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_crecca_distribution_map.png
+41	Anas crecca	110	2025-06-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
+26	Anas crecca	128	2025-06-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anas_crecca_m.jpg
+91	Anas crecca	137	2025-06-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
+71	Anas crecca	74	2025-06-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Teals_I_IMG_1553.jpg
+62	Anas crecca	96	2025-06-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anas_crecca&format=json&redirects=1&explaintext=1
+16	Serinus serinus	4	2025-06-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+44	Serinus serinus	35	2025-06-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
+48	Serinus serinus	54	2025-06-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Serin_cini,_Serinus_serinus.jpg
+25	Serinus serinus	4	2025-06-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
+52	Serinus serinus	68	2025-06-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Serin_cini_1.jpg
+76	Serinus serinus	16	2025-06-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
+24	Serinus serinus	24	2025-06-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Serin_cini_2.jpg
+13	Serinus serinus	54	2025-06-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
+70	Serinus serinus	17	2025-06-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Serin_cini_3.jpg
+45	Serinus serinus	35	2025-06-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
+58	Serinus serinus	63	2025-06-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Serin_cini_mars.JPG
+51	Serinus serinus	51	2025-06-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
+15	Serinus serinus	47	2025-06-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Serinus_serinus_(Madrid,_Spain)_008.jpg
+11	Serinus serinus	48	2025-06-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
+65	Serinus serinus	47	2025-06-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Serinus_serinus_(Madrid,_Spain)_010.jpg
+64	Serinus serinus	67	2025-06-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Serinus_serinus&format=json&redirects=1&explaintext=1
+72	Sitta europaea	116	2025-01-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chestnut-vented_Nuthatch_(Sitta_nagaensis).jpg
+84	Sitta europaea	98	2025-01-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sitta_europaea&format=json&redirects=1&explaintext=1
+46	Sitta europaea	75	2025-01-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocopos_major_male_eating.JPG
+22	Sitta europaea	78	2025-01-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sitta_europaea&format=json&redirects=1&explaintext=1
+49	Sitta europaea	145	2025-01-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Epping_Forest_3.JPG
+54	Sitta europaea	135	2025-01-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sitta_europaea&format=json&redirects=1&explaintext=1
+46	Sitta europaea	109	2025-01-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Kleiber_Flug.jpg
+71	Sitta europaea	144	2025-01-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sitta_europaea&format=json&redirects=1&explaintext=1
+79	Sitta europaea	131	2025-01-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Kleiberei.jpg
+18	Sitta europaea	94	2025-01-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sitta_europaea&format=json&redirects=1&explaintext=1
+40	Acanthis flammea cabaret	91	2025-04-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Acanthis_flammea_UL_02.jpg
+66	Acanthis flammea cabaret	136	2025-04-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acanthis_flammea_cabaret&format=json&redirects=1&explaintext=1
+72	Acanthis flammea cabaret	103	2025-04-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_flammea_cabaret_MHNT.ZOO.2010.11.221_Naurois_HdB_Tolborough.jpg
+15	Acanthis flammea cabaret	130	2025-04-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acanthis_flammea_cabaret&format=json&redirects=1&explaintext=1
+84	Acanthis flammea cabaret	142	2025-04-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_flammea_flammea_MHNT.ZOO.2010.11.221_Luleå.jpg
+12	Acanthis flammea cabaret	96	2025-04-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acanthis_flammea_cabaret&format=json&redirects=1&explaintext=1
+45	Acanthis flammea cabaret	121	2025-04-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+73	Acanthis flammea cabaret	122	2025-04-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acanthis_flammea_cabaret&format=json&redirects=1&explaintext=1
+23	Acanthis flammea cabaret	99	2025-04-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Spiza_americana_male_94_231051626_13e01e8125_o_cropped.png
+37	Acanthis flammea cabaret	109	2025-04-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Acanthis_flammea_cabaret&format=json&redirects=1&explaintext=1
+19	Sterna hirundo	51	2025-10-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_tern.web.jpg
+9	Sterna hirundo	68	2025-10-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sterna_hirundo&format=json&redirects=1&explaintext=1
+89	Sterna hirundo	13	2025-10-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_tern_2025_07_08_08.jpg
+66	Saxicola rubicola	113	2025-06-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/European_stonechat2.jpg
+71	Saxicola rubicola	83	2025-06-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
+3	Saxicola rubicola	115	2025-06-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Female_stonechat.JPG
+6	Saxicola rubicola	139	2025-06-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
+64	Saxicola rubicola	78	2025-06-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Femelle_juvénile_de_Tarier_pâtre_(Saxicola_rubicola).jpg
+71	Saxicola rubicola	126	2025-06-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
+68	Saxicola rubicola	91	2025-06-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+27	Saxicola rubicola	86	2025-06-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
+36	Saxicola rubicola	98	2025-06-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ruddy-turnstone-icon.png
+47	Saxicola rubicola	74	2025-06-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
+6	Saxicola rubicola	98	2025-06-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Saxicola_rubicola_232_HdB_Ouarsenis_Algérie.jpg
+42	Saxicola rubicola	148	2025-06-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
+22	Saxicola rubicola	77	2025-06-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Stonechat_(Saxicola_rubicola)_male,_Beaulieu,_Hampshire.jpg
+28	Saxicola rubicola	90	2025-06-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
+28	Saxicola rubicola	93	2025-06-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Stonechat_Grönvold.jpg
+8	Saxicola rubicola	124	2025-06-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
+26	Saxicola rubicola	126	2025-06-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Tarier_patre_ichkeul.jpg
+37	Saxicola rubicola	125	2025-06-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Saxicola_rubicola&format=json&redirects=1&explaintext=1
+77	Spinus spinus	53	2025-10-24	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_spinus_MHNT.ZOO.2010.11_Anvers.jpg
+26	Spinus spinus	34	2025-10-24	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spinus_spinus&format=json&redirects=1&explaintext=1
+19	Spinus spinus	9	2025-10-24	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_spinus_female.jpg
+84	Spinus spinus	56	2025-10-24	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spinus_spinus&format=json&redirects=1&explaintext=1
+50	Spinus spinus	7	2025-10-24	0	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
+28	Spinus spinus	25	2025-10-24	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spinus_spinus&format=json&redirects=1&explaintext=1
+12	Spinus spinus	54	2025-10-24	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grönsiska-1763_-_Flickr_-_Ragnhild_&_Neil_Crawford.jpg
+80	Spinus spinus	36	2025-10-24	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spinus_spinus&format=json&redirects=1&explaintext=1
+84	Spinus spinus	26	2025-10-24	0	https://commons.wikimedia.org/wiki/Special:FilePath/P4050010k.JPG
+67	Spinus spinus	63	2025-10-24	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spinus_spinus&format=json&redirects=1&explaintext=1
+15	Spinus spinus	66	2025-10-24	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+83	Spinus spinus	65	2025-10-24	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spinus_spinus&format=json&redirects=1&explaintext=1
+74	Spinus spinus	10	2025-10-24	0	https://commons.wikimedia.org/wiki/Special:FilePath/Rangemap-tarin.PNG
+80	Spinus spinus	69	2025-10-24	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Spinus_spinus&format=json&redirects=1&explaintext=1
+89	Streptopelia turtur	143	2025-01-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/European_Turtle_Dove_(Streptopelia_turtur).jpg
+70	Streptopelia decaocto	99	2025-06-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinicola_enucleator.png
+77	Streptopelia decaocto	90	2025-06-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Streptopelia_decaocto&format=json&redirects=1&explaintext=1
+64	Streptopelia decaocto	146	2025-06-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Streptopelia_decaocto.jpg
+52	Streptopelia decaocto	147	2025-06-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Streptopelia_decaocto&format=json&redirects=1&explaintext=1
+4	Streptopelia decaocto	140	2025-06-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Streptopelia_decaoctoTêteBec.jpg
+86	Troglodytes troglodytes	98	2025-01-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_canorus_MHNT.ZOO.2010.11.149.17.jpg
+86	Troglodytes troglodytes	86	2025-01-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Troglodytes_troglodytes&format=json&redirects=1&explaintext=1
+60	Troglodytes troglodytes	103	2025-01-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_Wren.jpg
+84	Troglodytes troglodytes	137	2025-01-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Troglodytes_troglodytes&format=json&redirects=1&explaintext=1
+53	Troglodytes troglodytes	98	2025-01-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_wren_2023_12_31_02.jpg
+20	Troglodytes troglodytes	136	2025-01-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Troglodytes_troglodytes&format=json&redirects=1&explaintext=1
+5	Troglodytes troglodytes	78	2025-01-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_wren_Franconville_04.jpg
+22	Troglodytes troglodytes	101	2025-01-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Troglodytes_troglodytes&format=json&redirects=1&explaintext=1
+28	Troglodytes troglodytes	81	2025-01-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Gärdsmyg_(Troglodytes_troglodytes)_-_Ystad-2019.jpg
+44	Troglodytes troglodytes	138	2025-01-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Troglodytes_troglodytes&format=json&redirects=1&explaintext=1
+38	Troglodytes troglodytes	114	2025-01-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Nid_de_Troglodyte_mignon.jpg
+5	Troglodytes troglodytes	84	2025-01-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Troglodytes_troglodytes&format=json&redirects=1&explaintext=1
+76	Troglodytes troglodytes	132	2025-01-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Nid_de_Troglodyte_mignon_1.JPG
+43	Troglodytes troglodytes	145	2025-01-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Troglodytes_troglodytes&format=json&redirects=1&explaintext=1
+18	Chloris chloris	62	2025-08-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_chloris_7_(Marek_Szczepanek)_cropped.jpg
+42	Chloris chloris	38	2025-08-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
+82	Chloris chloris	26	2025-08-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_chloris_distribution_map.png
+44	Chloris chloris	38	2025-08-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
+10	Chloris chloris	62	2025-08-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chloris_chloris_(profile).jpg
+78	Chloris chloris	30	2025-08-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
+39	Chloris chloris	14	2025-08-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chloris_chloris_chloris_MHNT_223_Gouvieux.jpg
+11	Chloris chloris	65	2025-08-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
+89	Chloris chloris	42	2025-08-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chloris_chloris_female.jpg
+90	Chloris chloris	36	2025-08-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
+47	Chloris chloris	54	2025-08-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cuculus_canorus_bangsi_MHNT.ZOO.2010.11.150.42.jpg
+77	Chloris chloris	36	2025-08-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
+24	Chloris chloris	55	2025-08-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Europa_2019_Armenia.jpg
+3	Chloris chloris	65	2025-08-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
+52	Chloris chloris	39	2025-08-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Greenfinch_(Carduelis_chloris)_(2).jpg
+87	Chloris chloris	41	2025-08-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
+19	Chloris chloris	62	2025-08-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grünfink_(Chloris_chloris)_Sonnenblume-20250928-RM-104703.jpg
+1	Chloris chloris	33	2025-08-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chloris_chloris&format=json&redirects=1&explaintext=1
+28	Lissotriton vulgaris	134	2025-07-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+45	Bombina variegata	142	2025-07-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Bombina_variegata&format=json&redirects=1&explaintext=1
+65	Rana temporaria	84	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
+28	Rana dalmatina	135	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
+67	Pelodytes punctatus	111	2025-03-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pelodytes_punctatus_side.jpg
+45	Lissotriton vulgaris	140	2025-07-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lissotriton_vulgaris&format=json&redirects=1&explaintext=1
+62	Bombina variegata	148	2025-07-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bombina_variegata_(Marek_Szczepanek).jpg
+90	Rana temporaria	98	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/LarvaeBufoBufoRanaTemporaria.JPG
+56	Rana dalmatina	88	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Rana_dalmatina.jpg
+56	Pelodytes punctatus	114	2025-03-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
+23	Pelodytes punctatus	140	2025-03-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
+58	Hyla arborea	99	2025-01-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Laubfrosch_(Hyla_arborea).jpg
+16	Triturus marmoratus	115	2025-11-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Triturus_marmoratus&format=json&redirects=1&explaintext=1
+7	Triturus marmoratus	74	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Triturus_marmoratus_dis.png
+72	Epidalea calamita	76	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/BufoCalamitaByNight.jpg
+88	Epidalea calamita	86	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
+55	Salamandra salamandra	137	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Feuersalamander.jpg
+7	Bolboschoenus maritimus	115	2025-07-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Bolboschoenus_maritimus&format=json&redirects=1&explaintext=1
+19	Aethusa cynapium	91	2025-03-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aethusa_cynapium_seeds.jpg
+33	Veronica anagallis-aquatica	108	2025-04-25	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Veronica_anagallis-aquatica&format=json&redirects=1&explaintext=1
+67	Nicotiana rustica	86	2025-11-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Nicotiana_rustica_-_Köhler–s_Medizinal-Pflanzen-226.jpg
+91	Lumbricus terrestris	145	2025-08-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lumbricus_terrestris&format=json&redirects=1&explaintext=1
+10	Hirudo medicinalis	85	2025-10-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirudo_medicinalis&format=json&redirects=1&explaintext=1
+89	Pirata piraticus	120	2025-09-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pirata.piraticus.male.jpg
+87	Cheiracanthium punctorium	123	2025-08-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cheiracanthium_punctorium_2.JPG
+38	Argiope bruennichi	109	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
+42	Uloborus walckenaerius	118	2025-03-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Distribution.uloborus.walckenaerius.1.png
+26	Araneus angulatus	83	2025-09-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Araneus_angulatus&format=json&redirects=1&explaintext=1
+8	Ebrechtella tricuspidata	71	2025-03-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ebrechtella_tricuspidata&format=json&redirects=1&explaintext=1
+45	Trametes hirsuta	98	2025-03-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Trametes_hirsuta_G3.jpg
+54	Pseudohydnum gelatinosum	108	2025-05-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pseudohydnum_gelatinosum_060922_down.jpg
+62	Imleria badia	125	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Imleria_badia&format=json&redirects=1&explaintext=1
+89	Tricholomopsis rutilans	81	2025-01-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tricholomopsis_rutilans&format=json&redirects=1&explaintext=1
+42	Macrolepiota procera	96	2025-04-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/2006-10-14_Amanita_ceciliae_crop.jpg
+33	Lactarius torminosus	114	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Kantarell,_Iduns_kokbok.png
+92	Tricholoma portentosum	78	2025-09-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/2012-03-28_Tricholoma_pardinum_Quél_208648.jpg
+59	Unio pictorum	83	2025-07-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_pictorum&format=json&redirects=1&explaintext=1
+76	Pseudanodonta complanata	128	2025-04-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pseudanodonta_complanata.JPG
+84	Corbicula fluminalis	129	2025-05-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Corbicula_fluminalis.jpg
+11	Pacifastacus leniusculus	141	2025-01-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pacifastacus_leniusculus&format=json&redirects=1&explaintext=1
+77	Astacus astacus	107	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Astacus_astacus&format=json&redirects=1&explaintext=1
+19	Stagnicola palustris	74	2025-02-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Stagnicola_palustris&format=json&redirects=1&explaintext=1
+62	Helix lucorum	75	2025-11-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helix_lucorum&format=json&redirects=1&explaintext=1
+3	Thuja occidentalis	96	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Thuja_occidentalis2.jpg
+74	Larix decidua	74	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
+72	Abies nordmanniana	127	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_Caucasian_Fir_ევროპული_სოჭი_(2).jpg
+74	Pinus wallichiana	136	2025-10-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_wallichiana&format=json&redirects=1&explaintext=1
+42	Pinus nigra	99	2025-08-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_nigra&format=json&redirects=1&explaintext=1
+10	Zicrona caerulea	133	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Zicrona_caerulea.JPG
+56	Xanthoria parietina	86	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
+74	Capreolus capreolus	100	2025-07-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Capreolus_capreolus_2_Jojo.jpg
+84	Myotis mystacinus	80	2025-04-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Myotis_mystacinus&format=json&redirects=1&explaintext=1
+18	Rutilus rutilus	117	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Rabbit&cat3.png
+67	Lissotriton vulgaris	123	2025-07-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/LissotritonVulgarisFemaleWater.JPG
+76	Rana temporaria	128	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/EggsBufoBufoRanaTemporaria.JPG
+34	Rana temporaria	123	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
+32	Rana dalmatina	70	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
+19	Pelodytes punctatus	130	2025-03-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+23	Pelodytes punctatus	101	2025-03-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pelodytes_punctatus_with_scale.jpg
+62	Hyla arborea	112	2025-01-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
+71	Triturus marmoratus	123	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+11	Pelophylax lessonae	139	2025-06-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+13	Epidalea calamita	114	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
+63	Epidalea calamita	142	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Natterjack_Toad_(Epidalea_calamita)_female_(16779432866).jpg
+72	Salamandra salamandra	73	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
+62	Poa palustris	71	2025-11-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Poa_palustris.jpg
+51	Aethusa cynapium	137	2025-03-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aethusa_cynapium&format=json&redirects=1&explaintext=1
+45	Chaenorhinum minus	101	2025-07-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chaenorhinum_minus_Sturm20.jpg
+41	Nicotiana rustica	97	2025-11-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nicotiana_rustica&format=json&redirects=1&explaintext=1
+80	Lumbricus terrestris	107	2025-08-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Icône_Portail_Annélides.png
+82	Hirudo medicinalis	88	2025-10-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Hirudo_verbana2.jpg
+52	Drassodes lapidosus	97	2025-02-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Drassodes_7636.jpg
+20	Cheiracanthium punctorium	73	2025-08-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cheiracanthium_punctorium&format=json&redirects=1&explaintext=1
+2	Argiope bruennichi	95	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Argiope_empaquetage.jpg
+26	Uloborus walckenaerius	130	2025-03-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Uloborus_walckenaerius&format=json&redirects=1&explaintext=1
+33	Araneus angulatus	122	2025-09-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Araneus-angulatus-figure1757.jpg
+15	Ebrechtella tricuspidata	112	2025-03-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ebrechtella_tricuspidata,_female_1.JPG
+56	Trametes hirsuta	78	2025-03-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Trametes_hirsuta&format=json&redirects=1&explaintext=1
+76	Pseudohydnum gelatinosum	140	2025-05-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudohydnum_gelatinosum&format=json&redirects=1&explaintext=1
+54	Imleria badia	79	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Boletus_badius_5052175998_df099ccc79_b_cropped_cropped.jpg
+81	Tricholomopsis rutilans	88	2025-01-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Kantarell,_Iduns_kokbok.png
+56	Macrolepiota procera	71	2025-04-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Macrolepiota_procera&format=json&redirects=1&explaintext=1
+6	Lactarius torminosus	128	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lactarius_torminosus&format=json&redirects=1&explaintext=1
+92	Tricholoma portentosum	142	2025-09-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tricholoma_portentosum&format=json&redirects=1&explaintext=1
+4	Unio pictorum	129	2025-07-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Korýtka_maliarske,_Ružiná_2019.jpg
+30	Pseudanodonta complanata	91	2025-04-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudanodonta_complanata&format=json&redirects=1&explaintext=1
+1	Corbicula fluminalis	119	2025-05-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corbicula_fluminalis&format=json&redirects=1&explaintext=1
+43	Austropotamobius pallipes	79	2025-06-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Austropotamobius_pallipes.jpg
+11	Astacus astacus	103	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
+59	Stagnicola palustris	122	2025-02-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Stagnicola_palustris.jpg
+37	Helix lucorum	73	2025-11-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Helix_lucorum_2.jpg
+79	Thuja occidentalis	128	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Thuja_occidentalis&format=json&redirects=1&explaintext=1
+88	Cupressus sempervirens	92	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cupressus-sempervirens-conos.jpg
+61	Abies nordmanniana	70	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
+87	Pinus wallichiana	146	2025-10-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bhutan-Paro-144-Abstieg_vom_Taktshang-Tigernest-Pinienzweig-gje.jpg
+76	Pinus nigra	141	2025-08-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bosc_en_regeneració_a_cara_llevant.JPG
+51	Zicrona caerulea	147	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zicrona_caerulea&format=json&redirects=1&explaintext=1
+34	Xanthoria parietina	100	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lichen_on_Tabaiba,_Gran_Canaria_MP.jpg
+52	Capreolus capreolus	73	2025-07-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
+22	Myotis mystacinus	106	2025-04-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Myotis_mystacinus_-_Manuel_Ruedi.JPG
+45	Vulpes vulpes	118	2025-07-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bruno_Liljefors_-_Beagle_and_Fox.jpg
+11	Lacerta agilis	107	2025-04-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+4	Lissotriton vulgaris	75	2025-07-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lissotriton_vulgaris&format=json&redirects=1&explaintext=1
+14	Rana temporaria	144	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
+26	Rana temporaria	122	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Rana_temporaria.png
+48	Rana dalmatina	114	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Rana_dalmatina01a.jpg
+25	Pelodytes punctatus	109	2025-03-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
+39	Pelodytes punctatus	106	2025-03-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
+23	Hyla arborea	101	2025-01-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Laubfrosch_Macro.jpg
+51	Triturus marmoratus	78	2025-11-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Triturus_marmoratus&format=json&redirects=1&explaintext=1
+63	Pelophylax lessonae	103	2025-06-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelophylax_lessonae&format=json&redirects=1&explaintext=1
+25	Epidalea calamita	132	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/BufoCalamitaTadpoles.jpg
+30	Epidalea calamita	85	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
+12	Salamandra salamandra	94	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Feuersalamander_DE.jpg
+11	Poa palustris	87	2025-11-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poa_palustris&format=json&redirects=1&explaintext=1
+35	Aethusa cynapium	107	2025-03-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aethusa_cynapium_subsp._cynapium_s._lat._sl19.jpg
+83	Chaenorhinum minus	71	2025-07-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chaenorhinum_minus&format=json&redirects=1&explaintext=1
+12	Nicotiana rustica	73	2025-11-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Nicotiana_rustica_fleur1.JPG
+23	Lumbricus terrestris	78	2025-08-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lumbricus_terrestris&format=json&redirects=1&explaintext=1
+19	Hirudo medicinalis	81	2025-10-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirudo_medicinalis&format=json&redirects=1&explaintext=1
+79	Drassodes lapidosus	86	2025-02-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Drassodes_lapidosus&format=json&redirects=1&explaintext=1
+62	Cheiracanthium punctorium	75	2025-08-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cheiracanthium_punctorium_male.jpg
+46	Argiope bruennichi	83	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
+91	Uloborus walckenaerius	106	2025-03-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Uloborus_walckenaerius.jpg
+60	Araneus angulatus	111	2025-09-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Araneus_angulatus&format=json&redirects=1&explaintext=1
+90	Ebrechtella tricuspidata	148	2025-03-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ebrechtella_tricuspidata&format=json&redirects=1&explaintext=1
+64	Pseudohydnum gelatinosum	74	2025-05-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Eiszitterpilz_Pseudohydnum_gelatinosum.jpg
+63	Pseudohydnum gelatinosum	113	2025-05-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pseudohydnum_gelatinosum_72233.jpg
+37	Imleria badia	146	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Imleria_badia&format=json&redirects=1&explaintext=1
+74	Tricholomopsis rutilans	120	2025-01-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tricholomopsis_rutilans&format=json&redirects=1&explaintext=1
+71	Macrolepiota procera	128	2025-04-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/2010-10-10_Chlorophyllum_brunneum.jpg
+47	Lactarius torminosus	87	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius_t.jpg
+81	Tricholoma portentosum	139	2025-09-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/2016-06-27_Tricholoma_scalpturatum_(Fr.)_Quél_718603.jpg
+36	Unio pictorum	82	2025-07-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_pictorum&format=json&redirects=1&explaintext=1
+86	Pseudanodonta complanata	94	2025-04-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pseudanodonta_complanata_2.jpg
+2	Corbicula fluminalis	74	2025-05-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Corbicula_fluminalis_-_Belvédère_lens_II_-_grijs.jpg
+43	Austropotamobius pallipes	74	2025-06-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Austropotamobius_pallipes&format=json&redirects=1&explaintext=1
+3	Astacus astacus	147	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Astacus_astacus&format=json&redirects=1&explaintext=1
+25	Helicodonta obvoluta	97	2025-11-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+73	Helix lucorum	74	2025-11-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helix_lucorum&format=json&redirects=1&explaintext=1
+26	Larix decidua	92	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bergtocht_van_Peio_Paese_naar_Lago_Covel_in_het_Nationaal_park_Stelvio_(Italië)._Wond_van_een_afgebroken_tak._Europese_larix_(Larix_decidua)_02.jpg
+41	Cupressus sempervirens	109	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cupressus_sempervirens&format=json&redirects=1&explaintext=1
+30	Abies nordmanniana	95	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_apical_buds.jpg
+28	Sequoia sempervirens	142	2025-10-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/030803a_redwoodfog.jpg
+64	Pinus nigra	123	2025-08-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_nigra&format=json&redirects=1&explaintext=1
+58	Zicrona caerulea	119	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Zicrona_caerulea01.jpg
+62	Xanthoria parietina	76	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
+81	Capreolus capreolus	119	2025-07-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Capreolus_capreolus_cloven_hoof.jpg
+45	Myotis mystacinus	93	2025-04-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Myotis_mystacinus&format=json&redirects=1&explaintext=1
+83	Lissotriton vulgaris	131	2025-07-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/LissotritonVulgarisMaleWater.JPG
+67	Rana temporaria	119	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grasfrosch-Rana-temporaria-side.jpg
+79	Rana temporaria	137	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
+30	Rana dalmatina	141	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
+16	Pelodytes punctatus	72	2025-03-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Parsley_Frogs_(Pelodytes_punctatus)_mating_(16803726502).jpg
+35	Hyla arborea	141	2025-01-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Hello_spring.jpg
+13	Hyla arborea	147	2025-01-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
+57	Triturus marmoratus	127	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Triton_jaspeado_Cozuelos.jpg
+6	Pelophylax lessonae	89	2025-06-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/PelophylaxLessonaeAmplex.JPG
+1	Epidalea calamita	99	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
+61	Salamandra salamandra	128	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/20170926_Feuersalamander_3.jpg
+53	Salamandra salamandra	136	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
+26	Poa palustris	79	2025-11-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Poa_palustris_(6134346701).jpg
+20	Aethusa cynapium	134	2025-03-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aethusa_cynapium&format=json&redirects=1&explaintext=1
+26	Littorella uniflora	86	2025-08-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/LittorellaUniflora.jpg
+44	Nicotiana rustica	73	2025-11-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nicotiana_rustica&format=json&redirects=1&explaintext=1
+77	Lumbricus terrestris	78	2025-08-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lumbricus_terrestris_anatomy_+_description.jpg
+68	Hirudo medicinalis	118	2025-10-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Icône_Portail_Annélides.png
+28	Drassodes lapidosus	141	2025-02-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Drassodes_7646.jpg
+46	Cheiracanthium punctorium	107	2025-08-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cheiracanthium_punctorium&format=json&redirects=1&explaintext=1
+18	Argiope bruennichi	125	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Argiope_frelon,_ventre.jpg
+74	Uloborus walckenaerius	133	2025-03-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Uloborus_walckenaerius&format=json&redirects=1&explaintext=1
+35	Araneus angulatus	103	2025-09-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Araneus_angulatus_(50838568828).jpg
+4	Ebrechtella tricuspidata	102	2025-03-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ebrechtella_tricuspidata,_male.JPG
+28	Pseudohydnum gelatinosum	91	2025-05-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudohydnum_gelatinosum&format=json&redirects=1&explaintext=1
+42	Pseudohydnum gelatinosum	141	2025-05-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudohydnum_gelatinosum&format=json&redirects=1&explaintext=1
+11	Imleria badia	75	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Boletus_badius_JPG1_cropped.jpg
+27	Tricholomopsis rutilans	137	2025-01-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Trichol_rutilans02_Alberto_Vázquez.JPG
+92	Macrolepiota procera	120	2025-04-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Macrolepiota_procera&format=json&redirects=1&explaintext=1
+88	Lactarius torminosus	142	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lactarius_torminosus&format=json&redirects=1&explaintext=1
+8	Unio mancus	75	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+55	Unio pictorum	97	2025-07-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Unio_pictorum_01.jpg
+33	Potomida littoralis	114	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+48	Corbicula fluminalis	105	2025-05-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corbicula_fluminalis&format=json&redirects=1&explaintext=1
+21	Austropotamobius pallipes	91	2025-06-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
+79	Astacus astacus	120	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ecrevisse_pattes_rouges.jpg
+2	Helicodonta obvoluta	72	2025-11-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helicodonta_obvoluta&format=json&redirects=1&explaintext=1
+80	Helix lucorum	133	2025-11-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Helix_lucorum_MHNT.ZOO.2005.0.jpg
+66	Larix decidua	142	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
+71	Cupressus sempervirens	122	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cypress.JPG
+51	Abies nordmanniana	113	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
+34	Sequoia sempervirens	73	2025-10-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sequoia_sempervirens&format=json&redirects=1&explaintext=1
+60	Pinus nigra	147	2025-08-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/JDCC_Pino_Salgareño.jpg
+50	Chorthippus vagans	72	2025-06-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chorthippus_vagans_pronotum.jpg
+44	Xanthoria parietina	112	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Xanthoria-parietina-gelbflechte.jpg
+53	Capreolus capreolus	97	2025-07-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
+48	Microtus subterraneus	77	2025-09-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Atlas_de_poche_des_mammifères_de_France,_de_la_Suisse_romane_et_de_la_Belgique_(Pl._23)_(6312166664).jpg
+91	Vulpes vulpes	71	2025-07-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vulpes_vulpes&format=json&redirects=1&explaintext=1
+70	Arvicola sapidus	95	2025-03-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Arvicola_sapidus_02_by-dpc.jpg
+38	Lissotriton vulgaris	129	2025-07-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lissotriton_vulgaris&format=json&redirects=1&explaintext=1
+58	Rana temporaria	84	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
+82	Rana temporaria	122	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Rana.temporaria.eggs.jpg
+16	Rana dalmatina	135	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Rana_dalmatina_(Grenouille_agile).JPG
+12	Pelodytes punctatus	98	2025-03-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
+44	Hyla arborea	118	2025-01-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
+42	Hyla arborea	123	2025-01-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Hyla_arborea.png
+91	Triturus marmoratus	97	2025-11-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Triturus_marmoratus&format=json&redirects=1&explaintext=1
+48	Pelophylax kl. esculentus	130	2025-03-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Edible_Frog_(Pelophylax_esculentus)_(17198900716).jpg
+88	Epidalea calamita	136	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bufo_calamita_(Marek_Szczepanek).jpg
+75	Salamandra salamandra	72	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
+43	Salamandra salamandra	102	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Feuersalamander_Fehlpaarung.jpg
+41	Poa palustris	146	2025-11-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poa_palustris&format=json&redirects=1&explaintext=1
+90	Aethusa cynapium	74	2025-03-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Illustration_Aethusa_cynapium0_clean.jpg
+62	Littorella uniflora	83	2025-08-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Littorella_uniflora&format=json&redirects=1&explaintext=1
+21	Nicotiana rustica	129	2025-11-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Nicotiana_rustica_plante.JPG
+82	Lumbricus terrestris	121	2025-08-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lumbricus_terrestris&format=json&redirects=1&explaintext=1
+15	Hirudo medicinalis	121	2025-10-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirudo_medicinalis&format=json&redirects=1&explaintext=1
+43	Drassodes lapidosus	98	2025-02-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Drassodes_lapidosus&format=json&redirects=1&explaintext=1
+18	Cheiracanthium punctorium	96	2025-08-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cheiracanthium_punctorium_mâle_-_vue_de_face.jpg
+40	Argiope bruennichi	93	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
+60	Uloborus walckenaerius	78	2025-03-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Uloborus_walckenaerius_(ventral).JPG
+32	Steatoda grossa	112	2025-06-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Kaldari_Steatoda_grossa_female_01.jpg
+5	Ebrechtella tricuspidata	93	2025-03-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ebrechtella_tricuspidata&format=json&redirects=1&explaintext=1
+64	Pseudohydnum gelatinosum	134	2025-05-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Kantarell,_Iduns_kokbok.png
+17	Pseudohydnum gelatinosum	136	2025-05-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pseudohydnum_gelatinosum_9.JPG
+23	Panellus stipticus	128	2025-08-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Kantarell,_Iduns_kokbok.png
+63	Tricholomopsis rutilans	140	2025-01-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tricholomopsis_rutilans&format=json&redirects=1&explaintext=1
+14	Macrolepiota procera	96	2025-04-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/2011-07-30_Amanita_rubescens_1.jpg
+55	Lactarius torminosus	99	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius_torminosus_(cropped).jpg
+63	Unio mancus	103	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_mancus&format=json&redirects=1&explaintext=1
+49	Unio pictorum	71	2025-07-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_pictorum&format=json&redirects=1&explaintext=1
+1	Potomida littoralis	86	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Potomida_littoralis&format=json&redirects=1&explaintext=1
+37	Corbicula fluminalis	86	2025-05-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Feingerippte,_innen_und_außen.jpg
+15	Austropotamobius pallipes	148	2025-06-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Austropotamobius_pallipes&format=json&redirects=1&explaintext=1
+19	Astacus astacus	79	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Astacus_astacus&format=json&redirects=1&explaintext=1
+44	Helicodonta obvoluta	89	2025-11-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Helicodonta-obvoluta-map-eur-nm-moll.jpg
+62	Helix lucorum	95	2025-11-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helix_lucorum&format=json&redirects=1&explaintext=1
+66	Larix decidua	136	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bergtocht_van_Vens_naar_Bettex_in_Valle_d'Aosta_(Italië)_012.jpg
+78	Cupressus sempervirens	127	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cupressus_sempervirens&format=json&redirects=1&explaintext=1
+17	Abies nordmanniana	99	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_female_cone_(Karachay-Cherkessia,_Russia)_1.jpg
+88	Sequoia sempervirens	143	2025-10-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Redwood_bonsai.JPG
+72	Pinus nigra	99	2025-08-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_nigra&format=json&redirects=1&explaintext=1
+90	Chorthippus vagans	97	2025-06-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chorthippus_vagans&format=json&redirects=1&explaintext=1
+62	Xanthoria parietina	130	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
+6	Capreolus capreolus	139	2025-07-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chevreuil_Capreolus_capreolus_(france).jpg
+72	Microtus subterraneus	139	2025-09-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Microtus_subterraneus&format=json&redirects=1&explaintext=1
+29	Lissotriton vulgaris	89	2025-07-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ringelnatter,_Natrix_natrix_mit_Teichmolch_3.JPG
+5	Rana temporaria	93	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grasfrosch_auf_Stein.jpg
+92	Rana dalmatina	144	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Agile_frog_(Rana_dalmatina).jpg
+86	Rana dalmatina	96	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
+33	Pelodytes punctatus	106	2025-03-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pelodytes_punctatus_1.jpg
+1	Hyla arborea	129	2025-01-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+30	Hyla arborea	76	2025-01-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
+88	Triturus marmoratus	123	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Triton_marbre_de_correze.jpg
+42	Pelophylax kl. esculentus	147	2025-03-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelophylax_kl._esculentus&format=json&redirects=1&explaintext=1
+3	Epidalea calamita	97	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
+66	Salamandra salamandra	96	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Accouchement_salamandre.jpg
+57	Salamandra salamandra	78	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
+53	Poa palustris	96	2025-11-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Poa_palustris_(6134893262).jpg
+57	Aethusa cynapium	119	2025-03-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aethusa_cynapium&format=json&redirects=1&explaintext=1
+14	Littorella uniflora	131	2025-08-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Littorella_uniflora.jpeg
+27	Nicotiana rustica	110	2025-11-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nicotiana_rustica&format=json&redirects=1&explaintext=1
+41	Eisenia fetida	88	2025-03-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Compost_with_worms.jpg
+90	Pirata piraticus	99	2025-09-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/2018.04.07.-10-Kirschgartshaeuser_Schlaege_Mannheim--Piratenspinne-Weibchen.jpg
+24	Drassodes lapidosus	100	2025-02-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Drassodes_lapidosus_322142656.jpg
+68	Cheiracanthium punctorium	105	2025-08-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cheiracanthium_punctorium&format=json&redirects=1&explaintext=1
+5	Argiope bruennichi	109	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Argiope_frelon_IMG_5831.jpg
+81	Uloborus walckenaerius	113	2025-03-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Uloborus_walckenaerius&format=json&redirects=1&explaintext=1
+12	Steatoda grossa	123	2025-06-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Steatoda_grossa&format=json&redirects=1&explaintext=1
+78	Metellina segmentata	81	2025-08-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Metellina.segmentata.female.jpg
+30	Pseudohydnum gelatinosum	107	2025-05-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudohydnum_gelatinosum&format=json&redirects=1&explaintext=1
+16	Imleria badia	95	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/2007-07-14_Imleria_badia_2.jpg
+61	Panellus stipticus	141	2025-08-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Panellus_stipticus&format=json&redirects=1&explaintext=1
+25	Psathyrella piluliformis	148	2025-03-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Kantarell,_Iduns_kokbok.png
+59	Macrolepiota procera	102	2025-04-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Macrolepiota_procera&format=json&redirects=1&explaintext=1
+30	Unio mancus	143	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Unio-mancus-map-eur-nm-moll.jpg
+71	Unio pictorum	142	2025-07-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Unio_pictorum_02.jpg
+86	Potomida littoralis	131	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Freshwater_Mussel_(Potomida_littoralis)_empty_shell_found_on_the_bank_of_Orne_river_(16590902404).jpg
+12	Corbicula fluminalis	145	2025-05-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corbicula_fluminalis&format=json&redirects=1&explaintext=1
+32	Austropotamobius pallipes	91	2025-06-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/White-footed_Crayfish_(Austropotamobius_pallipes)_(13533705014).jpg
+37	Armadillidium vulgare	129	2025-05-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Armadillidium_vulgare_000.jpg
+23	Helicodonta obvoluta	125	2025-11-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helicodonta_obvoluta&format=json&redirects=1&explaintext=1
+55	Gyraulus parvus	111	2025-06-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+4	Larix decidua	143	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
+84	Cupressus sempervirens	146	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cyprès_Commun.jpg
+38	Abies nordmanniana	75	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
+61	Sequoia sempervirens	120	2025-10-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sequoia_sempervirens&format=json&redirects=1&explaintext=1
+23	Pinus nigra	81	2025-08-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pin_noir_d'Autriche_à_L'Hôpital_(Moselle).jpg
+2	Chorthippus vagans	92	2025-06-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Mombach_fg19.jpg
+11	Xanthoria parietina	97	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Xanthoria_aureola_Penharn.jpg
+86	Capreolus capreolus	133	2025-07-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
+91	Microtus subterraneus	101	2025-09-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Musu_grauzikas1_resize.jpg
+66	Vulpes vulpes	130	2025-07-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chasse_a_courre.jpg
+67	Arvicola sapidus	97	2025-03-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Arvicola_sapidus&format=json&redirects=1&explaintext=1
+82	Scutigera coleoptrata	93	2025-04-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Scutigera_coleoptrata_MHNT_.jpg
+34	Lissotriton vulgaris	141	2025-07-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lissotriton_vulgaris&format=json&redirects=1&explaintext=1
+35	Rana temporaria	101	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
+31	Rana dalmatina	146	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
+60	Rana dalmatina	139	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Rana_dalmatina_auf_Finger.jpg
+44	Pelodytes punctatus	119	2025-03-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
+83	Hyla arborea	134	2025-01-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
+7	Hyla arborea	110	2025-01-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Rzekotka_drzewna_2.jpg
+77	Triturus marmoratus	81	2025-11-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Triturus_marmoratus&format=json&redirects=1&explaintext=1
+23	Pelophylax kl. esculentus	91	2025-03-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Green_frog_(Pelophylax_esculentus_complex)_Danube_delta.jpg
+61	Epidalea calamita	111	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bufo_calamita_2006-08-15.jpg
+72	Salamandra salamandra	105	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
+79	Salamandra salamandra	85	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Feuersalamander_im_Harz_2014.jpg
+53	Poa palustris	143	2025-11-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poa_palustris&format=json&redirects=1&explaintext=1
+10	Trigonella caerulea	88	2025-11-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Peanuts_(1).png
+12	Littorella uniflora	96	2025-08-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Littorella_uniflora&format=json&redirects=1&explaintext=1
+85	Nicotiana rustica	86	2025-11-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/P1000513_Nicotiana_rustica_(Aztec_tobacco,_wild_tobacco)_(Solanaceae)_Plant.JPG
+40	Eisenia fetida	84	2025-03-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Eisenia_fetida&format=json&redirects=1&explaintext=1
+59	Pirata piraticus	71	2025-09-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pirata_piraticus&format=json&redirects=1&explaintext=1
+66	Drassodes lapidosus	88	2025-02-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Drassodes_lapidosus&format=json&redirects=1&explaintext=1
+65	Argiope bruennichi	79	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/(MHNT)_Argiope_bruennichi_female_dorsal.jpg
+77	Argiope bruennichi	85	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
+81	Uloborus walckenaerius	109	2025-03-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Uloborus_walckenaerius_weaving.jpg
+36	Steatoda grossa	84	2025-06-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Kaldari_Steatoda_grossa_female_02.jpg
+20	Araniella cucurbitina	108	2025-02-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/(MHNT)_Araniella_cucurbitina_male_dorsal.jpg
+87	Pseudohydnum gelatinosum	98	2025-05-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pseudohydnum.gelatinosum3.-.lindsey.jpg
+68	Imleria badia	114	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Imleria_badia&format=json&redirects=1&explaintext=1
+85	Panellus stipticus	72	2025-08-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Panellus_stipticus_G3.jpg
+34	Psathyrella piluliformis	94	2025-03-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psathyrella_piluliformis&format=json&redirects=1&explaintext=1
+62	Macrolepiota procera	93	2025-04-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/20161005Macrolepiota_procera1.jpg
+57	Unio mancus	98	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_mancus&format=json&redirects=1&explaintext=1
+1	Unio pictorum	92	2025-07-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_pictorum&format=json&redirects=1&explaintext=1
+51	Potomida littoralis	93	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Potomida_littoralis&format=json&redirects=1&explaintext=1
+87	Corbicula fluminalis	146	2025-05-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Planorbarius_corneus_Posthorn,_Biomphalaria_tenagophila,_Tellerschnecke,_Biomphalaria_pfeifferi_2013_am_Rohrspitzufer.JPG
+87	Austropotamobius pallipes	90	2025-06-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Austropotamobius_pallipes&format=json&redirects=1&explaintext=1
+63	Armadillidium vulgare	125	2025-05-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Armadillidium_vulgare&format=json&redirects=1&explaintext=1
+82	Helicodonta obvoluta	124	2025-11-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Helicodonta_obvoluta,_la_"Chiocciola_spinosa".jpg
+28	Gyraulus parvus	85	2025-06-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gyraulus_parvus&format=json&redirects=1&explaintext=1
+73	Larix decidua	117	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Coin_of_Ukraine_modryna_r.jpg
+56	Cupressus sempervirens	103	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cupressus_sempervirens&format=json&redirects=1&explaintext=1
+40	Abies nordmanniana	140	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_female_cone_(Karachay-Cherkessia,_Russia)_2.jpg
+19	Sequoia sempervirens	135	2025-10-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Sequoia_Sequoiadendron_range_map.png
+24	Pinus nigra	86	2025-08-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_nigra&format=json&redirects=1&explaintext=1
+1	Chorthippus vagans	148	2025-06-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chorthippus_vagans&format=json&redirects=1&explaintext=1
+84	Xanthoria parietina	123	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
+68	Capreolus capreolus	139	2025-07-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/DeerBotFlyReaumur.jpg
+47	Microtus subterraneus	105	2025-09-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Microtus_subterraneus&format=json&redirects=1&explaintext=1
+88	Lissotriton vulgaris	127	2025-07-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Teichmolch_maennchen_web.jpg
+84	Rana temporaria	73	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grenouille_des_Pyrénées.jpg
+36	Rana dalmatina	146	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grenouille_agile_en_phase_aquatique.jpg
+30	Rana dalmatina	93	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
+32	Pelodytes punctatus	135	2025-03-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pelodytes_punctatus_belly.jpg
+59	Hyla arborea	128	2025-01-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/HylaArboreaEye.jpg
+47	Hyla arborea	148	2025-01-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
+77	Triturus marmoratus	80	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Triton_marbré_femelle.jpg
+21	Pelophylax kl. esculentus	140	2025-03-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelophylax_kl._esculentus&format=json&redirects=1&explaintext=1
+76	Epidalea calamita	138	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
+35	Salamandra salamandra	111	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Biegacz_fioletowy_Carabus_violaceus_1.jpg
+19	Salamandra salamandra	135	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
+57	Poa palustris	140	2025-11-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Poa_palustris_(6134897768).jpg
+86	Trigonella caerulea	100	2025-11-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Trigonella_caerulea&format=json&redirects=1&explaintext=1
+27	Echinops sphaerocephalus	125	2025-05-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Echinops_sphaerocephalus_-_Oursin3.jpg
+51	Nicotiana rustica	79	2025-11-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nicotiana_rustica&format=json&redirects=1&explaintext=1
+42	Eisenia fetida	80	2025-03-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Eisenia_fetida_HC1.jpg
+29	Pirata piraticus	97	2025-09-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_Lukjonis_-_Spider_-_Pirata_piraticus.jpg
+77	Drassodes lapidosus	102	2025-02-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Drassodes_lapidosus_male.jpg
+51	Argiope bruennichi	114	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
+73	Argiope bruennichi	137	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Argiope_frelon_IMG_5917.jpg
+82	Uloborus walckenaerius	70	2025-03-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Uloborus_walckenaerius&format=json&redirects=1&explaintext=1
+13	Steatoda grossa	128	2025-06-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Steatoda_grossa&format=json&redirects=1&explaintext=1
+34	Araniella cucurbitina	78	2025-02-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Araniella_cucurbitina&format=json&redirects=1&explaintext=1
+1	Pseudohydnum gelatinosum	115	2025-05-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudohydnum_gelatinosum&format=json&redirects=1&explaintext=1
+73	Imleria badia	79	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Boletus_aereus_6.jpg
+89	Panellus stipticus	81	2025-08-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Panellus_stipticus&format=json&redirects=1&explaintext=1
+77	Psathyrella piluliformis	73	2025-03-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Psathyrella_piluliformis.-.lindsey.jpg
+60	Macrolepiota procera	116	2025-04-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Macrolepiota_procera&format=json&redirects=1&explaintext=1
+46	Unio mancus	110	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Unionidae_-_Unio_mancus.JPG
+81	Unio pictorum	122	2025-07-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Unio_pictorum_03.jpg
+49	Potomida littoralis	141	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Potomida_littoralis_01_by-dpc.jpg
+57	Corbicula fluminalis	144	2025-05-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corbicula_fluminalis&format=json&redirects=1&explaintext=1
+60	Daphnia pulex	147	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
+65	Armadillidium vulgare	89	2025-05-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Armadillidium_vulgare_001.jpg
+20	Helicodonta obvoluta	91	2025-11-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helicodonta_obvoluta&format=json&redirects=1&explaintext=1
+24	Gyraulus parvus	122	2025-06-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Gyraulus_parvus_0780_(38386108562).jpg
+90	Larix decidua	84	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
+50	Cupressus sempervirens	135	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Med_Cypress.jpg
+37	Abies nordmanniana	93	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
+35	Sequoia sempervirens	132	2025-10-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sequoia_sempervirens&format=json&redirects=1&explaintext=1
+73	Pinus nigra	100	2025-08-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_nigra_cone.jpg
+8	Menophra abruptaria	111	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/(1936)_Waved_Umber_(Menophra_abruptaria)_(16927951443).jpg
+10	Xanthoria parietina	79	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Xanthoria_calcicola_Carris_-_Frossay.jpg
+78	Capreolus capreolus	133	2025-07-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
+38	Pipistrellus kuhlii	93	2025-04-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bat-right_side.jpg
+12	Vulpes vulpes	85	2025-07-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vulpes_vulpes&format=json&redirects=1&explaintext=1
+26	Arvicola sapidus	124	2025-03-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Arvicola_sapidus_04_by-dpc.jpg
+84	Martes foina	127	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Martes_foina&format=json&redirects=1&explaintext=1
+70	Bombina variegata	122	2025-07-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/BombinaVariegataJuv2.jpg
+11	Rana temporaria	124	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
+15	Rana dalmatina	102	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
+65	Rana dalmatina	122	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Springfrosch-Rana-dalmatina.jpg
+21	Pelodytes punctatus	73	2025-03-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
+57	Hyla arborea	123	2025-01-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
+31	Triturus marmoratus	125	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Azureus.png
+86	Triturus marmoratus	146	2025-11-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Triturus_marmoratus&format=json&redirects=1&explaintext=1
+18	Pelophylax kl. esculentus	95	2025-03-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grenouille_verte_dans_une_mare_à_characées.jpg
+41	Epidalea calamita	122	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+84	Salamandra salamandra	123	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
+24	Salamandra salamandra	91	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fire_Salamander_(Salamandra_salamandra)_(13532310553).jpg
+18	Poa palustris	134	2025-11-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Poa_palustris&format=json&redirects=1&explaintext=1
+49	Trigonella caerulea	120	2025-11-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Trigonella_caerulea.jpg
+28	Echinops sphaerocephalus	110	2025-05-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Echinops_sphaerocephalus&format=json&redirects=1&explaintext=1
+29	Nicotiana rustica	106	2025-11-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/P1000514_Nicotiana_rustica_(Aztec_tobacco,_wild_tobacco)_(Solanaceae)_Leaf.JPG
+40	Hirudo medicinalis	144	2025-10-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aeromonas_hydrophila.jpg
+66	Pirata piraticus	90	2025-09-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pirata_piraticus&format=json&redirects=1&explaintext=1
+21	Drassodes lapidosus	126	2025-02-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Drassodes_lapidosus&format=json&redirects=1&explaintext=1
+80	Argiope bruennichi	117	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Argiope-bruennichi.jpg
+43	Argiope bruennichi	127	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
+82	Uloborus walckenaerius	135	2025-03-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Walckenaer's_hackled_orb_weaver_(Uloborus_walckenaerius).jpg
+31	Steatoda grossa	95	2025-06-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Steatoda.grossa.jpg
+21	Araniella cucurbitina	76	2025-02-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/(MHNT)_Araniella_cucurbitina_male_ventral.jpg
+28	Pseudohydnum gelatinosum	70	2025-05-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pseudohydnum_gelatinosum.jpg
+86	Imleria badia	130	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Imleria_badia&format=json&redirects=1&explaintext=1
+22	Tricholomopsis rutilans	134	2025-01-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/2008-09-11_Tricholomopsis_decora_mod.jpg
+65	Psathyrella piluliformis	132	2025-03-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Psathyrella_piluliformis&format=json&redirects=1&explaintext=1
+90	Macrolepiota procera	87	2025-04-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Amanita_excelsa_2.jpg
+6	Unio crassus	78	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+92	Unio pictorum	80	2025-07-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_pictorum&format=json&redirects=1&explaintext=1
+68	Potomida littoralis	83	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Potomida_littoralis&format=json&redirects=1&explaintext=1
+11	Corbicula fluminalis	121	2025-05-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Toegeknepen_korfmossel.jpg
+77	Daphnia pulex	118	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Daphnia_pulex&format=json&redirects=1&explaintext=1
+75	Armadillidium vulgare	107	2025-05-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Armadillidium_vulgare&format=json&redirects=1&explaintext=1
+31	Helicodonta obvoluta	129	2025-11-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Helicodonta_obvoluta.png
+51	Gyraulus parvus	142	2025-06-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gyraulus_parvus&format=json&redirects=1&explaintext=1
+86	Larix decidua	78	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Die_Farben_der_Schweizer_Herbst.jpg
+23	Cupressus sempervirens	83	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cupressus_sempervirens&format=json&redirects=1&explaintext=1
+77	Taxodium distichum	109	2025-08-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ademwortel_(pneumatoforen)_van_een_moerascipres_(Taxodium_distichum)_18-03-2024_(d.j.b.).jpg
+92	Sequoia sempervirens	148	2025-10-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Sequoia_sempervirens4.jpg
+64	Pinus nigra	124	2025-08-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_nigra&format=json&redirects=1&explaintext=1
+54	Menophra abruptaria	134	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Menophra_abruptaria&format=json&redirects=1&explaintext=1
+32	Xanthoria parietina	128	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
+4	Capreolus capreolus	104	2025-07-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Gehörn_eines_Rehbocks.jpg
+92	Pipistrellus kuhlii	140	2025-04-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pipistrellus_kuhlii&format=json&redirects=1&explaintext=1
+4	Vespertilio murinus	124	2025-05-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Mroczak_posrebrzany.jpg
+1	Arvicola sapidus	77	2025-03-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Arvicola_sapidus&format=json&redirects=1&explaintext=1
+73	Bombina variegata	112	2025-07-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Bombina_variegata&format=json&redirects=1&explaintext=1
+39	Rana temporaria	93	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Grenrousse2300.jpg
+21	Rana dalmatina	130	2025-11-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+36	Rana dalmatina	106	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
+21	Pelodytes punctatus	101	2025-03-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pelodytes_punctatus_range_Map.png
+88	Hyla arborea	90	2025-01-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Hyla_arborea_dark.jpg
+24	Triturus marmoratus	89	2025-11-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Triturus_marmoratus&format=json&redirects=1&explaintext=1
+64	Triturus marmoratus	73	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Triturus_marmoratus1.JPG
+76	Epidalea calamita	102	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/17.18a.JRA.jpg
+47	Epidalea calamita	129	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
+22	Salamandra salamandra	130	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Felsenmeer_b_Jägerfelsen.jpg
+18	Salamandra salamandra	95	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
+16	Aethusa cynapium	108	2025-03-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aethusa_cynapium_002.JPG
+57	Trigonella caerulea	137	2025-11-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Trigonella_caerulea&format=json&redirects=1&explaintext=1
+17	Nicotiana rustica	94	2025-11-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Angiospermes_arbre9.png
+79	Centaurium erythraea	85	2025-11-24	0	https://commons.wikimedia.org/wiki/Special:FilePath/Centaurium_erythraea_(Jardin_des_plantes).jpg
+77	Hirudo medicinalis	96	2025-10-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hirudo_medicinalis&format=json&redirects=1&explaintext=1
+40	Pirata piraticus	121	2025-09-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pirata.piraticus.female.with.egg.sac.jpg
+19	Cheiracanthium punctorium	116	2025-08-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cheiracanthium_punctorium_(mâle)_sur_un_mur_de_maison.jpg
+80	Argiope bruennichi	120	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
+41	Argiope bruennichi	118	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Wespspin_met_eicocon.jpg
+81	Uloborus walckenaerius	86	2025-03-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Uloborus_walckenaerius&format=json&redirects=1&explaintext=1
+67	Steatoda grossa	81	2025-06-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Steatoda_grossa&format=json&redirects=1&explaintext=1
+22	Unio crassus	111	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_crassus&format=json&redirects=1&explaintext=1
+43	Unio pictorum	144	2025-07-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Unio_pictorum_05.jpg
+86	Potomida littoralis	82	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Potomida_littoralis_02_by-dpc.jpg
+31	Corbicula fluminalis	138	2025-05-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corbicula_fluminalis&format=json&redirects=1&explaintext=1
+20	Daphnia pulex	129	2025-02-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Daphnia_pulex.png
+88	Armadillidium vulgare	132	2025-05-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
+22	Helicodonta obvoluta	84	2025-11-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helicodonta_obvoluta&format=json&redirects=1&explaintext=1
+74	Oxychilus draparnaudi	131	2025-11-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+69	Larix decidua	130	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
+42	Abies nordmanniana	147	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/17550_Hıdırlar-Yenice-Çanakkale,_Turkey_-_panoramio.jpg
+28	Taxodium distichum	96	2025-08-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Taxodium_distichum&format=json&redirects=1&explaintext=1
+73	Sequoia sempervirens	76	2025-10-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sequoia_sempervirens&format=json&redirects=1&explaintext=1
+79	Sequoiadendron giganteum	130	2025-04-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/GeantSequoiaRouen.jpg
+46	Menophra abruptaria	95	2025-08-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/(70.257)_(BF1936)_Waved_Umber_(Menophra_abruptaria)_-_Flickr_-_Bennyboymothman.jpg
+14	Xanthoria parietina	105	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Xanthoria_elegans_97571.jpg
+18	Capreolus capreolus	129	2025-07-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
+33	Pipistrellus kuhlii	108	2025-04-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Macracanthorhynchus_hirudinaceus_adult_BAM1.jpg
+15	Vespertilio murinus	111	2025-05-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vespertilio_murinus&format=json&redirects=1&explaintext=1
+32	Arvicola sapidus	83	2025-03-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Arvicola_sapidus_MHNT.ZOO.2010.11.236.2.jpg
+37	Martes foina	136	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Martes_foina_litter_2.jpg
+50	Scutigera coleoptrata	126	2025-04-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Scutigera_coleoptrata&format=json&redirects=1&explaintext=1
+50	Proterorhinus semilunaris	90	2025-06-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Tubenose_goby_Baraboy_River.jpg
+86	Pseudorasbora parva	127	2025-06-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudorasbora_parva&format=json&redirects=1&explaintext=1
+42	Lepomis gibbosus	84	2025-02-25	0	https://commons.wikimedia.org/wiki/Special:FilePath/Great_Crested_Grebe_(Podiceps_cristatus)_with_Pumpkinseed_(Lepomis_gibbosus)_(26662687256).jpg
+57	Trametes hirsuta	103	2025-03-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Kantarell,_Iduns_kokbok.png
+35	Imleria badia	147	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Boletus_badius_02.jpg
+4	Unio crassus	134	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Unio_crassus_01.jpg
+25	Unio pictorum	113	2025-07-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_pictorum&format=json&redirects=1&explaintext=1
+85	Potomida littoralis	87	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Potomida_littoralis&format=json&redirects=1&explaintext=1
+17	Chirocephalus diaphanus	71	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chirocephalus_diaphanus_Baird.jpg
+53	Daphnia pulex	81	2025-02-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Daphnia_pulex&format=json&redirects=1&explaintext=1
+64	Armadillidium vulgare	80	2025-05-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Armadillidium_vulgare&format=json&redirects=1&explaintext=1
+69	Helicodonta obvoluta	126	2025-11-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Helicodonta_obvoluta_(Helicodontidae)_-_(empty_shell),_Montchâlons,_France.jpg
+90	Oxychilus draparnaudi	116	2025-11-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oxychilus_draparnaudi&format=json&redirects=1&explaintext=1
+42	Larix decidua	131	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fiore_di_larice.jpg
+1	Abies nordmanniana	79	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
+33	Taxodium distichum	113	2025-08-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ademwortels_(pneumatoforen)_van_een_moerascipres_(Taxodium_distichum)_09-02-2023_(d.j.b.).jpg
+3	Sequoia sempervirens	106	2025-10-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Sequoia_sempervirens_-_foliage.jpg
+53	Pinus pinaster	74	2025-09-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fleur_Pins.JPG
+39	Menophra abruptaria	100	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Menophra_abruptaria&format=json&redirects=1&explaintext=1
+35	Xanthoria parietina	104	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
+68	Capreolus capreolus	111	2025-07-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/HanChevreuils.JPG
+17	Pipistrellus kuhlii	89	2025-04-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pipistrellus_kuhlii&format=json&redirects=1&explaintext=1
+30	Vespertilio murinus	143	2025-05-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Vespertilio_murinus_2.jpg
+32	Martes foina	90	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Beech_Marten_area.png
+60	Martes foina	122	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Martes_foina&format=json&redirects=1&explaintext=1
+64	Scutigera coleoptrata	87	2025-04-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Scutigeromorpha_(16152800767).jpg
+10	Proterorhinus semilunaris	100	2025-06-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Proterorhinus_semilunaris&format=json&redirects=1&explaintext=1
+1	Pseudorasbora parva	133	2025-06-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/PseudorasboraParva.JPG
+81	Lepomis gibbosus	96	2025-02-25	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lepomis_gibbosus&format=json&redirects=1&explaintext=1
+5	Phoxinus phoxinus	119	2025-07-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoxinus_phoxinus&format=json&redirects=1&explaintext=1
+39	Phoxinus phoxinus	89	2025-07-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoxinus_phoxinus&format=json&redirects=1&explaintext=1
+45	Squalius cephalus	77	2025-04-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Squalius_cephalus&format=json&redirects=1&explaintext=1
+32	Rutilus rutilus	109	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rutilus_rutilus&format=json&redirects=1&explaintext=1
+45	Athyrium filix-femina	126	2025-04-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Athyrium_filix-femina2.jpg
+46	Pteridium aquilinum	147	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pteridium_aquilinum&format=json&redirects=1&explaintext=1
+90	Pteridium aquilinum	98	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pteridium_aquilinum&format=json&redirects=1&explaintext=1
+4	Botrychium lunaria	116	2025-11-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/511_Botrychium_lunaria_fragment.jpg
+40	Asplenium scolopendrium	76	2025-02-03	0	https://commons.wikimedia.org/wiki/Special:FilePath/Etude_de_fougère_scolopendre_par_Henri_Bergé.jpg
+22	Struthiopteris spicant	70	2025-06-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Struthiopteris_spicant&format=json&redirects=1&explaintext=1
+19	Polypodium vulgare	107	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polypodium_vulgare&format=json&redirects=1&explaintext=1
+1	Vipera aspis	116	2025-11-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
+44	Vipera aspis	130	2025-11-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
+16	Lacerta bilineata	84	2025-02-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
+42	Lacerta bilineata	91	2025-02-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
+80	Zootoca vivipara	82	2025-02-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zootoca_vivipara&format=json&redirects=1&explaintext=1
+23	Vipera berus	147	2025-07-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_berus&format=json&redirects=1&explaintext=1
+66	Lacerta agilis	105	2025-04-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_agilis&format=json&redirects=1&explaintext=1
+50	Lacerta agilis	106	2025-04-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_agilis&format=json&redirects=1&explaintext=1
+37	Anguis fragilis	113	2025-05-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis_fragilis.jpeg
+72	Anguis fragilis	138	2025-05-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis_fragilis_Anguidae_OrvetHelfaut3.jpg
+5	Hierophis viridiflavus	122	2025-09-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierophis_viridiflavus&format=json&redirects=1&explaintext=1
+74	Coronella austriaca	148	2025-01-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Gom4.jpg
+35	Unio crassus	104	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Unio_crassus&format=json&redirects=1&explaintext=1
+14	Anodonta cygnea	139	2025-04-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anodonta_cygnea1.jpg
+76	Sinanodonta woodiana	113	2025-10-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/20090830_imutaike_kagoshima-ken_japan.jpg
+19	Chirocephalus diaphanus	125	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chirocephalus_diaphanus&format=json&redirects=1&explaintext=1
+52	Faxonius limosus	147	2025-01-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
+60	Oniscus asellus	73	2025-10-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/ADN_static_h.png
+88	Helicodonta obvoluta	115	2025-11-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helicodonta_obvoluta&format=json&redirects=1&explaintext=1
+72	Oxychilus draparnaudi	108	2025-11-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Oxychilus_draparnaudi.jpg
+79	Larix decidua	120	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
+60	Abies nordmanniana	84	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmannia_Zweig_Detailaufnahme.jpg
+51	Taxodium distichum	104	2025-08-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Taxodium_distichum&format=json&redirects=1&explaintext=1
+70	Sequoia sempervirens	140	2025-10-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sequoia_sempervirens&format=json&redirects=1&explaintext=1
+36	Pinus pinaster	107	2025-09-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_pinaster&format=json&redirects=1&explaintext=1
+24	Osmylus fulvicephalus	110	2025-08-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Osmylus_fulvicephalus_(Osmyle_à_tête_jaune).jpg
+86	Xanthoria parietina	145	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Xanthoria_parietina_(06_03_31).jpg
+26	Capreolus capreolus	87	2025-07-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
+60	Pipistrellus kuhlii	128	2025-04-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pipistrellus_kuhlii_adult.jpg
+53	Vespertilio murinus	84	2025-05-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vespertilio_murinus&format=json&redirects=1&explaintext=1
+34	Martes foina	124	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Martes_foina&format=json&redirects=1&explaintext=1
+85	Pipistrellus pipistrellus	124	2025-06-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bats_are_smaller_than_one_generally_thinks..._(5933690662).jpg
+15	Scutigera coleoptrata	146	2025-04-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Scutigera_coleoptrata&format=json&redirects=1&explaintext=1
+21	Leuciscus leuciscus	81	2025-10-24	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
+3	Pseudorasbora parva	106	2025-06-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudorasbora_parva&format=json&redirects=1&explaintext=1
+6	Lepomis gibbosus	96	2025-02-25	0	https://commons.wikimedia.org/wiki/Special:FilePath/Juveniles_percasol_(Lepomis_gibbosus).jpg
+19	Phoxinus phoxinus	98	2025-07-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Phoxinus.jpg
+18	Gobio gobio	100	2025-03-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
+18	Squalius cephalus	125	2025-04-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Brown_trout_fry_Pudisoo_river.jpg
+55	Rutilus rutilus	82	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/RutilusRutilus.JPG
+39	Athyrium filix-femina	130	2025-04-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Athyrium_filix-femina&format=json&redirects=1&explaintext=1
+84	Pteridium aquilinum	83	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Adelaarsvaren_wortelstok_Pteridium_aquilinum.jpg
+44	Pteridium aquilinum	138	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pteridium_aquilinum_nf.jpg
+34	Botrychium lunaria	108	2025-11-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Botrychium_lunaria&format=json&redirects=1&explaintext=1
+34	Struthiopteris spicant	78	2025-06-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Blechnum_spicant0.jpg
+87	Equisetum palustre	91	2025-07-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Equisetum_palustre4.JPG
+46	Polypodium vulgare	89	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Polypodium_vulgare_002.JPG
+79	Vipera aspis	146	2025-11-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aspic_Viper_(Vipera_aspis_zinnikeri)_subadult_female_(10114686826).jpg
+1	Vipera aspis	120	2025-11-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/European_Asp_(Vipera_aspis)_male_(found_by_Jean_NICOLAS)_(25750413110).jpg
+10	Lacerta bilineata	124	2025-02-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lacerta_bilineata_masculus_et_femella_+_Podarcis_muralis_(Sarthe).JPG
+27	Lacerta bilineata	119	2025-02-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lézard_vert_au_Malmont.jpg
+55	Zootoca vivipara	72	2025-02-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lézard_vivipaire.jpg
+91	Vipera berus	102	2025-07-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/ViperaBerusEatingZootocaVivipara.JPG
+40	Lacerta agilis	106	2025-04-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Jaszczurka.jpg
+68	Graptemys pseudogeographica	92	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/20051114135926.jpg
+25	Anguis fragilis	79	2025-05-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
+75	Anguis fragilis	77	2025-05-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
+64	Hierophis viridiflavus	120	2025-09-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+23	Hierophis viridiflavus	135	2025-09-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierophis_viridiflavus&format=json&redirects=1&explaintext=1
+91	Natrix maura	119	2025-10-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Couleuvre_vipérine_(Natrix_maura)_mangeant_un_poisson.jpg
+42	Coronella austriaca	89	2025-01-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
+87	Sphaerium corneum	110	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+21	Anodonta cygnea	95	2025-04-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anodonta_cygnea&format=json&redirects=1&explaintext=1
+26	Sinanodonta woodiana	80	2025-10-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sinanodonta_woodiana&format=json&redirects=1&explaintext=1
+11	Chirocephalus diaphanus	93	2025-03-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Symbole-faune.png
+41	Faxonius limosus	131	2025-01-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Faxonius_limosus&format=json&redirects=1&explaintext=1
+45	Podura aquatica	109	2025-02-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Podura_aquatica_-_3.jpg
+24	Helicodonta obvoluta	74	2025-11-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Helicodonta_obvoluta_01.JPG
+6	Oxychilus draparnaudi	143	2025-11-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oxychilus_draparnaudi&format=json&redirects=1&explaintext=1
+31	Larix decidua	108	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fotothek_df_ps_0002064_Landschaften_^_Hügellandschaften_-_Gebirgslandschaften_^.jpg
+48	Abies nordmanniana	106	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
+4	Taxodium distichum	99	2025-08-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bald_Cypress_Leaves_2000px.jpg
+22	Sequoia sempervirens	110	2025-10-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Sequoia_sempervirens_Big_Basin_Redwoods_State_Park_1.jpg
+90	Pinus pinaster	70	2025-09-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Landes_pins_mimizan.JPG
+89	Korscheltellus lupulinus	120	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Dégat_salade.jpg
+35	Xanthoria parietina	101	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
+35	Myotis daubentonii	92	2025-08-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Murin_de_Daubenton.jpg
+49	Pipistrellus kuhlii	80	2025-04-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pipistrellus_kuhlii&format=json&redirects=1&explaintext=1
+81	Vespertilio murinus	83	2025-05-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Vespertilio_murinus_male.jpg
+80	Martes foina	124	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Martes_foina_(roadkill).jpg
+82	Leucobryum glaucum	135	2025-06-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Leucobryum_glaucum_2.jpg
+58	Scutigera coleoptrata	133	2025-04-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Symbole-faune.png
+80	Gasterosteus aculeatus	83	2025-01-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
+10	Pseudorasbora parva	70	2025-06-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/PseudorasboraParva2.JPG
+11	Lepomis gibbosus	104	2025-02-25	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lepomis_gibbosus&format=json&redirects=1&explaintext=1
+69	Phoxinus phoxinus	118	2025-07-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoxinus_phoxinus&format=json&redirects=1&explaintext=1
+81	Gobio gobio	113	2025-03-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gobio_gobio&format=json&redirects=1&explaintext=1
+45	Rutilus rutilus	106	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
+6	Rutilus rutilus	81	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rutilus_rutilus&format=json&redirects=1&explaintext=1
+6	Athyrium filix-femina	135	2025-04-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Illustration_Athyrium_filix-femina0.jpg
+16	Pteridium aquilinum	71	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pteridium_aquilinum&format=json&redirects=1&explaintext=1
+7	Equisetum ramosissimum	135	2025-05-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Equisetum_ramosissimum,_Slavičín,_Czech_Republic.jpg
+85	Botrychium lunaria	125	2025-11-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Botrychium_lunaria_(Vanoise).JPG
+18	Struthiopteris spicant	93	2025-06-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Struthiopteris_spicant&format=json&redirects=1&explaintext=1
+10	Equisetum palustre	128	2025-07-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Equisetum_palustre&format=json&redirects=1&explaintext=1
+79	Polypodium vulgare	134	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polypodium_vulgare&format=json&redirects=1&explaintext=1
+52	Vipera aspis	72	2025-11-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
+74	Vipera aspis	75	2025-11-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
+89	Lacerta bilineata	148	2025-02-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
+61	Lacerta bilineata	100	2025-02-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
+4	Zootoca vivipara	78	2025-02-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zootoca_vivipara&format=json&redirects=1&explaintext=1
+85	Vipera berus	144	2025-07-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_berus&format=json&redirects=1&explaintext=1
+80	Lacerta agilis	133	2025-04-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_agilis&format=json&redirects=1&explaintext=1
+84	Graptemys pseudogeographica	125	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Graptemys_pseudogeographica&format=json&redirects=1&explaintext=1
+57	Anguis fragilis	118	2025-05-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis_fragilis_20050721_001.jpg
+71	Tarentola mauritanica	76	2025-10-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Gecko_with_moth.jpg
+76	Hierophis viridiflavus	115	2025-09-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierophis_viridiflavus&format=json&redirects=1&explaintext=1
+16	Hierophis viridiflavus	113	2025-09-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Viridiflavus-Lorraine-IMG_4974.jpg
+21	Natrix maura	93	2025-10-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Natrix_maura&format=json&redirects=1&explaintext=1
+29	Sphaerium corneum	141	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sphaerium_corneum&format=json&redirects=1&explaintext=1
+3	Anodonta cygnea	105	2025-04-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anodonta_cygnea_01.jpg
+15	Sinanodonta woodiana	79	2025-10-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+33	Chirocephalus diaphanus	121	2025-03-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chirocephalus_diaphanus&format=json&redirects=1&explaintext=1
+59	Faxonius limosus	99	2025-01-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Orconectes_limosus_-_Kamberkrebs.jpg
+32	Podura aquatica	86	2025-02-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podura_aquatica&format=json&redirects=1&explaintext=1
+29	Helicodonta obvoluta	140	2025-11-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Helicodonta_obvoluta&format=json&redirects=1&explaintext=1
+46	Oxychilus draparnaudi	117	2025-11-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Oxychilus_draparnaudi_01.JPG
+38	Larix decidua	114	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
+23	Abies nordmanniana	92	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_(Uludag_National_Park,_Turkey).jpg
+71	Thuja plicata	114	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/20110925Moschee_Schwetzingen16.jpg
+25	Sequoia sempervirens	128	2025-10-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sequoia_sempervirens&format=json&redirects=1&explaintext=1
+51	Pinus pinaster	122	2025-09-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_pinaster&format=json&redirects=1&explaintext=1
+55	Korscheltellus lupulinus	132	2025-01-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Korscheltellus_lupulinus&format=json&redirects=1&explaintext=1
+92	Xanthoria parietina	88	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Xanthoria_parietina_Rennes_2010-10-23.jpg
+23	Myotis daubentonii	75	2025-08-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Myotis_daubentonii&format=json&redirects=1&explaintext=1
+18	Pipistrellus kuhlii	110	2025-04-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pipistrellus_kuhlii_range_Map_crop.png
+31	Glis glis	102	2025-03-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Glis_glis_Haut-Doubs.jpg
+87	Martes foina	138	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Martes_foina&format=json&redirects=1&explaintext=1
+69	Leucobryum glaucum	122	2025-06-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Leucobryum_glaucum&format=json&redirects=1&explaintext=1
+41	Lithobius macilentus	108	2025-10-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lithobiidae_(10.3897-zookeys.741.21706)_Figure_3.jpg
+91	Gasterosteus aculeatus	115	2025-01-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gasterosteus_aculeatus&format=json&redirects=1&explaintext=1
+55	Carassius auratus	77	2025-01-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/1856aquariumfresh.png
+33	Lepomis gibbosus	113	2025-02-25	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lepomis_gibbosus_U_S_Fish_and_Wildlife_Service.jpg
+82	Phoxinus phoxinus	115	2025-07-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Phoxinus_phoxinus_Prague_Vltava1.jpg
+77	Gobio gobio	140	2025-03-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Gudgeons_(Gobio_gobio)_(13533313875).jpg
+38	Rutilus rutilus	140	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rutilus_rutilus&format=json&redirects=1&explaintext=1
+14	Rutilus rutilus	75	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/RutilusRutilusBigAdultWaal.JPG
+90	Athyrium filix-femina	123	2025-04-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Athyrium_filix-femina&format=json&redirects=1&explaintext=1
+8	Pteridium aquilinum	134	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Autumnal_coloured_Bracken_in_Fore_Wood_-_geograph.org.uk_-_1577189.jpg
+46	Equisetum ramosissimum	79	2025-05-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Equisetum_ramosissimum&format=json&redirects=1&explaintext=1
+12	Botrychium lunaria	88	2025-11-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Botrychium_lunaria&format=json&redirects=1&explaintext=1
+47	Struthiopteris spicant	130	2025-06-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Blechnum_spicant1.jpg
+3	Equisetum palustre	117	2025-07-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Equisetum_palustre_nf.jpg
+17	Vipera aspis	81	2025-11-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/110610b1.jpg
+50	Vipera aspis	103	2025-11-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aspisviper_01.jpg
+14	Lacerta bilineata	76	2025-02-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Accouplement_lézards_verts_(Lacerta_bilineata)_-_Labeil.jpeg
+3	Lacerta bilineata	102	2025-02-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lugny_(71)_-_Site_naturel_protégé_de_la_Boucherette_-_Lézard_vert.jpg
+13	Zootoca vivipara	128	2025-02-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Lizard_(Zootoca_vivipara)_-_geograph.org.uk_-_1111043.jpg
+32	Zootoca vivipara	88	2025-02-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Zootoca_vivipara.png
+58	Vipera berus	145	2025-07-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Vipera_berus_melanotica.jpg
+72	Lacerta agilis	123	2025-04-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Jaszczurka_zwinka.jpg
+18	Graptemys pseudogeographica	115	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+42	Anguis fragilis	83	2025-05-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
+2	Tarentola mauritanica	126	2025-10-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tarentola_mauritanica&format=json&redirects=1&explaintext=1
+50	Hierophis viridiflavus	146	2025-09-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Hierophis_viridiflavus.jpg
+35	Hierophis viridiflavus	109	2025-09-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierophis_viridiflavus&format=json&redirects=1&explaintext=1
+73	Natrix maura	91	2025-10-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+58	Coronella austriaca	81	2025-01-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/CoronellaAustriaca2.jpg
+21	Sphaerium corneum	120	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Sphaerium_corneum.jpg
+85	Anodonta cygnea	96	2025-04-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anodonta_cygnea&format=json&redirects=1&explaintext=1
+17	Sinanodonta woodiana	84	2025-10-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sinanodonta_woodiana&format=json&redirects=1&explaintext=1
+36	Pacifastacus leniusculus	111	2025-01-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
+83	Faxonius limosus	73	2025-01-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Faxonius_limosus&format=json&redirects=1&explaintext=1
+70	Podura aquatica	106	2025-02-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Podura_aquatica_-_4.jpg
+45	Cernuella virgata	116	2025-06-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Arum_maculatum_-_infrutescence.JPG
+91	Oxychilus draparnaudi	78	2025-11-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oxychilus_draparnaudi&format=json&redirects=1&explaintext=1
+72	Larix decidua	114	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Larix_decidua0.jpg
+70	Abies nordmanniana	102	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
+12	Thuja plicata	138	2025-01-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Thuja_plicata&format=json&redirects=1&explaintext=1
+50	Pinus sylvestris	106	2025-10-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Meenikunno_maastikukaiteala.jpg
+48	Pinus pinaster	104	2025-09-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_pinaster_JPG2.jpg
+79	Korscheltellus lupulinus	147	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Korscheltellus_lupulinus01.jpg
+12	Rhinolophus ferrumequinum	125	2025-09-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Audiogramme_de_Rhinolophus_ferrumequinum.jpg
+65	Myotis daubentonii	129	2025-08-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Myotis_daubentoni.jpg
+60	Pipistrellus kuhlii	125	2025-04-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pipistrellus_kuhlii&format=json&redirects=1&explaintext=1
+58	Pipistrellus nathusii	140	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pipistrelle_de_nathusius.jpg
+92	Martes foina	136	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Martes_foina_1_(Bohuš_Číčel).jpg
+38	Lithobius forficatus	71	2025-01-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lithobius_forficatus-u.jpg
+69	Lithobius macilentus	123	2025-10-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lithobius_macilentus&format=json&redirects=1&explaintext=1
+16	Gasterosteus aculeatus	147	2025-01-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/GasterosteusAculeatusMaleHead.JPG
+62	Neogobius melanostomus	76	2025-08-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
+70	Lepomis gibbosus	132	2025-02-25	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lepomis_gibbosus&format=json&redirects=1&explaintext=1
+55	Phoxinus phoxinus	141	2025-07-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoxinus_phoxinus&format=json&redirects=1&explaintext=1
+19	Gobio gobio	140	2025-03-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gobio_gobio&format=json&redirects=1&explaintext=1
+14	Rutilus rutilus	129	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Blausteinsee_Tierwelt_03.jpg
+80	Ophioglossum azoricum	134	2025-01-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Ophioglossum_azoricum.jpg
+22	Athyrium filix-femina	143	2025-04-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Wijfjesvaren_blad_(Athyrium_filix-femina).jpg
+6	Pteridium aquilinum	99	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pteridium_aquilinum&format=json&redirects=1&explaintext=1
+10	Polystichum aculeatum	88	2025-04-25	0	https://commons.wikimedia.org/wiki/Special:FilePath/Jona_-_Tannertobel_IMG_5603.JPG
+51	Botrychium lunaria	80	2025-11-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Botrychium_lunaria_jung.jpeg
+36	Struthiopteris spicant	79	2025-06-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Struthiopteris_spicant&format=json&redirects=1&explaintext=1
+6	Equisetum palustre	84	2025-07-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Equisetum_palustre&format=json&redirects=1&explaintext=1
+38	Vipera aspis	111	2025-11-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
+50	Vipera aspis	84	2025-11-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
+57	Lacerta bilineata	110	2025-02-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
+31	Lacerta bilineata	117	2025-02-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
+68	Zootoca vivipara	92	2025-02-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zootoca_vivipara&format=json&redirects=1&explaintext=1
+51	Zootoca vivipara	132	2025-02-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zootoca_vivipara&format=json&redirects=1&explaintext=1
+43	Vipera berus	85	2025-07-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_berus&format=json&redirects=1&explaintext=1
+40	Lacerta agilis	146	2025-04-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_agilis&format=json&redirects=1&explaintext=1
+59	Anguis fragilis	96	2025-05-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anguidae.jpg
+5	Anguis fragilis	101	2025-05-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis_fragilis_95.jpg
+52	Tarentola mauritanica	135	2025-10-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Geckofuß_Mauergecko_Schema.jpg
+10	Hierophis viridiflavus	130	2025-09-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierophis_viridiflavus&format=json&redirects=1&explaintext=1
+80	Hierophis viridiflavus	141	2025-09-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Western_Whip_Snake_(Hierophis_viridiflavus)_female_(Found_by_Jean_NICOLAS)_(14062814522).jpg
+37	Natrix maura	77	2025-10-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Natrix_maura&format=json&redirects=1&explaintext=1
+35	Sphaerium corneum	145	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sphaerium_corneum&format=json&redirects=1&explaintext=1
+38	Anodonta cygnea	111	2025-04-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anodonta_cygnea_02.jpg
+55	Sinanodonta woodiana	92	2025-10-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Sinanodonta_woodiana_01.jpg
+43	Pacifastacus leniusculus	115	2025-01-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pacifastacus_leniusculus&format=json&redirects=1&explaintext=1
+75	Tanymastix stagnalis	136	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
+76	Podura aquatica	96	2025-02-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podura_aquatica&format=json&redirects=1&explaintext=1
+55	Cernuella virgata	132	2025-06-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cernuella_virgata&format=json&redirects=1&explaintext=1
+14	Oxychilus draparnaudi	80	2025-11-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Oxychilus_draparnaudi_02.jpg
+2	Larix decidua	72	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
+71	Abies nordmanniana	96	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_2.jpg
+17	Thuja plicata	97	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Garatshausen,_Schlosspark_ib-4.jpg
+77	Pinus sylvestris	111	2025-10-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_sylvestris&format=json&redirects=1&explaintext=1
+91	Pinus pinaster	136	2025-09-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_pinaster&format=json&redirects=1&explaintext=1
+70	Korscheltellus lupulinus	97	2025-01-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Korscheltellus_lupulinus&format=json&redirects=1&explaintext=1
+62	Rattus rattus	130	2025-06-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Roofrat_Hagenbeck_02.jpg
+11	Myotis daubentonii	96	2025-08-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Myotis_daubentonii&format=json&redirects=1&explaintext=1
+37	Vulpes vulpes	97	2025-07-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Alopex_lagopus,_Asahikawa_Asahiyama_Zoological_Park.jpg
+88	Pipistrellus nathusii	127	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pipistrellus_nathusii&format=json&redirects=1&explaintext=1
+38	Martes foina	106	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Martes_foina&format=json&redirects=1&explaintext=1
+4	Scutigera coleoptrata	71	2025-04-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/HouseCentipedeCloseup.jpg
+59	Lithobius macilentus	122	2025-10-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Protura.png
+13	Gasterosteus aculeatus	145	2025-01-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gasterosteus_aculeatus&format=json&redirects=1&explaintext=1
+57	Neogobius melanostomus	91	2025-08-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neogobius_melanostomus&format=json&redirects=1&explaintext=1
+41	Lepomis gibbosus	139	2025-02-25	0	https://commons.wikimedia.org/wiki/Special:FilePath/Perche-soleil.JPG
+73	Phoxinus phoxinus	76	2025-07-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Phoxinus_phoxinus_Prague_Vltava_2.jpg
+83	Gobio gobio	133	2025-03-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Riviergrondel.jpg
+54	Rutilus rutilus	116	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rutilus_rutilus&format=json&redirects=1&explaintext=1
+49	Ophioglossum azoricum	137	2025-01-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ophioglossum_azoricum&format=json&redirects=1&explaintext=1
+60	Asplenium septentrionale	89	2025-07-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Asplenium_septentrionale01.jpg
+73	Pteridium aquilinum	144	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/DidzialapisSakys.JPG
+84	Polystichum aculeatum	127	2025-04-25	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polystichum_aculeatum&format=json&redirects=1&explaintext=1
+54	Botrychium lunaria	129	2025-11-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Botrychium_lunaria&format=json&redirects=1&explaintext=1
+6	Struthiopteris spicant	90	2025-06-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Blechnum_spicant_(fertile_and_sterile_fronts).jpg
+59	Polypodium vulgare	146	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Association_lierre_(hedera_helix)_et_Fougère_(Polypodium_vulgare)_en_épiphyte_Marenla_03_aout_2017_01.jpg
+47	Vipera aspis	113	2025-11-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Asp_Viper_(Vipera_aspis)_female_(found_by_Jean_NICOLAS)_(34854584514).jpg
+14	Vipera aspis	119	2025-11-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Corpo_di_Vipera_aspis.jpg
+60	Lacerta bilineata	88	2025-02-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+2	Lacerta bilineata	129	2025-02-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lézard_Vert_(212234099).jpeg
+39	Zootoca vivipara	146	2025-02-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_lizard_(Zootoca_vivipara)_juvenile.jpg
+85	Zootoca vivipara	78	2025-02-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Zootoca-vivipara-33.jpg
+26	Vipera berus	144	2025-07-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Vipera_berus_tagged.PNG
+40	Lacerta agilis	102	2025-04-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lacerta_agilis_male_2011_G2.jpg
+27	Anguis fragilis	128	2025-05-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
+88	Anguis fragilis	86	2025-05-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
+72	Tarentola mauritanica	115	2025-10-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tarentola_mauritanica&format=json&redirects=1&explaintext=1
+70	Hierophis viridiflavus	143	2025-09-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Hierophis_viridiflavus_Juvenile_A1000068.jpg
+72	Chelydra serpentina	145	2025-06-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Blumengärten_Hirschstetten_2016-02-21_Schnappschildkröte_(Chelydra_serpentina)_a.jpg
+23	Natrix maura	137	2025-10-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Natrix_maura.png
+60	Sphaerium corneum	94	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Sphaerium_corneum_001.jpg
+67	Anodonta cygnea	131	2025-04-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anodonta_cygnea&format=json&redirects=1&explaintext=1
+8	Sinanodonta woodiana	127	2025-10-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sinanodonta_woodiana&format=json&redirects=1&explaintext=1
+44	Pacifastacus leniusculus	136	2025-01-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Distribucion-pacifastacus-leniusculus.jpg
+87	Tanymastix stagnalis	86	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tanymastix_stagnalis&format=json&redirects=1&explaintext=1
+28	Podura aquatica	90	2025-02-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Podura_aquatica_01.JPG
+25	Cernuella virgata	148	2025-06-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cernuella_virgata_(Da_Costa,_1778)_(8528249834).jpg
+54	Oxychilus draparnaudi	106	2025-11-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Oxychilus_draparnaudi&format=json&redirects=1&explaintext=1
+13	Larix decidua	122	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Larix_decidua_'Repens'_2006-05-03_01.jpg
+85	Abies nordmanniana	107	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
+77	Platycladus orientalis	81	2025-03-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Platycladus1.jpg
+16	Pinus sylvestris	111	2025-10-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pine_cones_-_Scots_Pine.jpg
+8	Pinus pinaster	128	2025-09-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_pinaster_female.jpg
+92	Korscheltellus lupulinus	142	2025-01-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Korscheltellus_lupulinus02.jpg
+55	Rattus rattus	143	2025-06-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rattus_rattus&format=json&redirects=1&explaintext=1
+19	Myotis daubentonii	87	2025-08-29	0	https://commons.wikimedia.org/wiki/Special:FilePath/Myotis_daubentoni01.jpg
+45	Vulpes vulpes	93	2025-07-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vulpes_vulpes&format=json&redirects=1&explaintext=1
+67	Pipistrellus nathusii	98	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pipistrelle_de_nathusius_1.jpg
+84	Martes foina	116	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Martes_foina_4.jpg
+55	Scutigera coleoptrata	83	2025-04-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Scutigera_coleoptrata&format=json&redirects=1&explaintext=1
+8	Lithobius macilentus	72	2025-10-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lithobius_macilentus&format=json&redirects=1&explaintext=1
+88	Gasterosteus aculeatus	109	2025-01-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/Gasterosteus_aculeatus.jpg
+25	Neogobius melanostomus	102	2025-08-30	0	https://commons.wikimedia.org/wiki/Special:FilePath/Neogobius_melanostomus1.jpg
+14	Lepomis gibbosus	112	2025-02-25	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lepomis_gibbosus&format=json&redirects=1&explaintext=1
+88	Phoxinus phoxinus	96	2025-07-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoxinus_phoxinus&format=json&redirects=1&explaintext=1
+63	Gobio gobio	71	2025-03-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gobio_gobio&format=json&redirects=1&explaintext=1
+65	Rutilus rutilus	98	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/GardonsLilleFosséCitadelleAout2011.jpg
+15	Polypodium interjectum	135	2025-03-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/3970-Polypodium_interjectum-Foresta_Umbra-5.06.jpg
+85	Asplenium septentrionale	78	2025-07-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Asplenium_septentrionale&format=json&redirects=1&explaintext=1
+19	Pteridium aquilinum	97	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pteridium_aquilinum&format=json&redirects=1&explaintext=1
+85	Polystichum aculeatum	148	2025-04-25	0	https://commons.wikimedia.org/wiki/Special:FilePath/Polystichum_aculeatum0.jpg
+69	Asplenium scolopendrium	114	2025-02-03	0	https://commons.wikimedia.org/wiki/Special:FilePath/Asplenium_scolopendrium_in_Aveyron_(3).jpg
+32	Struthiopteris spicant	131	2025-06-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Struthiopteris_spicant&format=json&redirects=1&explaintext=1
+24	Polypodium vulgare	85	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polypodium_vulgare&format=json&redirects=1&explaintext=1
+10	Vipera aspis	141	2025-11-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
+71	Vipera aspis	143	2025-11-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
+14	Lacerta bilineata	142	2025-02-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
+81	Lacerta bilineata	119	2025-02-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
+7	Zootoca vivipara	131	2025-02-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zootoca_vivipara&format=json&redirects=1&explaintext=1
+17	Zootoca vivipara	132	2025-02-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zootoca_vivipara&format=json&redirects=1&explaintext=1
+75	Vipera berus	135	2025-07-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_berus&format=json&redirects=1&explaintext=1
+51	Lacerta agilis	83	2025-04-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_agilis&format=json&redirects=1&explaintext=1
+32	Anguis fragilis	130	2025-05-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis-distribution.png
+50	Anguis fragilis	126	2025-05-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis_fragilis_96.jpg
+18	Tarentola mauritanica	87	2025-10-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Geco_comune.jpg
+21	Hierophis viridiflavus	120	2025-09-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierophis_viridiflavus&format=json&redirects=1&explaintext=1
+49	Chelydra serpentina	70	2025-06-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Chelydra_serpentina&format=json&redirects=1&explaintext=1
+40	Coronella austriaca	76	2025-01-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/2003._Stamp_of_Belarus_0498.jpg
+6	Sphaerium corneum	103	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sphaerium_corneum&format=json&redirects=1&explaintext=1
+88	Anodonta cygnea	114	2025-04-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+53	Sinanodonta woodiana	135	2025-10-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Sinanodonta_woodiana_02.jpg
+21	Pacifastacus leniusculus	109	2025-01-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pacifastacus_leniusculus&format=json&redirects=1&explaintext=1
+39	Tanymastix stagnalis	125	2025-08-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Tanymastix_stagnalis_(Branchipe_stagnal).jpg
+82	Podura aquatica	78	2025-02-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Podura_aquatica&format=json&redirects=1&explaintext=1
+22	Cernuella virgata	138	2025-06-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cernuella_virgata&format=json&redirects=1&explaintext=1
+39	Thuja occidentalis	81	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Raindrops_on_white_cedar.jpg
+68	Larix decidua	99	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
+40	Abies nordmanniana	118	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_3.jpg
+18	Platycladus orientalis	145	2025-03-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Platycladus_orientalis&format=json&redirects=1&explaintext=1
+40	Pinus sylvestris	94	2025-10-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_sylvestris&format=json&redirects=1&explaintext=1
+20	Pinus pinaster	91	2025-09-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_pinaster&format=json&redirects=1&explaintext=1
+28	Korscheltellus lupulinus	86	2025-01-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Korscheltellus_lupulinus&format=json&redirects=1&explaintext=1
+16	Capreolus capreolus	131	2025-07-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/2012_CSK_06836_0099_rosa_bonheur_a_roe_deer_in_the_forest).jpg
+14	Myotis daubentonii	91	2025-08-29	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Myotis_daubentonii&format=json&redirects=1&explaintext=1
+1	Vulpes vulpes	91	2025-07-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Aquila_chrysaetos_1_(Bohuš_Číčel).jpg
+47	Pipistrellus nathusii	124	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pipistrellus_nathusii&format=json&redirects=1&explaintext=1
+3	Martes foina	147	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Martes_foina&format=json&redirects=1&explaintext=1
+25	Scutigera coleoptrata	144	2025-04-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/House_centipede,_face,_beltsville_2014-04-21-18.44.09_ZS_PMax_(14053176887).jpg
+67	Lithobius macilentus	98	2025-10-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Symbole-faune.png
+38	Gasterosteus aculeatus	132	2025-01-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gasterosteus_aculeatus&format=json&redirects=1&explaintext=1
+17	Neogobius melanostomus	123	2025-08-30	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Neogobius_melanostomus&format=json&redirects=1&explaintext=1
+24	Lepomis gibbosus	121	2025-02-25	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pumpkinseed_(Lepomis_gibbosus)_(13533753654).jpg
+1	Phoxinus phoxinus	143	2025-07-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Shoaling_Minnow.JPG
+39	Squalius cephalus	124	2025-04-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
+1	Rutilus rutilus	70	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rutilus_rutilus&format=json&redirects=1&explaintext=1
+86	Polypodium interjectum	90	2025-03-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polypodium_interjectum&format=json&redirects=1&explaintext=1
+68	Asplenium septentrionale	99	2025-07-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Asplenium_septentrionale_2005.07.11_11.35.02-p7110215.jpg
+22	Pteridium aquilinum	80	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Dried_Eastern_brakenfern.jpg
+64	Polystichum aculeatum	136	2025-04-25	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polystichum_aculeatum&format=json&redirects=1&explaintext=1
+91	Asplenium scolopendrium	148	2025-02-03	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Asplenium_scolopendrium&format=json&redirects=1&explaintext=1
+78	Struthiopteris spicant	112	2025-06-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Blechnum_spicant_nf.jpg
+56	Polypodium vulgare	113	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Illustration_Polypodium_vulgare0.jpg
+19	Vipera aspis	124	2025-11-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Asp_Viper_(Vipera_aspis)_male_(found_by_Jean_NICOLAS)_(34941989463).jpg
+55	Vipera aspis	118	2025-11-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/European_Asp_(Vipera_aspis)_female_(found_by_Jean_NICOLAS)_(25930495232).jpg
+20	Lacerta bilineata	81	2025-02-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lacerta_bilineata-pjt.jpg
+33	Lacerta bilineata	74	2025-02-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lézard_vert_(2).JPG
+26	Zootoca vivipara	148	2025-02-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_lizard_(Zootoca_vivipara)_male,_with_everted_hemipenes.jpg
+55	Vipera berus	108	2025-07-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+64	Vipera berus	113	2025-07-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Viperaberus1.jpg
+65	Lacerta agilis	126	2025-04-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lacerta_agilis_range_Map_cutted.png
+72	Anguis fragilis	143	2025-05-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
+72	Anguis fragilis	117	2025-05-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
+62	Tarentola mauritanica	75	2025-10-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tarentola_mauritanica&format=json&redirects=1&explaintext=1
+12	Hierophis viridiflavus	144	2025-09-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Hierophis_viridiflavus_juvenil.jpg
+44	Chelydra serpentina	103	2025-06-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Chelydra_serpentina_PP_06.jpg
+37	Sphaerium corneum	144	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Sphaerium_corneum_002.jpg
+48	Anodonta cygnea	122	2025-04-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anodonta_cygnea&format=json&redirects=1&explaintext=1
+16	Sinanodonta woodiana	115	2025-10-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sinanodonta_woodiana&format=json&redirects=1&explaintext=1
+81	Pacifastacus leniusculus	137	2025-01-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pacifastacus_leniusculus_01_by-dpc.jpg
+82	Tanymastix stagnalis	82	2025-08-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Tanymastix_stagnalis&format=json&redirects=1&explaintext=1
+85	Stagnicola palustris	116	2025-02-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+78	Cernuella virgata	94	2025-06-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+39	Thuja occidentalis	145	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Thuja_occidentalis&format=json&redirects=1&explaintext=1
+42	Larix decidua	134	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Larix_decidua_Bonzai_02_by_Line1.jpg
+89	Abies nordmanniana	73	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
+53	Platycladus orientalis	122	2025-03-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/PlatycladusOrientalis2.jpg
+86	Pinus sylvestris	127	2025-10-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pine_releasing_pollen_into_the_wind_in_Tuntorp_1.jpg
+13	Pinus pinaster	76	2025-09-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Seekiefer_Dielen.jpg
+88	Xanthoria parietina	74	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Balea_perversa_PaR.jpg
+48	Capreolus capreolus	93	2025-07-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
+2	Myotis mystacinus	72	2025-04-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Murin_à_moustaches_agrippé_au_plafond.jpg
+1	Vulpes vulpes	76	2025-07-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vulpes_vulpes&format=json&redirects=1&explaintext=1
+46	Pipistrellus nathusii	130	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pipistrellus_nathusii.jpg
+27	Martes foina	84	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Martes_foina_MHNT_ZOO_2010.9.2._Crane.jpg
+84	Scutigera coleoptrata	111	2025-04-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Scutigera_coleoptrata&format=json&redirects=1&explaintext=1
+24	Lithobius macilentus	137	2025-10-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lithobius_macilentus&format=json&redirects=1&explaintext=1
+55	Gasterosteus aculeatus	122	2025-01-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/PICT0246-1.JPG
+73	Lepomis gibbosus	140	2025-02-25	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
+1	Lepomis gibbosus	72	2025-02-25	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lepomis_gibbosus&format=json&redirects=1&explaintext=1
+58	Phoxinus phoxinus	73	2025-07-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Phoxinus_phoxinus&format=json&redirects=1&explaintext=1
+69	Squalius cephalus	132	2025-04-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Squalius_cephalus&format=json&redirects=1&explaintext=1
+43	Rutilus rutilus	79	2025-09-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/PICT3114_edited.JPG
+62	Polypodium interjectum	106	2025-03-05	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fern-leaf-oliv.jpg
+39	Asplenium septentrionale	86	2025-07-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Asplenium_septentrionale&format=json&redirects=1&explaintext=1
+68	Pteridium aquilinum	111	2025-10-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pteridium_aquilinum&format=json&redirects=1&explaintext=1
+66	Cystopteris fragilis	102	2025-01-03	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cystopteris_fragilis_3.jpg
+55	Asplenium scolopendrium	132	2025-02-03	0	https://commons.wikimedia.org/wiki/Special:FilePath/Asplenium_scolopendrium_prothallus.jpg
+23	Struthiopteris spicant	115	2025-06-02	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Struthiopteris_spicant&format=json&redirects=1&explaintext=1
+51	Polypodium vulgare	145	2025-07-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polypodium_vulgare&format=json&redirects=1&explaintext=1
+48	Vipera aspis	93	2025-11-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
+39	Vipera aspis	83	2025-11-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_aspis&format=json&redirects=1&explaintext=1
+9	Lacerta bilineata	103	2025-02-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
+2	Lacerta bilineata	107	2025-02-08	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_bilineata&format=json&redirects=1&explaintext=1
+32	Zootoca vivipara	126	2025-02-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zootoca_vivipara&format=json&redirects=1&explaintext=1
+29	Vipera berus	103	2025-07-01	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vipera_berus&format=json&redirects=1&explaintext=1
+8	Lacerta agilis	73	2025-04-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/2017.07.06.-48-Wendisch_Rietz--Zauneidechse-Weibchen.jpg
+64	Lacerta agilis	114	2025-04-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_agilis&format=json&redirects=1&explaintext=1
+34	Anguis fragilis	78	2025-05-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis_colchica-3.jpg
+88	Anguis fragilis	87	2025-05-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anguis_fragilis_Anguidae_OrvetHelfaut2.jpg
+39	Tarentola mauritanica	144	2025-10-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+70	Hierophis viridiflavus	113	2025-09-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hierophis_viridiflavus&format=json&redirects=1&explaintext=1
+45	Natrix maura	129	2025-10-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Cobra-de-água-viperina.jpg
+88	Coronella austriaca	137	2025-01-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
+92	Sphaerium corneum	117	2025-07-28	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sphaerium_corneum&format=json&redirects=1&explaintext=1
+24	Pseudanodonta complanata	126	2025-04-20	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+17	Corbicula fluminalis	110	2025-05-18	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+58	Pacifastacus leniusculus	129	2025-01-04	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pacifastacus_leniusculus&format=json&redirects=1&explaintext=1
+69	Philoscia muscorum	142	2025-05-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Carcinus_maenas_white_background.jpg
+46	Stagnicola palustris	119	2025-02-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Stagnicola_palustris&format=json&redirects=1&explaintext=1
+9	Cernuella virgata	123	2025-06-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cernuella_virgata&format=json&redirects=1&explaintext=1
+36	Thuja occidentalis	125	2025-05-16	0	https://commons.wikimedia.org/wiki/Special:FilePath/Thuja_occidentalis0.jpg
+82	Larix decidua	108	2025-11-07	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Larix_decidua&format=json&redirects=1&explaintext=1
+30	Abies nordmanniana	122	2025-09-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Abies_nordmanniana_4.jpg
+17	Platycladus orientalis	102	2025-03-10	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Platycladus_orientalis&format=json&redirects=1&explaintext=1
+59	Pinus nigra	118	2025-08-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/2014-12-30_13_31_47_Austrian_Pine,_utility_pole_and_street_light_on_Brenwal_Avenue_in_Ewing,_New_Jersey.JPG
+17	Zicrona caerulea	92	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Zicrona.caerulea.jpg
+26	Xanthoria parietina	85	2025-04-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Xanthoria_parietina&format=json&redirects=1&explaintext=1
+71	Capreolus capreolus	147	2025-07-26	0	https://commons.wikimedia.org/wiki/Special:FilePath/Capreolus-capreolus-map.png
+83	Myotis mystacinus	75	2025-04-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Myotis_mystacinus&format=json&redirects=1&explaintext=1
+76	Vulpes vulpes	100	2025-07-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Beijingzoo_white_fox.jpg
+89	Pipistrellus nathusii	108	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pipistrellus_nathusii&format=json&redirects=1&explaintext=1
+24	Martes foina	142	2025-01-15	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Martes_foina&format=json&redirects=1&explaintext=1
+29	Scutigera coleoptrata	137	2025-04-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Scutigera_coleoptrata.jpg
+14	Proterorhinus semilunaris	77	2025-06-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
+23	Gasterosteus aculeatus	144	2025-01-22	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gasterosteus_aculeatus&format=json&redirects=1&explaintext=1
+54	Lepomis gibbosus	110	2025-02-25	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lepomis_gibbosus&format=json&redirects=1&explaintext=1
+48	Phoxinus phoxinus	118	2025-07-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
+76	Phoxinus phoxinus	95	2025-07-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Vairon_WIKI800px.JPG
+46	Squalius cephalus	146	2025-04-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Beautiful_Aquatic_plants.jpg
+32	Rutilus rutilus	94	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rutilus_rutilus&format=json&redirects=1&explaintext=1
+85	Polypodium interjectum	76	2025-03-05	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Polypodium_interjectum&format=json&redirects=1&explaintext=1
+1	Pteridium aquilinum	99	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Adelaarsvaren_stengeldoorsnede_Pteridium_aquilinum.jpg
+17	Pteridium aquilinum	142	2025-10-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pteridium_aquilinum_2005_spring_001.jpg
+71	Cystopteris fragilis	120	2025-01-03	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cystopteris_fragilis&format=json&redirects=1&explaintext=1
+9	Asplenium scolopendrium	137	2025-02-03	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Asplenium_scolopendrium&format=json&redirects=1&explaintext=1
+71	Struthiopteris spicant	129	2025-06-02	0	https://commons.wikimedia.org/wiki/Special:FilePath/Fern-leaf-oliv.jpg
+80	Polypodium vulgare	147	2025-07-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Polypode_commun_épiphyte.JPG
+54	Vipera aspis	146	2025-11-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Asp_Viper_(Vipera_aspis_zinnikeri)_female_(36248649611).jpg
+51	Vipera aspis	90	2025-11-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/European_Asp_(Vipera_aspis)_juvenile_(found_by_Jean_NICOLAS)_(26022930415).jpg
+79	Lacerta bilineata	118	2025-02-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lacerta_bilineata_jeune-P8150246.JPG
+76	Lacerta bilineata	76	2025-02-08	0	https://commons.wikimedia.org/wiki/Special:FilePath/Lézard_vert_(Lacerta_bilineata)_-_Labeil.jpeg
+54	Zootoca vivipara	77	2025-02-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+3	Vipera berus	102	2025-07-01	0	https://commons.wikimedia.org/wiki/Special:FilePath/Three's_a_Crowd.jpg
+15	Lacerta agilis	111	2025-04-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lacerta_agilis&format=json&redirects=1&explaintext=1
+14	Lacerta agilis	121	2025-04-14	0	https://commons.wikimedia.org/wiki/Special:FilePath/M_Zauneidechse1_Edit1.jpg
+91	Anguis fragilis	144	2025-05-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
+13	Anguis fragilis	88	2025-05-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Anguis_fragilis&format=json&redirects=1&explaintext=1
+69	Hierophis viridiflavus	143	2025-09-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Coluber_viridiflavus.jpg
+62	Hierophis viridiflavus	132	2025-09-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Hierophis_viridiflavus.png
+7	Natrix maura	139	2025-10-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Natrix_maura&format=json&redirects=1&explaintext=1
+51	Coronella austriaca	142	2025-01-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Coronella-biss.JPG
+55	Unio pictorum	119	2025-07-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+77	Pseudanodonta complanata	145	2025-04-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudanodonta_complanata&format=json&redirects=1&explaintext=1
+14	Corbicula fluminalis	110	2025-05-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Corbicula_fluminalis&format=json&redirects=1&explaintext=1
+20	Pacifastacus leniusculus	137	2025-01-04	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pacifastacus_leniusculus_1.jpg
+59	Astacus astacus	126	2025-07-28	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bluish-crayfish_sun_FI-EU_2007-Aug-15_by-RAM.JPG
+25	Stagnicola palustris	80	2025-02-27	0	https://commons.wikimedia.org/wiki/Special:FilePath/Naturalis_Biodiversity_Center_-_ZMA.MOLL.372076_1_-_Stagnicola_palustris_(Müller,_1774)_-_Lymnaeidae_-_Mollusc_shell.jpeg
+82	Helix lucorum	141	2025-11-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Charonia.png
+53	Thuja occidentalis	111	2025-05-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Thuja_occidentalis&format=json&redirects=1&explaintext=1
+5	Larix decidua	75	2025-11-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/Larix_decidua_Saastal.jpg
+80	Abies nordmanniana	109	2025-09-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Abies_nordmanniana&format=json&redirects=1&explaintext=1
+58	Pinus wallichiana	128	2025-10-10	0	https://commons.wikimedia.org/wiki/Special:FilePath/Arceuthobium_minutissimum.jpg
+31	Pinus nigra	146	2025-08-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pinus_nigra&format=json&redirects=1&explaintext=1
+39	Zicrona caerulea	108	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Zicrona_caerulea&format=json&redirects=1&explaintext=1
+74	Xanthoria parietina	72	2025-04-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Kantarell,_Iduns_kokbok.png
+57	Capreolus capreolus	75	2025-07-26	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Capreolus_capreolus&format=json&redirects=1&explaintext=1
+11	Myotis mystacinus	88	2025-04-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Murin_à_moustaches_posé.jpg
+37	Vulpes vulpes	129	2025-07-17	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Vulpes_vulpes&format=json&redirects=1&explaintext=1
+15	Pipistrellus pygmaeus	70	2025-09-17	0	https://commons.wikimedia.org/wiki/Special:FilePath/Pipistrelle_pygmée.jpg
+39	Martes foina	86	2025-01-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Martes_foina_MHNT_ZOO_2010.9.2_Black.jpg
+13	Scutigera coleoptrata	81	2025-04-23	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Scutigera_coleoptrata&format=json&redirects=1&explaintext=1
+31	Proterorhinus semilunaris	75	2025-06-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Proterorhinus_semilunaris&format=json&redirects=1&explaintext=1
+17	Pseudorasbora parva	138	2025-06-12	0	https://commons.wikimedia.org/wiki/Special:FilePath/Anisotremus_moricandi_Caste.png
+3	Bombina variegata	92	2025-07-15	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bombina_variegata1.jpg
+24	Rana temporaria	140	2025-08-27	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_temporaria&format=json&redirects=1&explaintext=1
+31	Rana dalmatina	78	2025-11-18	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Rana_dalmatina&format=json&redirects=1&explaintext=1
+45	Pelodytes punctatus	127	2025-03-21	0	https://commons.wikimedia.org/wiki/Special:FilePath/Common_Parsley_Frog_(Pelodytes_punctatus)_(10113790946).jpg
+21	Pelodytes punctatus	108	2025-03-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pelodytes_punctatus&format=json&redirects=1&explaintext=1
+85	Hyla arborea	94	2025-01-16	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hyla_arborea&format=json&redirects=1&explaintext=1
+47	Triturus marmoratus	102	2025-11-06	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bestiole_2012-10-05_11.42.39.jpg
+80	Triturus marmoratus	99	2025-11-06	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Triturus_marmoratus&format=json&redirects=1&explaintext=1
+28	Epidalea calamita	91	2025-08-09	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Epidalea_calamita&format=json&redirects=1&explaintext=1
+14	Epidalea calamita	125	2025-08-09	0	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Epidalea_calamita.png
+75	Salamandra salamandra	116	2025-09-21	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Salamandra_salamandra&format=json&redirects=1&explaintext=1
+26	Bolboschoenus maritimus	112	2025-07-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Bolboschoenus_maritimus.jpeg
+20	Aethusa cynapium	82	2025-03-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Aethusa_cynapium&format=json&redirects=1&explaintext=1
+25	Veronica anagallis-aquatica	88	2025-04-25	0	https://commons.wikimedia.org/wiki/Special:FilePath/Veronica_anagallis-aquatica.jpg
+35	Nicotiana rustica	145	2025-11-20	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Nicotiana_rustica&format=json&redirects=1&explaintext=1
+90	Lumbricus terrestris	79	2025-08-23	0	https://commons.wikimedia.org/wiki/Special:FilePath/Earthworm_on_earth_-_heart.jpg
+80	Hirudo medicinalis	140	2025-10-07	0	https://commons.wikimedia.org/wiki/Special:FilePath/HirudoAttack2.jpg
+48	Pirata piraticus	110	2025-09-12	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pirata_piraticus&format=json&redirects=1&explaintext=1
+17	Cheiracanthium punctorium	84	2025-08-14	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Cheiracanthium_punctorium&format=json&redirects=1&explaintext=1
+20	Argiope bruennichi	100	2025-06-11	0	https://commons.wikimedia.org/wiki/Special:FilePath/Argiope_Frelon,_mâle_et_femelle.jpg
+63	Argiope bruennichi	82	2025-06-11	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Argiope_bruennichi&format=json&redirects=1&explaintext=1
+25	Araneus angulatus	145	2025-09-13	0	https://commons.wikimedia.org/wiki/Special:FilePath/Araneidae_-_Araneus_angulatus.JPG
+43	Ebrechtella tricuspidata	147	2025-03-22	0	https://commons.wikimedia.org/wiki/Special:FilePath/2013.06.04.-12-Viernheimer_Heide_Viernheim--Dreieck-Krabbenspinne-Weibchen.jpg
+88	Trametes hirsuta	77	2025-03-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Trametes_hirsuta&format=json&redirects=1&explaintext=1
+55	Pseudohydnum gelatinosum	96	2025-05-13	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Pseudohydnum_gelatinosum&format=json&redirects=1&explaintext=1
+35	Coronella austriaca	97	2025-01-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
+85	Coronella austriaca	74	2025-01-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Coronella_austriaca_(3664104382).jpg
+12	Coronella austriaca	91	2025-01-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
+35	Coronella austriaca	117	2025-01-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Coronella_austriaca_Deutschland_001.jpg
+12	Coronella austriaca	98	2025-01-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
+34	Coronella austriaca	100	2025-01-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
+54	Coronella austriaca	88	2025-01-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Herpétologie_test.png
+54	Coronella austriaca	111	2025-01-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
+80	Coronella austriaca	84	2025-01-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Mapa_Coronella_austriaca.png
+26	Coronella austriaca	100	2025-01-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
+86	Coronella austriaca	148	2025-01-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Schlingnatter2_by_Moehre1992.jpg
+30	Coronella austriaca	116	2025-01-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
+42	Coronella austriaca	71	2025-01-19	0	https://commons.wikimedia.org/wiki/Special:FilePath/Snake-vs-lizard-2.jpg
+28	Coronella austriaca	91	2025-01-19	0	https://fr.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Coronella_austriaca&format=json&redirects=1&explaintext=1
 \.
 
 

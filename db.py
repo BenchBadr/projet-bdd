@@ -5,7 +5,7 @@ import bcrypt
 class Db:
     def __init__(self):
         self.conn = psycopg2.connect(
-            dbname='arl',
+            dbname='camga',
         )
         self.conn.autocommit = True
 
@@ -98,6 +98,16 @@ class Db:
             )
             themes = cur.fetchall()
         return themes
+    
+    def animal_full(self, id = ''):
+        with self.conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT img FROM Observe WHERE idespece = %s;
+                """, (id,))
+
+            info_animal = cur.fetchall()
+        return info_animal
     
     def get_adherents(self):
         with self.conn.cursor() as cur:
@@ -386,7 +396,7 @@ class Db:
         return general_info, profiles
 
                 
-        
+
 
 
 
