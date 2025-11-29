@@ -343,13 +343,17 @@ class Db:
                 JOIN Observe o ON ev.idEspece = o.idEspece
                 WHERE 
                     (ev.nomEspece ILIKE %s OR 
-                    ev.idEspece ILIKE %s)
+                    ev.idEspece ILIKE %s OR 
+                    ev.idEspece IN(
+                    SELECT DISTINCT a.idEspece FROM Attribut a
+                    WHERE a.contenu ILIKE %s)
+                    )
                     AND ev.groupe ILIKE %s
                     AND (%s = 0 OR o.lieu = %s)
                 GROUP BY ev.idEspece, ev.nomEspece, ev.groupe, Oldest_img.img
                 LIMIT 9
                 OFFSET %s;
-                """, (f"%{query}%", f"%{query}%", f"%{groupe}%", habitat, habitat, offset)
+                """, (f"%{query}%", f"%{query}%",f"%{query}%", f"%{groupe}%", habitat, habitat, offset)
             )
             columns = [desc[0] for desc in cur.description]
             print(columns)
@@ -404,7 +408,7 @@ if __name__ == "__main__":
     db = Db()
 
     # 0 = nothing, 1 = reset, 2 = backup
-
+    
     print(db.count_bioco())
     print(db.get_habitat_full(73))
 
